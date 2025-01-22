@@ -47,5 +47,6 @@ export interface GameState {
   showGlobalEventPopup: boolean;
   globalEventMessage: string | null;
   turnsToNextEvent: number;
+  selectedTopicsHistory: TopicType[];
 }
 export type Language = 'en' | 'fr' | 'it';

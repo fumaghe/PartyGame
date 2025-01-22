@@ -48,6 +48,9 @@ function App() {
     showGlobalEventPopup: false,
     globalEventMessage: null,
     turnsToNextEvent: 0, // verrà inizializzato quando parte il gioco
+
+    // Aggiunta per tracciare la cronologia dei topic selezionati
+    selectedTopicsHistory: [], // Array di TopicType
   });
 
   // Stato con i topic correnti (in base alla lingua)
@@ -89,18 +92,48 @@ function App() {
         failedChallenges: 0,
       })),
       gameStarted: true,
-      availableTopics: selectRandomTopics(),
+      availableTopics: selectRandomTopics([]),
       // inizializzo i campi dell'evento globale
       showGlobalEventPopup: false,
       globalEventMessage: null,
       turnsToNextEvent: randomBetween3and6,
+      selectedTopicsHistory: [], // Inizializza la cronologia
     });
   };
 
-  // Selezione random di 2 topic dall'intero array di topics (uguale probabilità, senza contare quante carte abbiano)
-  const selectRandomTopics = () => {
-    const shuffled = [...topics].sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, 2).map(t => t.id);
+  // Funzione helper per ottenere la cronologia degli ultimi N round
+  const getRecentHistory = (history: TopicType[], limit: number) => {
+    return history.slice(-limit);
+  };
+
+  // Selezione random di 2 topic dall'intero array di topics (con restrizioni)
+  const selectRandomTopics = (currentHistory: TopicType[]) => {
+    const historyLimit = 5; // Numero di round da considerare
+    const maxRepetitions = 2; // Massimo ripetizioni per topic
+    const recentHistory = getRecentHistory(currentHistory, historyLimit);
+
+    // Conta le ripetizioni di ogni topic nella cronologia recente
+    const topicUsage: { [key in TopicType]?: number } = {};
+    recentHistory.forEach(topicId => {
+      topicUsage[topicId] = (topicUsage[topicId] || 0) + 1;
+    });
+
+    // Filtra i topic che possono essere selezionati (ripetizioni < maxRepetitions)
+    const eligibleTopics = topics.filter(topic => {
+      return (topicUsage[topic.id] || 0) < maxRepetitions;
+    });
+
+    // Se non ci sono abbastanza topic eleggibili, rilassa le restrizioni
+    let selectableTopics = eligibleTopics;
+    if (eligibleTopics.length < 2) {
+      selectableTopics = topics;
+    }
+
+    // Mescola i topic selezionabili
+    const shuffled = [...selectableTopics].sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, 2).map(t => t.id);
+
+    return selected;
   };
 
   const reshuffleTopicCards = (topicId: TopicType) => {
@@ -172,6 +205,9 @@ function App() {
       newTurnsToNextEvent = 3 + Math.floor(Math.random() * 4);
     }
 
+    // Aggiorna la cronologia dei topic selezionati
+    const newHistory = [...gameState.selectedTopicsHistory, ...gameState.availableTopics];
+
     setGameState(prev => ({
       ...prev,
       players: updatedPlayers,
@@ -179,11 +215,12 @@ function App() {
       selectedTopic: null,
       currentCard: null,
       showCard: false,
-      availableTopics: selectRandomTopics(),
+      availableTopics: selectRandomTopics(newHistory),
       // aggiorniamo stato dell'evento globale
       showGlobalEventPopup: newShowGlobalEventPopup,
       globalEventMessage: newGlobalEventMessage,
       turnsToNextEvent: newTurnsToNextEvent,
+      selectedTopicsHistory: newHistory.length > 5 ? newHistory.slice(newHistory.length - 5) : newHistory, // Mantiene solo gli ultimi 5
     }));
   };
 
