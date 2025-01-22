@@ -2,6 +2,8 @@ export interface Player {
   id: string;
   name: string;
   score: number;
+  completedChallenges: number;
+  failedChallenges: number;
 }
 
 export interface Card {
@@ -10,7 +12,7 @@ export interface Card {
   used: boolean;
 }
 
-export type TopicType = 'domandePiccanti' | 'cosaPreferirestiPiccante' | 'killKissMarryFamosi' | 'chiInQuestaStanzaEPropenso' | 'indovinaLaCanzone';
+export type TopicType = 'domandePiccanti' | 'cosaPreferirestiPiccante' | 'killKissMarryFamosi' | 'chiInQuestaStanzaEPropenso' | 'indovinaLaCanzone' | 'drink' | 'cercaELeggi';
 
 export interface Topic {
   id: TopicType;
@@ -29,4 +31,8 @@ export interface GameState {
   gameStarted: boolean;
   showCard: boolean;
   darkMode: boolean;
+  language: Language;
+  showFailedPopup: boolean;
 }
+
+export type Language = 'en' | 'fr' | 'it';
