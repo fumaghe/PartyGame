@@ -1,6 +1,18 @@
 import React from 'react';
 import { Topic } from '../types';
-import { Flame, SplitSquareVertical, Heart, Users, Music, Beer, Search } from 'lucide-react';
+import {
+  Flame,
+  SplitSquareVertical,
+  Heart,
+  Users,
+  Music,
+  Beer,
+  Search,
+  HeartHandshake,
+  Globe,
+  Scale,
+  AlertCircle
+} from 'lucide-react';
 
 const iconMap = {
   Flame,
@@ -9,8 +21,13 @@ const iconMap = {
   Users,
   Music,
   Beer,
-  Search
+  Search,
+  HeartHandshake,
+  Globe,
+  Scale,
+  AlertCircle
 };
+
 
 interface TopicCardProps {
   topic: Topic;

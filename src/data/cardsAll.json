@@ -336,7 +336,6 @@
         "fr": "As-tu déjà rompu avec une personne rencontrée sur une plateforme de rencontres?"
       }
     ],
-  
     "cosaPreferirestiPiccante": [
       {
         "it": "Preferiresti poter leggere la mente o diventare invisibile?",
@@ -744,7 +743,6 @@
         "fr": "Préférerais-tu ne plus jamais utiliser le téléphone ou l'ordinateur?"
       }
     ],
-  
     "killKissMarryFamosi": [
       {
         "it": "Beyoncé, Margot Robbie, Scarlett Johansson | Ryan Gosling, Henry Cavill, Chris Hemsworth?",
@@ -827,7 +825,6 @@
         "fr": "Lupita Nyong'o, Sandra Bullock, Anne Hathaway | Jake Gyllenhaal, Daniel Radcliffe, Rupert Grint?"
       }
     ],
-  
     "chiInQuestaStanzaEPropenso": [
       {
         "it": "Chi in questa stanza è più propenso a essere un partner ideale in una relazione?",
@@ -1050,7 +1047,6 @@
         "fr": "Qui dans cette salle est le plus susceptible d'être ton partenaire parfait pour un jeu de couple?"
       }
     ],
-  
     "indovinaLaCanzone": [
       {
         "it": "Bohemian Rhapsody  Queen",
@@ -1423,7 +1419,7 @@
         "fr": "You’re Beautiful - James Blunt"
       }
     ],
-  
+
     "drink": [
       {
         "it": "Bevi 1 sorso",
@@ -1476,7 +1472,609 @@
         "fr": "Bois 2 gorgées"
       }
     ],
-  
+    "cupido": [
+      {
+        "it": "Scegli due persone che per i prox. 1 turno dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 1 round will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 1 tour et feront les meme challenges"
+      },
+      {
+        "it": "Scegli due persone che per i prox. 2 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 2 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 2 tours et feront les meme challenges"
+      },
+      {
+        "it": "Scegli due persone che per i prox. 3 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 3 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 3 tours et feront les meme challenges"
+      },
+      {
+        "it": "Scegli due persone che per i prox. 4 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 4 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 4 tours et feront les meme challenges"
+      },
+      {
+        "it": "Scegli due persone che per i prox. 5 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 5 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 5 tours et feront les meme challenges"
+      }
+    ],
+    "culturaGenerale": [
+      {
+        "it": "Qual'è la capitale dell'Australia?",
+        "en": "What is the capital of Australia?",
+        "fr": "Quelle est la capitale de l'Australie?"
+      },
+      {
+        "it": "Chi ha dipinto la Gioconda?",
+        "en": "Who painted the Mona Lisa?",
+        "fr": "Qui a peint la Joconde?"
+      },
+      {
+        "it": "Quanti continenti ci sono?",
+        "en": "How many continents are there?",
+        "fr": "Combbien y a-t-il de continents?"
+      },
+      {
+        "it": "Qual'è lo stato più piccolo al mondo?",
+        "en": "What is the smallest country in the world?",
+        "fr": "Quel est le lus petit pays du monde?"
+      },
+      {
+        "it": "In che anno è affondato il Titanic?",
+        "en": "In which year did the Titanic sink?",
+        "fr": "En quelle annèe le Titanic a-t-il coulé?"
+      },
+      {
+        "it": "Qual'è il simbolo chimica dell'oro?",
+        "en": "What is the chemical symbol for gold?",
+        "fr": "Quel est le symbole chimique de l'or?"
+      },
+      {
+        "it": "Qual'è l'animale nazionale del Canada?",
+        "en": "What is the national animal of Canada?",
+        "fr": "Quel est l'animal national du Canada?"
+      },
+      {
+        "it": "Quanti calciatori compongono una partità di calcio?",
+        "en": "How many players are on a soccer match?",
+        "fr": "Combien de joueurs composent un match de football?"
+      },
+      {
+        "it": "Chi ha scritto Romeo e Giulietta?",
+        "en": "Who wrote Romeo and Juliet?",
+        "fr": "Qui a écrit Roméo et Juliette?"
+      },
+      {
+        "it": "Qual'è l'oceano più grande del mondo?",
+        "en": "What is the largest ocean on Earth?",
+        "fr": "Quel est l'océan le plus grand du monde?"
+      },
+      {
+        "it": "Qual'è l'animale di terra più veloce?",
+        "en": "What is the fastest land animal?",
+        "fr": "Quel est l'animal terrestre le plus rapide?"
+      },
+      {
+        "it": "In che hanno è finita la seconda guerra mondiale?",
+        "en": "What year did WWII end?",
+        "fr": "En quelle année la Seconde Guerre mondiale s'est-elle terminée?"
+      },
+      {
+        "it": "Qual'è l'ingrediente principale del guacamole?",
+        "en": "What is the main ingredient in guacamole?",
+        "fr": "Quel est l'ingrédient principal su guacamole?"
+      },
+      {
+        "it": "Chi ha scoperto la gravità?",
+        "en": "Who discovered gravity?",
+        "fr": "Qui a décourvert la gravité?"
+      },
+      {
+        "it": "Qual'è la montagna più alta del mondo?",
+        "en": "What is the tallest mountain in the world?",
+        "fr": "Quelle est la plus haute montagne du monde?"
+      },
+      {
+        "it": "Chi è il primo uomo ad aver camminato sulla luna?",
+        "en": "Who was the first man to walk on the moon?",
+        "fr": "Qui a été la premier homme à marcher sur la Lune?"
+      },
+      {
+        "it": "Qual è il paese più grande del mondo per superficie?",
+        "en": "What is the largest country in the world by area?",
+        "fr": "Quel est le plus grand pays du monde par superficie ?"
+      },
+      {
+        "it": "Qual è il pianeta più vicino al sole?",
+        "en": "What is the planet closest to the sun?",
+        "fr": "Quelle est la planète la plus proche du soleil ?"
+      },
+      {
+        "it": "In quale anno è avvenuto il primo sbarco sulla Luna?",
+        "en": "In what year did the first moon landing occur?",
+        "fr": "En quelle année a eu lieu le premier alunissage ?"
+      },
+      {
+        "it": "Qual è la capitale della Spagna?",
+        "en": "What is the capital of Spain?",
+        "fr": "Quelle est la capitale de l'Espagne ?"
+      },
+      {
+        "it": "Quanti colori ci sono nell'arcobaleno?",
+        "en": "How many colors are there in a rainbow?",
+        "fr": "Combien de couleurs y a-t-il dans un arc-en-ciel ?"
+      },
+      {
+        "it": "Chi è conosciuto come il padre della fisica moderna?",
+        "en": "Who is known as the father of modern physics?",
+        "fr": "Qui est connu comme le père de la physique moderne ?"
+      },
+      {
+        "it": "Qual è il fiume più lungo del mondo?",
+        "en": "What is the longest river in the world?",
+        "fr": "Quel est le fleuve le plus long du monde ?"
+      },
+      {
+        "it": "Qual è l'animale più veloce sulla terra?",
+        "en": "What is the fastest animal on land?",
+        "fr": "Quel est l'animal le plus rapide sur terre ?"
+      },
+      {
+        "it": "Chi ha dipinto la Gioconda?",
+        "en": "Who painted the Mona Lisa?",
+        "fr": "Qui a peint la Joconde ?"
+      },
+      {
+        "it": "Qual è il simbolo chimico dell'oro?",
+        "en": "What is the chemical symbol for gold?",
+        "fr": "Quel est le symbole chimique de l'or ?"
+      },
+      {
+        "it": "In quale paese si trova la Torre Eiffel?",
+        "en": "In which country is the Eiffel Tower located?",
+        "fr": "Dans quel pays se trouve la Tour Eiffel ?"
+      },
+      {
+        "it": "Quanti stati ci sono negli Stati Uniti?",
+        "en": "How many states are there in the United States?",
+        "fr": "Combien d'États y a-t-il aux États-Unis ?"
+      },
+      {
+        "it": "Qual è l'oceano più grande del mondo?",
+        "en": "What is the largest ocean in the world?",
+        "fr": "Quel est le plus grand océan du monde ?"
+      },
+      {
+        "it": "Chi è l'autore de 'L'Origine delle Specie'?",
+        "en": "Who is the author of 'The Origin of Species'?",
+        "fr": "Qui est l'auteur de 'L'Origine des espèces' ?"
+      },
+      {
+        "it": "Qual è la lingua più parlata al mondo?",
+        "en": "What is the most spoken language in the world?",
+        "fr": "Quelle est la langue la plus parlée dans le monde ?"
+      },
+      {
+        "it": "Qual è il metallo più abbondante nella crosta terrestre?",
+        "en": "What is the most abundant metal in the Earth's crust?",
+        "fr": "Quel est le métal le plus abondant dans la croûte terrestre ?"
+      },
+      {
+        "it": "Chi è stato il primo presidente degli Stati Uniti?",
+        "en": "Who was the first president of the United States?",
+        "fr": "Qui fut le premier président des États-Unis ?"
+      },
+      {
+        "it": "Quante ossa ci sono nel corpo umano?",
+        "en": "How many bones are there in the human body?",
+        "fr": "Combien d'os y a-t-il dans le corps humain ?"
+      },
+      {
+        "it": "In quale città si trovano le Piramidi di Giza?",
+        "en": "In which city are the Pyramids of Giza located?",
+        "fr": "Dans quelle ville se trouvent les Pyramides de Gizeh ?"
+      },
+      {
+        "it": "Qual è la valuta ufficiale del Giappone?",
+        "en": "What is the official currency of Japan?",
+        "fr": "Quelle est la monnaie officielle du Japon ?"
+      },
+      {
+        "it": "Chi ha scoperto la penicillina?",
+        "en": "Who discovered penicillin?",
+        "fr": "Qui a découvert la pénicilline ?"
+      },
+      {
+        "it": "Qual è il simbolo chimico dell'acqua?",
+        "en": "What is the chemical symbol for water?",
+        "fr": "Quel est le symbole chimique de l'eau ?"
+      },
+      {
+        "it": "Qual è la montagna più alta del mondo?",
+        "en": "What is the tallest mountain in the world?",
+        "fr": "Quelle est la montagne la plus haute du monde ?"
+      },
+      {
+        "it": "In quale continente si trova l'Egitto?",
+        "en": "On which continent is Egypt located?",
+        "fr": "Sur quel continent se trouve l'Égypte ?"
+      },
+      {
+        "it": "Qual è il nome del più grande mammifero marino?",
+        "en": "What is the name of the largest marine mammal?",
+        "fr": "Quel est le nom du plus grand mammifère marin ?"
+      },
+      {
+        "it": "Qual è il simbolo zodiacale di chi è nato a luglio?",
+        "en": "What is the zodiac sign for someone born in July?",
+        "fr": "Quel est le signe du zodiaque de quelqu'un né en juillet ?"
+      },
+      {
+        "it": "Qual è il colore del sangue ossigenato?",
+        "en": "What color is oxygenated blood?",
+        "fr": "Quelle est la couleur du sang oxygéné ?"
+      },
+      {
+        "it": "Qual è l'unico mammifero capace di volare?",
+        "en": "What is the only mammal capable of flight?",
+        "fr": "Quel est le seul mammifère capable de voler ?"
+      },
+      {
+        "it": "Qual è la capitale dell'Australia?",
+        "en": "What is the capital of Australia?",
+        "fr": "Quelle est la capitale de l'Australie ?"
+      },
+      {
+        "it": "Chi ha dipinto 'La notte stellata'?",
+        "en": "Who painted 'Starry Night'?",
+        "fr": "Qui a peint 'La Nuit étoilée' ?"
+      },
+      {
+        "it": "Qual è il nome scientifico per l'uomo moderno?",
+        "en": "What is the scientific name for modern humans?",
+        "fr": "Quel est le nom scientifique des humains modernes ?"
+      },
+      {
+        "it": "Qual è la capitale del Canada?",
+        "en": "What is the capital of Canada?",
+        "fr": "Quelle est la capitale du Canada ?"
+      },
+      {
+        "it": "Quale animale è conosciuto come il 're della giungla'?",
+        "en": "What animal is known as the 'king of the jungle'?",
+        "fr": "Quel animal est connu comme le 'roi de la jungle' ?"
+      },
+      {
+        "it": "Qual è il paese con più vulcani attivi al mondo?",
+        "en": "Which country has the most active volcanoes in the world?",
+        "fr": "Quel pays a le plus de volcans actifs au monde ?"
+      },
+      {
+        "it": "Chi è il CEO di Tesla?",
+        "en": "Who is the CEO of Tesla?",
+        "fr": "Qui est le PDG de Tesla ?"
+      },
+      {
+        "it": "Qual è il frutto principale del cioccolato?",
+        "en": "What is the main fruit used to make chocolate?",
+        "fr": "Quel est le fruit principal utilisé pour faire du chocolat ?"
+      },
+      {
+        "it": "Qual è il nome dell'autore di Harry Potter?",
+        "en": "What is the name of the author of Harry Potter?",
+        "fr": "Quel est le nom de l'auteur de Harry Potter ?"
+      },
+      {
+        "it": "Qual è la velocità della luce in km/s?",
+        "en": "What is the speed of light in km/s?",
+        "fr": "Quelle est la vitesse de la lumière en km/s ?"
+      },
+      {
+        "it": "Chi è stato il primo uomo a volare nello spazio?",
+        "en": "Who was the first man to fly into space?",
+        "fr": "Qui fut le premier homme à aller dans l'espace ?"
+      },
+      {
+        "it": "Qual è la capitale della Germania?",
+        "en": "What is the capital of Germany?",
+        "fr": "Quelle est la capitale de l'Allemagne ?"
+      },
+      {
+        "it": "Qual è il metallo liquido a temperatura ambiente?",
+        "en": "What is the liquid metal at room temperature?",
+        "fr": "Quel est le métal liquide à température ambiante ?"
+      },
+      {
+        "it": "Qual è il nome del pianeta rosso?",
+        "en": "What is the name of the red planet?",
+        "fr": "Quel est le nom de la planète rouge ?"
+      },
+      {
+        "it": "Qual è l'unità di misura della corrente elettrica?",
+        "en": "What is the unit of measurement for electric current?",
+        "fr": "Quelle est l'unité de mesure du courant électrique ?"
+      },
+      {
+        "it": "Qual è la capitale dell'Italia?",
+        "en": "What is the capital of Italy?",
+        "fr": "Quelle est la capitale de l'Italie ?"
+      },
+      {
+        "it": "Qual è il colore della bandiera del Giappone?",
+        "en": "What is the color of Japan’s flag?",
+        "fr": "Quelle est la couleur du drapeau japonais ?"
+      },
+      {
+        "it": "Chi ha scritto 'La Divina Commedia'?",
+        "en": "Who wrote 'The Divine Comedy'?",
+        "fr": "Qui a écrit 'La Divine Comédie' ?"
+      }
+    ],
+    "proEcontro": [
+      {
+        "it": "Di un pro e un contro alla persona alla tua destra",
+        "en": "Say one pro and one cons to the person on your right",
+        "fr": "Dis une qualité et un défaut de la personne a ta droite"
+      },
+      {
+        "it": "Di un pro e un contro alla persona alla tua sinistra",
+        "en": "Say one pro and one cons to the person on your left",
+        "fr": "Dis une qualité et un défaut de la personne a ta gauche"
+      },
+      {
+        "it": "Di un pro e un contro alla persona di fronte a te",
+        "en": "Say one pro and one cons to the person in front of you",
+        "fr": "Dis une qualité et un défaut de la personne on face de toi"
+      }
+    ],
+    "nonHomai": [
+      {
+        "it": "Non ho mai rovinato una relazione altrui per invidia.",
+        "en": "Never have I ever ruined someone else’s relationship out of jealousy.",
+        "fr": "Je n'ai jamais saboté une relation par jalousie."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno solo per far ingelosire un’altra persona.",
+        "en": "Never have I ever kissed someone just to make someone else jealous.",
+        "fr": "Je n'ai jamais embrassé quelqu'un juste pour rendre quelqu'un d'autre jaloux."
+      },
+      {
+        "it": "Non ho mai flirtato con qualcuno impegnato.",
+        "en": "Never have I ever flirted with someone who was already taken.",
+        "fr": "Je n'ai jamais dragué quelqu'un qui était déjà pris."
+      },
+      {
+        "it": "Non ho mai avuto una cotta per il ragazzo/la ragazza di un amico.",
+        "en": "Never have I ever had a crush on a friend’s partner.",
+        "fr": "Je n'ai jamais eu un béguin pour le copain/la copine d'un ami."
+      },
+      {
+        "it": "Non ho mai finto di essere interessato a qualcuno per ottenere qualcosa.",
+        "en": "Never have I ever pretended to be interested in someone just to get something.",
+        "fr": "Je n'ai jamais fait semblant d'être intéressé par quelqu'un pour obtenir quelque chose."
+      },
+      {
+        "it": "Non ho mai parlato male di un amico dietro le sue spalle.",
+        "en": "Never have I ever bad-mouthed a friend behind their back.",
+        "fr": "Je n'ai jamais parlé mal d'un ami dans son dos."
+      },
+      {
+        "it": "Non ho mai mandato un messaggio a un ex di qualcun altro presente qui.",
+        "en": "Never have I ever texted someone else's ex in this room.",
+        "fr": "Je n'ai jamais envoyé un message à l'ex de quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai fatto uno screenshot di una chat e l’ho mandata a qualcun altro.",
+        "en": "Never have I ever screenshot a conversation and sent it to someone else.",
+        "fr": "Je n'ai jamais pris une capture d'écran d'une conversation pour l'envoyer à quelqu'un d'autre."
+      },
+      {
+        "it": "Non ho mai stalkerato l’ex di qualcuno che conosco sui social.",
+        "en": "Never have I ever stalked someone’s ex on social media.",
+        "fr": "Je n'ai jamais stalké l'ex de quelqu'un que je connais sur les réseaux sociaux."
+      },
+      {
+        "it": "Non ho mai mentito sul mio numero di partner.",
+        "en": "Never have I ever lied about my body count.",
+        "fr": "Je n'ai jamais menti sur mon nombre de partenaires."
+      },
+      {
+        "it": "Non ho mai tradito qualcuno con cui stavo uscendo.",
+        "en": "Never have I ever cheated on someone I was dating.",
+        "fr": "Je n'ai jamais trompé quelqu'un avec qui je sortais."
+      },
+      {
+        "it": "Non ho mai avuto una relazione con due persone contemporaneamente.",
+        "en": "Never have I ever dated two people at the same time.",
+        "fr": "Je n'ai jamais fréquenté deux personnes en même temps."
+      },
+      {
+        "it": "Non ho mai mandato una foto imbarazzante a qualcuno per sbaglio.",
+        "en": "Never have I ever accidentally sent an embarrassing photo to the wrong person.",
+        "fr": "Je n'ai jamais envoyé une photo embarrassante à la mauvaise personne."
+      },
+      {
+        "it": "Non ho mai avuto un momento imbarazzante a letto.",
+        "en": "Never have I ever had an awkward moment in bed.",
+        "fr": "Je n'ai jamais eu un moment gênant au lit."
+      },
+      {
+        "it": "Non ho mai detto a qualcuno 'Ti amo' senza pensarci davvero.",
+        "en": "Never have I ever told someone 'I love you' without meaning it.",
+        "fr": "Je n'ai jamais dit 'Je t'aime' sans le penser."
+      },
+      {
+        "it": "Non ho mai letto i messaggi privati di qualcun altro senza permesso.",
+        "en": "Never have I ever read someone else’s private messages without permission.",
+        "fr": "Je n'ai jamais lu les messages privés de quelqu'un sans autorisation."
+      },
+      {
+        "it": "Non ho mai mandato un messaggio mentre ero ubriaco a qualcuno di cui mi pento.",
+        "en": "Never have I ever drunk-texted someone I regret messaging.",
+        "fr": "Je n'ai jamais envoyé un message en étant ivre à quelqu'un que je regrette."
+      },
+      {
+        "it": "Non ho mai mentito sul mio lavoro per impressionare qualcuno.",
+        "en": "Never have I ever lied about my job to impress someone.",
+        "fr": "Je n'ai jamais menti sur mon travail pour impressionner quelqu'un."
+      },
+      {
+        "it": "Non ho mai guardato il telefono di qualcuno mentre non guardava.",
+        "en": "Never have I ever looked at someone’s phone while they weren’t looking.",
+        "fr": "Je n'ai jamais regardé le téléphone de quelqu'un sans qu'il le sache."
+      },
+      {
+        "it": "Non ho mai riso di qualcuno mentre era presente.",
+        "en": "Never have I ever laughed at someone right in front of them.",
+        "fr": "Je n'ai jamais ri de quelqu'un en face de lui."
+      },
+      {
+        "it": "Non ho mai avuto un bacio imbarazzante con qualcuno di questa stanza.",
+        "en": "Never have I ever had an awkward kiss with someone in this room.",
+        "fr": "Je n'ai jamais eu un baiser gênant avec quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai pensato che fossi più attraente di qualcuno vicino a me.",
+        "en": "Never have I ever thought I was hotter than someone standing near me.",
+        "fr": "Je n'ai jamais pensé être plus attirant que quelqu'un près de moi."
+      },
+      {
+        "it": "Non ho mai rivelato un segreto che mi era stato detto di non condividere.",
+        "en": "Never have I ever spilled a secret I was told to keep.",
+        "fr": "Je n'ai jamais révélé un secret qu'on m'avait confié."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno che non ricordavo il giorno dopo.",
+        "en": "Never have I ever kissed someone I couldn’t remember the next day.",
+        "fr": "Je n'ai jamais embrassé quelqu'un dont je ne me souvenais pas le lendemain."
+      },
+      {
+        "it": "Non ho mai mentito sulle mie abilità in qualcosa per impressionare qualcuno.",
+        "en": "Never have I ever lied about my skills to impress someone.",
+        "fr": "Je n'ai jamais menti sur mes compétences pour impressionner quelqu'un."
+      },
+      {
+        "it": "Non ho mai avuto un incontro casuale con qualcuno e me ne sono pentito subito dopo.",
+        "en": "Never have I ever had a hookup I immediately regretted.",
+        "fr": "Je n'ai jamais eu un coup d'un soir que j'ai regretté immédiatement."
+      },
+      {
+        "it": "Non ho mai finto di essere ubriaco per giustificare qualcosa di imbarazzante.",
+        "en": "Never have I ever pretended to be drunk to excuse something embarrassing.",
+        "fr": "Je n'ai jamais fait semblant d'être ivre pour justifier quelque chose de gênant."
+      },
+      {
+        "it": "Non ho mai flirtato con il partner di un amico solo per divertimento.",
+        "en": "Never have I ever flirted with a friend’s partner just for fun.",
+        "fr": "Je n'ai jamais flirté avec le partenaire d'un ami juste pour m'amuser."
+      },
+      {
+        "it": "Non ho mai mandato un messaggio inappropriato alla persona sbagliata.",
+        "en": "Never have I ever sent an inappropriate text to the wrong person.",
+        "fr": "Je n'ai jamais envoyé un message inapproprié à la mauvaise personne."
+      },
+      {
+        "it": "Non ho mai finto di essere malato per evitare qualcuno.",
+        "en": "Never have I ever pretended to be sick to avoid someone.",
+        "fr": "Je n'ai jamais fait semblant d'être malade pour éviter quelqu'un."
+      },
+      {
+        "it": "Non ho mai cancellato messaggi di cui mi sarei vergognato se li avessero letti.",
+        "en": "Never have I ever deleted messages I was too ashamed for anyone to see.",
+        "fr": "Je n'ai jamais supprimé des messages par honte qu'on les voie."
+      },
+      {
+        "it": "Non ho mai spiato un ex sui social media.",
+        "en": "Never have I ever spied on an ex through their social media.",
+        "fr": "Je n'ai jamais espionné un ex sur les réseaux sociaux."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno senza ricordarne il nome.",
+        "en": "Never have I ever kissed someone whose name I couldn’t remember.",
+        "fr": "Je n'ai jamais embrassé quelqu'un dont je ne me souvenais pas du nom."
+      },
+      {
+        "it": "Non ho mai promesso qualcosa a qualcuno sapendo di non mantenerlo.",
+        "en": "Never have I ever made a promise to someone knowing I wouldn’t keep it.",
+        "fr": "Je n'ai jamais fait une promesse à quelqu'un en sachant que je ne la tiendrais pas."
+      },
+      {
+        "it": "Non ho mai criticato il vestito di qualcuno nella loro faccia.",
+        "en": "Never have I ever criticized someone’s outfit to their face.",
+        "fr": "Je n'ai jamais critiqué la tenue de quelqu'un en face de lui."
+      },
+      {
+        "it": "Non ho mai fatto un sogno su qualcuno in questa stanza.",
+        "en": "Never have I ever had a dream about someone in this room.",
+        "fr": "Je n'ai jamais fait un rêve sur quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai finto di piacermi qualcosa per compiacere qualcuno.",
+        "en": "Never have I ever pretended to like something to impress someone.",
+        "fr": "Je n'ai jamais fait semblant d'aimer quelque chose pour impressionner quelqu'un."
+      },
+      {
+        "it": "Non ho mai smesso di rispondere ai messaggi di qualcuno senza motivo.",
+        "en": "Never have I ever stopped replying to someone for no reason.",
+        "fr": "Je n'ai jamais cessé de répondre à quelqu'un sans raison."
+      },
+      {
+        "it": "Non ho mai inventato una scusa stupida per evitare un appuntamento.",
+        "en": "Never have I ever made up a dumb excuse to skip a date.",
+        "fr": "Je n'ai jamais inventé une excuse stupide pour éviter un rendez-vous."
+      },
+      {
+        "it": "Non ho mai rubato qualcosa a qualcuno presente qui.",
+        "en": "Never have I ever stolen something from someone in this room.",
+        "fr": "Je n'ai jamais volé quelque chose à quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai insultato qualcuno per sembrare più forte.",
+        "en": "Never have I ever insulted someone to make myself feel better.",
+        "fr": "Je n'ai jamais insulté quelqu'un pour me sentir mieux."
+      },
+      {
+        "it": "Non ho mai ignorato intenzionalmente i messaggi di qualcuno.",
+        "en": "Never have I ever intentionally ignored someone’s texts.",
+        "fr": "Je n'ai jamais ignoré intentionnellement les messages de quelqu'un."
+      },
+      {
+        "it": "Non ho mai detto una bugia su quello che facevo solo per sembrare occupato.",
+        "en": "Never have I ever lied about what I was doing just to seem busy.",
+        "fr": "Je n'ai jamais menti sur ce que je faisais juste pour paraître occupé."
+      },
+      {
+        "it": "Non ho mai avuto pensieri su qualcuno che non dovrei.",
+        "en": "Never have I ever had thoughts about someone I shouldn’t.",
+        "fr": "Je n'ai jamais eu des pensées sur quelqu'un sur qui je ne devrais pas."
+      },
+      {
+        "it": "Non ho mai nascosto qualcosa di importante a qualcuno vicino a me.",
+        "en": "Never have I ever kept something important from someone close to me.",
+        "fr": "Je n'ai jamais caché quelque chose d'important à quelqu'un de proche."
+      },
+      {
+        "it": "Non ho mai mentito su essere impegnato per evitare un invito.",
+        "en": "Never have I ever lied about being busy to dodge an invite.",
+        "fr": "Je n'ai jamais menti sur le fait d'être occupé pour éviter une invitation."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno sapendo che non mi piaceva davvero.",
+        "en": "Never have I ever kissed someone knowing I didn’t really like them.",
+        "fr": "Je n'ai jamais embrassé quelqu'un en sachant que je ne l'aimais pas vraiment."
+      },
+      {
+        "it": "Non ho mai usato il nome sbagliato durante un momento importante.",
+        "en": "Never have I ever used the wrong name during an important moment.",
+        "fr": "Je n'ai jamais utilisé le mauvais nom à un moment important."
+      },
+      {
+        "it": "Non ho mai desiderato di non aver incontrato qualcuno in questa stanza.",
+        "en": "Never have I ever wished I hadn’t met someone in this room.",
+        "fr": "Je n'ai jamais souhaité ne pas avoir rencontré quelqu'un ici."
+      }
+    ],
     "cercaELeggi": [
       {
         "it": "Cerca 'sesso' su WhatsApp e leggi il primo messaggio che trovi",
@@ -1537,6 +2135,56 @@
         "it": "Cerca 'ballo' su WhatsApp e leggi il primo messaggio che trovi",
         "en": "Search 'dance' on WhatsApp and read the first message you find",
         "fr": "Cherche 'danse' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'desiderio' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'desire' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'désir' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'notte folle' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'crazy night' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'nuit folle' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'segreto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'secret' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'secret' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'letto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'bed' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'lit' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'tentazione' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'temptation' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'tentation' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'provocante' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'provocative' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'provocant' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'notte insieme' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'night together' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'nuit ensemble' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'voglia' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'craving' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'envie' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'caldo' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'hot' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'chaud' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'bagnato' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'wet' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'mouillé' sur WhatsApp et lis le premier message que tu trouves"
       }
     ]
   }

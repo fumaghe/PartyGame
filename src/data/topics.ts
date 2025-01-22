@@ -1,6 +1,6 @@
 // src/data/topics.ts
 import { Topic, Language } from '../types';
-import cardsAll from './cardsAll.json'; // IL NUOVO JSON UNICO
+import cardsAll from './cardsAll.json'; // JSON unico con TUTTI i topic
 
 // Funzione di utility per creare l'array di card
 function createCardsForCategory(
@@ -9,7 +9,7 @@ function createCardsForCategory(
 ) {
   return categoryData.map((item, index) => ({
     id: `${index}`,
-    content: item[language],  // <-- prendi la stringa corretta in base a 'language'
+    content: item[language], // Prende la stringa corretta in base alla lingua
     used: false
   }));
 }
@@ -21,7 +21,7 @@ export function getTopics(language: Language): Topic[] {
   return [
     {
       id: 'domandePiccanti',
-      name: 'Domande Piccanti', // O decidi se vuoi localizzare anche qui
+      name: 'Domande Piccanti',
       color: 'bg-red-500',
       icon: 'Flame',
       cards: createCardsForCategory(cardsAll.domandePiccanti, language),
@@ -60,6 +60,34 @@ export function getTopics(language: Language): Topic[] {
       color: 'bg-amber-500',
       icon: 'Beer',
       cards: createCardsForCategory(cardsAll.drink, language),
+    },
+    {
+      id: 'cupido',
+      name: 'Cupido',
+      color: 'bg-rose-500',
+      icon: 'HeartHandshake',
+      cards: createCardsForCategory(cardsAll.cupido, language),
+    },
+    {
+      id: 'culturaGenerale',
+      name: 'Cultura Generale',
+      color: 'bg-cyan-500',
+      icon: 'Globe',
+      cards: createCardsForCategory(cardsAll.culturaGenerale, language),
+    },
+    {
+      id: 'proEcontro',
+      name: 'Pro & Contro',
+      color: 'bg-indigo-500',
+      icon: 'Scale',
+      cards: createCardsForCategory(cardsAll.proEcontro, language),
+    },
+    {
+      id: 'nonHomai',
+      name: 'Non Ho Mai',
+      color: 'bg-gray-500',
+      icon: 'AlertCircle',
+      cards: createCardsForCategory(cardsAll.nonHomai, language),
     },
     {
       id: 'cercaELeggi',

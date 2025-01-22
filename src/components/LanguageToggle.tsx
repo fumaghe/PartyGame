@@ -20,30 +20,32 @@ export default function LanguageToggle({ currentLanguage, onLanguageChange, dark
         <span className="text-sm font-medium">{currentLanguage.toUpperCase()}</span>
       </button>
       
-      <div className="absolute right-0 mt-2 w-28 opacity-0 group-hover:opacity-100 transition-opacity">
+      {/* MENU A COMPARSA */}
+      <div className="absolute top-full right-0 mt-2 w-32 opacity-0 group-hover:opacity-100 transition-opacity 
+                      pointer-events-none group-hover:pointer-events-auto z-50">
         <div className={`${
           darkMode ? 'bg-gray-700' : 'bg-white'
-        } rounded-lg shadow-lg overflow-hidden`}>
+        } rounded-lg shadow-lg overflow-hidden border border-gray-300 dark:border-gray-600`}>
           <button
             onClick={() => onLanguageChange('en')}
-            className={`w-full px-4 py-2 text-left hover:bg-opacity-10 hover:bg-purple-500 transition-colors ${
-              currentLanguage === 'en' ? 'bg-purple-500 bg-opacity-10' : ''
+            className={`w-full px-4 py-2 text-left hover:bg-opacity-20 hover:bg-purple-500 transition-colors ${
+              currentLanguage === 'en' ? 'bg-purple-500 bg-opacity-20' : ''
             } ${darkMode ? 'text-white' : 'text-gray-800'}`}
           >
             🇬🇧 English
           </button>
           <button
             onClick={() => onLanguageChange('fr')}
-            className={`w-full px-4 py-2 text-left hover:bg-opacity-10 hover:bg-purple-500 transition-colors ${
-              currentLanguage === 'fr' ? 'bg-purple-500 bg-opacity-10' : ''
+            className={`w-full px-4 py-2 text-left hover:bg-opacity-20 hover:bg-purple-500 transition-colors ${
+              currentLanguage === 'fr' ? 'bg-purple-500 bg-opacity-20' : ''
             } ${darkMode ? 'text-white' : 'text-gray-800'}`}
           >
             🇫🇷 Français
           </button>
           <button
             onClick={() => onLanguageChange('it')}
-            className={`w-full px-4 py-2 text-left hover:bg-opacity-10 hover:bg-purple-500 transition-colors ${
-              currentLanguage === 'it' ? 'bg-purple-500 bg-opacity-10' : ''
+            className={`w-full px-4 py-2 text-left hover:bg-opacity-20 hover:bg-purple-500 transition-colors ${
+              currentLanguage === 'it' ? 'bg-purple-500 bg-opacity-20' : ''
             } ${darkMode ? 'text-white' : 'text-gray-800'}`}
           >
             🇮🇹 Italiano

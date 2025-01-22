@@ -1,3 +1,4 @@
+// src/i18n/translations.ts
 export const translations = {
   en: {
     title: 'Party Card Game',
@@ -30,6 +31,10 @@ export const translations = {
       chiInQuestaStanzaEPropenso: 'Who in this room...',
       indovinaLaCanzone: 'Guess the Song',
       drink: 'Drink',
+      cupido: 'Cupid',
+      culturaGenerale: 'General Culture',
+      proEcontro: 'Pros & Cons',
+      nonHomai: 'Never Have I Ever',
       cercaELeggi: 'Search & Read'
     }
   },
@@ -64,6 +69,10 @@ export const translations = {
       chiInQuestaStanzaEPropenso: 'Qui dans cette pièce...',
       indovinaLaCanzone: 'Devinez la Chanson',
       drink: 'Boire',
+      cupido: 'Cupidon',
+      culturaGenerale: 'Culture Générale',
+      proEcontro: 'Pour & Contre',
+      nonHomai: 'Je n\'ai jamais...',
       cercaELeggi: 'Chercher & Lire'
     }
   },
@@ -98,6 +107,10 @@ export const translations = {
       chiInQuestaStanzaEPropenso: 'Chi in questa stanza...',
       indovinaLaCanzone: 'Indovina la Canzone',
       drink: 'Bevi',
+      cupido: 'Cupido',
+      culturaGenerale: 'Cultura Generale',
+      proEcontro: 'Pro & Contro',
+      nonHomai: 'Non Ho Mai',
       cercaELeggi: 'Cerca e Leggi'
     }
   }

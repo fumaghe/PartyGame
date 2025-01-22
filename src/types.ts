@@ -12,7 +12,18 @@ export interface Card {
   used: boolean;
 }
 
-export type TopicType = 'domandePiccanti' | 'cosaPreferirestiPiccante' | 'killKissMarryFamosi' | 'chiInQuestaStanzaEPropenso' | 'indovinaLaCanzone' | 'drink' | 'cercaELeggi';
+export type TopicType = 
+  | 'domandePiccanti'
+  | 'cosaPreferirestiPiccante'
+  | 'killKissMarryFamosi'
+  | 'chiInQuestaStanzaEPropenso'
+  | 'indovinaLaCanzone'
+  | 'drink'
+  | 'cercaELeggi'
+  | 'cupido'
+  | 'culturaGenerale'
+  | 'proEcontro'
+  | 'nonHomai'
 
 export interface Topic {
   id: TopicType;
@@ -33,6 +44,8 @@ export interface GameState {
   darkMode: boolean;
   language: Language;
   showFailedPopup: boolean;
+  showGlobalEventPopup: boolean;
+  globalEventMessage: string | null;
+  turnsToNextEvent: number;
 }
-
 export type Language = 'en' | 'fr' | 'it';
