@@ -1,18 +1,28 @@
 // App.tsx
 import React, { useState, useEffect } from 'react';
-import { Player, GameState, Card, Topic, TopicType, Language } from './types';
+import {
+  Player,
+  GameState,
+  Topic,
+  TopicType,
+  TopicChoice,
+  Language
+} from './types';
+
 import { getTopics } from './data/topics';
 import { translations } from './i18n/translations';
+
 import PlayerSetup from './components/PlayerSetup';
 import TopicCard from './components/TopicCard';
 import GameCard from './components/GameCard';
 import PlayerRanking from './components/PlayerRanking';
 import LanguageToggle from './components/LanguageToggle';
 import FailedPopup from './components/FailedPopup';
-import GlobalEventPopup from './components/GlobalEventPopup'; // <--- Nuovo componente
+import GlobalEventPopup from './components/GlobalEventPopup';
+import ConfirmResetPopup from './components/ConfirmResetPopup'; // <--- nuovo popup di conferma
+
 import { Sun, Moon } from 'lucide-react';
 
-// Possibili eventi casuali che appariranno nel popup globale
 const globalEvents = [
   "Everyone drinks now!",
   "The next challenge is worth double!",
@@ -31,45 +41,58 @@ const globalEvents = [
   "Whisper something provocative in the ear of the person next to you!",
 ];
 
+// Stato iniziale
+const initialGameState: GameState = {
+  players: [],
+  currentPlayerIndex: 0,
+  availableTopics: [],
+  selectedTopic: null,
+  currentCard: null,
+  gameStarted: false,
+  showCard: false,
+  darkMode: false,
+  language: 'en',
+  showFailedPopup: false,
+  showGlobalEventPopup: false,
+  globalEventMessage: null,
+  turnsToNextEvent: 0,
+  selectedTopicsHistory: [],
+};
+
 function App() {
-  const [gameState, setGameState] = useState<GameState>({
-    players: [],
-    currentPlayerIndex: 0,
-    availableTopics: [],
-    selectedTopic: null,
-    currentCard: null,
-    gameStarted: false,
-    showCard: false,
-    darkMode: false,
-    language: 'en',
-    showFailedPopup: false,
-
-    // Aggiunte per l'evento globale a sorpresa
-    showGlobalEventPopup: false,
-    globalEventMessage: null,
-    turnsToNextEvent: 0, // verrà inizializzato quando parte il gioco
-
-    // Aggiunta per tracciare la cronologia dei topic selezionati
-    selectedTopicsHistory: [], // Array di TopicType
+  // Carichiamo gameState + topics da localStorage (se esistono)
+  const [gameState, setGameState] = useState<GameState>(() => {
+    const storedGame = localStorage.getItem('gameState');
+    return storedGame ? JSON.parse(storedGame) : initialGameState;
   });
 
-  // Stato con i topic correnti (in base alla lingua)
-  const [topics, setTopics] = useState<Topic[]>(() => getTopics(gameState.language));
+  const [topics, setTopics] = useState<Topic[]>(() => {
+    const storedTopics = localStorage.getItem('topics');
+    if (storedTopics) {
+      return JSON.parse(storedTopics);
+    }
+    return getTopics();
+  });
 
-  // Quando cambia la lingua, ricarichiamo i topic
+  // Popup di conferma reset
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
+
+  // Salvataggio in localStorage
   useEffect(() => {
-    setTopics(getTopics(gameState.language));
-  }, [gameState.language]);
+    localStorage.setItem('gameState', JSON.stringify(gameState));
+  }, [gameState]);
 
-  // Traduzioni dell'interfaccia
-  const t = translations[gameState.language];
+  useEffect(() => {
+    localStorage.setItem('topics', JSON.stringify(topics));
+  }, [topics]);
 
-  // Per rendere scuro / chiaro il background
+  // Gestiamo il dark mode sul body
   useEffect(() => {
     document.body.className = gameState.darkMode ? 'dark' : '';
   }, [gameState.darkMode]);
 
-  // Funzioni di utilità
+  const t = translations[gameState.language];
+
   const toggleDarkMode = () => {
     setGameState(prev => ({ ...prev, darkMode: !prev.darkMode }));
   };
@@ -78,10 +101,33 @@ function App() {
     setGameState(prev => ({ ...prev, language }));
   };
 
-  // Avvio del gioco
+  // Apri popup di conferma
+  const handleResetClick = () => {
+    setShowResetConfirm(true);
+  };
+
+  // Conferma reset
+  const handleConfirmReset = () => {
+    resetGame();
+    setShowResetConfirm(false);
+  };
+
+  // Annulla reset
+  const handleCancelReset = () => {
+    setShowResetConfirm(false);
+  };
+
+  // Funzione che azzera lo stato
+  const resetGame = () => {
+    setGameState(initialGameState);
+    setTopics(getTopics());
+    localStorage.removeItem('gameState');
+    localStorage.removeItem('topics');
+  };
+
+  // Avvio partita
   const startGame = (players: Player[]) => {
-    // Decidiamo quanti turni mancano al prossimo evento globale random, es. tra 3 e 6
-    const randomBetween3and6 = 6 + Math.floor(Math.random() * 5); // 3..6
+    const randomBetween3and6 = 6 + Math.floor(Math.random() * 5);
 
     setGameState({
       ...gameState,
@@ -92,121 +138,118 @@ function App() {
         failedChallenges: 0,
       })),
       gameStarted: true,
-      availableTopics: selectRandomTopics([]),
-      // inizializzo i campi dell'evento globale
+      availableTopics: selectRandomTopicChoices([]),
       showGlobalEventPopup: false,
       globalEventMessage: null,
       turnsToNextEvent: randomBetween3and6,
-      selectedTopicsHistory: [], // Inizializza la cronologia
+      selectedTopicsHistory: [],
     });
   };
 
-  // Funzione helper per ottenere la cronologia degli ultimi N round
-  const getRecentHistory = (history: TopicType[], limit: number) => {
-    return history.slice(-limit);
-  };
+  // Pesca 2 scelte (topic + punti random)
+  const selectRandomTopicChoices = (currentHistory: TopicType[]): TopicChoice[] => {
+    const historyLimit = 5;
+    const maxRepetitions = 2;
+    const recentHistory = currentHistory.slice(-historyLimit);
 
-  // Selezione random di 2 topic dall'intero array di topics (con restrizioni)
-  const selectRandomTopics = (currentHistory: TopicType[]) => {
-    const historyLimit = 5; // Numero di round da considerare
-    const maxRepetitions = 2; // Massimo ripetizioni per topic
-    const recentHistory = getRecentHistory(currentHistory, historyLimit);
-
-    // Conta le ripetizioni di ogni topic nella cronologia recente
     const topicUsage: { [key in TopicType]?: number } = {};
     recentHistory.forEach(topicId => {
       topicUsage[topicId] = (topicUsage[topicId] || 0) + 1;
     });
 
-    // Filtra i topic che possono essere selezionati (ripetizioni < maxRepetitions)
     const eligibleTopics = topics.filter(topic => {
       return (topicUsage[topic.id] || 0) < maxRepetitions;
     });
 
-    // Se non ci sono abbastanza topic eleggibili, rilassa le restrizioni
     let selectableTopics = eligibleTopics;
     if (eligibleTopics.length < 2) {
       selectableTopics = topics;
     }
 
-    // Mescola i topic selezionabili
     const shuffled = [...selectableTopics].sort(() => Math.random() - 0.5);
-    const selected = shuffled.slice(0, 2).map(t => t.id);
+    const selected = shuffled.slice(0, 2);
 
-    return selected;
+    return selected.map(t => ({
+      id: t.id,
+      points: 1 + Math.floor(Math.random() * 5),
+    }));
   };
 
+  // Resetta carte usate per un topic
   const reshuffleTopicCards = (topicId: TopicType) => {
-    const topic = topics.find(t => t.id === topicId);
-    if (topic) {
-      topic.cards.forEach(card => {
-        card.used = false;
-      });
-    }
+    const idx = topics.findIndex(t => t.id === topicId);
+    if (idx === -1) return;
+
+    const updatedTopics = [...topics];
+    const clonedTopic = { ...updatedTopics[idx] };
+
+    clonedTopic.cards = clonedTopic.cards.map(c => ({ ...c, used: false }));
+    updatedTopics[idx] = clonedTopic;
+    setTopics(updatedTopics);
   };
 
-  // Scelta di un topic e di una carta casuale al suo interno
-  const selectTopic = (topicId: TopicType) => {
-    const selectedTopic = topics.find(t => t.id === topicId);
-    if (!selectedTopic) return;
+  // Scegli un topic
+  const selectTopic = (choice: TopicChoice) => {
+    const topicId = choice.id;
+    const idx = topics.findIndex(t => t.id === topicId);
+    if (idx === -1) return;
 
-    let unusedCards = selectedTopic.cards.filter(card => !card.used);
+    const updatedTopics = [...topics];
+    const selectedTopicData = { ...updatedTopics[idx] };
 
+    let unusedCards = selectedTopicData.cards.filter(c => !c.used);
     if (unusedCards.length === 0) {
-      // Se le carte sono tutte usate, rimettiamo "used = false"
       reshuffleTopicCards(topicId);
-      unusedCards = selectedTopic.cards;
+      unusedCards = selectedTopicData.cards.filter(c => !c.used);
     }
 
-    // Pesca una carta random tra quelle non usate
     const randomCard = unusedCards[Math.floor(Math.random() * unusedCards.length)];
-
-    // Contrassegna come usata
-    const cardIndex = selectedTopic.cards.findIndex(c => c.id === randomCard.id);
-    if (cardIndex !== -1) {
-      selectedTopic.cards[cardIndex].used = true;
+    const cardIdx = selectedTopicData.cards.findIndex(c => c.id === randomCard.id);
+    if (cardIdx !== -1) {
+      selectedTopicData.cards[cardIdx] = { ...selectedTopicData.cards[cardIdx], used: true };
     }
+    updatedTopics[idx] = selectedTopicData;
+    setTopics(updatedTopics);
 
     setGameState(prev => ({
       ...prev,
-      selectedTopic: topicId,
+      selectedTopic: choice,
       currentCard: randomCard,
       showCard: true,
     }));
   };
 
-  // Quando un giocatore completa/falla una sfida
+  // Completamento sfida
   const handleComplete = (success: boolean) => {
     const updatedPlayers = [...gameState.players];
     const currentPlayer = updatedPlayers[gameState.currentPlayerIndex];
+    const chosenPoints = gameState.selectedTopic?.points || 1;
 
     if (success) {
-      currentPlayer.score += 1;
+      currentPlayer.score += chosenPoints;
       currentPlayer.completedChallenges += 1;
     } else {
       currentPlayer.failedChallenges += 1;
-      // Mostra il popup "Failed" se i fail totali del giocatore sono multipli di 2
       if (currentPlayer.failedChallenges % 2 === 0) {
         setGameState(prev => ({ ...prev, showFailedPopup: true }));
       }
     }
 
-    // Gestione dell'evento globale a sorpresa
     let newTurnsToNextEvent = gameState.turnsToNextEvent - 1;
     let newShowGlobalEventPopup = gameState.showGlobalEventPopup;
     let newGlobalEventMessage = gameState.globalEventMessage;
 
-    // Se arriva a 0, estraiamo un evento e mostriamo popup
     if (newTurnsToNextEvent <= 0) {
       const eventIndex = Math.floor(Math.random() * globalEvents.length);
       newGlobalEventMessage = globalEvents[eventIndex];
       newShowGlobalEventPopup = true;
-      // Ripristiniamo un nuovo random tra 3 e 6
       newTurnsToNextEvent = 3 + Math.floor(Math.random() * 4);
     }
 
-    // Aggiorna la cronologia dei topic selezionati
-    const newHistory = [...gameState.selectedTopicsHistory, ...gameState.availableTopics];
+    const newHistory = [
+      ...gameState.selectedTopicsHistory,
+      ...gameState.availableTopics.map(ch => ch.id),
+    ];
 
     setGameState(prev => ({
       ...prev,
@@ -215,30 +258,31 @@ function App() {
       selectedTopic: null,
       currentCard: null,
       showCard: false,
-      availableTopics: selectRandomTopics(newHistory),
-      // aggiorniamo stato dell'evento globale
+      availableTopics: selectRandomTopicChoices(newHistory),
       showGlobalEventPopup: newShowGlobalEventPopup,
       globalEventMessage: newGlobalEventMessage,
       turnsToNextEvent: newTurnsToNextEvent,
-      selectedTopicsHistory: newHistory.length > 5 ? newHistory.slice(newHistory.length - 5) : newHistory, // Mantiene solo gli ultimi 5
+      selectedTopicsHistory: newHistory.length > 5
+        ? newHistory.slice(newHistory.length - 5)
+        : newHistory,
     }));
   };
 
+  // Chiudi popup fail
   const closeFailedPopup = () => {
     setGameState(prev => ({ ...prev, showFailedPopup: false }));
   };
 
-  // Chiude l'evento globale a sorpresa
+  // Chiudi popup evento globale
   const closeGlobalEventPopup = () => {
-    setGameState(prev => ({
-      ...prev,
-      showGlobalEventPopup: false,
-      globalEventMessage: null
-    }));
+    setGameState(prev => ({ ...prev, showGlobalEventPopup: false, globalEventMessage: null }));
   };
 
-  // Se il gioco non è iniziato, mostriamo la schermata di setup giocatori
+  // ---------------------------------------------------------------------
+  // RENDER
+  // ---------------------------------------------------------------------
   if (!gameState.gameStarted) {
+    // Schermata di setup
     return (
       <div
         className={`min-h-screen ${
@@ -272,22 +316,25 @@ function App() {
           >
             {t.title}
           </h1>
+
+          {/* Component per inserire nomi giocatori */}
           <PlayerSetup onStartGame={startGame} darkMode={gameState.darkMode} t={t.playerSetup} />
         </div>
       </div>
     );
   }
 
+  // Schermata di gioco
   const currentPlayer = gameState.players[gameState.currentPlayerIndex];
-  
-  // Troviamo i topic da mostrare in base alle 2 scelte random
-  const availableTopicObjects = topics
-    .filter(top => gameState.availableTopics.includes(top.id))
-    .map(topic => ({
-      ...topic,
-      // Nome localizzato
-      name: t.topics[topic.id as keyof typeof t.topics]
-    }));
+  const topicChoices = gameState.availableTopics.map(choice => {
+    const fullTopic = topics.find(t => t.id === choice.id);
+    return {
+      ...choice,
+      color: fullTopic?.color || 'bg-gray-500',
+      icon: fullTopic?.icon || 'AlertCircle',
+      displayName: t.topics[choice.id as keyof typeof t.topics],
+    };
+  });
 
   return (
     <div
@@ -298,7 +345,7 @@ function App() {
       } py-12`}
     >
       <div className="max-w-7xl mx-auto px-4">
-        {/* Barra in alto con toggle lingua e dark mode */}
+        {/* Barra con toggle lingua/darkMode */}
         <div className="flex justify-end gap-4 mb-4">
           <LanguageToggle
             currentLanguage={gameState.language}
@@ -315,7 +362,7 @@ function App() {
           </button>
         </div>
 
-        {/* Nome del giocatore corrente + prompt */}
+        {/* Giocatore corrente */}
         <div className="text-center mb-12">
           <h2
             className={`text-4xl font-bold mb-2 ${
@@ -330,24 +377,36 @@ function App() {
           </p>
         </div>
 
-        {/* Se non è stata scelta una carta, mostriamo i 2 topic random; altrimenti la card da completare */}
+        {/* Se non abbiamo una carta selezionata, mostra i 2 topic a scelta */}
         {!gameState.showCard ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {availableTopicObjects.map(topic => (
-              <TopicCard key={topic.id} topic={topic} onClick={() => selectTopic(topic.id)} />
+            {topicChoices.map(tc => (
+              <TopicCard
+                key={tc.id}
+                topicId={tc.id}
+                displayName={tc.displayName}
+                color={tc.color}
+                icon={tc.icon}
+                points={tc.points}
+                onClick={() => selectTopic({ id: tc.id, points: tc.points })}
+              />
             ))}
           </div>
         ) : (
           <GameCard
             card={gameState.currentCard!}
-            color={topics.find(t => t.id === gameState.selectedTopic)!.color}
+            color={
+              topics.find(t => t.id === gameState.selectedTopic?.id)?.color ||
+              'bg-gray-500'
+            }
             onComplete={handleComplete}
             darkMode={gameState.darkMode}
+            currentLanguage={gameState.language}
             t={t.game}
           />
         )}
 
-        {/* Classifica giocatori */}
+        {/* Classifica */}
         <PlayerRanking
           players={gameState.players}
           currentPlayerIndex={gameState.currentPlayerIndex}
@@ -355,17 +414,36 @@ function App() {
           t={t.game}
         />
 
-        {/* Popup di penalità se un giocatore totalizza un fail multiplo di 2 */}
+        {/* Pulsante RESET -> apre popup di conferma */}
+        <div className="text-center mt-8">
+          <button
+            onClick={handleResetClick}
+            className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md font-semibold transition-transform hover:scale-105"
+          >
+            RESET PARTITA
+          </button>
+        </div>
+
+        {/* Popup di penalità */}
         {gameState.showFailedPopup && (
           <FailedPopup onClose={closeFailedPopup} darkMode={gameState.darkMode} t={t.game} />
         )}
 
-        {/* Popup globale per l'evento a sorpresa */}
+        {/* Popup evento globale */}
         {gameState.showGlobalEventPopup && (
           <GlobalEventPopup
             message={gameState.globalEventMessage!}
             darkMode={gameState.darkMode}
             onClose={closeGlobalEventPopup}
+          />
+        )}
+
+        {/* Popup di conferma reset */}
+        {showResetConfirm && (
+          <ConfirmResetPopup
+            onConfirm={handleConfirmReset}
+            onCancel={handleCancelReset}
+            darkMode={gameState.darkMode}
           />
         )}
       </div>

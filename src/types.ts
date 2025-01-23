@@ -1,3 +1,4 @@
+// types.ts
 export interface Player {
   id: string;
   name: string;
@@ -6,9 +7,17 @@ export interface Player {
   failedChallenges: number;
 }
 
+/**
+ * Ogni card ora ha TUTTE le lingue in content, così se cambi
+ * lingua a partita in corso, il testo si aggiorna.
+ */
 export interface Card {
   id: string;
-  content: string;
+  content: {
+    it: string;
+    en: string;
+    fr: string;
+  };
   used: boolean;
 }
 
@@ -23,7 +32,7 @@ export type TopicType =
   | 'cupido'
   | 'culturaGenerale'
   | 'proEcontro'
-  | 'nonHomai'
+  | 'nonHomai';
 
 export interface Topic {
   id: TopicType;
@@ -33,11 +42,23 @@ export interface Topic {
   cards: Card[];
 }
 
+/**
+ * Rappresenta la combinazione "topic + punteggio random"
+ * che viene proposta come scelta.
+ */
+export interface TopicChoice {
+  id: TopicType; 
+  points: number;
+}
+
+/**
+ * Stato globale del gioco.
+ */
 export interface GameState {
   players: Player[];
   currentPlayerIndex: number;
-  availableTopics: TopicType[];
-  selectedTopic: TopicType | null;
+  availableTopics: TopicChoice[];
+  selectedTopic: TopicChoice | null;
   currentCard: Card | null;
   gameStarted: boolean;
   showCard: boolean;
@@ -49,4 +70,5 @@ export interface GameState {
   turnsToNextEvent: number;
   selectedTopicsHistory: TopicType[];
 }
+
 export type Language = 'en' | 'fr' | 'it';

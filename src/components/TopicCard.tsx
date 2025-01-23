@@ -1,5 +1,5 @@
+// src/components/TopicCard.tsx
 import React from 'react';
-import { Topic } from '../types';
 import {
   Flame,
   SplitSquareVertical,
@@ -28,32 +28,39 @@ const iconMap = {
   AlertCircle
 };
 
-
 interface TopicCardProps {
-  topic: Topic;
+  topicId: string;
+  displayName: string;  // Nome del topic localizzato
+  color: string;
+  icon: string;
+  points: number;
   onClick: () => void;
 }
 
-export default function TopicCard({ topic, onClick }: TopicCardProps) {
-  const Icon = iconMap[topic.icon as keyof typeof iconMap];
+export default function TopicCard({ topicId, displayName, color, icon, points, onClick }: TopicCardProps) {
+  const Icon = iconMap[icon as keyof typeof iconMap] || AlertCircle;
 
   return (
     <button
       onClick={onClick}
-      className={`${topic.color} relative p-8 rounded-2xl shadow-lg transform transition-all hover:scale-105 hover:shadow-xl w-full max-w-sm mx-auto animate-fadeIn overflow-hidden`}
+      className={`${color} relative p-8 rounded-2xl shadow-lg transform transition-all hover:scale-105 hover:shadow-xl w-full max-w-sm mx-auto animate-fadeIn overflow-hidden`}
     >
       {/* Icona di sfondo trasparente */}
       <Icon
-        size={128} // Dimensione aumentata
+        size={128}
         className="text-white opacity-20 absolute inset-0 m-auto"
         style={{ maxWidth: '80%', maxHeight: '80%' }}
       />
-      
-      {/* Testo del topic centrato */}
-      <div className="relative z-10 flex items-center justify-center h-full">
+
+      {/* Testo del topic */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full">
         <h3 className="text-3xl font-bold text-white text-center px-4">
-          {topic.name}
+          {displayName}
         </h3>
+        {/* Punteggio random */}
+        <span className="text-white text-lg mt-2">
+          {points} {points === 1 ? 'punto' : 'punti'}
+        </span>
       </div>
     </button>
   );
