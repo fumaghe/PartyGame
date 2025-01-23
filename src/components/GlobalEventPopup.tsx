@@ -15,23 +15,29 @@ export default function GlobalEventPopup({
 }: GlobalEventPopupProps) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 animate-fadeIn">
-      <div className={`
-        ${darkMode ? 'bg-gray-800' : 'bg-white'}
-        rounded-2xl p-8 max-w-md mx-4 shadow-xl transform transition-all animate-bounce
-      `}>
+      <div
+        className={`
+          ${darkMode ? 'bg-gray-800' : 'bg-white'}
+          rounded-2xl p-8 max-w-md mx-4 shadow-xl transform transition-all animate-bounce
+        `}
+      >
         <div className="flex items-center justify-center mb-6">
           <AlertTriangle size={48} className="text-amber-500" />
         </div>
-        <h3 className={`
-          text-2xl font-bold text-center mb-4
-          ${darkMode ? 'text-white' : 'text-gray-800'}
-        `}>
+        <h3
+          className={`
+            text-2xl font-bold text-center mb-4
+            ${darkMode ? 'text-white' : 'text-gray-800'}
+          `}
+        >
           WAIT!
         </h3>
-        <p className={`
-          text-center mb-6
-          ${darkMode ? 'text-gray-300' : 'text-gray-600'}
-        `}>
+        <p
+          className={`
+            text-center mb-6
+            ${darkMode ? 'text-gray-300' : 'text-gray-600'}
+          `}
+        >
           {message}
         </p>
         <button

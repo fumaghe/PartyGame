@@ -19,7 +19,7 @@ function createCardsForCategory(categoryData: { it: string; en: string; fr: stri
 }
 
 /**
- * Carichiamo TUTTE le traduzioni in un solo colpo.
+ * Carichiamo TUTTE le lingue una volta sola.
  */
 export function getTopics(): Topic[] {
   return [

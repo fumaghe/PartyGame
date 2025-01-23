@@ -1,4 +1,5 @@
-// types.ts
+// src/types.ts
+
 export interface Player {
   id: string;
   name: string;
@@ -8,8 +9,8 @@ export interface Player {
 }
 
 /**
- * Ogni card ora ha TUTTE le lingue in content, così se cambi
- * lingua a partita in corso, il testo si aggiorna.
+ * Ogni card ha i testi per TUTTE le lingue,
+ * così possiamo cambiare lingua a partita in corso
  */
 export interface Card {
   id: string;
@@ -43,11 +44,11 @@ export interface Topic {
 }
 
 /**
- * Rappresenta la combinazione "topic + punteggio random"
- * che viene proposta come scelta.
+ * Per le 2 scelte di topic proposte a ogni turno,
+ * memorizziamo: { id: 'domandePiccanti', points: 3 }
  */
 export interface TopicChoice {
-  id: TopicType; 
+  id: TopicType;
   points: number;
 }
 
@@ -68,6 +69,11 @@ export interface GameState {
   showGlobalEventPopup: boolean;
   globalEventMessage: string | null;
   turnsToNextEvent: number;
+
+  /**
+   * Cronologia degli ultimi topic proposti,
+   * per limitare le ripetizioni.
+   */
   selectedTopicsHistory: TopicType[];
 }
 

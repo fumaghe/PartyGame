@@ -1,3 +1,4 @@
+// src/components/LanguageToggle.tsx
 import React from 'react';
 import { Language } from '../types';
 import { Globe } from 'lucide-react';
@@ -8,7 +9,11 @@ interface LanguageToggleProps {
   darkMode: boolean;
 }
 
-export default function LanguageToggle({ currentLanguage, onLanguageChange, darkMode }: LanguageToggleProps) {
+export default function LanguageToggle({
+  currentLanguage,
+  onLanguageChange,
+  darkMode
+}: LanguageToggleProps) {
   return (
     <div className="relative group">
       <button
@@ -19,13 +24,17 @@ export default function LanguageToggle({ currentLanguage, onLanguageChange, dark
         <Globe size={24} />
         <span className="text-sm font-medium">{currentLanguage.toUpperCase()}</span>
       </button>
-      
-      {/* MENU A COMPARSA */}
-      <div className="absolute top-full right-0 mt-2 w-32 opacity-0 group-hover:opacity-100 transition-opacity 
-                      pointer-events-none group-hover:pointer-events-auto z-50">
-        <div className={`${
-          darkMode ? 'bg-gray-700' : 'bg-white'
-        } rounded-lg shadow-lg overflow-hidden border border-gray-300 dark:border-gray-600`}>
+
+      {/* Menu a comparsa */}
+      <div
+        className="absolute top-full right-0 mt-2 w-32 opacity-0 group-hover:opacity-100 transition-opacity 
+                   pointer-events-none group-hover:pointer-events-auto z-50"
+      >
+        <div
+          className={`${
+            darkMode ? 'bg-gray-700' : 'bg-white'
+          } rounded-lg shadow-lg overflow-hidden border border-gray-300 dark:border-gray-600`}
+        >
           <button
             onClick={() => onLanguageChange('en')}
             className={`w-full px-4 py-2 text-left hover:bg-opacity-20 hover:bg-purple-500 transition-colors ${

@@ -4,19 +4,12 @@ import { Player } from '../types';
 import { Trophy, CheckCircle2, XCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-/**
- * Props:
- *  - players: array di Player (score, completed, fail, ecc.)
- *  - currentPlayerIndex: indica chi sta giocando in questo turno (opzionale)
- *  - darkMode
- *  - t: oggetto di traduzioni
- */
 interface PlayerRankingProps {
   players: Player[];
   currentPlayerIndex: number;
   darkMode: boolean;
   t: {
-    players: string;
+    players: string; // non usato qui, ma se serve lo hai
     ranking: string;
     points: string;
     stats: string;
@@ -31,15 +24,15 @@ export default function PlayerRanking({
   darkMode,
   t
 }: PlayerRankingProps) {
-  // Ordine discendente per punteggio
+  // Ordiniamo i players per punteggio decrescente
   const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
 
-  // Medaglie emoji nelle prime 3 posizioni
+  // Medaglie per prime 3 posizioni
   const medals = ["🥇", "🥈", "🥉"];
 
   return (
     <div className="mt-12 max-w-4xl mx-auto w-full">
-      {/* Titolo classifica */}
+      {/* Titolo della classifica */}
       <div className="flex items-center gap-2 mb-6">
         <Trophy size={28} className={darkMode ? 'text-yellow-400' : 'text-yellow-600'} />
         <h3 className={`text-3xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}>
@@ -47,18 +40,16 @@ export default function PlayerRanking({
         </h3>
       </div>
 
-      {/* Contenitore animato */}
       <div className="space-y-4">
         <AnimatePresence>
           {sortedPlayers.map((player, index) => {
-            // Medaglia o posizione
             const place = medals[index] || `#${index + 1}`;
-            const isCurrent = players.findIndex(p => p.id === player.id) === currentPlayerIndex;
+            const isCurrent =
+              players.findIndex((p) => p.id === player.id) === currentPlayerIndex;
 
             return (
               <motion.div
                 key={player.id}
-                // layout permette a framer-motion di animare i cambi di posizione
                 layout
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -68,7 +59,7 @@ export default function PlayerRanking({
                   darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-800'
                 }`}
               >
-                {/* Medaglione semitrasparente in background */}
+                {/* Medaglione trasparente in background */}
                 <div className="absolute left-4 top-6 opacity-10 text-8xl select-none pointer-events-none">
                   {place}
                 </div>
@@ -76,7 +67,6 @@ export default function PlayerRanking({
                 {/* Testa: Nome + punteggio */}
                 <div className="flex items-center justify-between relative z-10">
                   <div className="flex items-center gap-2">
-                    {/* Piccola medaglia in primo piano */}
                     <span className="text-2xl">{place}</span>
                     <span className="text-xl font-semibold">{player.name}</span>
                   </div>
@@ -97,13 +87,17 @@ export default function PlayerRanking({
                     {/* Completate */}
                     <div className="flex items-center gap-2">
                       <CheckCircle2 size={24} className="text-green-500" />
-                      <span className="font-semibold text-lg">{player.completedChallenges}</span>
+                      <span className="font-semibold text-lg">
+                        {player.completedChallenges}
+                      </span>
                       <span className="text-gray-400 text-sm">{t.completedChallenges}</span>
                     </div>
                     {/* Fallite */}
                     <div className="flex items-center gap-2">
                       <XCircle size={24} className="text-red-500" />
-                      <span className="font-semibold text-lg">{player.failedChallenges}</span>
+                      <span className="font-semibold text-lg">
+                        {player.failedChallenges}
+                      </span>
                       <span className="text-gray-400 text-sm">{t.failedChallenges}</span>
                     </div>
                   </div>

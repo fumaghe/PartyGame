@@ -1,28 +1,21 @@
-// App.tsx
-import React, { useState, useEffect } from 'react';
-import {
-  Player,
-  GameState,
-  Topic,
-  TopicType,
-  TopicChoice,
-  Language
-} from './types';
-
+// src/App.tsx
+import { useState, useEffect } from 'react';
+import { GameState, Topic, TopicType, TopicChoice, Language } from './types';
 import { getTopics } from './data/topics';
 import { translations } from './i18n/translations';
 
 import PlayerSetup from './components/PlayerSetup';
+import LanguageToggle from './components/LanguageToggle';
+import PlayerRanking from './components/PlayerRanking';
 import TopicCard from './components/TopicCard';
 import GameCard from './components/GameCard';
-import PlayerRanking from './components/PlayerRanking';
-import LanguageToggle from './components/LanguageToggle';
 import FailedPopup from './components/FailedPopup';
 import GlobalEventPopup from './components/GlobalEventPopup';
-import ConfirmResetPopup from './components/ConfirmResetPopup'; // <--- nuovo popup di conferma
+import ConfirmResetPopup from './components/ConfirmResetPopup';
 
 import { Sun, Moon } from 'lucide-react';
 
+// Eventi globali random
 const globalEvents = [
   "Everyone drinks now!",
   "The next challenge is worth double!",
@@ -41,7 +34,7 @@ const globalEvents = [
   "Whisper something provocative in the ear of the person next to you!",
 ];
 
-// Stato iniziale
+// Stato iniziale del gioco
 const initialGameState: GameState = {
   players: [],
   currentPlayerIndex: 0,
@@ -60,24 +53,22 @@ const initialGameState: GameState = {
 };
 
 function App() {
-  // Carichiamo gameState + topics da localStorage (se esistono)
+  // Carichiamo da localStorage oppure stato iniziale
   const [gameState, setGameState] = useState<GameState>(() => {
-    const storedGame = localStorage.getItem('gameState');
-    return storedGame ? JSON.parse(storedGame) : initialGameState;
+    const stored = localStorage.getItem('gameState');
+    return stored ? JSON.parse(stored) : initialGameState;
   });
 
+  // Carichiamo i topics (tutti, con le lingue) da localStorage o generiamo
   const [topics, setTopics] = useState<Topic[]>(() => {
-    const storedTopics = localStorage.getItem('topics');
-    if (storedTopics) {
-      return JSON.parse(storedTopics);
-    }
-    return getTopics();
+    const stored = localStorage.getItem('topics');
+    return stored ? JSON.parse(stored) : getTopics();
   });
 
   // Popup di conferma reset
   const [showResetConfirm, setShowResetConfirm] = useState(false);
 
-  // Salvataggio in localStorage
+  // Salviamo in localStorage ogni volta che cambia
   useEffect(() => {
     localStorage.setItem('gameState', JSON.stringify(gameState));
   }, [gameState]);
@@ -86,22 +77,25 @@ function App() {
     localStorage.setItem('topics', JSON.stringify(topics));
   }, [topics]);
 
-  // Gestiamo il dark mode sul body
+  // Dark mode sul body
   useEffect(() => {
     document.body.className = gameState.darkMode ? 'dark' : '';
   }, [gameState.darkMode]);
 
+  // Traduzioni
   const t = translations[gameState.language];
 
+  // Toggle Dark Mode
   const toggleDarkMode = () => {
-    setGameState(prev => ({ ...prev, darkMode: !prev.darkMode }));
+    setGameState((prev) => ({ ...prev, darkMode: !prev.darkMode }));
   };
 
-  const handleLanguageChange = (language: Language) => {
-    setGameState(prev => ({ ...prev, language }));
+  // Cambio lingua
+  const handleLanguageChange = (lang: Language) => {
+    setGameState((prev) => ({ ...prev, language: lang }));
   };
 
-  // Apri popup di conferma
+  // Mostra popup di reset
   const handleResetClick = () => {
     setShowResetConfirm(true);
   };
@@ -117,7 +111,7 @@ function App() {
     setShowResetConfirm(false);
   };
 
-  // Funzione che azzera lo stato
+  // Reset effettivo
   const resetGame = () => {
     setGameState(initialGameState);
     setTopics(getTopics());
@@ -126,16 +120,14 @@ function App() {
   };
 
   // Avvio partita
-  const startGame = (players: Player[]) => {
+  const startGame = (players: any) => {
     const randomBetween3and6 = 6 + Math.floor(Math.random() * 5);
-
     setGameState({
       ...gameState,
-      players: players.map(p => ({
+      players: players.map((p: any) => ({
         ...p,
-        score: 0,
-        completedChallenges: 0,
-        failedChallenges: 0,
+        completedChallenges: p.completedChallenges || 0,
+        failedChallenges: p.failedChallenges || 0
       })),
       gameStarted: true,
       availableTopics: selectRandomTopicChoices([]),
@@ -146,18 +138,19 @@ function App() {
     });
   };
 
-  // Pesca 2 scelte (topic + punti random)
+  // Selezioniamo 2 topic random
   const selectRandomTopicChoices = (currentHistory: TopicType[]): TopicChoice[] => {
     const historyLimit = 5;
     const maxRepetitions = 2;
     const recentHistory = currentHistory.slice(-historyLimit);
 
     const topicUsage: { [key in TopicType]?: number } = {};
-    recentHistory.forEach(topicId => {
+    recentHistory.forEach((topicId) => {
       topicUsage[topicId] = (topicUsage[topicId] || 0) + 1;
     });
 
-    const eligibleTopics = topics.filter(topic => {
+    // Filtra i topic ammissibili
+    const eligibleTopics = topics.filter((topic) => {
       return (topicUsage[topic.id] || 0) < maxRepetitions;
     });
 
@@ -169,7 +162,7 @@ function App() {
     const shuffled = [...selectableTopics].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, 2);
 
-    return selected.map(t => ({
+    return selected.map((t) => ({
       id: t.id,
       points: 1 + Math.floor(Math.random() * 5),
     }));
@@ -177,41 +170,40 @@ function App() {
 
   // Resetta carte usate per un topic
   const reshuffleTopicCards = (topicId: TopicType) => {
-    const idx = topics.findIndex(t => t.id === topicId);
+    const idx = topics.findIndex((t) => t.id === topicId);
     if (idx === -1) return;
 
     const updatedTopics = [...topics];
-    const clonedTopic = { ...updatedTopics[idx] };
+    const cloned = { ...updatedTopics[idx] };
 
-    clonedTopic.cards = clonedTopic.cards.map(c => ({ ...c, used: false }));
-    updatedTopics[idx] = clonedTopic;
+    cloned.cards = cloned.cards.map((c) => ({ ...c, used: false }));
+    updatedTopics[idx] = cloned;
     setTopics(updatedTopics);
   };
 
-  // Scegli un topic
+  // Scelta di un topic => peschiamo una carta
   const selectTopic = (choice: TopicChoice) => {
-    const topicId = choice.id;
-    const idx = topics.findIndex(t => t.id === topicId);
+    const idx = topics.findIndex((t) => t.id === choice.id);
     if (idx === -1) return;
 
     const updatedTopics = [...topics];
-    const selectedTopicData = { ...updatedTopics[idx] };
+    const topicData = { ...updatedTopics[idx] };
 
-    let unusedCards = selectedTopicData.cards.filter(c => !c.used);
+    let unusedCards = topicData.cards.filter((c) => !c.used);
     if (unusedCards.length === 0) {
-      reshuffleTopicCards(topicId);
-      unusedCards = selectedTopicData.cards.filter(c => !c.used);
+      reshuffleTopicCards(choice.id);
+      unusedCards = topicData.cards.filter((c) => !c.used);
     }
 
     const randomCard = unusedCards[Math.floor(Math.random() * unusedCards.length)];
-    const cardIdx = selectedTopicData.cards.findIndex(c => c.id === randomCard.id);
+    const cardIdx = topicData.cards.findIndex((c) => c.id === randomCard.id);
     if (cardIdx !== -1) {
-      selectedTopicData.cards[cardIdx] = { ...selectedTopicData.cards[cardIdx], used: true };
+      topicData.cards[cardIdx] = { ...topicData.cards[cardIdx], used: true };
     }
-    updatedTopics[idx] = selectedTopicData;
+    updatedTopics[idx] = topicData;
     setTopics(updatedTopics);
 
-    setGameState(prev => ({
+    setGameState((prev) => ({
       ...prev,
       selectedTopic: choice,
       currentCard: randomCard,
@@ -219,7 +211,7 @@ function App() {
     }));
   };
 
-  // Completamento sfida
+  // Quando un giocatore completa/fallisce la sfida
   const handleComplete = (success: boolean) => {
     const updatedPlayers = [...gameState.players];
     const currentPlayer = updatedPlayers[gameState.currentPlayerIndex];
@@ -231,7 +223,7 @@ function App() {
     } else {
       currentPlayer.failedChallenges += 1;
       if (currentPlayer.failedChallenges % 2 === 0) {
-        setGameState(prev => ({ ...prev, showFailedPopup: true }));
+        setGameState((prev) => ({ ...prev, showFailedPopup: true }));
       }
     }
 
@@ -248,10 +240,10 @@ function App() {
 
     const newHistory = [
       ...gameState.selectedTopicsHistory,
-      ...gameState.availableTopics.map(ch => ch.id),
+      ...gameState.availableTopics.map((ch) => ch.id),
     ];
 
-    setGameState(prev => ({
+    setGameState((prev) => ({
       ...prev,
       players: updatedPlayers,
       currentPlayerIndex: (prev.currentPlayerIndex + 1) % prev.players.length,
@@ -262,27 +254,23 @@ function App() {
       showGlobalEventPopup: newShowGlobalEventPopup,
       globalEventMessage: newGlobalEventMessage,
       turnsToNextEvent: newTurnsToNextEvent,
-      selectedTopicsHistory: newHistory.length > 5
-        ? newHistory.slice(newHistory.length - 5)
-        : newHistory,
+      selectedTopicsHistory:
+        newHistory.length > 5 ? newHistory.slice(newHistory.length - 5) : newHistory,
     }));
   };
 
   // Chiudi popup fail
   const closeFailedPopup = () => {
-    setGameState(prev => ({ ...prev, showFailedPopup: false }));
+    setGameState((prev) => ({ ...prev, showFailedPopup: false }));
   };
 
   // Chiudi popup evento globale
   const closeGlobalEventPopup = () => {
-    setGameState(prev => ({ ...prev, showGlobalEventPopup: false, globalEventMessage: null }));
+    setGameState((prev) => ({ ...prev, showGlobalEventPopup: false, globalEventMessage: null }));
   };
 
-  // ---------------------------------------------------------------------
-  // RENDER
-  // ---------------------------------------------------------------------
+  // RENDER: se non iniziato => setup
   if (!gameState.gameStarted) {
-    // Schermata di setup
     return (
       <div
         className={`min-h-screen ${
@@ -316,8 +304,6 @@ function App() {
           >
             {t.title}
           </h1>
-
-          {/* Component per inserire nomi giocatori */}
           <PlayerSetup onStartGame={startGame} darkMode={gameState.darkMode} t={t.playerSetup} />
         </div>
       </div>
@@ -326,13 +312,17 @@ function App() {
 
   // Schermata di gioco
   const currentPlayer = gameState.players[gameState.currentPlayerIndex];
-  const topicChoices = gameState.availableTopics.map(choice => {
-    const fullTopic = topics.find(t => t.id === choice.id);
+
+  // Prepariamo i 2 topic proposti
+  const topicChoices = gameState.availableTopics.map((choice) => {
+    const fullTopic = topics.find((top) => top.id === choice.id);
     return {
       ...choice,
       color: fullTopic?.color || 'bg-gray-500',
       icon: fullTopic?.icon || 'AlertCircle',
-      displayName: t.topics[choice.id as keyof typeof t.topics],
+      displayName: t.game.topics
+        ? t.game.topics[choice.id as keyof typeof t.game.topics]
+        : fullTopic?.name || 'Unknown',
     };
   });
 
@@ -345,7 +335,7 @@ function App() {
       } py-12`}
     >
       <div className="max-w-7xl mx-auto px-4">
-        {/* Barra con toggle lingua/darkMode */}
+        {/* Barra in alto */}
         <div className="flex justify-end gap-4 mb-4">
           <LanguageToggle
             currentLanguage={gameState.language}
@@ -377,14 +367,14 @@ function App() {
           </p>
         </div>
 
-        {/* Se non abbiamo una carta selezionata, mostra i 2 topic a scelta */}
+        {/* Se non ho selezionato una carta => i 2 topic */}
         {!gameState.showCard ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {topicChoices.map(tc => (
+            {topicChoices.map((tc) => (
               <TopicCard
                 key={tc.id}
                 topicId={tc.id}
-                displayName={tc.displayName}
+                displayName={tc.displayName || 'Topic'}
                 color={tc.color}
                 icon={tc.icon}
                 points={tc.points}
@@ -396,13 +386,14 @@ function App() {
           <GameCard
             card={gameState.currentCard!}
             color={
-              topics.find(t => t.id === gameState.selectedTopic?.id)?.color ||
-              'bg-gray-500'
+              topics.find((t) => t.id === gameState.selectedTopic?.id)?.color || 'bg-gray-500'
             }
             onComplete={handleComplete}
             darkMode={gameState.darkMode}
             currentLanguage={gameState.language}
             t={t.game}
+            // Passiamo l'ID del topic, per sapere se è 'culturaGenerale'
+            topicId={gameState.selectedTopic?.id || 'domandePiccanti'}
           />
         )}
 
@@ -414,19 +405,27 @@ function App() {
           t={t.game}
         />
 
-        {/* Pulsante RESET -> apre popup di conferma */}
+        {/* Pulsante Reset */}
         <div className="text-center mt-8">
           <button
             onClick={handleResetClick}
             className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md font-semibold transition-transform hover:scale-105"
           >
-            RESET PARTITA
+            {t.game.reset}
           </button>
         </div>
 
-        {/* Popup di penalità */}
+        {/* Popup fail */}
         {gameState.showFailedPopup && (
-          <FailedPopup onClose={closeFailedPopup} darkMode={gameState.darkMode} t={t.game} />
+          <FailedPopup
+            onClose={closeFailedPopup}
+            darkMode={gameState.darkMode}
+            t={{
+              failedPopupTitle: t.game.failedPopupTitle,
+              failedPopupMessage: t.game.failedPopupMessage,
+              ok: t.game.ok
+            }}
+          />
         )}
 
         {/* Popup evento globale */}
@@ -438,12 +437,16 @@ function App() {
           />
         )}
 
-        {/* Popup di conferma reset */}
+        {/* Popup conferma reset */}
         {showResetConfirm && (
           <ConfirmResetPopup
             onConfirm={handleConfirmReset}
             onCancel={handleCancelReset}
             darkMode={gameState.darkMode}
+            title={t.game.confirmResetTitle}
+            message={t.game.confirmResetMessage}
+            yesLabel={t.game.confirmResetYes}
+            noLabel={t.game.confirmResetNo}
           />
         )}
       </div>

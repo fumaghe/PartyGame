@@ -1,3 +1,4 @@
+// src/components/PlayerSetup.tsx
 import React, { useState } from 'react';
 import { UserPlus, Play, Users } from 'lucide-react';
 import { Player } from '../types';
@@ -20,20 +21,23 @@ export default function PlayerSetup({ onStartGame, darkMode, t }: PlayerSetupPro
   const handleAddPlayer = (e: React.FormEvent) => {
     e.preventDefault();
     if (playerName.trim()) {
-      setPlayers([...players, {
-        id: crypto.randomUUID(),
-        name: playerName.trim(),
-        score: 0
-      }]);
+      setPlayers([
+        ...players,
+        {
+          id: crypto.randomUUID(),
+          name: playerName.trim(),
+          score: 0,
+          completedChallenges: 0, // Aggiunti per evitare errori TS
+          failedChallenges: 0     // Aggiunti per evitare errori TS
+        }
+      ]);
       setPlayerName('');
     }
   };
 
   return (
     <div className="max-w-md mx-auto">
-      <div className={`${
-        darkMode ? 'bg-gray-800' : 'bg-white'
-      } rounded-2xl shadow-xl overflow-hidden`}>
+      <div className={`${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-2xl shadow-xl overflow-hidden`}>
         <div className="bg-gradient-to-r from-purple-600 to-blue-600 p-8 text-white text-center">
           <Users size={48} className="mx-auto mb-4" />
           <h2 className="text-3xl font-bold">{t.title}</h2>
@@ -63,6 +67,7 @@ export default function PlayerSetup({ onStartGame, darkMode, t }: PlayerSetupPro
             </div>
           </form>
 
+          {/* Lista giocatori aggiunti */}
           <div className="space-y-4">
             {players.map((player) => (
               <div
@@ -82,6 +87,7 @@ export default function PlayerSetup({ onStartGame, darkMode, t }: PlayerSetupPro
             ))}
           </div>
 
+          {/* Pulsante start */}
           <button
             onClick={() => players.length >= 2 && onStartGame(players)}
             disabled={players.length < 2}
