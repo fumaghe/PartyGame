@@ -18,7 +18,7 @@ import { Sun, Moon } from 'lucide-react';
 // Eventi globali random
 const globalEvents = [
   "Everyone drinks now!",
-  "The next challenge is worth double!",
+  "The next challenge is worth double sips!",
   "Reveal an embarrassing truth!",
   "The next 'fail' results in an extra drink!",
   "Swap your drink with the person to your left!",
@@ -26,13 +26,26 @@ const globalEvents = [
   "Round of Secret Coin Game!",
   "Round of Secret Coin Game!",
   "Round of Secret Coin Game!",
-  "Give someone at the table a sexy nickname!",
   "Give a compliment to someone of the opposite sex at the table!",
   "The player with the highest score must give someone a massage!",
   "Everyone must reveal their secret guilty pleasure!",
   "Take a shot without using your hands!",
   "Whisper something provocative in the ear of the person next to you!",
+  "The last person who took a drink must whisper something dirty to the person on their right!",
+  "Everyone sends a flirty text to the last person they matched with on a dating app, if they have one!",
+  "Swap an item of clothing with the person sitting across from you!",
+  "The person at the 4th place must play 'Guess the body part' with the last one on the ranking!",
+  "The people on odd ranking must read the last message received!",
+  "Look everyone in the face without speaking the first person to laugh must take a drink!",
+  "The next 'fail' results in the loser giving a 10-second lap dance!",
+  "Choose a person and describe their best feature… in the most seductive way possible!",
 ];
+
+/**
+ * Nota Importante:
+ * Assicurati che 'geoguessr' sia incluso in TopicType in types.ts.
+ * Inoltre, verifica che 'cardsAll.json' contenga i nuovi topic con i campi 'type' e 'image' dove necessario.
+ */
 
 // Stato iniziale del gioco
 const initialGameState: GameState = {
@@ -181,7 +194,7 @@ function App() {
     setTopics(updatedTopics);
   };
 
-  // Scelta di un topic => peschiamo una carta
+  // Selezione di un topic => peschiamo una carta
   const selectTopic = (choice: TopicChoice) => {
     const idx = topics.findIndex((t) => t.id === choice.id);
     if (idx === -1) return;
@@ -313,7 +326,7 @@ function App() {
   // Schermata di gioco
   const currentPlayer = gameState.players[gameState.currentPlayerIndex];
 
-  // Prepariamo i 2 topic proposti
+  // Prepariamo i topic proposti
   const topicChoices = gameState.availableTopics.map((choice) => {
     const fullTopic = topics.find((top) => top.id === choice.id);
     return {
@@ -392,8 +405,6 @@ function App() {
             darkMode={gameState.darkMode}
             currentLanguage={gameState.language}
             t={t.game}
-            // Passiamo l'ID del topic, per sapere se è 'culturaGenerale'
-            topicId={gameState.selectedTopic?.id || 'domandePiccanti'}
           />
         )}
 

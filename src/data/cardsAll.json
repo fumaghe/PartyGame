@@ -614,86 +614,38 @@
       }
     ],
     "killKissMarryFamosi": [
-      {
-        "it": "Beyoncé, Margot Robbie, Scarlett Johansson | Ryan Gosling, Henry Cavill, Chris Hemsworth?",
-        "en": "Beyoncé, Margot Robbie, Scarlett Johansson | Ryan Gosling, Henry Cavill, Chris Hemsworth?",
-        "fr": "Beyoncé, Margot Robbie, Scarlett Johansson | Ryan Gosling, Henry Cavill, Chris Hemsworth?"
-      },
-      {
-        "it": "Ariana Grande, Dua Lipa, Megan Fox | Tom Holland, Timothée Chalamet, Brad Pitt?",
-        "en": "Ariana Grande, Dua Lipa, Megan Fox | Tom Holland, Timothée Chalamet, Brad Pitt?",
-        "fr": "Ariana Grande, Dua Lipa, Megan Fox | Tom Holland, Timothée Chalamet, Brad Pitt?"
-      },
-      {
-        "it": "Taylor Swift, Jennifer Aniston, Emma Watson | Harry Styles, Keanu Reeves, Ryan Reynolds?",
-        "en": "Taylor Swift, Jennifer Aniston, Emma Watson | Harry Styles, Keanu Reeves, Ryan Reynolds?",
-        "fr": "Taylor Swift, Jennifer Aniston, Emma Watson | Harry Styles, Keanu Reeves, Ryan Reynolds?"
-      },
-      {
-        "it": "Zendaya, Selena Gomez, Gal Gadot | Chris Evans, Michael B. Jordan, Jason Momoa?",
-        "en": "Zendaya, Selena Gomez, Gal Gadot | Chris Evans, Michael B. Jordan, Jason Momoa?",
-        "fr": "Zendaya, Selena Gomez, Gal Gadot | Chris Evans, Michael B. Jordan, Jason Momoa?"
-      },
-      {
-        "it": "Lady Gaga, Shakira, Cardi B | Leonardo DiCaprio, Shawn Mendes, Justin Bieber?",
-        "en": "Lady Gaga, Shakira, Cardi B | Leonardo DiCaprio, Shawn Mendes, Justin Bieber?",
-        "fr": "Lady Gaga, Shakira, Cardi B | Leonardo DiCaprio, Shawn Mendes, Justin Bieber?"
-      },
-      {
-        "it": "Angelina Jolie, Natalie Portman, Megan Thee Stallion | Johnny Depp, Tom Hiddleston, Jake Gyllenhaal?",
-        "en": "Angelina Jolie, Natalie Portman, Megan Thee Stallion | Johnny Depp, Tom Hiddleston, Jake Gyllenhaal?",
-        "fr": "Angelina Jolie, Natalie Portman, Megan Thee Stallion | Johnny Depp, Tom Hiddleston, Jake Gyllenhaal?"
-      },
-      {
-        "it": "Billie Eilish, Camila Cabello, Olivia Rodrigo | Zac Efron, Dylan O'Brien, Andrew Garfield?",
-        "en": "Billie Eilish, Camila Cabello, Olivia Rodrigo | Zac Efron, Dylan O'Brien, Andrew Garfield?",
-        "fr": "Billie Eilish, Camila Cabello, Olivia Rodrigo | Zac Efron, Dylan O'Brien, Andrew Garfield?"
-      },
-      {
-        "it": "Katy Perry, Sofia Vergara, Priyanka Chopra | Dwayne Johnson, Tom Hardy, Chris Pratt?",
-        "en": "Katy Perry, Sofia Vergara, Priyanka Chopra | Dwayne Johnson, Tom Hardy, Chris Pratt?",
-        "fr": "Katy Perry, Sofia Vergara, Priyanka Chopra | Dwayne Johnson, Tom Hardy, Chris Pratt?"
-      },
-      {
-        "it": "Kylie Jenner, Kendall Jenner, Hailey Bieber | Robert Pattinson, Jacob Elordi, Oscar Isaac?",
-        "en": "Kylie Jenner, Kendall Jenner, Hailey Bieber | Robert Pattinson, Jacob Elordi, Oscar Isaac?",
-        "fr": "Kylie Jenner, Kendall Jenner, Hailey Bieber | Robert Pattinson, Jacob Elordi, Oscar Isaac?"
-      },
-      {
-        "it": "Meryl Streep, Emma Stone, Gigi Hadid | Jason Statham, Idris Elba, Adam Driver?",
-        "en": "Meryl Streep, Emma Stone, Gigi Hadid | Jason Statham, Idris Elba, Adam Driver?",
-        "fr": "Meryl Streep, Emma Stone, Gigi Hadid | Jason Statham, Idris Elba, Adam Driver?"
-      },
-      {
-        "it": "Salma Hayek, Jessica Alba, Emily Blunt | Paul Rudd, Benedict Cumberbatch, John Krasinski?",
-        "en": "Salma Hayek, Jessica Alba, Emily Blunt | Paul Rudd, Benedict Cumberbatch, John Krasinski?",
-        "fr": "Salma Hayek, Jessica Alba, Emily Blunt | Paul Rudd, Benedict Cumberbatch, John Krasinski?"
-      },
-      {
-        "it": "Jennifer Lopez, Christina Aguilera, Rita Ora | Cillian Murphy, Pedro Pascal, Kit Harington?",
-        "en": "Jennifer Lopez, Christina Aguilera, Rita Ora | Cillian Murphy, Pedro Pascal, Kit Harington?",
-        "fr": "Jennifer Lopez, Christina Aguilera, Rita Ora | Cillian Murphy, Pedro Pascal, Kit Harington?"
-      },
-      {
-        "it": "Rihanna, Nicki Minaj, FKA Twigs | Jared Leto, Harry Styles, Rami Malek?",
-        "en": "Rihanna, Nicki Minaj, FKA Twigs | Jared Leto, Harry Styles, Rami Malek?",
-        "fr": "Rihanna, Nicki Minaj, FKA Twigs | Jared Leto, Harry Styles, Rami Malek?"
-      },
-      {
-        "it": "Millie Bobby Brown, Hunter Schafer, Sydney Sweeney | Timothée Chalamet, Noah Centineo, Finn Wolfhard?",
-        "en": "Millie Bobby Brown, Hunter Schafer, Sydney Sweeney | Timothée Chalamet, Noah Centineo, Finn Wolfhard?",
-        "fr": "Millie Bobby Brown, Hunter Schafer, Sydney Sweeney | Timothée Chalamet, Noah Centineo, Finn Wolfhard?"
-      },
-      {
-        "it": "Halle Berry, Charlize Theron, Elizabeth Olsen | Oscar Isaac, Sebastian Stan, Richard Madden?",
-        "en": "Halle Berry, Charlize Theron, Elizabeth Olsen | Oscar Isaac, Sebastian Stan, Richard Madden?",
-        "fr": "Halle Berry, Charlize Theron, Elizabeth Olsen | Oscar Isaac, Sebastian Stan, Richard Madden?"
-      },
-      {
-        "it": "Lupita Nyong'o, Sandra Bullock, Anne Hathaway | Jake Gyllenhaal, Daniel Radcliffe, Rupert Grint?",
-        "en": "Lupita Nyong'o, Sandra Bullock, Anne Hathaway | Jake Gyllenhaal, Daniel Radcliffe, Rupert Grint?",
-        "fr": "Lupita Nyong'o, Sandra Bullock, Anne Hathaway | Jake Gyllenhaal, Daniel Radcliffe, Rupert Grint?"
-      }
+      { "it": "Barbara, Andrea, Pierluigi", "en": "Barbara, Andrea, Pierluigi", "fr": "Barbara, Andrea, Pierluigi" },
+      { "it": "Barbara, Nicolo, Nicolo", "en": "Barbara, Nicolo, Nicolo", "fr": "Barbara, Nicolo, Nicolo" },
+      { "it": "Melanie, Andrea, Matteo", "en": "Melanie, Andrea, Matteo", "fr": "Melanie, Andrea, Matteo" },
+      { "it": "Andrea, Giorgio, Nicolo", "en": "Andrea, Giorgio, Nicolo", "fr": "Andrea, Giorgio, Nicolo" },
+      { "it": "Andrea, Melanie, Rajoie", "en": "Andrea, Melanie, Rajoie", "fr": "Andrea, Melanie, Rajoie" },
+      { "it": "Giorgio, Andrea, Pierluigi", "en": "Giorgio, Andrea, Pierluigi", "fr": "Giorgio, Andrea, Pierluigi" },
+      { "it": "Nicolo, Nicolo, Pierluigi", "en": "Nicolo, Nicolo, Pierluigi", "fr": "Nicolo, Nicolo, Pierluigi" },
+      { "it": "Matteo, Rajoie, Nicolo", "en": "Matteo, Rajoie, Nicolo", "fr": "Matteo, Rajoie, Nicolo" },
+      { "it": "Matteo, Andrea, Melanie", "en": "Matteo, Andrea, Melanie", "fr": "Matteo, Andrea, Melanie" },
+      { "it": "Giorgio, Nicolo, Melanie", "en": "Giorgio, Nicolo, Melanie", "fr": "Giorgio, Nicolo, Melanie" },
+      { "it": "Matteo, Melanie, Matteo", "en": "Matteo, Melanie, Matteo", "fr": "Matteo, Melanie, Matteo" },
+      { "it": "Nicolo, Rajoie, Nicolo", "en": "Nicolo, Rajoie, Nicolo", "fr": "Nicolo, Rajoie, Nicolo" },
+      { "it": "Andrea, Pierluigi, Andrea", "en": "Andrea, Pierluigi, Andrea", "fr": "Andrea, Pierluigi, Andrea" },
+      { "it": "Rajoie, Melanie, Giorgio", "en": "Rajoie, Melanie, Giorgio", "fr": "Rajoie, Melanie, Giorgio" },
+      { "it": "Andrea, Rajoie, Pierluigi", "en": "Andrea, Rajoie, Pierluigi", "fr": "Andrea, Rajoie, Pierluigi" },
+      { "it": "Andrea, Giorgio, Giorgio", "en": "Andrea, Giorgio, Giorgio", "fr": "Andrea, Giorgio, Giorgio" },
+      { "it": "Rajoie, Barbara, Matteo", "en": "Rajoie, Barbara, Matteo", "fr": "Rajoie, Barbara, Matteo" },
+      { "it": "Barbara, Rajoie, Melanie", "en": "Barbara, Rajoie, Melanie", "fr": "Barbara, Rajoie, Melanie" },
+      { "it": "Giorgio, Matteo, Barbara", "en": "Giorgio, Matteo, Barbara", "fr": "Giorgio, Matteo, Barbara" },
+      { "it": "Pierluigi, Matteo, Pierluigi", "en": "Pierluigi, Matteo, Pierluigi", "fr": "Pierluigi, Matteo, Pierluigi" },
+      { "it": "Andrea, Matteo, Barbara", "en": "Andrea, Matteo, Barbara", "fr": "Andrea, Matteo, Barbara" },
+      { "it": "Pierluigi, Giorgio, Nicolo", "en": "Pierluigi, Giorgio, Nicolo", "fr": "Pierluigi, Giorgio, Nicolo" },
+      { "it": "Andrea, Melanie, Barbara", "en": "Andrea, Melanie, Barbara", "fr": "Andrea, Melanie, Barbara" },
+      { "it": "Andrea, Nicolo, Pierluigi", "en": "Andrea, Nicolo, Pierluigi", "fr": "Andrea, Nicolo, Pierluigi" },
+      { "it": "Nicolo, Barbara, Andrea", "en": "Nicolo, Barbara, Andrea", "fr": "Nicolo, Barbara, Andrea" },
+      { "it": "Andrea, Barbara, Melanie", "en": "Andrea, Barbara, Melanie", "fr": "Andrea, Barbara, Melanie" },
+      { "it": "Matteo, Pierluigi, Matteo", "en": "Matteo, Pierluigi, Matteo", "fr": "Matteo, Pierluigi, Matteo" },
+      { "it": "Nicolo, Andrea, Rajoie", "en": "Nicolo, Andrea, Rajoie", "fr": "Nicolo, Andrea, Rajoie" },
+      { "it": "Nicolo, Giorgio, Pierluigi", "en": "Nicolo, Giorgio, Pierluigi", "fr": "Nicolo, Giorgio, Pierluigi" },
+      { "it": "Barbara, Melanie, Pierluigi", "en": "Barbara, Melanie, Pierluigi", "fr": "Barbara, Melanie, Pierluigi" },
+      { "it": "Andrea, Pierluigi, Rajoie", "en": "Andrea, Pierluigi, Rajoie", "fr": "Andrea, Pierluigi, Rajoie" },
+      { "it": "Giorgio, Matteo, Rajoie", "en": "Giorgio, Matteo, Rajoie", "fr": "Giorgio, Matteo, Rajoie" }
     ],
     "chiInQuestaStanzaEPropenso": [
       {
@@ -1372,312 +1324,412 @@
       {
         "it": "Qual'è la capitale dell'Australia?",
         "en": "What is the capital of Australia?",
-        "fr": "Quelle est la capitale de l'Australie?"
+        "fr": "Quelle est la capitale de l'Australie?",
+        "answer": {
+          "it": "Canberra",
+          "en": "Canberra",
+          "fr": "Canberra"
+        }
       },
       {
         "it": "Chi ha dipinto la Gioconda?",
         "en": "Who painted the Mona Lisa?",
-        "fr": "Qui a peint la Joconde?"
+        "fr": "Qui a peint la Joconde?",
+        "answer": {
+          "it": "Leonardo da Vinci",
+          "en": "Leonardo da Vinci",
+          "fr": "Léonard de Vinci"
+        }
       },
       {
         "it": "Quanti continenti ci sono?",
         "en": "How many continents are there?",
-        "fr": "Combbien y a-t-il de continents?"
+        "fr": "Combien y a-t-il de continents?",
+        "answer": {
+          "it": "7",
+          "en": "7",
+          "fr": "7"
+        }
       },
       {
         "it": "Qual'è lo stato più piccolo al mondo?",
         "en": "What is the smallest country in the world?",
-        "fr": "Quel est le lus petit pays du monde?"
+        "fr": "Quel est le plus petit pays du monde?",
+        "answer": {
+          "it": "Città del Vaticano",
+          "en": "Vatican City",
+          "fr": "Cité du Vatican"
+        }
       },
       {
         "it": "In che anno è affondato il Titanic?",
         "en": "In which year did the Titanic sink?",
-        "fr": "En quelle annèe le Titanic a-t-il coulé?"
+        "fr": "En quelle année le Titanic a-t-il coulé?",
+        "answer": {
+          "it": "1912",
+          "en": "1912",
+          "fr": "1912"
+        }
       },
       {
-        "it": "Qual'è il simbolo chimica dell'oro?",
+        "it": "Qual'è il simbolo chimico dell'oro?",
         "en": "What is the chemical symbol for gold?",
-        "fr": "Quel est le symbole chimique de l'or?"
+        "fr": "Quel est le symbole chimique de l'or?",
+        "answer": {
+          "it": "Au",
+          "en": "Au",
+          "fr": "Au"
+        }
       },
       {
         "it": "Qual'è l'animale nazionale del Canada?",
         "en": "What is the national animal of Canada?",
-        "fr": "Quel est l'animal national du Canada?"
+        "fr": "Quel est l'animal national du Canada?",
+        "answer": {
+          "it": "Castoro",
+          "en": "Beaver",
+          "fr": "Castor"
+        }
       },
       {
-        "it": "Quanti calciatori compongono una partità di calcio?",
+        "it": "Quanti calciatori compongono una partita di calcio?",
         "en": "How many players are on a soccer match?",
-        "fr": "Combien de joueurs composent un match de football?"
+        "fr": "Combien de joueurs composent un match de football?",
+        "answer": {
+          "it": "22",
+          "en": "22",
+          "fr": "22"
+        }
       },
       {
         "it": "Chi ha scritto Romeo e Giulietta?",
         "en": "Who wrote Romeo and Juliet?",
-        "fr": "Qui a écrit Roméo et Juliette?"
+        "fr": "Qui a écrit Roméo et Juliette?",
+        "answer": {
+          "it": "William Shakespeare",
+          "en": "William Shakespeare",
+          "fr": "William Shakespeare"
+        }
       },
       {
         "it": "Qual'è l'oceano più grande del mondo?",
         "en": "What is the largest ocean on Earth?",
-        "fr": "Quel est l'océan le plus grand du monde?"
+        "fr": "Quel est l'océan le plus grand du monde?",
+        "answer": {
+          "it": "Oceano Pacifico",
+          "en": "Pacific Ocean",
+          "fr": "Océan Pacifique"
+        }
       },
       {
-        "it": "Qual'è l'animale di terra più veloce?",
+        "it": "Qual'è l'animale terrestre più veloce?",
         "en": "What is the fastest land animal?",
-        "fr": "Quel est l'animal terrestre le plus rapide?"
+        "fr": "Quel est l'animal terrestre le plus rapide?",
+        "answer": {
+          "it": "Ghepardo",
+          "en": "Cheetah",
+          "fr": "Guépard"
+        }
       },
       {
-        "it": "In che hanno è finita la seconda guerra mondiale?",
+        "it": "In che anno è finita la seconda guerra mondiale?",
         "en": "What year did WWII end?",
-        "fr": "En quelle année la Seconde Guerre mondiale s'est-elle terminée?"
+        "fr": "En quelle année la Seconde Guerre mondiale s'est-elle terminée?",
+        "answer": {
+          "it": "1945",
+          "en": "1945",
+          "fr": "1945"
+        }
       },
       {
         "it": "Qual'è l'ingrediente principale del guacamole?",
         "en": "What is the main ingredient in guacamole?",
-        "fr": "Quel est l'ingrédient principal su guacamole?"
+        "fr": "Quel est l'ingrédient principal du guacamole?",
+        "answer": {
+          "it": "Avocado",
+          "en": "Avocado",
+          "fr": "Avocat"
+        }
       },
       {
         "it": "Chi ha scoperto la gravità?",
         "en": "Who discovered gravity?",
-        "fr": "Qui a décourvert la gravité?"
+        "fr": "Qui a découvert la gravité?",
+        "answer": {
+          "it": "Isaac Newton",
+          "en": "Isaac Newton",
+          "fr": "Isaac Newton"
+        }
       },
       {
         "it": "Qual'è la montagna più alta del mondo?",
         "en": "What is the tallest mountain in the world?",
-        "fr": "Quelle est la plus haute montagne du monde?"
+        "fr": "Quelle est la montagne la plus haute du monde?",
+        "answer": {
+          "it": "Monte Everest",
+          "en": "Mount Everest",
+          "fr": "Mont Everest"
+        }
       },
       {
         "it": "Chi è il primo uomo ad aver camminato sulla luna?",
         "en": "Who was the first man to walk on the moon?",
-        "fr": "Qui a été la premier homme à marcher sur la Lune?"
+        "fr": "Qui a été le premier homme à marcher sur la Lune?",
+        "answer": {
+          "it": "Neil Armstrong",
+          "en": "Neil Armstrong",
+          "fr": "Neil Armstrong"
+        }
       },
       {
         "it": "Qual è il paese più grande del mondo per superficie?",
         "en": "What is the largest country in the world by area?",
-        "fr": "Quel est le plus grand pays du monde par superficie ?"
+        "fr": "Quel est le plus grand pays du monde par superficie?",
+        "answer": {
+          "it": "Russia",
+          "en": "Russia",
+          "fr": "Russie"
+        }
       },
       {
         "it": "Qual è il pianeta più vicino al sole?",
         "en": "What is the planet closest to the sun?",
-        "fr": "Quelle est la planète la plus proche du soleil ?"
+        "fr": "Quelle est la planète la plus proche du soleil?",
+        "answer": {
+          "it": "Mercurio",
+          "en": "Mercury",
+          "fr": "Mercure"
+        }
       },
       {
         "it": "In quale anno è avvenuto il primo sbarco sulla Luna?",
         "en": "In what year did the first moon landing occur?",
-        "fr": "En quelle année a eu lieu le premier alunissage ?"
+        "fr": "En quelle année a eu lieu le premier alunissage?",
+        "answer": {
+          "it": "1969",
+          "en": "1969",
+          "fr": "1969"
+        }
       },
       {
         "it": "Qual è la capitale della Spagna?",
         "en": "What is the capital of Spain?",
-        "fr": "Quelle est la capitale de l'Espagne ?"
+        "fr": "Quelle est la capitale de l'Espagne?",
+        "answer": {
+          "it": "Madrid",
+          "en": "Madrid",
+          "fr": "Madrid"
+        }
       },
       {
         "it": "Quanti colori ci sono nell'arcobaleno?",
         "en": "How many colors are there in a rainbow?",
-        "fr": "Combien de couleurs y a-t-il dans un arc-en-ciel ?"
+        "fr": "Combien de couleurs y a-t-il dans un arc-en-ciel?",
+        "answer": {
+          "it": "7",
+          "en": "7",
+          "fr": "7"
+        }
       },
       {
         "it": "Chi è conosciuto come il padre della fisica moderna?",
         "en": "Who is known as the father of modern physics?",
-        "fr": "Qui est connu comme le père de la physique moderne ?"
+        "fr": "Qui est connu comme le père de la physique moderne?",
+        "answer": {
+          "it": "Albert Einstein",
+          "en": "Albert Einstein",
+          "fr": "Albert Einstein"
+        }
       },
       {
         "it": "Qual è il fiume più lungo del mondo?",
         "en": "What is the longest river in the world?",
-        "fr": "Quel est le fleuve le plus long du monde ?"
+        "fr": "Quel est le fleuve le plus long du monde?",
+        "answer": {
+          "it": "Nilo",
+          "en": "Nile",
+          "fr": "Nil"
+        }
       },
       {
         "it": "Qual è l'animale più veloce sulla terra?",
         "en": "What is the fastest animal on land?",
-        "fr": "Quel est l'animal le plus rapide sur terre ?"
-      },
-      {
-        "it": "Chi ha dipinto la Gioconda?",
-        "en": "Who painted the Mona Lisa?",
-        "fr": "Qui a peint la Joconde ?"
-      },
-      {
-        "it": "Qual è il simbolo chimico dell'oro?",
-        "en": "What is the chemical symbol for gold?",
-        "fr": "Quel est le symbole chimique de l'or ?"
-      },
-      {
-        "it": "In quale paese si trova la Torre Eiffel?",
-        "en": "In which country is the Eiffel Tower located?",
-        "fr": "Dans quel pays se trouve la Tour Eiffel ?"
-      },
-      {
-        "it": "Quanti stati ci sono negli Stati Uniti?",
-        "en": "How many states are there in the United States?",
-        "fr": "Combien d'États y a-t-il aux États-Unis ?"
-      },
-      {
-        "it": "Qual è l'oceano più grande del mondo?",
-        "en": "What is the largest ocean in the world?",
-        "fr": "Quel est le plus grand océan du monde ?"
-      },
-      {
-        "it": "Chi è l'autore de 'L'Origine delle Specie'?",
-        "en": "Who is the author of 'The Origin of Species'?",
-        "fr": "Qui est l'auteur de 'L'Origine des espèces' ?"
-      },
-      {
-        "it": "Qual è la lingua più parlata al mondo?",
-        "en": "What is the most spoken language in the world?",
-        "fr": "Quelle est la langue la plus parlée dans le monde ?"
-      },
-      {
-        "it": "Qual è il metallo più abbondante nella crosta terrestre?",
-        "en": "What is the most abundant metal in the Earth's crust?",
-        "fr": "Quel est le métal le plus abondant dans la croûte terrestre ?"
-      },
-      {
-        "it": "Chi è stato il primo presidente degli Stati Uniti?",
-        "en": "Who was the first president of the United States?",
-        "fr": "Qui fut le premier président des États-Unis ?"
-      },
-      {
-        "it": "Quante ossa ci sono nel corpo umano?",
-        "en": "How many bones are there in the human body?",
-        "fr": "Combien d'os y a-t-il dans le corps humain ?"
-      },
-      {
-        "it": "In quale città si trovano le Piramidi di Giza?",
-        "en": "In which city are the Pyramids of Giza located?",
-        "fr": "Dans quelle ville se trouvent les Pyramides de Gizeh ?"
-      },
-      {
-        "it": "Qual è la valuta ufficiale del Giappone?",
-        "en": "What is the official currency of Japan?",
-        "fr": "Quelle est la monnaie officielle du Japon ?"
-      },
-      {
-        "it": "Chi ha scoperto la penicillina?",
-        "en": "Who discovered penicillin?",
-        "fr": "Qui a découvert la pénicilline ?"
-      },
-      {
-        "it": "Qual è il simbolo chimico dell'acqua?",
-        "en": "What is the chemical symbol for water?",
-        "fr": "Quel est le symbole chimique de l'eau ?"
-      },
-      {
-        "it": "Qual è la montagna più alta del mondo?",
-        "en": "What is the tallest mountain in the world?",
-        "fr": "Quelle est la montagne la plus haute du monde ?"
-      },
-      {
-        "it": "In quale continente si trova l'Egitto?",
-        "en": "On which continent is Egypt located?",
-        "fr": "Sur quel continent se trouve l'Égypte ?"
-      },
-      {
-        "it": "Qual è il nome del più grande mammifero marino?",
-        "en": "What is the name of the largest marine mammal?",
-        "fr": "Quel est le nom du plus grand mammifère marin ?"
-      },
-      {
-        "it": "Qual è il simbolo zodiacale di chi è nato a luglio?",
-        "en": "What is the zodiac sign for someone born in July?",
-        "fr": "Quel est le signe du zodiaque de quelqu'un né en juillet ?"
-      },
-      {
-        "it": "Qual è il colore del sangue ossigenato?",
-        "en": "What color is oxygenated blood?",
-        "fr": "Quelle est la couleur du sang oxygéné ?"
-      },
-      {
-        "it": "Qual è l'unico mammifero capace di volare?",
-        "en": "What is the only mammal capable of flight?",
-        "fr": "Quel est le seul mammifère capable de voler ?"
-      },
-      {
-        "it": "Qual è la capitale dell'Australia?",
-        "en": "What is the capital of Australia?",
-        "fr": "Quelle est la capitale de l'Australie ?"
+        "fr": "Quel est l'animal terrestre le plus rapide?",
+        "answer": {
+          "it": "Ghepardo",
+          "en": "Cheetah",
+          "fr": "Guépard"
+        }
       },
       {
         "it": "Chi ha dipinto 'La notte stellata'?",
         "en": "Who painted 'Starry Night'?",
-        "fr": "Qui a peint 'La Nuit étoilée' ?"
+        "fr": "Qui a peint 'La Nuit étoilée'?",
+        "answer": {
+          "it": "Vincent van Gogh",
+          "en": "Vincent van Gogh",
+          "fr": "Vincent van Gogh"
+        }
       },
       {
         "it": "Qual è il nome scientifico per l'uomo moderno?",
         "en": "What is the scientific name for modern humans?",
-        "fr": "Quel est le nom scientifique des humains modernes ?"
+        "fr": "Quel est le nom scientifique des humains modernes?",
+        "answer": {
+          "it": "Homo sapiens",
+          "en": "Homo sapiens",
+          "fr": "Homo sapiens"
+        }
       },
       {
         "it": "Qual è la capitale del Canada?",
         "en": "What is the capital of Canada?",
-        "fr": "Quelle est la capitale du Canada ?"
+        "fr": "Quelle est la capitale du Canada?",
+        "answer": {
+          "it": "Ottawa",
+          "en": "Ottawa",
+          "fr": "Ottawa"
+        }
       },
       {
         "it": "Quale animale è conosciuto come il 're della giungla'?",
         "en": "What animal is known as the 'king of the jungle'?",
-        "fr": "Quel animal est connu comme le 'roi de la jungle' ?"
+        "fr": "Quel animal est connu comme le 'roi de la jungle'?",
+        "answer": {
+          "it": "Leone",
+          "en": "Lion",
+          "fr": "Lion"
+        }
       },
       {
         "it": "Qual è il paese con più vulcani attivi al mondo?",
         "en": "Which country has the most active volcanoes in the world?",
-        "fr": "Quel pays a le plus de volcans actifs au monde ?"
+        "fr": "Quel pays a le plus de volcans actifs au monde?",
+        "answer": {
+          "it": "Indonesia",
+          "en": "Indonesia",
+          "fr": "Indonésie"
+        }
       },
       {
         "it": "Chi è il CEO di Tesla?",
         "en": "Who is the CEO of Tesla?",
-        "fr": "Qui est le PDG de Tesla ?"
+        "fr": "Qui est le PDG de Tesla?",
+        "answer": {
+          "it": "Elon Musk",
+          "en": "Elon Musk",
+          "fr": "Elon Musk"
+        }
       },
       {
         "it": "Qual è il frutto principale del cioccolato?",
         "en": "What is the main fruit used to make chocolate?",
-        "fr": "Quel est le fruit principal utilisé pour faire du chocolat ?"
+        "fr": "Quel est le fruit principal utilisé pour faire du chocolat ?",
+        "answer": {
+          "it": "Cacao",
+          "en": "Cacao",
+          "fr": "Cacao"
+        }
       },
       {
         "it": "Qual è il nome dell'autore di Harry Potter?",
         "en": "What is the name of the author of Harry Potter?",
-        "fr": "Quel est le nom de l'auteur de Harry Potter ?"
+        "fr": "Quel est le nom de l'auteur de Harry Potter ?",
+        "answer": {
+          "it": "J.K. Rowling",
+          "en": "J.K. Rowling",
+          "fr": "J.K. Rowling"
+        }
       },
       {
         "it": "Qual è la velocità della luce in km/s?",
         "en": "What is the speed of light in km/s?",
-        "fr": "Quelle est la vitesse de la lumière en km/s ?"
+        "fr": "Quelle est la vitesse de la lumière en km/s ?",
+        "answer": {
+          "it": "~300.000 km/s",
+          "en": "~300,000 km/s",
+          "fr": "~300 000 km/s"
+        }
       },
       {
         "it": "Chi è stato il primo uomo a volare nello spazio?",
         "en": "Who was the first man to fly into space?",
-        "fr": "Qui fut le premier homme à aller dans l'espace ?"
+        "fr": "Qui fut le premier homme à aller dans l'espace ?",
+        "answer": {
+          "it": "Yuri Gagarin",
+          "en": "Yuri Gagarin",
+          "fr": "Youri Gagarine"
+        }
       },
       {
         "it": "Qual è la capitale della Germania?",
         "en": "What is the capital of Germany?",
-        "fr": "Quelle est la capitale de l'Allemagne ?"
+        "fr": "Quelle est la capitale de l'Allemagne ?",
+        "answer": {
+          "it": "Berlino",
+          "en": "Berlin",
+          "fr": "Berlin"
+        }
       },
       {
         "it": "Qual è il metallo liquido a temperatura ambiente?",
         "en": "What is the liquid metal at room temperature?",
-        "fr": "Quel est le métal liquide à température ambiante ?"
+        "fr": "Quel est le métal liquide à température ambiante ?",
+        "answer": {
+          "it": "Mercurio",
+          "en": "Mercury",
+          "fr": "Mercure"
+        }
       },
       {
         "it": "Qual è il nome del pianeta rosso?",
         "en": "What is the name of the red planet?",
-        "fr": "Quel est le nom de la planète rouge ?"
+        "fr": "Quel est le nom de la planète rouge ?",
+        "answer": {
+          "it": "Marte",
+          "en": "Mars",
+          "fr": "Mars"
+        }
       },
       {
         "it": "Qual è l'unità di misura della corrente elettrica?",
         "en": "What is the unit of measurement for electric current?",
-        "fr": "Quelle est l'unité de mesure du courant électrique ?"
+        "fr": "Quelle est l'unité de mesure du courant électrique ?",
+        "answer": {
+          "it": "Ampere (A)",
+          "en": "Ampere (A)",
+          "fr": "Ampère (A)"
+        }
       },
       {
         "it": "Qual è la capitale dell'Italia?",
         "en": "What is the capital of Italy?",
-        "fr": "Quelle est la capitale de l'Italie ?"
+        "fr": "Quelle est la capitale de l'Italie ?",
+        "answer": {
+          "it": "Roma",
+          "en": "Rome",
+          "fr": "Rome"
+        }
       },
       {
         "it": "Qual è il colore della bandiera del Giappone?",
         "en": "What is the color of Japan’s flag?",
-        "fr": "Quelle est la couleur du drapeau japonais ?"
+        "fr": "Quelle est la couleur du drapeau japonais ?",
+        "answer": {
+          "it": "Bianca con un cerchio rosso",
+          "en": "White with a red circle",
+          "fr": "Blanc avec un cercle rouge"
+        }
       },
       {
         "it": "Chi ha scritto 'La Divina Commedia'?",
         "en": "Who wrote 'The Divine Comedy'?",
-        "fr": "Qui a écrit 'La Divine Comédie' ?"
+        "fr": "Qui a écrit 'La Divine Comédie' ?",
+        "answer": {
+          "it": "Dante Alighieri",
+          "en": "Dante Alighieri",
+          "fr": "Dante Alighieri"
+        }
       }
     ],
     "proEcontro": [
@@ -2155,6 +2207,748 @@
         "en": "Search 'what's your fantasy?' on WhatsApp and read the first message you find",
         "fr": "Cherche 'quel est ton fantasme?' sur WhatsApp et lis le premier message que tu trouves"
       }      
+    ],
+    "obbligo": [
+      {
+        "it": "Fai una danza divertente per 30 secondi.",
+        "en": "Do a funny dance for 30 seconds.",
+        "fr": "Fais une danse amusante pendant 30 secondes."
+      },
+      {
+        "it": "Racconta una barzelletta imbarazzante.",
+        "en": "Tell an embarrassing joke.",
+        "fr": "Raconte une blague embarrassante."
+      }
+    ],
+    "tabu": [
+      {
+        "it": "Parola da indovinare: Pizza",
+        "en": "Word to guess: Pizza",
+        "fr": "Mot à deviner : Pizza",
+        "tabu": ["Cibo", "Italia", "Formaggio"]
+      },
+      {
+        "it": "Parola da indovinare: Computer",
+        "en": "Word to guess: Computer",
+        "fr": "Mot à deviner : Ordinateur",
+        "tabu": ["Tecnologia", "Laptop", "Schermo"]
+      }
+    ],
+    "indovinaIlSegreto": [
+      {
+        "it": "Ho mai viaggiato da solo in un paese straniero.",
+        "en": "I have traveled alone to a foreign country.",
+        "fr": "J'ai voyagé seul dans un pays étranger."
+      },
+      {
+        "it": "Ho mai avuto un'esperienza paranormale.",
+        "en": "I have had a paranormal experience.",
+        "fr": "J'ai eu une expérience paranormale."
+      }
+    ],
+    "rankIT": [
+      {
+        "it": "Più simpatico",
+        "en": "Most friendly",
+        "fr": "Le plus amical"
+      },
+      {
+        "it": "Con chi ti baceresti",
+        "en": "Who you'd kiss",
+        "fr": "Qui tu embrasserais"
+      }
+    ],
+    "reazioneACatena": [
+      {
+        "it": "Parola da indovinare: Sole",
+        "en": "Word to guess: Sun",
+        "fr": "Mot à deviner : Soleil"
+      },
+      {
+        "it": "Parola da indovinare: Computer",
+        "en": "Word to guess: Computer",
+        "fr": "Mot à deviner : Ordinateur"
+      }
+    ],
+    "random": [
+      {
+        "it": "Fai il verso di un animale a tua scelta.",
+        "en": "Imitate the sound of an animal of your choice.",
+        "fr": "Imite le son d'un animal de ton choix."
+      },
+      {
+        "it": "Canta una strofa della tua canzone preferita.",
+        "en": "Sing a verse of your favorite song.",
+        "fr": "Chante un couplet de ta chanson préférée."
+      }
+    ],
+    "geoguessr": [
+      {
+        "id": "gg1",
+        "it": "Immagine del Colosseo",
+        "en": "Image of the Colosseum",
+        "fr": "Image du Colisée",
+        "image": "colosseo.png",
+        "answer": {
+          "it": "Roma, Italia",
+          "en": "Rome, Italy",
+          "fr": "Rome, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg2",
+        "it": "Immagine della Torre Eiffel",
+        "en": "Image of the Eiffel Tower",
+        "fr": "Image de la Tour Eiffel",
+        "image": "toureiffel.png",
+        "answer": {
+          "it": "Parigi, Francia",
+          "en": "Paris, France",
+          "fr": "Paris, France"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg3",
+        "it": "Immagine della Statua della Libertà",
+        "en": "Image of the Statue of Liberty",
+        "fr": "Image de la Statue de la Liberté",
+        "image": "statualiberta.png",
+        "answer": {
+          "it": "New York, USA",
+          "en": "New York, USA",
+          "fr": "New York, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg4",
+        "it": "Immagine del Taj Mahal",
+        "en": "Image of the Taj Mahal",
+        "fr": "Image du Taj Mahal",
+        "image": "tajmahal.png",
+        "answer": {
+          "it": "Agra, India",
+          "en": "Agra, India",
+          "fr": "Agra, Inde"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg5",
+        "it": "Immagine della Grande Muraglia Cinese",
+        "en": "Image of the Great Wall of China",
+        "fr": "Image de la Grande Muraille de Chine",
+        "image": "grandemuraglia.png",
+        "answer": {
+          "it": "Beijing, Cina",
+          "en": "Beijing, China",
+          "fr": "Pékin, Chine"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg6",
+        "it": "Immagine del Machu Picchu",
+        "en": "Image of Machu Picchu",
+        "fr": "Image du Machu Picchu",
+        "image": "machupicchu.png",
+        "answer": {
+          "it": "Cusco, Perù",
+          "en": "Cusco, Peru",
+          "fr": "Cusco, Pérou"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg7",
+        "it": "Immagine della Torre di Pisa",
+        "en": "Image of the Leaning Tower of Pisa",
+        "fr": "Image de la Tour de Pise",
+        "image": "torredipisa.png",
+        "answer": {
+          "it": "Pisa, Italia",
+          "en": "Pisa, Italy",
+          "fr": "Pise, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg8",
+        "it": "Immagine del Cristo Redentore",
+        "en": "Image of Christ the Redeemer",
+        "fr": "Image du Christ Rédempteur",
+        "image": "cristo.png",
+        "answer": {
+          "it": "Rio de Janeiro, Brasile",
+          "en": "Rio de Janeiro, Brazil",
+          "fr": "Rio de Janeiro, Brésil"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg9",
+        "it": "Immagine del Ponte di Brooklyn",
+        "en": "Image of the Brooklyn Bridge",
+        "fr": "Image du Pont de Brooklyn",
+        "image": "pontedibrooklyn.png",
+        "answer": {
+          "it": "New York, USA",
+          "en": "New York, USA",
+          "fr": "New York, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg10",
+        "it": "Immagine del Monte Fuji",
+        "en": "Image of Mount Fuji",
+        "fr": "Image du Mont Fuji",
+        "image": "montefuji.png",
+        "answer": {
+          "it": "Honshu, Giappone",
+          "en": "Honshu, Japan",
+          "fr": "Honshu, Japon"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg11",
+        "it": "Immagine del Ponte di Sydney",
+        "en": "Image of the Sydney Harbour Bridge",
+        "fr": "Image du Pont du Port de Sydney",
+        "image": "ponteSydney.png",
+        "answer": {
+          "it": "Sydney, Australia",
+          "en": "Sydney, Australia",
+          "fr": "Sydney, Australie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg12",
+        "it": "Immagine del Grand Canyon",
+        "en": "Image of the Grand Canyon",
+        "fr": "Image du Grand Canyon",
+        "image": "grandcanyon.png",
+        "answer": {
+          "it": "Arizona, USA",
+          "en": "Arizona, USA",
+          "fr": "Arizona, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg13",
+        "it": "Immagine della Piramide di Giza",
+        "en": "Image of the Pyramid of Giza",
+        "fr": "Image de la Pyramide de Gizeh",
+        "image": "pyramidedigiza.png",
+        "answer": {
+          "it": "Giza, Egitto",
+          "en": "Giza, Egypt",
+          "fr": "Gizeh, Égypte"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg14",
+        "it": "Immagine della Basilica di San Pietro",
+        "en": "Image of St. Peter's Basilica",
+        "fr": "Image de la Basilique Saint-Pierre",
+        "image": "santopietro.png",
+        "answer": {
+          "it": "Città del Vaticano",
+          "en": "Vatican City",
+          "fr": "Cité du Vatican"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg15",
+        "it": "Immagine della Statua di David",
+        "en": "Image of the Statue of David",
+        "fr": "Image de la Statue de David",
+        "image": "statudiavid.png",
+        "answer": {
+          "it": "Firenze, Italia",
+          "en": "Florence, Italy",
+          "fr": "Florence, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg16",
+        "it": "Immagine del Tempio di Angkor Wat",
+        "en": "Image of Angkor Wat Temple",
+        "fr": "Image du Temple d'Angkor Wat",
+        "image": "angkorwat.png",
+        "answer": {
+          "it": "Siem Reap, Cambogia",
+          "en": "Siem Reap, Cambodia",
+          "fr": "Siem Reap, Cambodge"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg17",
+        "it": "Immagine del Ponte del Diavolo",
+        "en": "Image of the Devil's Bridge",
+        "fr": "Image du Pont du Diable",
+        "image": "ponte_diavolo.png",
+        "answer": {
+          "it": "Kraków, Polonia",
+          "en": "Kraków, Poland",
+          "fr": "Cracovie, Pologne"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg18",
+        "it": "Immagine della Piazza San Marco",
+        "en": "Image of St. Mark's Square",
+        "fr": "Image de la Place Saint-Marc",
+        "image": "piazzasanmarco.png",
+        "answer": {
+          "it": "Venezia, Italia",
+          "en": "Venice, Italy",
+          "fr": "Venise, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg19",
+        "it": "Immagine del Tempio di Senso-ji",
+        "en": "Image of Senso-ji Temple",
+        "fr": "Image du Temple Senso-ji",
+        "image": "sensoji.png",
+        "answer": {
+          "it": "Tokyo, Giappone",
+          "en": "Tokyo, Japan",
+          "fr": "Tokyo, Japon"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg20",
+        "it": "Immagine del Ponte di Londra",
+        "en": "Image of the Tower Bridge",
+        "fr": "Image du Tower Bridge",
+        "image": "pontelondon.png",
+        "answer": {
+          "it": "Londra, Regno Unito",
+          "en": "London, United Kingdom",
+          "fr": "Londres, Royaume-Uni"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg21",
+        "it": "Immagine del Tempio di Borobudur",
+        "en": "Image of Borobudur Temple",
+        "fr": "Image du Temple de Borobudur",
+        "image": "borobudur.png",
+        "answer": {
+          "it": "Magelang, Indonesia",
+          "en": "Magelang, Indonesia",
+          "fr": "Magelang, Indonésie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg22",
+        "it": "Immagine del Golden Gate Bridge",
+        "en": "Image of the Golden Gate Bridge",
+        "fr": "Image du Golden Gate Bridge",
+        "image": "goldengate.png",
+        "answer": {
+          "it": "San Francisco, USA",
+          "en": "San Francisco, USA",
+          "fr": "San Francisco, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg23",
+        "it": "Immagine del Monte Bianco",
+        "en": "Image of Mont Blanc",
+        "fr": "Image du Mont Blanc",
+        "image": "montebianco.png",
+        "answer": {
+          "it": "Alpi, Italia/Francia",
+          "en": "Alps, Italy/France",
+          "fr": "Alpes, Italie/France"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg24",
+        "it": "Immagine del Tempio di Abu Simbel",
+        "en": "Image of Abu Simbel Temple",
+        "fr": "Image du Temple d'Abu Simbel",
+        "image": "abusimbel.png",
+        "answer": {
+          "it": "Abu Simbel, Egitto",
+          "en": "Abu Simbel, Egypt",
+          "fr": "Abu Simbel, Égypte"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg25",
+        "it": "Immagine del Ponte di Rialto",
+        "en": "Image of the Rialto Bridge",
+        "fr": "Image du Pont de Rialto",
+        "image": "ponterialto.png",
+        "answer": {
+          "it": "Venezia, Italia",
+          "en": "Venice, Italy",
+          "fr": "Venise, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg26",
+        "it": "Immagine della Statua della Libertà",
+        "en": "Image of the Statue of Liberty",
+        "fr": "Image de la Statue de la Liberté",
+        "image": "statualiberta2.png",
+        "answer": {
+          "it": "New York, USA",
+          "en": "New York, USA",
+          "fr": "New York, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg27",
+        "it": "Immagine del Taj Mahal",
+        "en": "Image of the Taj Mahal",
+        "fr": "Image du Taj Mahal",
+        "image": "tajmahal2.png",
+        "answer": {
+          "it": "Agra, India",
+          "en": "Agra, India",
+          "fr": "Agra, Inde"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg28",
+        "it": "Immagine della Torre di Pisa",
+        "en": "Image of the Leaning Tower of Pisa",
+        "fr": "Image de la Tour de Pise",
+        "image": "torredipisa2.png",
+        "answer": {
+          "it": "Pisa, Italia",
+          "en": "Pisa, Italy",
+          "fr": "Pise, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg29",
+        "it": "Immagine del Parco Nazionale di Yellowstone",
+        "en": "Image of Yellowstone National Park",
+        "fr": "Image du Parc national de Yellowstone",
+        "image": "yellowstone.png",
+        "answer": {
+          "it": "Wyoming, USA",
+          "en": "Wyoming, USA",
+          "fr": "Wyoming, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg30",
+        "it": "Immagine del Monte Kilimanjaro",
+        "en": "Image of Mount Kilimanjaro",
+        "fr": "Image du Mont Kilimandjaro",
+        "image": "montekilimanjaro.png",
+        "answer": {
+          "it": "Tanzania",
+          "en": "Tanzania",
+          "fr": "Tanzanie"
+        },
+        "type": "geoguessr"
+      }
+    ],  
+    "sfidaEmoji": [
+      {
+        "it": "🎬👨‍🚀🚀",
+        "en": "🎬👨‍🚀🚀",
+        "fr": "🎬👨‍🚀🚀",
+        "answer": {
+          "it": "Interstellar (Film)",
+          "en": "Interstellar (Movie)",
+          "fr": "Interstellar (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🍎👸",
+        "en": "🍎👸",
+        "fr": "🍎👸",
+        "answer": {
+          "it": "Beauty and the Beast (Film)",
+          "en": "Beauty and the Beast (Movie)",
+          "fr": "La Belle et la Bête (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🐰",
+        "en": "🎤🐰",
+        "fr": "🎤🐰",
+        "answer": {
+          "it": "Bad Bunny (Artista)",
+          "en": "Bad Bunny (Artist)",
+          "fr": "Bad Bunny (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🎵🌧️☂️",
+        "en": "🎵🌧️☂️",
+        "fr": "🎵🌧️☂️",
+        "answer": {
+          "it": "Singin' in the Rain (Canzone)",
+          "en": "Singin' in the Rain (Song)",
+          "fr": "Singin' in the Rain (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🦁👑",
+        "en": "🦁👑",
+        "fr": "🦁👑",
+        "answer": {
+          "it": "The Lion King (Film)",
+          "en": "The Lion King (Movie)",
+          "fr": "Le Roi Lion (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎸🤘",
+        "en": "🎸🤘",
+        "fr": "🎸🤘",
+        "answer": {
+          "it": "Metallica (Artista)",
+          "en": "Metallica (Artist)",
+          "fr": "Metallica (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🎶❤️",
+        "en": "🎶❤️",
+        "fr": "🎶❤️",
+        "answer": {
+          "it": "Shape of You di Ed Sheeran (Canzone)",
+          "en": "Shape of You by Ed Sheeran (Song)",
+          "fr": "Shape of You de Ed Sheeran (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🌟🕶️🎤",
+        "en": "🌟🕶️🎤",
+        "fr": "🌟🕶️🎤",
+        "answer": {
+          "it": "Elvis Presley (Artista)",
+          "en": "Elvis Presley (Artist)",
+          "fr": "Elvis Presley (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🎥🔫🦍",
+        "en": "🎥🔫🦍",
+        "fr": "🎥🔫🦍",
+        "answer": {
+          "it": "Jurassic Park (Film)",
+          "en": "Jurassic Park (Movie)",
+          "fr": "Jurassic Park (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🎶🐍",
+        "en": "🎤🎶🐍",
+        "fr": "🎤🎶🐍",
+        "answer": {
+          "it": "Eminem - Lose Yourself (Canzone)",
+          "en": "Eminem - Lose Yourself (Song)",
+          "fr": "Eminem - Lose Yourself (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬🧙‍♂️🧙‍♀️",
+        "en": "🎬🧙‍♂️🧙‍♀️",
+        "fr": "🎬🧙‍♂️🧙‍♀️",
+        "answer": {
+          "it": "Harry Potter (Film)",
+          "en": "Harry Potter (Movie)",
+          "fr": "Harry Potter (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤💔",
+        "en": "🎤💔",
+        "fr": "🎤💔",
+        "answer": {
+          "it": "Adele - Someone Like You (Canzone)",
+          "en": "Adele - Someone Like You (Song)",
+          "fr": "Adele - Someone Like You (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬🦸‍♂️🦸‍♀️",
+        "en": "🎬🦸‍♂️🦸‍♀️",
+        "fr": "🎬🦸‍♂️🦸‍♀️",
+        "answer": {
+          "it": "Avengers (Film)",
+          "en": "Avengers (Movie)",
+          "fr": "Avengers (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🎤🎶",
+        "en": "🎤🎤🎶",
+        "fr": "🎤🎤🎶",
+        "answer": {
+          "it": "The Beatles - Hey Jude (Canzone)",
+          "en": "The Beatles - Hey Jude (Song)",
+          "fr": "The Beatles - Hey Jude (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬👽",
+        "en": "🎬👽",
+        "fr": "🎬👽",
+        "answer": {
+          "it": "E.T. the Extra-Terrestrial (Film)",
+          "en": "E.T. the Extra-Terrestrial (Movie)",
+          "fr": "E.T. l'extra-terrestre (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🎹",
+        "en": "🎤🎹",
+        "fr": "🎤🎹",
+        "answer": {
+          "it": "Elton John (Artista)",
+          "en": "Elton John (Artist)",
+          "fr": "Elton John (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🎶🕺💃",
+        "en": "🎶🕺💃",
+        "fr": "🎶🕺💃",
+        "answer": {
+          "it": "Uptown Funk di Mark Ronson ft. Bruno Mars (Canzone)",
+          "en": "Uptown Funk by Mark Ronson ft. Bruno Mars (Song)",
+          "fr": "Uptown Funk de Mark Ronson ft. Bruno Mars (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬🤖🌆",
+        "en": "🎬🤖🌆",
+        "fr": "🎬🤖🌆",
+        "answer": {
+          "it": "Blade Runner (Film)",
+          "en": "Blade Runner (Movie)",
+          "fr": "Blade Runner (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🎤🎤🦁",
+        "en": "🎤🎤🎤🦁",
+        "fr": "🎤🎤🎤🦁",
+        "answer": {
+          "it": "The Lion King - Can You Feel the Love Tonight (Canzone)",
+          "en": "The Lion King - Can You Feel the Love Tonight (Song)",
+          "fr": "Le Roi Lion - Can You Feel the Love Tonight (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬🏰👸",
+        "en": "🎬🏰👸",
+        "fr": "🎬🏰👸",
+        "answer": {
+          "it": "Cinderella (Film)",
+          "en": "Cinderella (Movie)",
+          "fr": "Cendrillon (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🎤🎤🎤🎤🎶",
+        "en": "🎤🎤🎤🎤🎤🎶",
+        "fr": "🎤🎤🎤🎤🎤🎶",
+        "answer": {
+          "it": "Queen - Don't Stop Me Now (Canzone)",
+          "en": "Queen - Don't Stop Me Now (Song)",
+          "fr": "Queen - Don't Stop Me Now (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬👹",
+        "en": "🎬👹",
+        "fr": "🎬👹",
+        "answer": {
+          "it": "Hannibal (Film)",
+          "en": "Hannibal (Movie)",
+          "fr": "Hannibal (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🎤🕶️",
+        "en": "🎤🎤🕶️",
+        "fr": "🎤🎤🕶️",
+        "answer": {
+          "it": "Eminem (Artista)",
+          "en": "Eminem (Artist)",
+          "fr": "Eminem (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🎶💋",
+        "en": "🎶💋",
+        "fr": "🎶💋",
+        "answer": {
+          "it": "Katy Perry - I Kissed a Girl (Canzone)",
+          "en": "Katy Perry - I Kissed a Girl (Song)",
+          "fr": "Katy Perry - I Kissed a Girl (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬🏰🧙‍♂️",
+        "en": "🎬🏰🧙‍♂️",
+        "fr": "🎬🏰🧙‍♂️",
+        "answer": {
+          "it": "Harry Potter e la Pietra Filosofale (Film)",
+          "en": "Harry Potter and the Philosopher's Stone (Movie)",
+          "fr": "Harry Potter à l'école des sorciers (Film)"
+        },
+        "type": "movie"
+      }
     ]
-  }
-  
+}

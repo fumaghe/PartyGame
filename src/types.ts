@@ -20,6 +20,13 @@ export interface Card {
     fr: string;
   };
   used: boolean;
+  answer?: {
+    it: string;
+    en: string;
+    fr: string;
+  };
+  type?: 'movie' | 'song' | 'artist' | 'geoguessr' | 'default'; // Aggiunto
+  image?: string | null; // Aggiunto per geoguessr
 }
 
 export type TopicType = 
@@ -33,7 +40,16 @@ export type TopicType =
   | 'cupido'
   | 'culturaGenerale'
   | 'proEcontro'
-  | 'nonHomai';
+  | 'nonHomai'
+  // Nuovi Topic
+  | 'obbligo'
+  | 'tabu'
+  | 'indovinaIlSegreto'
+  | 'rankIT'
+  | 'reazioneACatena'
+  | 'random'
+  | 'sfidaEmoji'
+  | 'geoguessr'; // Aggiunto
 
 export interface Topic {
   id: TopicType;

@@ -6,15 +6,22 @@ import cardsAll from './cardsAll.json';
  * Crea un array di Card da un array di oggetti
  * { it: string; en: string; fr: string }
  */
-function createCardsForCategory(categoryData: { it: string; en: string; fr: string }[]) {
-  return categoryData.map((item, index) => ({
-    id: `${index}`,
+function createCardsForCategory(categoryData: any[]) {
+  return categoryData.map((item) => ({
+    id: item.id, // Assicurati che 'id' sia presente nel JSON
     content: {
       it: item.it,
       en: item.en,
       fr: item.fr,
     },
-    used: false
+    used: false,
+    answer: item.answer ? {
+      it: item.answer.it,
+      en: item.answer.en,
+      fr: item.answer.fr,
+    } : undefined,
+    type: item.type || 'default',
+    image: item.image || null,
   }));
 }
 
@@ -66,13 +73,6 @@ export function getTopics(): Topic[] {
       cards: createCardsForCategory(cardsAll.drink),
     },
     {
-      id: 'cercaELeggi',
-      name: 'Cerca e Leggi',
-      color: 'bg-emerald-500',
-      icon: 'Search',
-      cards: createCardsForCategory(cardsAll.cercaELeggi),
-    },
-    {
       id: 'cupido',
       name: 'Cupido',
       color: 'bg-rose-500',
@@ -100,5 +100,62 @@ export function getTopics(): Topic[] {
       icon: 'AlertCircle',
       cards: createCardsForCategory(cardsAll.nonHomai),
     },
+    // Nuovi Topic
+    {
+      id: 'obbligo',
+      name: 'Obbligo',
+      color: 'bg-yellow-500',
+      icon: 'AlertTriangle',
+      cards: createCardsForCategory(cardsAll.obbligo),
+    },
+    {
+      id: 'tabu',
+      name: 'Tabù',
+      color: 'bg-teal-500',
+      icon: 'Lock',
+      cards: createCardsForCategory(cardsAll.tabu),
+    },
+    {
+      id: 'indovinaIlSegreto',
+      name: 'Indovina il Segreto',
+      color: 'bg-purple-600',
+      icon: 'Eye',
+      cards: createCardsForCategory(cardsAll.indovinaIlSegreto),
+    },
+    {
+      id: 'rankIT',
+      name: 'Rank IT',
+      color: 'bg-pink-600',
+      icon: 'TrendingUp',
+      cards: createCardsForCategory(cardsAll.rankIT),
+    },
+    {
+      id: 'reazioneACatena',
+      name: 'Reazione a Catena',
+      color: 'bg-orange-500',
+      icon: 'Link',
+      cards: createCardsForCategory(cardsAll.reazioneACatena),
+    },
+    {
+      id: 'random',
+      name: 'Random',
+      color: 'bg-gray-600',
+      icon: 'Shuffle',
+      cards: createCardsForCategory(cardsAll.random),
+    },
+    {
+      id: 'sfidaEmoji',
+      name: 'Sfida Emoji',
+      color: 'bg-pink-700',
+      icon: 'Smile',
+      cards: createCardsForCategory(cardsAll.sfidaEmoji),
+    },
+    {
+      id: 'geoguessr',
+      name: 'GeoGuessr',
+      color: 'bg-green-700',
+      icon: 'MapPin',
+      cards: createCardsForCategory(cardsAll.geoguessr),
+    }
   ];
 }

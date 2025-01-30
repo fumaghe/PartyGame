@@ -21,21 +21,21 @@ export const translations = {
       completedChallenges: '',
       failedChallenges: '',
 
-      // Prima stavi mettendo questi altrove, ora li mettiamo dentro game
+      // Popups
       failedPopupTitle: 'Drink Up!',
       failedPopupMessage: 'You have accumulated 2 fails! Take a drink as penalty!',
       ok: 'OK',
 
-      // Tasto reset
+      // Reset Button
       reset: 'RESET GAME',
 
-      // Popup di conferma reset
+      // Reset Confirmation Popup
       confirmResetTitle: 'Confirm Reset',
       confirmResetMessage: 'Are you sure you want to reset the game? All data will be lost.',
       confirmResetYes: 'Yes, Reset',
       confirmResetNo: 'Cancel',
 
-      // SPOSTIAMO QUI i topics
+      // Topics
       topics: {
         domandePiccanti: 'Spicy Questions',
         cosaPreferirestiPiccante: 'Would You Rather',
@@ -47,7 +47,15 @@ export const translations = {
         culturaGenerale: 'General Culture',
         proEcontro: 'Pros & Cons',
         nonHomai: 'Never Have I Ever',
-        cercaELeggi: 'Search & Read'
+        cercaELeggi: 'Search & Read',
+        obbligo: 'Dare',
+        tabu: 'Taboo',
+        indovinaIlSegreto: 'Guess the Secret',
+        rankIT: 'Rank IT',
+        reazioneACatena: 'Chain Reaction',
+        random: 'Random',
+        sfidaEmoji: 'Emoji Challenge',
+        geoguessr: 'GeoGuessr'
       }
     }
   },
@@ -73,17 +81,21 @@ export const translations = {
       completedChallenges: '',
       failedChallenges: '',
 
+      // Popups
       failedPopupTitle: 'À boire !',
       failedPopupMessage: 'Vous avez accumulé 2 échecs ! Prenez un verre en pénalité !',
       ok: 'OK',
 
+      // Reset Button
       reset: 'RÉINITIALISER',
 
+      // Reset Confirmation Popup
       confirmResetTitle: 'Confirmer la Réinitialisation',
       confirmResetMessage: 'Êtes-vous sûr de vouloir réinitialiser la partie ? Toutes les données seront perdues.',
       confirmResetYes: 'Oui, Réinitialiser',
       confirmResetNo: 'Annuler',
 
+      // Topics
       topics: {
         domandePiccanti: 'Questions Épicées',
         cosaPreferirestiPiccante: 'Que Préféreriez-vous',
@@ -95,7 +107,15 @@ export const translations = {
         culturaGenerale: 'Culture Générale',
         proEcontro: 'Pour & Contre',
         nonHomai: "Je n'ai jamais...",
-        cercaELeggi: 'Chercher & Lire'
+        cercaELeggi: 'Chercher & Lire',
+        obbligo: 'Gage',
+        tabu: 'Tabou',
+        indovinaIlSegreto: 'Devine le Secret',
+        rankIT: 'Classement',
+        reazioneACatena: 'Réaction en Chaîne',
+        random: 'Aléatoire',
+        sfidaEmoji: 'Défi Emoji',
+        geoguessr: 'GeoGuessr'
       }
     }
   },
@@ -121,17 +141,21 @@ export const translations = {
       completedChallenges: '',
       failedChallenges: '',
 
+      // Popups
       failedPopupTitle: 'Bevi!',
       failedPopupMessage: 'Hai accumulato 2 fallimenti! Bevi un sorso come penalità!',
       ok: 'OK',
 
+      // Reset Button
       reset: 'RESET PARTITA',
 
+      // Reset Confirmation Popup
       confirmResetTitle: 'Conferma Reset',
       confirmResetMessage: 'Sei sicuro di voler resettare la partita? Tutti i dati andranno persi.',
       confirmResetYes: 'Sì, Reset',
       confirmResetNo: 'Annulla',
 
+      // Topics
       topics: {
         domandePiccanti: 'Domande Piccanti',
         cosaPreferirestiPiccante: 'Cosa Preferiresti',
@@ -143,7 +167,15 @@ export const translations = {
         culturaGenerale: 'Cultura Generale',
         proEcontro: 'Pro & Contro',
         nonHomai: 'Non Ho Mai',
-        cercaELeggi: 'Cerca e Leggi'
+        cercaELeggi: 'Cerca e Leggi',
+        obbligo: 'Obbligo',
+        tabu: 'Tabù',
+        indovinaIlSegreto: 'Indovina il Segreto',
+        rankIT: 'Rank IT',
+        reazioneACatena: 'Reazione a Catena',
+        random: 'Random',
+        sfidaEmoji: 'Sfida Emoji',
+        geoguessr: 'GeoGuessr'
       }
     }
   }
