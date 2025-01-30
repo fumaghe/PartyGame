@@ -8,6 +8,7 @@ import {
   TopicChoice,
   Language,
   CupidoRestriction,
+  Card,
 } from './types';
 import { getTopics } from './data/topics';
 import { translations } from './i18n/translations';
@@ -182,7 +183,7 @@ function App() {
     }));
   };
 
-  // Selezioniamo 2 topic random
+  // Selezioniamo 2 topic random con punti nei range specificati
   const selectRandomTopicChoices = (currentHistory: TopicType[]): TopicChoice[] => {
     const historyLimit = 5;
     const maxRepetitions = 2;
@@ -208,8 +209,15 @@ function App() {
 
     return selected.map((t) => ({
       id: t.id,
-      points: 1 + Math.floor(Math.random() * 5),
+      points: getRandomInt(t.minPoints, t.maxPoints),
     }));
+  };
+
+  // Funzione per ottenere un numero intero casuale tra min e max (inclusi)
+  const getRandomInt = (min: number, max: number): number => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   };
 
   // Resetta carte usate per un topic
@@ -470,6 +478,8 @@ function App() {
       displayName: t.game.topics
         ? t.game.topics[choice.id as keyof typeof t.game.topics]
         : fullTopic?.name || 'Unknown',
+      minPoints: fullTopic?.minPoints || 1,
+      maxPoints: fullTopic?.maxPoints || 5,
     };
   });
 

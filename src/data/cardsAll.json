@@ -2421,26 +2421,6 @@
         "fr": "Imite le cri de ton animal préféré."
       },
       {
-        "it": "Disegna qualcosa di divertente in 30 secondi.",
-        "en": "Draw something funny in 30 seconds.",
-        "fr": "Dessine quelque chose de drôle en 30 secondes."
-      },
-      {
-        "it": "Racconta una barzelletta che conosci.",
-        "en": "Tell a joke you know.",
-        "fr": "Raconte une blague que tu connais."
-      },
-      {
-        "it": "Conta alla rovescia da 20 facendo una faccia buffa ad ogni numero.",
-        "en": "Count down from 20 while making a funny face at each number.",
-        "fr": "Compte à rebours depuis 20 en faisant une grimace à chaque chiffre."
-      },
-      {
-        "it": "Fai il robot per 15 secondi.",
-        "en": "Do the robot dance for 15 seconds.",
-        "fr": "Fais la danse du robot pendant 15 secondes."
-      },
-      {
         "it": "Imita qualcuno nel gruppo e fai indovinare chi è.",
         "en": "Imitate someone in the group and let others guess who it is.",
         "fr": "Imite quelqu'un du groupe et laisse les autres deviner qui c'est."
@@ -3035,225 +3015,305 @@
     ],
     "rankIT": [
       {
-        "it": "Più simpatico",
-        "en": "Most friendly",
-        "fr": "Le plus amical",
-        "pro": [
-          "Fa ridere tutti",
-          "Sempre positivo",
-          "Sa ascoltare"
-        ],
-        "contro": [
-          "A volte troppo esuberante",
-          "Parla troppo",
-          "Non prende mai nulla sul serio"
-        ]
+        "it": "Chi parla di più",
+        "en": "Who talks the most",
+        "fr": "Qui parle le plus"
       },
       {
-          "it": "Più misterioso",
-          "en": "Most mysterious",
-          "fr": "Le plus mystérieux",
-          "pro": ["Affascinante", "Difficile da capire", "Ha sempre qualcosa da nascondere"],
-          "contro": ["Troppo enigmatico", "Non si sa mai cosa pensa", "Sparisce senza spiegazioni"]
+        "it": "Più affascinante",
+        "en": "Most charming",
+        "fr": "Le plus charmant"
       },
       {
-          "it": "Chi ha più stile",
-          "en": "Who has the best style",
-          "fr": "Qui a le plus de style",
-          "pro": ["Sempre ben vestito/a", "Attento/a ai dettagli", "Segue la moda"],
-          "contro": ["Troppo vanitoso/a", "Critica gli altri", "Spende troppo in vestiti"]
+        "it": "Più difficile da capire",
+        "en": "Hardest to understand",
+        "fr": "Le plus difficile à comprendre"
       },
       {
-          "it": "Più probabile a ubriacarsi per primo",
-          "en": "Most likely to get drunk first",
-          "fr": "Le plus susceptible de se saouler en premier",
-          "pro": ["Sa divertirsi", "Anima della festa", "Sempre allegro/a"],
-          "contro": ["Si perde nei locali", "Dice cose imbarazzanti", "Dorme ovunque"]
+        "it": "Più attento/a ai dettagli",
+        "en": "Most detail-oriented",
+        "fr": "Le plus attentif aux détails"
       },
       {
-          "it": "Chi sarebbe il miglior compagno di viaggio",
-          "en": "Who would be the best travel companion",
-          "fr": "Qui serait le meilleur compagnon de voyage",
-          "pro": ["Organizzato/a", "Ama esplorare", "Sempre pronto/a per l’avventura"],
-          "contro": ["Si perde facilmente", "Troppo pignolo/a", "Non sopporta i ritardi"]
+        "it": "Sempre il/la meglio vestito/a",
+        "en": "Always the best dressed",
+        "fr": "Toujours le/la mieux habillé(e)"
       },
       {
-          "it": "Più probabile a litigare con uno sconosciuto",
-          "en": "Most likely to argue with a stranger",
-          "fr": "Le plus susceptible de se disputer avec un inconnu",
-          "pro": ["Difende le sue idee", "Non ha paura del confronto", "Sempre sicuro/a di sé"],
-          "contro": ["Troppo testardo/a", "Si scalda facilmente", "Trasforma tutto in una sfida"]
+        "it": "Anima della festa",
+        "en": "Life of the party",
+        "fr": "L'âme de la fête"
       },
       {
-          "it": "Chi sopravviverebbe a un’apocalisse zombie",
-          "en": "Who would survive a zombie apocalypse",
-          "fr": "Qui survivrait à une apocalypse zombie",
-          "pro": ["Astuto/a", "Sa adattarsi", "Non si fa prendere dal panico"],
-          "contro": ["Lascia indietro gli altri", "Non ha empatia", "Forse troppo egoista"]
+        "it": "Chi sa divertirsi di più",
+        "en": "Who knows how to have the most fun",
+        "fr": "Qui sait le mieux s'amuser"
       },
       {
-          "it": "Chi è il più probabile a avere una cotta segreta",
-          "en": "Most likely to have a secret crush",
-          "fr": "Le plus susceptible d'avoir un béguin secret",
-          "pro": ["Romantico/a", "Molto riservato/a", "Osserva in silenzio"],
-          "contro": ["Non fa mai la prima mossa", "Troppo timido/a", "Aspetta troppo a lungo"]
+        "it": "Chi ha più stile",
+        "en": "Who has the most style",
+        "fr": "Qui a le plus de style"
       },
       {
-          "it": "Chi è il miglior cuoco",
-          "en": "Who is the best cook",
-          "fr": "Qui est le meilleur cuisinier",
-          "pro": ["Sempre creativo/a in cucina", "Ama sperimentare", "Prepara cene incredibili"],
-          "contro": ["Lascia la cucina un disastro", "A volte esagera con gli esperimenti", "Si arrabbia se qualcuno tocca i suoi piatti"]
+        "it": "Più probabile a ubriacarsi per primo",
+        "en": "Most likely to get drunk first",
+        "fr": "Le plus susceptible de se saouler en premier"
       },
       {
-          "it": "Chi è più probabile a dimenticare un appuntamento",
-          "en": "Most likely to forget a date",
-          "fr": "Le plus susceptible d'oublier un rendez-vous",
-          "pro": ["Molto indipendente", "Non si stressa", "Sempre rilassato/a"],
-          "contro": ["Non controlla mai l’agenda", "Si scorda tutto", "Sempre in ritardo"]
+        "it": "Chi sarebbe il miglior compagno di viaggio",
+        "en": "Who would be the best travel companion",
+        "fr": "Qui serait le meilleur compagnon de voyage"
       },
       {
-          "it": "Chi sarebbe il miglior detective",
-          "en": "Who would be the best detective",
-          "fr": "Qui serait le meilleur détective",
-          "pro": ["Molto osservatore", "Bravo/a a capire le persone", "Riesce sempre a scoprire la verità"],
-          "contro": ["Forse troppo curioso/a", "Si fa troppi film mentali", "Non lascia mai andare nulla"]
+        "it": "Troppo pignolo/a",
+        "en": "Too picky",
+        "fr": "Trop pointilleux/pointilleuse"
+      },
+      {
+        "it": "Troppo testardo/a",
+        "en": "Too stubborn",
+        "fr": "Trop têtu(e)"
+      },
+      {
+        "it": "Più furbo",
+        "en": "Most cunning",
+        "fr": "Le plus malin"
+      },
+      {
+        "it": "Più intelligente",
+        "en": "Most intelligent",
+        "fr": "Le plus intelligent"
+      },
+      {
+        "it": "Più calmo",
+        "en": "Most calm",
+        "fr": "Le plus calme"
+      },
+      {
+        "it": "Più stronzo",
+        "en": "Biggest jerk",
+        "fr": "Le plus con"
+      },
+      {
+        "it": "Più romantico/a",
+        "en": "Most romantic",
+        "fr": "Le plus romantique"
+      },
+      {
+        "it": "Più bravo in cucina",
+        "en": "Best at cooking",
+        "fr": "Le meilleur en cuisine"
+      },
+      {
+        "it": "Più competitivo",
+        "en": "Most competitive",
+        "fr": "Le plus compétitif"
+      },
+      {
+        "it": "Più adattabile",
+        "en": "Most adaptable",
+        "fr": "Le plus adaptable"
+      },
+      {
+        "it": "Chi sarebbe il miglior detective",
+        "en": "Who would be the best detective",
+        "fr": "Qui serait le meilleur détective"
       },
       {
         "it": "Con chi ti baceresti",
-        "en": "Who you'd kiss",
-        "fr": "Qui tu embrasserais",
-        "pro": [
-          "Bello/a",
-          "Buon bacio",
-          "Carismatico/a"
-        ],
-        "contro": [
-          "Forse troppo flirtatore/trice",
-          "Non si impegna",
-          "Troppi ex"
-        ]
+        "en": "Who would you kiss",
+        "fr": "Avec qui embrasserais-tu"
       },
       {
-        "it": "Più probabile diventare famoso",
+        "it": "Il/La più bello/a",
+        "en": "The most beautiful",
+        "fr": "Le plus beau / La plus belle"
+      },
+      {
+        "it": "Più probabile a diventare famoso",
         "en": "Most likely to become famous",
-        "fr": "Le plus susceptible de devenir célèbre",
-        "pro": [
-          "Molto talentuoso/a",
-          "Carismatico/a",
-          "Sempre al centro dell’attenzione"
-        ],
-        "contro": [
-          "Troppo egocentrico/a",
-          "Fa gossip su tutti",
-          "Non reggerebbe la pressione"
-        ]
+        "fr": "Le plus susceptible de devenir célèbre"
       },
       {
-        "it": "Chi farebbe più casino in una festa",
+        "it": "Più talentuoso/a",
+        "en": "Most talented",
+        "fr": "Le plus talentueux"
+      },
+      {
+        "it": "Fa gossip su tutti",
+        "en": "Gossips about everyone",
+        "fr": "Raconte des potins sur tout le monde"
+      },
+      {
+        "it": "Chi farebbe più casino a una festa",
         "en": "Who would make the most mess at a party",
-        "fr": "Qui mettrait le plus de bazar à une fête",
-        "pro": [
-          "Sa come far divertire",
-          "Non ha limiti",
-          "L’anima della festa"
-        ],
-        "contro": [
-          "Troppo rumoroso/a",
-          "Ubriaco/a dopo un’ora",
-          "Sempre nei guai"
-        ]
+        "fr": "Qui mettrait le plus de bazar à une fête"
       },
       {
-        "it": "Chi sarebbe il miglior partner per una fuga romantica",
-        "en": "Who would be the best partner for a romantic getaway",
-        "fr": "Qui serait le meilleur partenaire pour une escapade romantique",
-        "pro": [
-          "Molto romantico/a",
-          "Ama viaggiare",
-          "Sempre premuroso/a"
-        ],
-        "contro": [
-          "Troppo appiccicoso/a",
-          "Non sa organizzare",
-          "Si perde facilmente"
-        ]
+        "it": "Chi è più probabile ad avere una doppia vita",
+        "en": "Who is most likely to have a double life",
+        "fr": "Qui est le plus susceptible d'avoir une double vie"
       },
       {
-        "it": "Chi potrebbe sparire per mesi senza dire nulla",
-        "en": "Who could disappear for months without saying anything",
-        "fr": "Qui pourrait disparaître pendant des mois sans prévenir",
-        "pro": [
-          "Molto indipendente",
-          "Vive alla giornata",
-          "Ama l’avventura"
-        ],
-        "contro": [
-          "Zero contatti con il mondo",
-          "Dimentica tutto",
-          "Non si fa mai trovare"
-        ]
+        "it": "Più riservato/a",
+        "en": "Most reserved",
+        "fr": "Le plus réservé"
       },
       {
-        "it": "Chi è il più probabile ad avere una doppia vita",
-        "en": "Most likely to have a double life",
-        "fr": "Le plus susceptible d'avoir une double vie",
-        "pro": [
-          "Molto riservato/a",
-          "Misterioso/a",
-          "Sa mentire bene"
-        ],
-        "contro": [
-          "Nasconde troppi segreti",
-          "Difficile da capire",
-          "Troppo enigmatico/a"
-        ]
+        "it": "Chi è più probabile a flirtare senza accorgersene",
+        "en": "Who is most likely to flirt without realizing it",
+        "fr": "Qui est le plus susceptible de flirter sans s'en rendre compte"
       },
       {
-        "it": "Chi è il più probabile a flirtare senza accorgersene",
-        "en": "Most likely to flirt without realizing",
-        "fr": "Le plus susceptible de flirter sans s'en rendre compte",
-        "pro": [
-          "Super carismatico/a",
-          "Sempre gentile",
-          "Sa fare complimenti"
-        ],
-        "contro": [
-          "Troppo confuso/a",
-          "Illude la gente",
-          "Non si rende conto di nulla"
-        ]
+        "it": "Più egocentrico",
+        "en": "Most self-centered",
+        "fr": "Le plus égocentrique"
       },
       {
-        "it": "Chi è il più probabile a mandare un messaggio imbarazzante per sbaglio",
-        "en": "Most likely to send an embarrassing message by mistake",
-        "fr": "Le plus susceptible d'envoyer un message embarrassant par erreur",
-        "pro": [
-          "Scrive messaggi velocemente",
-          "Si fida troppo della tecnologia",
-          "Veloce nelle risposte"
-        ],
-        "contro": [
-          "Mai controlla i messaggi",
-          "Troppi errori di battitura",
-          "Invia messaggi alla persona sbagliata"
-        ]
+        "it": "Più lunatico",
+        "en": "Most moody",
+        "fr": "Le plus lunatique"
       },
       {
-        "it": "Chi è il più probabile a iniziare una discussione su un argomento inutile",
-        "en": "Most likely to start an argument over something trivial",
-        "fr": "Le plus susceptible de commencer une dispute sur un sujet insignifiant",
-        "pro": [
-          "Sa difendere le sue idee",
-          "Molto appassionato/a",
-          "Sempre pronto/a al dibattito"
-        ],
-        "contro": [
-          "Troppo testardo/a",
-          "Non lascia mai perdere",
-          "Trasforma tutto in una sfida"
-        ]
-      }  
+        "it": "Più falso/a",
+        "en": "Most fake",
+        "fr": "Le plus faux/fausse"
+      },
+      {
+        "it": "Più imprevedibile",
+        "en": "Most unpredictable",
+        "fr": "Le plus imprévisible"
+      },
+      {
+        "it": "Più drammatico/a",
+        "en": "Most dramatic",
+        "fr": "Le plus dramatique"
+      },
+      {
+        "it": "Più velenoso/a con le parole",
+        "en": "Most sharp-tongued",
+        "fr": "Le plus acéré avec les mots"
+      },
+      {
+        "it": "Più probabile a fare ghosting",
+        "en": "Most likely to ghost someone",
+        "fr": "Le plus susceptible de disparaître du jour au lendemain"
+      },
+      {
+        "it": "Più arrogante",
+        "en": "Most arrogant",
+        "fr": "Le plus arrogant"
+      },
+      {
+        "it": "Più opportunista",
+        "en": "Most opportunistic",
+        "fr": "Le plus opportuniste"
+      },
+      {
+        "it": "Più probabile a rubarti il partner",
+        "en": "Most likely to steal your partner",
+        "fr": "Le plus susceptible de te voler ton/ta partenaire"
+      },
+      {
+        "it": "Più inaffidabile",
+        "en": "Most unreliable",
+        "fr": "Le plus peu fiable"
+      },
+      {
+        "it": "Più probabile a non farsi più sentire",
+        "en": "Most likely to disappear without a trace",
+        "fr": "Le plus susceptible de disparaître sans laisser de traces"
+      },
+      {
+        "it": "Più probabile a finire in un drama",
+        "en": "Most likely to get caught in drama",
+        "fr": "Le plus susceptible de se retrouver dans un drame"
+      },
+      {
+        "it": "Più probabile a sparire dopo una notte di passione",
+        "en": "Most likely to disappear after a one-night stand",
+        "fr": "Le plus susceptible de disparaître après une nuit de passion"
+      },
+      {
+        "it": "Più provocante",
+        "en": "Most provocative",
+        "fr": "Le plus provocateur/provocatrice"
+      },
+      {
+        "it": "Più probabile a prendersela per tutto",
+        "en": "Most likely to take everything personally",
+        "fr": "Le plus susceptible de tout prendre personnellement"
+      },
+      {
+        "it": "Più competitivo/a fino all'eccesso",
+        "en": "Most excessively competitive",
+        "fr": "Le plus compétitif à l'excès"
+      },
+      {
+        "it": "Più manipolatore/trice",
+        "en": "Most manipulative",
+        "fr": "Le plus manipulateur/manipulatrice"
+      },
+      {
+        "it": "Più probabile a fare scenate di gelosia",
+        "en": "Most likely to have jealousy fits",
+        "fr": "Le plus susceptible de faire des crises de jalousie"
+      },
+      {
+        "it": "Più sarcastico/a",
+        "en": "Most sarcastic",
+        "fr": "Le plus sarcastique"
+      },
+      {
+        "it": "Più vendicativo/a",
+        "en": "Most vengeful",
+        "fr": "Le plus rancunier/rancunière"
+      },
+      {
+        "it": "Più probabile a far soffrire qualcuno in amore",
+        "en": "Most likely to break someone's heart",
+        "fr": "Le plus susceptible de briser le cœur de quelqu'un"
+      },
+      {
+        "it": "Più teatrale",
+        "en": "Most theatrical",
+        "fr": "Le plus théâtral"
+      },
+      {
+        "it": "Più probabile a essere un ex tossico",
+        "en": "Most likely to be a toxic ex",
+        "fr": "Le plus susceptible d'être un(e) ex toxique"
+      },
+      {
+        "it": "Più permaloso/a",
+        "en": "Most touchy",
+        "fr": "Le plus susceptible"
+      },
+      {
+        "it": "Più probabile a flirtare con chiunque",
+        "en": "Most likely to flirt with anyone",
+        "fr": "Le plus susceptible de flirter avec tout le monde"
+      },
+      {
+        "it": "Più freddo/a emotivamente",
+        "en": "Most emotionally cold",
+        "fr": "Le plus froid émotionnellement"
+      },
+      {
+        "it": "Più egocentrico/a ma lo nega",
+        "en": "Most self-centered but denies it",
+        "fr": "Le plus égocentrique mais le nie"
+      },
+      {
+        "it": "Più probabile a sparire dopo un litigio",
+        "en": "Most likely to disappear after an argument",
+        "fr": "Le plus susceptible de disparaître après une dispute"
+      },
+      {
+        "it": "Più probabile a fare il doppio gioco",
+        "en": "Most likely to play both sides",
+        "fr": "Le plus susceptible de jouer sur les deux tableaux"
+      }
     ],
     "reazioneACatena": [
       {
@@ -4186,6 +4246,281 @@
         "type": "movie"
       },
       {
+        "it": "🐴🥊",
+        "en": "🐴🥊",
+        "fr": "🐴🥊",
+        "answer": {
+          "it": "Rocky (Film)",
+          "en": "Rocky (Movie)",
+          "fr": "Rocky (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "💍👑🔥",
+        "en": "💍👑🔥",
+        "fr": "💍👑🔥",
+        "answer": {
+          "it": "Il Signore degli Anelli (Film)",
+          "en": "Lord of the Rings (Movie)",
+          "fr": "Le Seigneur des Anneaux (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐟🔍",
+        "en": "🐟🔍",
+        "fr": "🐟🔍",
+        "answer": {
+          "it": "Alla ricerca di Nemo (Film)",
+          "en": "Finding Nemo (Movie)",
+          "fr": "Le Monde de Nemo (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐀🍲",
+        "en": "🐀🍲",
+        "fr": "🐀🍲",
+        "answer": {
+          "it": "Ratatouille (Film)",
+          "en": "Ratatouille (Movie)",
+          "fr": "Ratatouille (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🦈",
+        "en": "🦈",
+        "fr": "🦈",
+        "answer": {
+          "it": "Lo Squalo (Film)",
+          "en": "Jaws (Movie)",
+          "fr": "Les Dents de la mer (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🧑🏿🐺🧟",
+        "en": "🧑🏿🐺🧟",
+        "fr": "🧑🏿🐺🧟",
+        "answer": {
+          "it": "Michael Jackson (Cantante)",
+          "en": "Michael Jackson (Singer)",
+          "fr": "Michael Jackson (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "👮👮",
+        "en": "👮👮",
+        "fr": "👮👮",
+        "answer": {
+          "it": "The Police (Band)",
+          "en": "The Police (Band)",
+          "fr": "The Police (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "👑",
+        "en": "👑",
+        "fr": "👑",
+        "answer": {
+          "it": "Queen (Band)",
+          "en": "Queen (Band)",
+          "fr": "Queen (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "☁️💭🐉",
+        "en": "☁️💭🐉",
+        "fr": "☁️💭🐉",
+        "answer": {
+          "it": "Imagine Dragons (Band)",
+          "en": "Imagine Dragons (Band)",
+          "fr": "Imagine Dragons (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "👦👦👦👦👦1️⃣➡️",
+        "en": "👦👦👦👦👦1️⃣➡️",
+        "fr": "👦👦👦👦👦1️⃣➡️",
+        "answer": {
+          "it": "One Direction (Band)",
+          "en": "One Direction (Band)",
+          "fr": "One Direction (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "🎩🎭",
+        "en": "🎩🎭",
+        "fr": "🎩🎭",
+        "answer": {
+          "it": "The Greatest Showman (Film)",
+          "en": "The Greatest Showman (Movie)",
+          "fr": "The Greatest Showman (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🕷️🦸‍♂️",
+        "en": "🕷️🦸‍♂️",
+        "fr": "🕷️🦸‍♂️",
+        "answer": {
+          "it": "Spider-Man (Film)",
+          "en": "Spider-Man (Movie)",
+          "fr": "Spider-Man (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🏹🔥",
+        "en": "🏹🔥",
+        "fr": "🏹🔥",
+        "answer": {
+          "it": "Hunger Games (Film)",
+          "en": "Hunger Games (Movie)",
+          "fr": "Hunger Games (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🚢🧊",
+        "en": "🚢🧊",
+        "fr": "🚢🧊",
+        "answer": {
+          "it": "Titanic (Film)",
+          "en": "Titanic (Movie)",
+          "fr": "Titanic (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "👻👻🏠",
+        "en": "👻👻🏠",
+        "fr": "👻👻🏠",
+        "answer": {
+          "it": "Ghostbusters (Film)",
+          "en": "Ghostbusters (Movie)",
+          "fr": "S.O.S Fantômes (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🚗⚡",
+        "en": "🚗⚡",
+        "fr": "🚗⚡",
+        "answer": {
+          "it": "Cars (Film)",
+          "en": "Cars (Movie)",
+          "fr": "Cars (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐼🥋",
+        "en": "🐼🥋",
+        "fr": "🐼🥋",
+        "answer": {
+          "it": "Kung Fu Panda (Film)",
+          "en": "Kung Fu Panda (Movie)",
+          "fr": "Kung Fu Panda (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎩🐰✨",
+        "en": "🎩🐰✨",
+        "fr": "🎩🐰✨",
+        "answer": {
+          "it": "Now You See Me (Film)",
+          "en": "Now You See Me (Movie)",
+          "fr": "Insaisissables (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "💀🏴‍☠️",
+        "en": "💀🏴‍☠️",
+        "fr": "💀🏴‍☠️",
+        "answer": {
+          "it": "Pirati dei Caraibi (Film)",
+          "en": "Pirates of the Caribbean (Movie)",
+          "fr": "Pirates des Caraïbes (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🚀🌌",
+        "en": "🚀🌌",
+        "fr": "🚀🌌",
+        "answer": {
+          "it": "Interstellar (Film)",
+          "en": "Interstellar (Movie)",
+          "fr": "Interstellar (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🦸‍♂️🛡️🇺🇸",
+        "en": "🦸‍♂️🛡️🇺🇸",
+        "fr": "🦸‍♂️🛡️🇺🇸",
+        "answer": {
+          "it": "Captain America (Film)",
+          "en": "Captain America (Movie)",
+          "fr": "Captain America (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🦇🌃",
+        "en": "🦇🌃",
+        "fr": "🦇🌃",
+        "answer": {
+          "it": "The Dark Knight (Film)",
+          "en": "The Dark Knight (Movie)",
+          "fr": "The Dark Knight (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🕰️⏳🚗",
+        "en": "🕰️⏳🚗",
+        "fr": "🕰️⏳🚗",
+        "answer": {
+          "it": "Ritorno al Futuro (Film)",
+          "en": "Back to the Future (Movie)",
+          "fr": "Retour vers le futur (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐉🧑⚔️",
+        "en": "🐉🧑⚔️",
+        "fr": "🐉🧑⚔️",
+        "answer": {
+          "it": "Come addestrare un drago (Film)",
+          "en": "How to Train Your Dragon (Movie)",
+          "fr": "Dragons (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🍔🍟🏀",
+        "en": "🍔🍟🏀",
+        "fr": "🍔🍟🏀",
+        "answer": {
+          "it": "Space Jam (Film)",
+          "en": "Space Jam (Movie)",
+          "fr": "Space Jam (Film)"
+        },
+        "type": "movie"
+      },
+      {
         "it": "🍎👸",
         "en": "🍎👸",
         "fr": "🍎👸",
@@ -4241,17 +4576,6 @@
         "type": "artist"
       },
       {
-        "it": "🎶❤️",
-        "en": "🎶❤️",
-        "fr": "🎶❤️",
-        "answer": {
-          "it": "Shape of You di Ed Sheeran (Canzone)",
-          "en": "Shape of You by Ed Sheeran (Song)",
-          "fr": "Shape of You de Ed Sheeran (Chanson)"
-        },
-        "type": "song"
-      },
-      {
         "it": "🌟🕶️🎤",
         "en": "🌟🕶️🎤",
         "fr": "🌟🕶️🎤",
@@ -4263,26 +4587,15 @@
         "type": "artist"
       },
       {
-        "it": "🎥🔫🦍",
-        "en": "🎥🔫🦍",
-        "fr": "🎥🔫🦍",
+        "it": "🎥🔫🦖",
+        "en": "🎥🔫🦖",
+        "fr": "🎥🔫🦖",
         "answer": {
           "it": "Jurassic Park (Film)",
           "en": "Jurassic Park (Movie)",
           "fr": "Jurassic Park (Film)"
         },
         "type": "movie"
-      },
-      {
-        "it": "🎤🎶🐍",
-        "en": "🎤🎶🐍",
-        "fr": "🎤🎶🐍",
-        "answer": {
-          "it": "Eminem - Lose Yourself (Canzone)",
-          "en": "Eminem - Lose Yourself (Song)",
-          "fr": "Eminem - Lose Yourself (Chanson)"
-        },
-        "type": "song"
       },
       {
         "it": "🎬🧙‍♂️🧙‍♀️",
@@ -4296,59 +4609,213 @@
         "type": "movie"
       },
       {
-        "it": "🎤💔",
-        "en": "🎤💔",
-        "fr": "🎤💔",
+        "it": "1️⃣2️⃣3️⃣⭐️⭐️⭐️",
+        "en": "1️⃣2️⃣3️⃣⭐️⭐️⭐️",
+        "fr": "1️⃣2️⃣3️⃣⭐️⭐️⭐️",
         "answer": {
-          "it": "Adele - Someone Like You (Canzone)",
-          "en": "Adele - Someone Like You (Song)",
-          "fr": "Adele - Someone Like You (Chanson)"
+          "it": "OneRepublic - Counting Stars (Canzone)",
+          "en": "OneRepublic - Counting Stars (Song)",
+          "fr": "OneRepublic - Counting Stars (Chanson)"
         },
         "type": "song"
       },
       {
-        "it": "🎬🦸‍♂️🦸‍♀️",
-        "en": "🎬🦸‍♂️🦸‍♀️",
-        "fr": "🎬🦸‍♂️🦸‍♀️",
+        "it": "🔑🚪☁️😇",
+        "en": "🔑🚪☁️😇",
+        "fr": "🔑🚪☁️😇",
         "answer": {
-          "it": "Avengers (Film)",
-          "en": "Avengers (Movie)",
-          "fr": "Avengers (Film)"
-        },
-        "type": "movie"
-      },
-      {
-        "it": "🎤🎤🎶",
-        "en": "🎤🎤🎶",
-        "fr": "🎤🎤🎶",
-        "answer": {
-          "it": "The Beatles - Hey Jude (Canzone)",
-          "en": "The Beatles - Hey Jude (Song)",
-          "fr": "The Beatles - Hey Jude (Chanson)"
+          "it": "Bruno Mars - Locked Out of Heaven (Canzone)",
+          "en": "Bruno Mars - Locked Out of Heaven (Song)",
+          "fr": "Bruno Mars - Locked Out of Heaven (Chanson)"
         },
         "type": "song"
       },
       {
-        "it": "🎬👽",
-        "en": "🎬👽",
-        "fr": "🎬👽",
+        "it": "🎉🇺🇸",
+        "en": "🎉🇺🇸",
+        "fr": "🎉🇺🇸",
         "answer": {
-          "it": "E.T. the Extra-Terrestrial (Film)",
-          "en": "E.T. the Extra-Terrestrial (Movie)",
-          "fr": "E.T. l'extra-terrestre (Film)"
+          "it": "Miley Cyrus - Party in the USA (Canzone)",
+          "en": "Miley Cyrus - Party in the USA (Song)",
+          "fr": "Miley Cyrus - Party in the USA (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🔥➡️🌧️",
+        "en": "🔥➡️🌧️",
+        "fr": "🔥➡️🌧️",
+        "answer": {
+          "it": "Adele - Set Fire to the Rain (Canzone)",
+          "en": "Adele - Set Fire to the Rain (Song)",
+          "fr": "Adele - Set Fire to the Rain (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "♠️♥️♦️♣️😐",
+        "en": "♠️♥️♦️♣️😐",
+        "fr": "♠️♥️♦️♣️😐",
+        "answer": {
+          "it": "Lady Gaga - Poker Face (Canzone)",
+          "en": "Lady Gaga - Poker Face (Song)",
+          "fr": "Lady Gaga - Poker Face (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "1️⃣💋",
+        "en": "1️⃣💋",
+        "fr": "1️⃣💋",
+        "answer": {
+          "it": "Calvin Harris & Dua Lipa - One Kiss (Canzone)",
+          "en": "Calvin Harris & Dua Lipa - One Kiss (Song)",
+          "fr": "Calvin Harris & Dua Lipa - One Kiss (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🙋👉⛪️",
+        "en": "🙋👉⛪️",
+        "fr": "🙋👉⛪️",
+        "answer": {
+          "it": "Hozier - Take Me to Church (Canzone)",
+          "en": "Hozier - Take Me to Church (Song)",
+          "fr": "Hozier - Take Me to Church (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🪜➡️🌫️",
+        "en": "🪜➡️🌫️",
+        "fr": "🪜➡️🌫️",
+        "answer": {
+          "it": "Led Zeppelin - Stairway to Heaven (Canzone)",
+          "en": "Led Zeppelin - Stairway to Heaven (Song)",
+          "fr": "Led Zeppelin - Stairway to Heaven (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "☎️🤔",
+        "en": "☎️🤔",
+        "fr": "☎️🤔",
+        "answer": {
+          "it": "Carly Rae Jepsen - Call Me Maybe (Canzone)",
+          "en": "Carly Rae Jepsen - Call Me Maybe (Song)",
+          "fr": "Carly Rae Jepsen - Call Me Maybe (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🍬🛒",
+        "en": "🍬🛒",
+        "fr": "🍬🛒",
+        "answer": {
+          "it": "50 Cent - Candy Shop (Canzone)",
+          "en": "50 Cent - Candy Shop (Song)",
+          "fr": "50 Cent - Candy Shop (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "💎💎💎",
+        "en": "💎💎💎",
+        "fr": "💎💎💎",
+        "answer": {
+          "it": "Rihanna - Diamonds (Canzone)",
+          "en": "Rihanna - Diamonds (Song)",
+          "fr": "Rihanna - Diamonds (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🔵😃",
+        "en": "🔵😃",
+        "fr": "🔵😃",
+        "answer": {
+          "it": "BlueFace (Cantante)",
+          "en": "BlueFace (Singer)",
+          "fr": "BlueFace (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🦉",
+        "en": "🦉",
+        "fr": "🦉",
+        "answer": {
+          "it": "Drake (Cantante)",
+          "en": "Drake (Singer)",
+          "fr": "Drake (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🕶️🚬🐶",
+        "en": "🕶️🚬🐶",
+        "fr": "🕶️🚬🐶",
+        "answer": {
+          "it": "Snoop Dogg (Cantante)",
+          "en": "Snoop Dogg (Singer)",
+          "fr": "Snoop Dogg (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🍹🌍",
+        "en": "🍹🌍",
+        "fr": "🍹🌍",
+        "answer": {
+          "it": "Juice WRLD (Cantante)",
+          "en": "Juice WRLD (Singer)",
+          "fr": "Juice WRLD (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "5️⃣0️⃣🪙",
+        "en": "5️⃣0️⃣🪙",
+        "fr": "5️⃣0️⃣🪙",
+        "answer": {
+          "it": "50 Cent (Cantante)",
+          "en": "50 Cent (Singer)",
+          "fr": "50 Cent (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🍤🏃🍫",
+        "en": "🍤🏃🍫",
+        "fr": "🍤🏃🍫",
+        "answer": {
+          "it": "Forrest Gump (Film)",
+          "en": "Forrest Gump (Movie)",
+          "fr": "Forrest Gump (Film)"
         },
         "type": "movie"
       },
       {
-        "it": "🎤🎹",
-        "en": "🎤🎹",
-        "fr": "🎤🎹",
+        "it": "🔪🛁💀",
+        "en": "🔪🛁💀",
+        "fr": "🔪🛁💀",
         "answer": {
-          "it": "Elton John (Artista)",
-          "en": "Elton John (Artist)",
-          "fr": "Elton John (Artiste)"
+          "it": "Psycho (Film)",
+          "en": "Psycho (Movie)",
+          "fr": "Psycho (Film)"
         },
-        "type": "artist"
+        "type": "movie"
+      },
+      {
+        "it": "👽🍬🚲📞",
+        "en": "👽🍬🚲📞",
+        "fr": "👽🍬🚲📞",
+        "answer": {
+          "it": "E.T. (Film)",
+          "en": "E.T. (Movie)",
+          "fr": "E.T. (Film)"
+        },
+        "type": "movie"
       },
       {
         "it": "🎶🕺💃",
@@ -4362,28 +4829,6 @@
         "type": "song"
       },
       {
-        "it": "🎬🤖🌆",
-        "en": "🎬🤖🌆",
-        "fr": "🎬🤖🌆",
-        "answer": {
-          "it": "Blade Runner (Film)",
-          "en": "Blade Runner (Movie)",
-          "fr": "Blade Runner (Film)"
-        },
-        "type": "movie"
-      },
-      {
-        "it": "🎤🎤🎤🦁",
-        "en": "🎤🎤🎤🦁",
-        "fr": "🎤🎤🎤🦁",
-        "answer": {
-          "it": "The Lion King - Can You Feel the Love Tonight (Canzone)",
-          "en": "The Lion King - Can You Feel the Love Tonight (Song)",
-          "fr": "Le Roi Lion - Can You Feel the Love Tonight (Chanson)"
-        },
-        "type": "song"
-      },
-      {
         "it": "🎬🏰👸",
         "en": "🎬🏰👸",
         "fr": "🎬🏰👸",
@@ -4391,61 +4836,6 @@
           "it": "Cinderella (Film)",
           "en": "Cinderella (Movie)",
           "fr": "Cendrillon (Film)"
-        },
-        "type": "movie"
-      },
-      {
-        "it": "🎤🎤🎤🎤🎤🎶",
-        "en": "🎤🎤🎤🎤🎤🎶",
-        "fr": "🎤🎤🎤🎤🎤🎶",
-        "answer": {
-          "it": "Queen - Don't Stop Me Now (Canzone)",
-          "en": "Queen - Don't Stop Me Now (Song)",
-          "fr": "Queen - Don't Stop Me Now (Chanson)"
-        },
-        "type": "song"
-      },
-      {
-        "it": "🎬👹",
-        "en": "🎬👹",
-        "fr": "🎬👹",
-        "answer": {
-          "it": "Hannibal (Film)",
-          "en": "Hannibal (Movie)",
-          "fr": "Hannibal (Film)"
-        },
-        "type": "movie"
-      },
-      {
-        "it": "🎤🎤🕶️",
-        "en": "🎤🎤🕶️",
-        "fr": "🎤🎤🕶️",
-        "answer": {
-          "it": "Eminem (Artista)",
-          "en": "Eminem (Artist)",
-          "fr": "Eminem (Artiste)"
-        },
-        "type": "artist"
-      },
-      {
-        "it": "🎶💋",
-        "en": "🎶💋",
-        "fr": "🎶💋",
-        "answer": {
-          "it": "Katy Perry - I Kissed a Girl (Canzone)",
-          "en": "Katy Perry - I Kissed a Girl (Song)",
-          "fr": "Katy Perry - I Kissed a Girl (Chanson)"
-        },
-        "type": "song"
-      },
-      {
-        "it": "🎬🏰🧙‍♂️",
-        "en": "🎬🏰🧙‍♂️",
-        "fr": "🎬🏰🧙‍♂️",
-        "answer": {
-          "it": "Harry Potter e la Pietra Filosofale (Film)",
-          "en": "Harry Potter and the Philosopher's Stone (Movie)",
-          "fr": "Harry Potter à l'école des sorciers (Film)"
         },
         "type": "movie"
       }

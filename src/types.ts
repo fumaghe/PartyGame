@@ -66,6 +66,8 @@ export interface Topic {
   color: string;
   icon: string;
   cards: Card[];
+  minPoints: number; // Nuovo campo
+  maxPoints: number; // Nuovo campo
 }
 
 /**
