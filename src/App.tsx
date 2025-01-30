@@ -64,6 +64,11 @@ const globalEvents = [
   "Play a round of Pullman Game",
   "Everyone must close their eyes—on the count of three, point to the player you think has the best 'game.' Majority vote gives away 5 points!",
   "Last place chooses: Swap scores with another player OR take three sips!",
+  "The last place can bet 5 points and challenge anyone to a Rock, Paper, Scissors duel! Winner takes all!",
+  "The player with the highest score must spin a bottle: whoever it lands on steals 7 points!",
+  "The person in second-to-last place can take 3 points from the person of their choice!",
+  "The first player to finish their drink earns 5 points but must take another drink!",
+  "Whoever has the most unread messages on their phone loses 4 points!",
 ];
 
 // Stato iniziale del gioco
@@ -298,6 +303,13 @@ function App() {
         currentPlayer.completedChallenges += 1;
       } else {
         currentPlayer.failedChallenges += 1;
+        
+        // Calculate penalty: half of chosenPoints, rounding down
+        const penalty = Math.floor(chosenPoints / 2);
+        
+        // Deduct penalty from the player's score, ensuring it doesn't go negative
+        currentPlayer.score = Math.max(0, currentPlayer.score - penalty);
+        
         // La visualizzazione del popup fallimento viene gestita più avanti
       }
 
@@ -341,7 +353,7 @@ function App() {
         const eventIndex = Math.floor(Math.random() * globalEvents.length);
         newGlobalEventMessage = globalEvents[eventIndex];
         newShowGlobalEventPopup = true;
-        newTurnsToNextEvent = 3 + Math.floor(Math.random() * 4);
+        newTurnsToNextEvent = 5 + Math.floor(Math.random() * 4);
       }
 
       const newHistory = [
@@ -351,7 +363,7 @@ function App() {
 
       // Gestione di showFailedPopup
       let newShowFailedPopup = prev.showFailedPopup;
-      if (!success && currentPlayer.failedChallenges % 2 === 0) {
+      if (!success && currentPlayer.failedChallenges % 3 === 0) {
         newShowFailedPopup = true;
         console.log('Setting showFailedPopup to true');
       }
