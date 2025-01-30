@@ -1,59 +1,34 @@
 // src/components/TopicCard.tsx
 import React from 'react';
-import {
-  Flame,
-  SplitSquareVertical,
-  Heart,
-  Users,
-  Music,
-  Beer,
-  Search,
-  HeartHandshake,
-  Globe,
-  Scale,
-  AlertCircle
-} from 'lucide-react';
-
-const iconMap = {
-  Flame,
-  SplitSquare: SplitSquareVertical,
-  Heart,
-  Users,
-  Music,
-  Beer,
-  Search,
-  HeartHandshake,
-  Globe,
-  Scale,
-  AlertCircle
-};
+import * as Icons from 'lucide-react';
 
 interface TopicCardProps {
   topicId: string;
-  displayName: string;  // nome del topic localizzato
+  displayName: string; // Nome del topic localizzato
   color: string;
-  icon: string;
+  icon: string; // Nome dell'icona da lucide-react
   points: number;
   onClick: () => void;
 }
 
-export default function TopicCard({
+const TopicCard: React.FC<TopicCardProps> = ({
   topicId,
   displayName,
   color,
   icon,
   points,
-  onClick
-}: TopicCardProps) {
-  const Icon = iconMap[icon as keyof typeof iconMap] || AlertCircle;
+  onClick,
+}) => {
+  // Mappa il nome dell'icona a un componente di lucide-react
+  const IconComponent = (Icons as any)[icon] || Icons.AlertCircle;
 
   return (
     <button
       onClick={onClick}
-      className={`${color} relative p-8 rounded-2xl shadow-lg transform transition-all hover:scale-105 hover:shadow-xl w-full max-w-sm mx-auto animate-fadeIn overflow-hidden`}
+      className={`${color} relative p-8 rounded-2xl shadow-lg transform transition-all hover:scale-105 hover:shadow-xl w-full max-w-sm mx-auto overflow-hidden`}
     >
       {/* Icona grande sfumata */}
-      <Icon
+      <IconComponent
         size={128}
         className="text-white opacity-20 absolute inset-0 m-auto"
         style={{ maxWidth: '80%', maxHeight: '80%' }}
@@ -70,4 +45,6 @@ export default function TopicCard({
       </div>
     </button>
   );
-}
+};
+
+export default TopicCard;

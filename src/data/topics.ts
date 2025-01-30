@@ -15,11 +15,13 @@ function createCardsForCategory(categoryData: any[]) {
       fr: item.fr,
     },
     used: false,
-    answer: item.answer ? {
-      it: item.answer.it,
-      en: item.answer.en,
-      fr: item.answer.fr,
-    } : undefined,
+    answer: item.answer
+      ? {
+          it: item.answer.it,
+          en: item.answer.en,
+          fr: item.answer.fr,
+        }
+      : undefined,
     type: item.type || 'default',
     image: item.image || null,
   }));
@@ -41,7 +43,7 @@ export function getTopics(): Topic[] {
       id: 'cosaPreferirestiPiccante',
       name: 'Cosa Preferiresti Piccante',
       color: 'bg-purple-500',
-      icon: 'SplitSquare',
+      icon: 'SplitSquareVertical', // Aggiornato
       cards: createCardsForCategory(cardsAll.cosaPreferirestiPiccante),
     },
     {

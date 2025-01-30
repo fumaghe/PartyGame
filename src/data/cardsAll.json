@@ -1295,29 +1295,84 @@
     ],
     "cupido": [
       {
-        "it": "Scegli due persone che per i prox. 1 turno dovranno fare le stesse sfide",
+        "id": "cupido1",
+        "it": "Scegli due persone che per i prossimi 1 turno dovranno fare le stesse sfide",
         "en": "Choose two people that for the next 1 round will have to do the same challenges",
-        "fr": "Choisis 2 personnes qui seront liées pour 1 tour et feront les meme challenges"
+        "fr": "Choisis 2 personnes qui seront liées pour 1 tour et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido1.png"
       },
       {
-        "it": "Scegli due persone che per i prox. 2 turni dovranno fare le stesse sfide",
+        "id": "cupido2",
+        "it": "Scegli due persone che per i prossimi 2 turni dovranno fare le stesse sfide",
         "en": "Choose two people that for the next 2 rounds will have to do the same challenges",
-        "fr": "Choisis 2 personnes qui seront liées pour 2 tours et feront les meme challenges"
+        "fr": "Choisis 2 personnes qui seront liées pour 2 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido2.png"
       },
       {
-        "it": "Scegli due persone che per i prox. 3 turni dovranno fare le stesse sfide",
+        "id": "cupido3",
+        "it": "Scegli due persone che per i prossimi 3 turni dovranno fare le stesse sfide",
         "en": "Choose two people that for the next 3 rounds will have to do the same challenges",
-        "fr": "Choisis 2 personnes qui seront liées pour 3 tours et feront les meme challenges"
+        "fr": "Choisis 2 personnes qui seront liées pour 3 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido3.png" 
       },
       {
-        "it": "Scegli due persone che per i prox. 4 turni dovranno fare le stesse sfide",
+        "id": "cupido4",
+        "it": "Scegli due persone che per i prossimi 4 turni dovranno fare le stesse sfide",
         "en": "Choose two people that for the next 4 rounds will have to do the same challenges",
-        "fr": "Choisis 2 personnes qui seront liées pour 4 tours et feront les meme challenges"
+        "fr": "Choisis 2 personnes qui seront liées pour 4 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido4.png"
       },
       {
-        "it": "Scegli due persone che per i prox. 5 turni dovranno fare le stesse sfide",
+        "id": "cupido5",
+        "it": "Scegli due persone che per i prossimi 5 turni dovranno fare le stesse sfide",
         "en": "Choose two people that for the next 5 rounds will have to do the same challenges",
-        "fr": "Choisis 2 personnes qui seront liées pour 5 tours et feront les meme challenges"
+        "fr": "Choisis 2 personnes qui seront liées pour 5 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido5.png"
+      },
+      {
+        "id": "cupido1",
+        "it": "Scegli due persone che per i prossimi 1 turno dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 1 round will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 1 tour et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido1.png"
+      },
+      {
+        "id": "cupido2",
+        "it": "Scegli due persone che per i prossimi 2 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 2 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 2 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido2.png"
+      },
+      {
+        "id": "cupido3",
+        "it": "Scegli due persone che per i prossimi 3 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 3 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 3 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido3.png" 
+      },
+      {
+        "id": "cupido4",
+        "it": "Scegli due persone che per i prossimi 4 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 4 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 4 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido4.png"
+      },
+      {
+        "id": "cupido5",
+        "it": "Scegli due persone che per i prossimi 5 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 5 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 5 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido5.png"
       }
     ],
     "culturaGenerale": [

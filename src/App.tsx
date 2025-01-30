@@ -1,6 +1,14 @@
 // src/App.tsx
-import { useState, useEffect } from 'react';
-import { GameState, Topic, TopicType, TopicChoice, Language } from './types';
+import React, { useState, useEffect } from 'react';
+import {
+  Player,
+  GameState,
+  Topic,
+  TopicType,
+  TopicChoice,
+  Language,
+  CupidoRestriction,
+} from './types';
 import { getTopics } from './data/topics';
 import { translations } from './i18n/translations';
 
@@ -12,6 +20,7 @@ import GameCard from './components/GameCard';
 import FailedPopup from './components/FailedPopup';
 import GlobalEventPopup from './components/GlobalEventPopup';
 import ConfirmResetPopup from './components/ConfirmResetPopup';
+import CupidoStatus from './components/CupidoStatus';
 
 import { Sun, Moon } from 'lucide-react';
 
@@ -23,8 +32,6 @@ const globalEvents = [
   "The next 'fail' results in an extra drink!",
   "Swap your drink with the person to your left!",
   "The player with the lowest score drinks twice!",
-  "Round of Secret Coin Game!",
-  "Round of Secret Coin Game!",
   "Round of Secret Coin Game!",
   "Give a compliment to someone of the opposite sex at the table!",
   "The player with the highest score must give someone a massage!",
@@ -40,12 +47,6 @@ const globalEvents = [
   "The next 'fail' results in the loser giving a 10-second lap dance!",
   "Choose a person and describe their best feature… in the most seductive way possible!",
 ];
-
-/**
- * Nota Importante:
- * Assicurati che 'geoguessr' sia incluso in TopicType in types.ts.
- * Inoltre, verifica che 'cardsAll.json' contenga i nuovi topic con i campi 'type' e 'image' dove necessario.
- */
 
 // Stato iniziale del gioco
 const initialGameState: GameState = {
@@ -63,19 +64,46 @@ const initialGameState: GameState = {
   globalEventMessage: null,
   turnsToNextEvent: 0,
   selectedTopicsHistory: [],
+  cupidoRestrictions: [],
+  turnCounter: 0, // Inizializzato
 };
 
 function App() {
   // Carichiamo da localStorage oppure stato iniziale
   const [gameState, setGameState] = useState<GameState>(() => {
     const stored = localStorage.getItem('gameState');
-    return stored ? JSON.parse(stored) : initialGameState;
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
+        return {
+          ...initialGameState,
+          ...parsed,
+          cupidoRestrictions: Array.isArray(parsed.cupidoRestrictions)
+            ? parsed.cupidoRestrictions
+            : [],
+          turnCounter: typeof parsed.turnCounter === 'number' ? parsed.turnCounter : 0,
+        };
+      } catch (error) {
+        console.error('Error parsing gameState from localStorage:', error);
+        return initialGameState;
+      }
+    }
+    return initialGameState;
   });
 
   // Carichiamo i topics (tutti, con le lingue) da localStorage o generiamo
   const [topics, setTopics] = useState<Topic[]>(() => {
     const stored = localStorage.getItem('topics');
-    return stored ? JSON.parse(stored) : getTopics();
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
+        return Array.isArray(parsed) ? parsed : getTopics();
+      } catch (error) {
+        console.error('Error parsing topics from localStorage:', error);
+        return getTopics();
+      }
+    }
+    return getTopics();
   });
 
   // Popup di conferma reset
@@ -83,6 +111,7 @@ function App() {
 
   // Salviamo in localStorage ogni volta che cambia
   useEffect(() => {
+    console.log('GameState:', gameState); // Log dello stato per debug
     localStorage.setItem('gameState', JSON.stringify(gameState));
   }, [gameState]);
 
@@ -133,14 +162,14 @@ function App() {
   };
 
   // Avvio partita
-  const startGame = (players: any) => {
-    const randomBetween3and6 = 6 + Math.floor(Math.random() * 5);
-    setGameState({
-      ...gameState,
-      players: players.map((p: any) => ({
+  const startGame = (players: Player[]) => {
+    const randomBetween3and6 = 3 + Math.floor(Math.random() * 4); // 3-6 turni
+    setGameState((prev) => ({
+      ...prev,
+      players: players.map((p) => ({
         ...p,
         completedChallenges: p.completedChallenges || 0,
-        failedChallenges: p.failedChallenges || 0
+        failedChallenges: p.failedChallenges || 0,
       })),
       gameStarted: true,
       availableTopics: selectRandomTopicChoices([]),
@@ -148,7 +177,9 @@ function App() {
       globalEventMessage: null,
       turnsToNextEvent: randomBetween3and6,
       selectedTopicsHistory: [],
-    });
+      cupidoRestrictions: [],
+      turnCounter: 0, // Resetta il contatore dei turni
+    }));
   };
 
   // Selezioniamo 2 topic random
@@ -225,51 +256,105 @@ function App() {
   };
 
   // Quando un giocatore completa/fallisce la sfida
-  const handleComplete = (success: boolean) => {
-    const updatedPlayers = [...gameState.players];
-    const currentPlayer = updatedPlayers[gameState.currentPlayerIndex];
-    const chosenPoints = gameState.selectedTopic?.points || 1;
+  const handleComplete = (
+    success: boolean,
+    selectedPlayers?: string[],
+    turns?: number
+  ) => {
+    console.log('handleComplete called with:', { success, selectedPlayers, turns });
 
-    if (success) {
-      currentPlayer.score += chosenPoints;
-      currentPlayer.completedChallenges += 1;
-    } else {
-      currentPlayer.failedChallenges += 1;
-      if (currentPlayer.failedChallenges % 2 === 0) {
-        setGameState((prev) => ({ ...prev, showFailedPopup: true }));
+    setGameState((prev) => {
+      const updatedPlayers = [...prev.players];
+      const currentPlayer = updatedPlayers[prev.currentPlayerIndex];
+      const chosenPoints = prev.selectedTopic?.points || 1;
+
+      if (success) {
+        currentPlayer.score += chosenPoints;
+        currentPlayer.completedChallenges += 1;
+      } else {
+        currentPlayer.failedChallenges += 1;
+        // La visualizzazione del popup fallimento viene gestita più avanti
       }
-    }
 
-    let newTurnsToNextEvent = gameState.turnsToNextEvent - 1;
-    let newShowGlobalEventPopup = gameState.showGlobalEventPopup;
-    let newGlobalEventMessage = gameState.globalEventMessage;
+      let newCupidoRestrictions = [...prev.cupidoRestrictions];
 
-    if (newTurnsToNextEvent <= 0) {
-      const eventIndex = Math.floor(Math.random() * globalEvents.length);
-      newGlobalEventMessage = globalEvents[eventIndex];
-      newShowGlobalEventPopup = true;
-      newTurnsToNextEvent = 3 + Math.floor(Math.random() * 4);
-    }
+      if (prev.currentCard?.type === 'cupido' && success && selectedPlayers && turns !== undefined) {
+        const newRestriction: CupidoRestriction = {
+          player1Id: selectedPlayers[0],
+          player2Id: selectedPlayers[1],
+          remainingTurns: turns,
+        };
+        console.log('Adding new CupidoRestriction:', newRestriction);
+        newCupidoRestrictions.push(newRestriction);
+      }
 
-    const newHistory = [
-      ...gameState.selectedTopicsHistory,
-      ...gameState.availableTopics.map((ch) => ch.id),
-    ];
+      // Incrementa il contatore dei turni
+      let newTurnCounter = prev.turnCounter + 1;
+      let newCupidoRestrictionsAfterDecrement = [...newCupidoRestrictions];
 
-    setGameState((prev) => ({
-      ...prev,
-      players: updatedPlayers,
-      currentPlayerIndex: (prev.currentPlayerIndex + 1) % prev.players.length,
-      selectedTopic: null,
-      currentCard: null,
-      showCard: false,
-      availableTopics: selectRandomTopicChoices(newHistory),
-      showGlobalEventPopup: newShowGlobalEventPopup,
-      globalEventMessage: newGlobalEventMessage,
-      turnsToNextEvent: newTurnsToNextEvent,
-      selectedTopicsHistory:
-        newHistory.length > 5 ? newHistory.slice(newHistory.length - 5) : newHistory,
-    }));
+      if (newTurnCounter >= prev.players.length) {
+        // Resetta il contatore
+        newTurnCounter = 0;
+
+        // Decrementa le restrizioni Cupido
+        newCupidoRestrictionsAfterDecrement = newCupidoRestrictionsAfterDecrement
+          .map((restriction) => ({
+            ...restriction,
+            remainingTurns: restriction.remainingTurns - 1,
+          }))
+          .filter((restriction) => restriction.remainingTurns > 0);
+
+        console.log('Decremented CupidoRestrictions:', newCupidoRestrictionsAfterDecrement);
+      }
+
+      // Gestione eventi globali
+      let newTurnsToNextEvent = prev.turnsToNextEvent - 1;
+      let newShowGlobalEventPopup = prev.showGlobalEventPopup;
+      let newGlobalEventMessage = prev.globalEventMessage;
+
+      if (newTurnsToNextEvent <= 0) {
+        const eventIndex = Math.floor(Math.random() * globalEvents.length);
+        newGlobalEventMessage = globalEvents[eventIndex];
+        newShowGlobalEventPopup = true;
+        newTurnsToNextEvent = 3 + Math.floor(Math.random() * 4);
+      }
+
+      const newHistory = [
+        ...prev.selectedTopicsHistory,
+        ...prev.availableTopics.map((ch) => ch.id),
+      ];
+
+      // Gestione di showFailedPopup
+      let newShowFailedPopup = prev.showFailedPopup;
+      if (!success && currentPlayer.failedChallenges % 2 === 0) {
+        newShowFailedPopup = true;
+        console.log('Setting showFailedPopup to true');
+      }
+
+      console.log('Finalizing GameState update:', {
+        players: updatedPlayers,
+        cupidoRestrictions: newCupidoRestrictionsAfterDecrement,
+        showFailedPopup: newShowFailedPopup,
+      });
+
+      return {
+        ...prev,
+        players: updatedPlayers,
+        currentPlayerIndex: (prev.currentPlayerIndex + 1) % prev.players.length,
+        selectedTopic: null,
+        currentCard: null,
+        showCard: false,
+        availableTopics: selectRandomTopicChoices(newHistory),
+        showGlobalEventPopup: newShowGlobalEventPopup,
+        globalEventMessage: newGlobalEventMessage,
+        turnsToNextEvent: newTurnsToNextEvent,
+        selectedTopicsHistory:
+          newHistory.length > 5 ? newHistory.slice(newHistory.length - 5) : newHistory,
+        cupidoRestrictions: newCupidoRestrictionsAfterDecrement,
+        showFailedPopup: newShowFailedPopup,
+        turnCounter: newTurnCounter,
+      };
+    });
   };
 
   // Chiudi popup fail
@@ -279,7 +364,11 @@ function App() {
 
   // Chiudi popup evento globale
   const closeGlobalEventPopup = () => {
-    setGameState((prev) => ({ ...prev, showGlobalEventPopup: false, globalEventMessage: null }));
+    setGameState((prev) => ({
+      ...prev,
+      showGlobalEventPopup: false,
+      globalEventMessage: null,
+    }));
   };
 
   // RENDER: se non iniziato => setup
@@ -317,18 +406,22 @@ function App() {
           >
             {t.title}
           </h1>
-          <PlayerSetup onStartGame={startGame} darkMode={gameState.darkMode} t={t.playerSetup} />
+          <PlayerSetup
+            onStartGame={startGame}
+            darkMode={gameState.darkMode}
+            t={t.playerSetup}
+          />
         </div>
       </div>
     );
   }
 
   // Schermata di gioco
-  const currentPlayer = gameState.players[gameState.currentPlayerIndex];
+  const currentPlayerInGame = gameState.players[gameState.currentPlayerIndex];
 
   // Prepariamo i topic proposti
   const topicChoices = gameState.availableTopics.map((choice) => {
-    const fullTopic = topics.find((top) => top.id === choice.id);
+    const fullTopic = topics.find((t) => t.id === choice.id);
     return {
       ...choice,
       color: fullTopic?.color || 'bg-gray-500',
@@ -345,7 +438,7 @@ function App() {
         gameState.darkMode
           ? 'bg-gradient-to-br from-gray-900 to-gray-800'
           : 'bg-gradient-to-br from-purple-50 to-blue-50'
-      } py-12`}
+      } py-12 relative`}
     >
       <div className="max-w-7xl mx-auto px-4">
         {/* Barra in alto */}
@@ -372,13 +465,21 @@ function App() {
               gameState.darkMode ? 'text-white' : 'text-gray-800'
             }`}
           >
-            {currentPlayer.name}
-            {t.game.turn}
+            {currentPlayerInGame.name} {t.game.turn}
           </h2>
           <p className={gameState.darkMode ? 'text-gray-300' : 'text-gray-600'}>
             {!gameState.showCard ? t.game.chooseTopicPrompt : t.game.challengePrompt}
           </p>
         </div>
+
+        {/* Restrizioni Cupido attive */}
+        {gameState.cupidoRestrictions?.length > 0 && (
+          <CupidoStatus
+            restrictions={gameState.cupidoRestrictions}
+            players={gameState.players}
+            darkMode={gameState.darkMode}
+          />
+        )}
 
         {/* Se non ho selezionato una carta => i 2 topic */}
         {!gameState.showCard ? (
@@ -399,12 +500,14 @@ function App() {
           <GameCard
             card={gameState.currentCard!}
             color={
-              topics.find((t) => t.id === gameState.selectedTopic?.id)?.color || 'bg-gray-500'
+              topics.find((t) => t.id === gameState.selectedTopic?.id)?.color ||
+              'bg-gray-500'
             }
             onComplete={handleComplete}
             darkMode={gameState.darkMode}
             currentLanguage={gameState.language}
             t={t.game}
+            players={gameState.players} // Passa i giocatori al componente GameCard
           />
         )}
 
@@ -434,7 +537,7 @@ function App() {
             t={{
               failedPopupTitle: t.game.failedPopupTitle,
               failedPopupMessage: t.game.failedPopupMessage,
-              ok: t.game.ok
+              ok: t.game.ok,
             }}
           />
         )}

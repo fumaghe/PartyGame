@@ -8,6 +8,12 @@ export interface Player {
   failedChallenges: number;
 }
 
+export interface CupidoRestriction {
+  player1Id: string;
+  player2Id: string;
+  remainingTurns: number;
+}
+
 /**
  * Ogni card ha i testi per TUTTE le lingue,
  * così possiamo cambiare lingua a partita in corso
@@ -25,11 +31,11 @@ export interface Card {
     en: string;
     fr: string;
   };
-  type?: 'movie' | 'song' | 'artist' | 'geoguessr' | 'default'; // Aggiunto
-  image?: string | null; // Aggiunto per geoguessr
+  type?: 'movie' | 'song' | 'artist' | 'geoguessr' | 'cupido' | 'default';
+  image?: string | null;
 }
 
-export type TopicType = 
+export type TopicType =
   | 'domandePiccanti'
   | 'cosaPreferirestiPiccante'
   | 'killKissMarryFamosi'
@@ -49,8 +55,11 @@ export type TopicType =
   | 'reazioneACatena'
   | 'random'
   | 'sfidaEmoji'
-  | 'geoguessr'; // Aggiunto
+  | 'geoguessr';
 
+/**
+ * Topic
+ */
 export interface Topic {
   id: TopicType;
   name: string;
@@ -91,6 +100,16 @@ export interface GameState {
    * per limitare le ripetizioni.
    */
   selectedTopicsHistory: TopicType[];
+
+  /**
+   * Restrizioni Cupido attive
+   */
+  cupidoRestrictions: CupidoRestriction[];
+
+  /**
+   * Contatore dei turni passati
+   */
+  turnCounter: number; // Aggiunto
 }
 
 export type Language = 'en' | 'fr' | 'it';

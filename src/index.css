@@ -66,3 +66,10 @@
 .animate-fadeIn {
   animation: fadeIn 0.5s ease-out;
 }
+
+.absolute.top-4.left-4 {
+  position: absolute;
+  top: 1rem; /* 16px */
+  left: 1rem; /* 16px */
+  z-index: 50; /* Assicurati che sia sopra gli altri elementi */
+}
