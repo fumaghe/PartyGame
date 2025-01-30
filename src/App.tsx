@@ -357,6 +357,47 @@ function App() {
     });
   };
 
+  // Funzione per aggiornare il punteggio di un giocatore
+  const handleUpdatePlayerScore = (playerId: string, delta: number) => {
+    setGameState((prev) => {
+      const updatedPlayers = prev.players.map((player) => {
+        if (player.id === playerId) {
+          const newScore = player.score + delta;
+          return {
+            ...player,
+            score: newScore >= 0 ? newScore : 0, // Evita punteggi negativi
+          };
+        }
+        return player;
+      });
+
+      return {
+        ...prev,
+        players: updatedPlayers,
+      };
+    });
+  };
+
+  // Funzione per impostare direttamente il punteggio di un giocatore
+  const handleSetPlayerScore = (playerId: string, newScore: number) => {
+    setGameState((prev) => {
+      const updatedPlayers = prev.players.map((player) => {
+        if (player.id === playerId) {
+          return {
+            ...player,
+            score: newScore >= 0 ? newScore : 0, // Evita punteggi negativi
+          };
+        }
+        return player;
+      });
+
+      return {
+        ...prev,
+        players: updatedPlayers,
+      };
+    });
+  };
+
   // Chiudi popup fail
   const closeFailedPopup = () => {
     setGameState((prev) => ({ ...prev, showFailedPopup: false }));
@@ -517,6 +558,8 @@ function App() {
           currentPlayerIndex={gameState.currentPlayerIndex}
           darkMode={gameState.darkMode}
           t={t.game}
+          onUpdatePlayerScore={handleUpdatePlayerScore} // Passa la funzione
+          onSetPlayerScore={handleSetPlayerScore} // Passa la nuova funzione
         />
 
         {/* Pulsante Reset */}

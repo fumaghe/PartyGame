@@ -1,7 +1,7 @@
 // src/components/PlayerRanking.tsx
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Player } from '../types';
-import { Trophy, CheckCircle2, XCircle } from 'lucide-react';
+import { Trophy, CheckCircle2, XCircle, Plus, Minus } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface PlayerRankingProps {
@@ -9,26 +9,52 @@ interface PlayerRankingProps {
   currentPlayerIndex: number;
   darkMode: boolean;
   t: {
-    players: string; // non usato qui, ma se serve lo hai
+    players: string;
     ranking: string;
     points: string;
     stats: string;
     completedChallenges: string;
     failedChallenges: string;
   };
+  onUpdatePlayerScore: (playerId: string, delta: number) => void;
+  onSetPlayerScore: (playerId: string, newScore: number) => void; // Nuova funzione
 }
 
 export default function PlayerRanking({
   players,
   currentPlayerIndex,
   darkMode,
-  t
+  t,
+  onUpdatePlayerScore,
+  onSetPlayerScore,
 }: PlayerRankingProps) {
   // Ordiniamo i players per punteggio decrescente
   const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
 
   // Medaglie per prime 3 posizioni
   const medals = ["🥇", "🥈", "🥉"];
+
+  // Stato locale per tracciare quale giocatore sta modificando il punteggio
+  const [editingPlayerId, setEditingPlayerId] = useState<string | null>(null);
+  const [inputValue, setInputValue] = useState<string>('');
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  // Focus sull'input quando viene attivato
+  useEffect(() => {
+    if (editingPlayerId && inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [editingPlayerId]);
+
+  // Funzione per gestire la conferma dell'input
+  const handleInputConfirm = (playerId: string) => {
+    const parsed = parseInt(inputValue, 10);
+    if (!isNaN(parsed) && parsed >= 0) {
+      onSetPlayerScore(playerId, parsed);
+    }
+    setEditingPlayerId(null);
+    setInputValue('');
+  };
 
   return (
     <div className="mt-12 max-w-4xl mx-auto w-full">
@@ -70,8 +96,64 @@ export default function PlayerRanking({
                     <span className="text-2xl">{place}</span>
                     <span className="text-xl font-semibold">{player.name}</span>
                   </div>
-                  <div className="text-lg font-semibold">
-                    {player.score} {t.points}
+                  <div className="flex items-center text-lg font-semibold">
+                    {/* Condizione per mostrare l'input o il punteggio */}
+                    {editingPlayerId === player.id ? (
+                      <input
+                        ref={inputRef}
+                        type="number"
+                        min="0"
+                        value={inputValue}
+                        onChange={(e) => setInputValue(e.target.value)}
+                        onBlur={() => handleInputConfirm(player.id)}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') {
+                            handleInputConfirm(player.id);
+                          } else if (e.key === 'Escape') {
+                            setEditingPlayerId(null);
+                            setInputValue('');
+                          }
+                        }}
+                        className={`w-20 px-2 py-1 rounded-md ${
+                          darkMode
+                            ? 'bg-gray-700 text-white border border-gray-600'
+                            : 'bg-gray-100 text-gray-800 border border-gray-300'
+                        } focus:outline-none focus:ring-2 focus:ring-purple-500`}
+                      />
+                    ) : (
+                      <span
+                        className="mr-2 cursor-pointer hover:underline"
+                        onClick={() => {
+                          setEditingPlayerId(player.id);
+                          setInputValue(player.score.toString());
+                        }}
+                      >
+                        {player.score} {t.points}
+                      </span>
+                    )}
+                    {/* Pulsanti per incrementare/decrementare */}
+                    <button
+                      onClick={() => onUpdatePlayerScore(player.id, 1)}
+                      className={`p-1 rounded-full ${
+                        darkMode
+                          ? 'bg-gray-700 text-green-400'
+                          : 'bg-green-100 text-green-600'
+                      } hover:bg-opacity-80 transition`}
+                      aria-label={`Incrementa punti di ${player.name}`}
+                    >
+                      <Plus size={16} />
+                    </button>
+                    <button
+                      onClick={() => onUpdatePlayerScore(player.id, -1)}
+                      className={`p-1 rounded-full ${
+                        darkMode
+                          ? 'bg-gray-700 text-red-400'
+                          : 'bg-red-100 text-red-600'
+                      } hover:bg-opacity-80 transition ml-2`}
+                      aria-label={`Decrementa punti di ${player.name}`}
+                    >
+                      <Minus size={16} />
+                    </button>
                   </div>
                 </div>
 
