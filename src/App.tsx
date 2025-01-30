@@ -47,6 +47,23 @@ const globalEvents = [
   "Look everyone in the face without speaking the first person to laugh must take a drink!",
   "The next 'fail' results in the loser giving a 10-second lap dance!",
   "Choose a person and describe their best feature… in the most seductive way possible!",
+  "The first and last place must swap their points!",
+  "The second place loses 5 points, the second to last gains 5!",
+  "Pick a card! If the card is even you get the points, if it's odd you lose them!",
+  "The player in third place must give half of their points to the person in last place!",
+  "Whoever has an odd-numbered score must take a drink and lose 3 points!",
+  "The person in second place can challenge the person in first to a mini-game choose by others for a points swap!",
+  "The person with the highest score must gift 10 points to someone they think deserves it!",
+  "Everyone must talk in a fake accent for the next round, failure means a drink!",
+  "For the next turn, no one can use the word 'drink'—if you do, you take one!",
+  "Everyone who has an even number of letters in their first name must take a drink!",
+  "The next person who laughs must take 2 sips!",
+  "Each person must name a celebrity starting with the last letter of the previous one’s name—whoever hesitates drinks!",
+  "The player in last place must give the player in first place a seductive compliment!",
+  "Play a round of Pullman Game",
+  "Play a round of Pullman Game",
+  "Everyone must close their eyes—on the count of three, point to the player you think has the best 'game.' Majority vote gives away 5 points!",
+  "Last place chooses: Swap scores with another player OR take three sips!",
 ];
 
 // Stato iniziale del gioco
