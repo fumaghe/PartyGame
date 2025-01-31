@@ -353,7 +353,7 @@ function App() {
         const eventIndex = Math.floor(Math.random() * globalEvents.length);
         newGlobalEventMessage = globalEvents[eventIndex];
         newShowGlobalEventPopup = true;
-        newTurnsToNextEvent = 5 + Math.floor(Math.random() * 4);
+        newTurnsToNextEvent = 3 + Math.floor(Math.random() * 4);
       }
 
       const newHistory = [
