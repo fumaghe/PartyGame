@@ -81,7 +81,7 @@ const GameCard: React.FC<GameCardProps> = ({
       <div className={`${darkMode ? 'bg-gray-800/50' : 'bg-white/10'} backdrop-blur-sm rounded-xl p-6 mb-6`}>
         {/* Se è geoguessr, mostra l'immagine */}
         {card.type === 'geoguessr' && card.image ? (
-          <img src={`/images/${card.image}`} alt="GeoGuessr" className="w-full h-64 object-cover rounded-xl mb-4" />
+          <img src={`images/${card.image}`} alt="GeoGuessr" className="w-full h-64 object-cover rounded-xl mb-4" />
         ) : card.type === 'cupido' ? (
           // Se è cupido, mostra il testo della sfida
           <p className="text-2xl text-white leading-relaxed">

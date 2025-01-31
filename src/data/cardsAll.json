@@ -4129,19 +4129,6 @@
         "type": "geoguessr"
       },
       {
-        "id": "gg23",
-        "it": "Immagine del Monte Bianco",
-        "en": "Image of Mont Blanc",
-        "fr": "Image du Mont Blanc",
-        "image": "montebianco.png",
-        "answer": {
-          "it": "Alpi, Italia/Francia",
-          "en": "Alps, Italy/France",
-          "fr": "Alpes, Italie/France"
-        },
-        "type": "geoguessr"
-      },
-      {
         "id": "gg24",
         "it": "Immagine del Tempio di Abu Simbel",
         "en": "Image of Abu Simbel Temple",
@@ -4168,45 +4155,6 @@
         "type": "geoguessr"
       },
       {
-        "id": "gg26",
-        "it": "Immagine della Statua della Libertà",
-        "en": "Image of the Statue of Liberty",
-        "fr": "Image de la Statue de la Liberté",
-        "image": "statualiberta2.png",
-        "answer": {
-          "it": "New York, USA",
-          "en": "New York, USA",
-          "fr": "New York, USA"
-        },
-        "type": "geoguessr"
-      },
-      {
-        "id": "gg27",
-        "it": "Immagine del Taj Mahal",
-        "en": "Image of the Taj Mahal",
-        "fr": "Image du Taj Mahal",
-        "image": "tajmahal2.png",
-        "answer": {
-          "it": "Agra, India",
-          "en": "Agra, India",
-          "fr": "Agra, Inde"
-        },
-        "type": "geoguessr"
-      },
-      {
-        "id": "gg28",
-        "it": "Immagine della Torre di Pisa",
-        "en": "Image of the Leaning Tower of Pisa",
-        "fr": "Image de la Tour de Pise",
-        "image": "torredipisa2.png",
-        "answer": {
-          "it": "Pisa, Italia",
-          "en": "Pisa, Italy",
-          "fr": "Pise, Italie"
-        },
-        "type": "geoguessr"
-      },
-      {
         "id": "gg29",
         "it": "Immagine del Parco Nazionale di Yellowstone",
         "en": "Image of Yellowstone National Park",
@@ -4229,6 +4177,266 @@
           "it": "Tanzania",
           "en": "Tanzania",
           "fr": "Tanzanie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg50",
+        "it": "Immagine di Toronto",
+        "en": "Image of Toronto",
+        "fr": "Image de Toronto",
+        "image": "toronto.png",
+        "answer": {
+          "it": "Canada",
+          "en": "Canada",
+          "fr": "Canada"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg52",
+        "it": "Immagine di Oslo",
+        "en": "Image of Oslo",
+        "fr": "Image d'Oslo",
+        "image": "oslo.png",
+        "answer": {
+          "it": "Norvegia",
+          "en": "Norway",
+          "fr": "Norvège"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg53",
+        "it": "Immagine di Lund",
+        "en": "Image of Lund",
+        "fr": "Image de Lund",
+        "image": "lund.png",
+        "answer": {
+          "it": "Svezia",
+          "en": "Sweden",
+          "fr": "Suède"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg54",
+        "it": "Immagine di Helsinki",
+        "en": "Image of Helsinki",
+        "fr": "Image d'Helsinki",
+        "image": "helsinki.png",
+        "answer": {
+          "it": "Finlandia",
+          "en": "Finland",
+          "fr": "Finlande"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg56",
+        "it": "Immagine di Praga",
+        "en": "Image of Prague",
+        "fr": "Image de Prague",
+        "image": "prague.png",
+        "answer": {
+          "it": "Repubblica Ceca",
+          "en": "Czech Republic",
+          "fr": "République tchèque"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg57",
+        "it": "Immagine di Budapest",
+        "en": "Image of Budapest",
+        "fr": "Image de Budapest",
+        "image": "budapest.png",
+        "answer": {
+          "it": "Ungheria",
+          "en": "Hungary",
+          "fr": "Hongrie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg59",
+        "it": "Immagine di Vienna",
+        "en": "Image of Vienna",
+        "fr": "Image de Vienne",
+        "image": "vienna.png",
+        "answer": {
+          "it": "Austria",
+          "en": "Austria",
+          "fr": "Autriche"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg61",
+        "it": "Immagine di Copenaghen",
+        "en": "Image of Copenhagen",
+        "fr": "Image de Copenhague",
+        "image": "copenhagen.png",
+        "answer": {
+          "it": "Danimarca",
+          "en": "Denmark",
+          "fr": "Danemark"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg62",
+        "it": "Immagine di Istanbul",
+        "en": "Image of Istanbul",
+        "fr": "Image d'Istanbul",
+        "image": "istanbul.png",
+        "answer": {
+          "it": "Turchia",
+          "en": "Turkey",
+          "fr": "Turquie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg33",
+        "it": "Immagine di Madrid",
+        "en": "Image of Madrid",
+        "fr": "Image de Madrid",
+        "image": "madrid.png",
+        "answer": {
+          "it": "Spagna",
+          "en": "Spain",
+          "fr": "Espagne"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg34",
+        "it": "Immagine di Roma",
+        "en": "Image of Rome",
+        "fr": "Image de Rome",
+        "image": "rome.png",
+        "answer": {
+          "it": "Italia",
+          "en": "Italy",
+          "fr": "Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg35",
+        "it": "Immagine di Berlino",
+        "en": "Image of Berlin",
+        "fr": "Image de Berlin",
+        "image": "berlin.png",
+        "answer": {
+          "it": "Germania",
+          "en": "Germany",
+          "fr": "Allemagne"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg36",
+        "it": "Immagine di Lisbona",
+        "en": "Image of Lisbon",
+        "fr": "Image de Lisbonne",
+        "image": "lisbon.png",
+        "answer": {
+          "it": "Portogallo",
+          "en": "Portugal",
+          "fr": "Portugal"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg37",
+        "it": "Immagine di Amsterdam",
+        "en": "Image of Amsterdam",
+        "fr": "Image d'Amsterdam",
+        "image": "amsterdam.png",
+        "answer": {
+          "it": "Paesi Bassi",
+          "en": "Netherlands",
+          "fr": "Pays-Bas"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg38",
+        "it": "Immagine di Atene",
+        "en": "Image of Athens",
+        "fr": "Image d'Athènes",
+        "image": "athens.png",
+        "answer": {
+          "it": "Grecia",
+          "en": "Greece",
+          "fr": "Grèce"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg39",
+        "it": "Immagine di Mosca",
+        "en": "Image of Moscow",
+        "fr": "Image de Moscou",
+        "image": "moscow.png",
+        "answer": {
+          "it": "Russia",
+          "en": "Russia",
+          "fr": "Russie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg40",
+        "it": "Immagine di Pechino",
+        "en": "Image of Beijing",
+        "fr": "Image de Pékin",
+        "image": "beijing.png",
+        "answer": {
+          "it": "Cina",
+          "en": "China",
+          "fr": "Chine"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg41",
+        "it": "Immagine di Tokyo",
+        "en": "Image of Tokyo",
+        "fr": "Image de Tokyo",
+        "image": "tokyo.png",
+        "answer": {
+          "it": "Giappone",
+          "en": "Japan",
+          "fr": "Japon"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg42",
+        "it": "Immagine di Seoul",
+        "en": "Image of Seoul",
+        "fr": "Image de Séoul",
+        "image": "seoul.png",
+        "answer": {
+          "it": "Corea del Sud",
+          "en": "South Korea",
+          "fr": "Corée du Sud"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg43",
+        "it": "Immagine di Bangkok",
+        "en": "Image of Bangkok",
+        "fr": "Image de Bangkok",
+        "image": "bangkok.png",
+        "answer": {
+          "it": "Thailandia",
+          "en": "Thailand",
+          "fr": "Thaïlande"
         },
         "type": "geoguessr"
       }
