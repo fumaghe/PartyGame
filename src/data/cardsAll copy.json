@@ -1,0 +1,5051 @@
+{
+    "domandePiccanti": [
+      {
+        "it": "Qual è stata la tua cotta più imbarazzante?",
+        "en": "What has been your most embarrassing crush?",
+        "fr": "Quelle a été ta béguin la plus embarrassante?"
+      },
+      {
+        "it": "Qual è il segreto più grande che hai mai tenuto?",
+        "en": "What is the biggest secret you have ever kept?",
+        "fr": "Quel est le plus grand secret que tu aies jamais gardé?"
+      },
+      {
+        "it": "Hai mai tradito qualcuno? Racconta.",
+        "en": "Have you ever cheated on someone? Tell us.",
+        "fr": "As-tu déjà trompé quelqu'un? Raconte."
+      },
+      {
+        "it": "Se potessi cambiare qualcosa del tuo aspetto, cosa sarebbe?",
+        "en": "If you could change something about your appearance, what would it be?",
+        "fr": "Si tu pouvais changer quelque chose de ton apparence, qu'est-ce que ce serait?"
+      },
+      {
+        "it": "Qual è il tuo desiderio sessuale più nascosto?",
+        "en": "What is your most hidden sexual desire?",
+        "fr": "Quel est ton désir sexuel le plus caché?"
+      },
+      {
+        "it": "Hai mai avuto una cotta per un amico? Come hai gestito la situazione?",
+        "en": "Have you ever had a crush on a friend? How did you handle the situation?",
+        "fr": "As-tu déjà eu un béguin pour un ami? Comment as-tu géré la situation?"
+      },
+      {
+        "it": "Qual è il tuo peggior difetto?",
+        "en": "What is your worst flaw?",
+        "fr": "Quel est ton pire défaut?"
+      },
+      {
+        "it": "Qual è la tua più grande paura riguardo alle relazioni?",
+        "en": "What is your biggest fear regarding relationships?",
+        "fr": "Quelle est ta plus grande peur concernant les relations?"
+      },
+      {
+        "it": "Hai mai mentito per ottenere qualcosa che desideravi? Cosa?",
+        "en": "Have you ever lied to get something you wanted? What?",
+        "fr": "As-tu déjà menti pour obtenir quelque chose que tu voulais? Quoi?"
+      },
+      {
+        "it": "Qual è la cosa più imbarazzante che hai fatto di nascosto?",
+        "en": "What is the most embarrassing thing you have done in secret?",
+        "fr": "Quelle est la chose la plus embarrassante que tu aies faite en secret?"
+      },
+      {
+        "it": "Se potessi eliminare una tua abitudine, quale sarebbe?",
+        "en": "If you could eliminate one of your habits, what would it be?",
+        "fr": "Si tu pouvais éliminer une de tes habitudes, laquelle serait-ce?"
+      },
+      {
+        "it": "Hai mai provato sentimenti per qualcuno del tuo stesso sesso?",
+        "en": "Have you ever had feelings for someone of the same sex?",
+        "fr": "As-tu déjà eu des sentiments pour quelqu'un du même sexe?"
+      },
+      {
+        "it": "Qual è stata la tua più grande delusione amorosa?",
+        "en": "What has been your biggest romantic disappointment?",
+        "fr": "Quelle a été ta plus grande déception amoureuse?"
+      },
+      {
+        "it": "Racconta un momento in cui hai provato gelosia.",
+        "en": "Tell about a moment when you felt jealous.",
+        "fr": "Raconte un moment où tu as ressenti de la jalousie."
+      },
+      {
+        "it": "Qual è la cosa più coraggiosa che hai fatto per amore?",
+        "en": "What is the bravest thing you have done for love?",
+        "fr": "Quelle est la chose la plus courageuse que tu aies faite par amour?"
+      },
+      {
+        "it": "Hai mai nascosto un sentimento per paura di rifiuto?",
+        "en": "Have you ever hidden a feeling for fear of rejection?",
+        "fr": "As-tu déjà caché un sentiment par peur du rejet?"
+      },
+      {
+        "it": "Qual è la tua opinione sulle relazioni a distanza?",
+        "en": "What is your opinion on long-distance relationships?",
+        "fr": "Quelle est ton opinion sur les relations à distance?"
+      },
+      {
+        "it": "Hai mai avuto una relazione segreta? Descrivi.",
+        "en": "Have you ever had a secret relationship? Describe it.",
+        "fr": "As-tu déjà eu une relation secrète? Décris-la."
+      },
+      {
+        "it": "Qual è il tuo peggior litigio con un amico?",
+        "en": "What is your worst argument with a friend?",
+        "fr": "Quel est ton pire conflit avec un ami?"
+      },
+      {
+        "it": "Se potessi tornare indietro, quale relazione cambieresti e perché?",
+        "en": "If you could go back, which relationship would you change and why?",
+        "fr": "Si tu pouvais revenir en arrière, quelle relation changerais-tu et pourquoi?"
+      },
+      {
+        "it": "Hai mai avuto sentimenti non corrisposti? Come li hai gestiti?",
+        "en": "Have you ever had unreciprocated feelings? How did you handle them?",
+        "fr": "As-tu déjà eu des sentiments non réciproques? Comment les as-tu gérés?"
+      },
+      {
+        "it": "Qual è la cosa più romantica che hai mai fatto?",
+        "en": "What is the most romantic thing you have ever done?",
+        "fr": "Quelle est la chose la plus romantique que tu aies jamais faite?"
+      },
+      {
+        "it": "Hai mai pensato di lasciare il tuo partner? Perché?",
+        "en": "Have you ever thought about leaving your partner? Why?",
+        "fr": "As-tu déjà pensé à quitter ton partenaire? Pourquoi?"
+      },
+      {
+        "it": "Hai mai rimpianto di non aver confessato i tuoi sentimenti?",
+        "en": "Have you ever regretted not confessing your feelings?",
+        "fr": "As-tu déjà regretté de ne pas avoir avoué tes sentiments?"
+      },
+      {
+        "it": "Qual è la tua idea di una serata perfetta?",
+        "en": "What is your idea of a perfect evening?",
+        "fr": "Quelle est ton idée d'une soirée parfaite?"
+      },
+      {
+        "it": "Hai mai fatto qualcosa di impulsivo per amore?",
+        "en": "Have you ever done something impulsive for love?",
+        "fr": "As-tu déjà fait quelque chose d'impulsif par amour?"
+      },
+      {
+        "it": "Qual è la cosa più strana che ti attrae in qualcuno?",
+        "en": "What is the weirdest thing that attracts you to someone?",
+        "fr": "Quelle est la chose la plus étrange qui t'attire chez quelqu'un?"
+      },
+      {
+        "it": "Hai mai avuto un'infedeltà? Come hai affrontato la situazione?",
+        "en": "Have you ever been unfaithful? How did you handle the situation?",
+        "fr": "As-tu déjà été infidèle? Comment as-tu géré la situation?"
+      },
+      {
+        "it": "Qual è la tua definizione di amore vero?",
+        "en": "What is your definition of true love?",
+        "fr": "Quelle est ta définition de l'amour vrai?"
+      },
+      {
+        "it": "Hai mai nascosto i tuoi sentimenti per mantenere un'amicizia?",
+        "en": "Have you ever hidden your feelings to maintain a friendship?",
+        "fr": "As-tu déjà caché tes sentiments pour maintenir une amitié?"
+      },
+      {
+        "it": "Qual è la cosa più importante che cerchi in una relazione?",
+        "en": "What is the most important thing you seek in a relationship?",
+        "fr": "Quelle est la chose la plus importante que tu recherches dans une relation?"
+      },
+      {
+        "it": "Hai mai pensato di terminare una relazione all'ultimo minuto?",
+        "en": "Have you ever thought about ending a relationship at the last minute?",
+        "fr": "As-tu déjà pensé à mettre fin à une relation à la dernière minute?"
+      },
+      {
+        "it": "Qual è il tuo modo preferito per dimostrare affetto?",
+        "en": "What is your favorite way to show affection?",
+        "fr": "Quelle est ta façon préférée de montrer de l'affection?"
+      },
+      {
+        "it": "Qual è la tua opinione sulla gelosia?",
+        "en": "What is your opinion on jealousy?",
+        "fr": "Quelle est ton opinion sur la jalousie?"
+      },
+      {
+        "it": "Hai mai avuto una relazione a breve termine? Com'è andata?",
+        "en": "Have you ever had a short-term relationship? How did it go?",
+        "fr": "As-tu déjà eu une relation de courte durée? Comment cela s'est-il passé?"
+      },
+      {
+        "it": "Hai mai mentito su qualcosa di importante in una relazione?",
+        "en": "Have you ever lied about something important in a relationship?",
+        "fr": "As-tu déjà menti sur quelque chose d'important dans une relation?"
+      },
+      {
+        "it": "Hai mai avuto una relazione complicata? Descrivi.",
+        "en": "Have you ever had a complicated relationship? Describe it.",
+        "fr": "As-tu déjà eu une relation compliquée? Décris-la."
+      },
+      {
+        "it": "Qual è la tua opinione sui tradimenti?",
+        "en": "What is your opinion on cheating?",
+        "fr": "Quelle est ton opinion sur les tromperies?"
+      },
+      {
+        "it": "Qual è la tua idea di fiducia in una relazione?",
+        "en": "What is your idea of trust in a relationship?",
+        "fr": "Quelle est ton idée de la confiance dans une relation?"
+      },
+      {
+        "it": "Hai mai sentito di non essere all'altezza nelle relazioni?",
+        "en": "Have you ever felt inadequate in relationships?",
+        "fr": "As-tu déjà senti que tu n'étais pas à la hauteur dans les relations?"
+      },
+      {
+        "it": "Qual è la cosa più romantica che qualcuno ha fatto per te?",
+        "en": "What is the most romantic thing someone has done for you?",
+        "fr": "Quelle est la chose la plus romantique que quelqu'un ait faite pour toi?"
+      },
+      {
+        "it": "Hai mai nascosto una parte di te in una relazione?",
+        "en": "Have you ever hidden a part of yourself in a relationship?",
+        "fr": "As-tu déjà caché une partie de toi dans une relation?"
+      },
+      {
+        "it": "Qual è la tua opinione sulle relazioni aperte?",
+        "en": "What is your opinion on open relationships?",
+        "fr": "Quelle est ton opinion sur les relations ouvertes?"
+      },
+      {
+        "it": "Hai mai avuto una relazione con una differenza d'età significativa?",
+        "en": "Have you ever had a relationship with a significant age difference?",
+        "fr": "As-tu déjà eu une relation avec une différence d'âge significative?"
+      },
+      {
+        "it": "Qual è il tuo bodycount?",
+        "en": "What is your body count?",
+        "fr": "Quel est ton nombre de conquêtes?"
+      },
+      {
+        "it": "Quante volte al massimo hai fatto sesso in un giorno?",
+        "en": "What is the maximum number of times you have had sex in a day?",
+        "fr": "Combien de fois as-tu eu des relations sexuelles en une journée au maximum?"
+      },
+      {
+        "it": "Qual è il tuo pensiero sulle relazioni a prima vista?",
+        "en": "What is your thought on love at first sight?",
+        "fr": "Que penses-tu de l'amour au premier regard?"
+      },
+      {
+        "it": "Hai mai avuto una relazione a distanza? Come hai gestito?",
+        "en": "Have you ever had a long-distance relationship? How did you manage?",
+        "fr": "As-tu déjà eu une relation à distance? Comment as-tu géré?"
+      },
+      {
+        "it": "Hai mai avuto sentimenti per un ex? Come hai gestito?",
+        "en": "Have you ever had feelings for an ex? How did you handle it?",
+        "fr": "As-tu déjà eu des sentiments pour un ex? Comment as-tu géré?"
+      },
+      {
+        "it": "Qual è la tua opinione sul matrimonio?",
+        "en": "What is your opinion on marriage?",
+        "fr": "Quelle est ton opinion sur le mariage?"
+      },
+      {
+        "it": "Hai mai avuto una relazione complicata con un familiare?",
+        "en": "Have you ever had a complicated relationship with a family member?",
+        "fr": "As-tu déjà eu une relation compliquée avec un membre de ta famille?"
+      },
+      {
+        "it": "Qual è la cosa che cerchi di meno in un partner?",
+        "en": "What is the thing you look for the least in a partner?",
+        "fr": "Quelle est la chose que tu recherches le moins chez un partenaire?"
+      },
+      {
+        "it": "Qual è la tua opinione sulla condivisione dei sentimenti?",
+        "en": "What is your opinion on sharing feelings?",
+        "fr": "Quelle est ton opinion sur le partage des sentiments?"
+      },
+      {
+        "it": "Hai mai nascosto una parte della tua vita a un partner?",
+        "en": "Have you ever hidden a part of your life from a partner?",
+        "fr": "As-tu déjà caché une partie de ta vie à un partenaire?"
+      },
+      {
+        "it": "Qual è la tua idea di equilibrio tra vita privata e relazione?",
+        "en": "What is your idea of work-life balance in a relationship?",
+        "fr": "Quelle est ton idée de l'équilibre entre vie privée et relation?"
+      },
+      {
+        "it": "Qual è il tuo pensiero sulle relazioni virtuali?",
+        "en": "What is your thought on virtual relationships?",
+        "fr": "Que penses-tu des relations virtuelles?"
+      },
+      {
+        "it": "Hai mai avuto una relazione con qualcuno di molto diverso da te?",
+        "en": "Have you ever had a relationship with someone very different from you?",
+        "fr": "As-tu déjà eu une relation avec quelqu'un de très différent de toi?"
+      },
+      {
+        "it": "Qual è la cosa più difficile che hai dovuto perdonare in una relazione?",
+        "en": "What is the hardest thing you had to forgive in a relationship?",
+        "fr": "Quelle est la chose la plus difficile que tu aies dû pardonner dans une relation?"
+      },
+      {
+        "it": "Hai mai sentito che una relazione ti ha cambiato? Come?",
+        "en": "Have you ever felt that a relationship changed you? How?",
+        "fr": "As-tu déjà senti qu'une relation t'avait changé? Comment?"
+      },
+      {
+        "it": "Qual è il tuo rapporto con le app di dating?",
+        "en": "What is your relationship with dating apps?",
+        "fr": "Quelle est ta relation avec les applications de rencontres?"
+      },
+      {
+        "it": "Hai mai provato attrazione verso un familiare di un tuo amico?",
+        "en": "Have you ever felt attraction towards a friend's family member?",
+        "fr": "As-tu déjà ressenti une attirance envers un membre de la famille d'un ami?"
+      },
+      {
+        "it": "Hai mai avuto una relazione basata principalmente sull'attrazione fisica?",
+        "en": "Have you ever had a relationship based primarily on physical attraction?",
+        "fr": "As-tu déjà eu une relation principalement basée sur l'attraction physique?"
+      },
+      {
+        "it": "Qual è la tua opinione sull'onestà totale in una relazione?",
+        "en": "What is your opinion on complete honesty in a relationship?",
+        "fr": "Quelle est ton opinion sur l'honnêteté totale dans une relation?"
+      },
+      {
+        "it": "Hai mai avuto una relazione con qualcuno di un'altra nazione? Come è andata?",
+        "en": "Have you ever had a relationship with someone from another country? How did it go?",
+        "fr": "As-tu déjà eu une relation avec quelqu'un d'une autre nationalité? Comment cela s'est-il passé?"
+      },
+      {
+        "it": "Hai mai sentito che una relazione ti ha aiutato a superare una crisi personale?",
+        "en": "Have you ever felt that a relationship helped you overcome a personal crisis?",
+        "fr": "As-tu déjà senti qu'une relation t'avait aidé à surmonter une crise personnelle?"
+      },
+      {
+        "it": "Qual è la cosa più bella che hai fatto per un partner?",
+        "en": "What is the most beautiful thing you have done for a partner?",
+        "fr": "Quelle est la plus belle chose que tu aies faite pour un partenaire?"
+      },
+      {
+        "it": "Hai mai concluso con una persona conosciuta su una piattaforma di dating?",
+        "en": "Have you ever ended things with someone you met on a dating platform?",
+        "fr": "As-tu déjà rompu avec une personne rencontrée sur une plateforme de rencontres?"
+      }
+    ],
+    "cosaPreferirestiPiccante": [
+      {
+        "it": "Preferiresti essere completamente vulnerabile emotivamente con qualcuno per una notte o nascondere sempre i tuoi veri sentimenti in una relazione?",
+        "en": "Would you rather be completely emotionally vulnerable with someone for one night or always hide your true feelings in a relationship?",
+        "fr": "Préférerais-tu être complètement vulnérable émotionnellement avec quelqu'un pour une nuit ou toujours cacher tes vrais sentiments dans une relation?"
+      },
+      {
+        "it": "Preferiresti fare un triangolo con due sconosciuti o con due amici fidati?",
+        "en": "Would you rather have a threesome with two strangers or with two trusted friends?",
+        "fr": "Préférerais-tu faire un plan à trois avec deux inconnus ou avec deux amis de confiance?"
+      },
+      {
+        "it": "Preferiresti provare una fantasia estrema una sola volta o un'esperienza più soft ma per tutta la vita?",
+        "en": "Would you rather try an extreme fantasy once or a softer experience for the rest of your life?",
+        "fr": "Préférerais-tu essayer une fantaisie extrême une seule fois ou une expérience plus douce pour le reste de ta vie?"
+      },
+      {
+        "it": "Preferiresti dover guardare il tuo partner con qualcun altro o essere guardato mentre sei con qualcun altro?",
+        "en": "Would you rather watch your partner with someone else or be watched while you are with someone else?",
+        "fr": "Préférerais-tu regarder ton partenaire avec quelqu'un d'autre ou être observé pendant que tu es avec quelqu'un d'autre?"
+      },
+      {
+        "it": "Preferiresti essere legato/a durante il sesso o legare il tuo partner?",
+        "en": "Would you rather be tied up during sex or tie up your partner?",
+        "fr": "Préférerais-tu être attaché(e) pendant le sexe ou attacher ton partenaire?"
+      },
+      {
+        "it": "Preferiresti avere un'avventura con un/una ex o con il/la migliore amico/a del tuo partner?",
+        "en": "Would you rather have a fling with an ex or with your partner’s best friend?",
+        "fr": "Préférerais-tu avoir une aventure avec un(e) ex ou avec le/la meilleur(e) ami(e) de ton partenaire?"
+      },
+      {
+        "it": "Preferiresti fare l'amore solo in posti insoliti o solo in camera da letto?",
+        "en": "Would you rather make love only in unusual places or only in the bedroom?",
+        "fr": "Préférerais-tu faire l'amour uniquement dans des endroits insolites ou seulement dans la chambre?"
+      },
+      {
+        "it": "Preferiresti avere una notte di passione con il/la tua celebrity preferita o con il/la tua ex migliore?",
+        "en": "Would you rather have a night of passion with your favorite celebrity or your best ex?",
+        "fr": "Préférerais-tu passer une nuit de passion avec ta célébrité préférée ou ton meilleur ex?"
+      },
+      {
+        "it": "Preferiresti essere costretto a dire la verità su ogni tua esperienza sessuale o mantenere un segreto che potrebbe rovinare una relazione?",
+        "en": "Would you rather be forced to tell the truth about every sexual experience or keep a secret that could ruin a relationship?",
+        "fr": "Préférerais-tu être forcé de dire la vérité sur chaque expérience sexuelle ou garder un secret qui pourrait ruiner une relation?"
+      },
+      {
+        "it": "Preferiresti fare l'amore davanti a uno specchio gigante o bendato/a senza poter vedere nulla?",
+        "en": "Would you rather make love in front of a giant mirror or blindfolded without seeing anything?",
+        "fr": "Préférerais-tu faire l'amour devant un miroir géant ou les yeux bandés sans rien voir?"
+      },
+      {
+        "it": "Preferiresti avere il miglior sesso della tua vita una volta all'anno o rapporti mediocri tutte le volte che vuoi?",
+        "en": "Would you rather have the best sex of your life once a year or mediocre sex as often as you want?",
+        "fr": "Préférerais-tu avoir le meilleur sexe de ta vie une fois par an ou du sexe médiocre aussi souvent que tu veux?"
+      },
+      {
+        "it": "Preferiresti essere costretto a raccontare il tuo più grande segreto o sentire quello più oscuro del tuo partner?",
+        "en": "Would you rather be forced to reveal your biggest secret or hear your partner’s darkest one?",
+        "fr": "Préférerais-tu être forcé de révéler ton plus grand secret ou d'entendre le plus sombre de ton partenaire?"
+      },
+      {
+        "it": "Preferiresti vivere una relazione perfetta senza sesso o una relazione tossica con il miglior sesso della tua vita?",
+        "en": "Would you rather have a perfect relationship without sex or a toxic relationship with the best sex of your life?",
+        "fr": "Préférerais-tu avoir une relation parfaite sans sexe ou une relation toxique avec le meilleur sexe de ta vie?"
+      },
+      {
+        "it": "Preferiresti dover guardare il tuo partner con qualcun altro o essere guardato mentre sei con qualcun altro?",
+        "en": "Would you rather watch your partner with someone else or be watched while you are with someone else?",
+        "fr": "Préférerais-tu regarder ton partenaire avec quelqu'un d'autre ou être observé pendant que tu es avec quelqu'un d'autre?"
+      },
+      {
+        "it": "Preferiresti poter avere solo un unico orgasmo incredibile in tutta la vita o multipli orgasmi mediocri per sempre?",
+        "en": "Would you rather have only one mind-blowing orgasm in your lifetime or multiple mediocre ones forever?",
+        "fr": "Préférerais-tu n'avoir qu'un seul orgasme incroyable dans ta vie ou plusieurs orgasmes médiocres pour toujours?"
+      },
+      {
+        "it": "Preferiresti essere desiderato da tutti ma mai amato o essere amato profondamente ma senza desiderio fisico?",
+        "en": "Would you rather be desired by everyone but never loved, or be deeply loved but without physical desire?",
+        "fr": "Préférerais-tu être désiré par tout le monde mais jamais aimé, ou être profondément aimé mais sans désir physique?"
+      },
+      {
+        "it": "Preferiresti non provare mai più piacere fisico o non provare mai più una connessione emotiva con nessuno?",
+        "en": "Would you rather never feel physical pleasure again or never feel an emotional connection with anyone again?",
+        "fr": "Préférerais-tu ne plus jamais ressentir de plaisir physique ou ne plus jamais ressentir de connexion émotionnelle avec qui que ce soit?"
+      },
+      {
+        "it": "Preferiresti scoprire di essere stato tradito più volte o scoprire di essere l'unico traditore?",
+        "en": "Would you rather discover you've been cheated on multiple times or find out you're the only cheater?",
+        "fr": "Préférerais-tu découvrir que tu as été trompé plusieurs fois ou apprendre que tu es le seul à avoir trompé?"
+      },
+      {
+        "it": "Preferiresti poter leggere i pensieri del tuo partner solo quando è con un'altra persona o poter leggere i suoi messaggi privati in qualsiasi momento?",
+        "en": "Would you rather be able to read your partner’s thoughts only when they’re with someone else or be able to read their private messages anytime?",
+        "fr": "Préférerais-tu pouvoir lire les pensées de ton partenaire seulement quand il est avec quelqu'un d'autre ou pouvoir lire ses messages privés à tout moment?"
+      },
+      {
+        "it": "Preferiresti non poter mai più provare il desiderio o non poter mai più provare amore?",
+        "en": "Would you rather never feel desire again or never feel love again?",
+        "fr": "Préférerais-tu ne plus jamais ressentir de désir ou ne plus jamais ressentir d'amour?"
+      },
+      {
+        "it": "Preferiresti sapere ogni dettaglio della vita passata del tuo partner o far sì che lui/lei sappia ogni dettaglio della tua?",
+        "en": "Would you rather know every detail of your partner’s past life or have them know every detail of yours?",
+        "fr": "Préférerais-tu connaître chaque détail du passé de ton partenaire ou qu'il/elle connaisse chaque détail du tien?"
+      },
+      {
+        "it": "Preferiresti poter vivere ogni tua fantasia più oscura ma mai innamorarti o avere una relazione perfetta ma senza passioni?",
+        "en": "Would you rather live out your darkest fantasies but never fall in love or have a perfect relationship with no passion?",
+        "fr": "Préférerais-tu vivre toutes tes fantasmes les plus sombres mais ne jamais tomber amoureux ou avoir une relation parfaite sans passion?"
+      },
+      {
+        "it": "Preferiresti dover sempre dire la verità sulle tue esperienze intime o non poter mai parlarne con nessuno?",
+        "en": "Would you rather always have to tell the truth about your intimate experiences or never be able to talk about them at all?",
+        "fr": "Préférerais-tu toujours devoir dire la vérité sur tes expériences intimes ou ne jamais pouvoir en parler du tout?"
+      },
+      {
+        "it": "Preferiresti essere completamente sottomesso o completamente dominante in ogni relazione che hai?",
+        "en": "Would you rather be completely submissive or completely dominant in every relationship you have?",
+        "fr": "Préférerais-tu être complètement soumis ou complètement dominant dans chaque relation que tu as?"
+      },
+      {
+        "it": "Preferiresti poter sentire i pensieri intimi del tuo partner o far sì che lui/lei possa sentire i tuoi?",
+        "en": "Would you rather be able to hear your partner’s intimate thoughts or have them hear yours?",
+        "fr": "Préférerais-tu pouvoir entendre les pensées intimes de ton partenaire ou qu'il/elle entende les tiennes?"
+      },
+      {
+        "it": "Preferiresti che ogni persona con cui sei stato/a sapesse di ogni tua esperienza passata o non ricordasse niente?",
+        "en": "Would you rather have every person you’ve been with know about all your past experiences or remember nothing?",
+        "fr": "Préférerais-tu que chaque personne avec qui tu as été sache tout sur tes expériences passées ou ne se souvienne de rien?"
+      },
+      {
+        "it": "Preferiresti avere solo una notte di passione con il/la tua partner ideale o una relazione lunga ma senza passione?",
+        "en": "Would you rather have just one night of passion with your ideal partner or a long relationship with no passion?",
+        "fr": "Préférerais-tu avoir juste une nuit de passion avec ton partenaire idéal ou une relation longue sans passion?"
+      },
+      {
+        "it": "Preferiresti avere esperienze intense e rischiose o sicure ma monotone?",
+        "en": "Would you rather have intense and risky experiences or safe but monotonous ones?",
+        "fr": "Préférerais-tu avoir des expériences intenses et risquées ou sûres mais monotones?"
+      },
+      {
+        "it": "Preferiresti che il tuo partner avesse il pieno controllo su di te o avere tu il pieno controllo su di lui/lei?",
+        "en": "Would you rather have your partner have full control over you or have full control over them?",
+        "fr": "Préférerais-tu que ton partenaire ait un contrôle total sur toi ou avoir un contrôle total sur lui/elle?"
+      },
+      {
+        "it": "Preferiresti fare sempre la stessa posizione o doverne cambiare una diversa ogni volta?",
+        "en": "Would you rather always do the same position or have to change it every time?",
+        "fr": "Préférerais-tu toujours faire la même position ou devoir en changer à chaque fois?"
+      },
+      {
+        "it": "Preferiresti scoprire che il tuo partner ha tradito una volta per errore o che ha avuto una relazione segreta per anni?",
+        "en": "Would you rather discover your partner cheated once by mistake or had a secret affair for years?",
+        "fr": "Préférerais-tu découvrir que ton partenaire a trompé une fois par erreur ou qu'il/elle a eu une liaison secrète pendant des années?"
+      },
+      {
+        "it": "Preferiresti essere scoperto mentre tradisci o scoprire il tuo partner mentre ti tradisce?",
+        "en": "Would you rather be caught cheating or catch your partner cheating?",
+        "fr": "Préférerais-tu être surpris en train de tromper ou surprendre ton partenaire en train de te tromper?"
+      },
+      {
+        "it": "Preferiresti provare ogni fantasia del tuo partner o far provare al tuo partner ogni tua fantasia?",
+        "en": "Would you rather try every one of your partner’s fantasies or have your partner try all of yours?",
+        "fr": "Préférerais-tu essayer toutes les fantaisies de ton partenaire ou que ton partenaire essaie toutes les tiennes?"
+      },
+      {
+        "it": "Preferiresti poter essere con chiunque tu voglia senza mai innamorarti o amare profondamente ma con una sola persona per sempre?",
+        "en": "Would you rather be with anyone you want without ever falling in love or deeply love only one person forever?",
+        "fr": "Préférerais-tu être avec qui tu veux sans jamais tomber amoureux ou aimer profondément une seule personne pour toujours?"
+      },
+      {
+        "it": "Preferiresti avere una relazione perfetta ma senza sesso o una relazione piena di passione ma senza amore?",
+        "en": "Would you rather have a perfect relationship but no sex or a passionate relationship with no love?",
+        "fr": "Préférerais-tu avoir une relation parfaite mais sans sexe ou une relation passionnée sans amour?"
+      },
+      {
+        "it": "Preferiresti fare l'amore in pubblico senza che nessuno se ne accorga o in un luogo privato con il rischio di essere scoperto?",
+        "en": "Would you rather make love in public without anyone noticing or in a private place with the risk of being caught?",
+        "fr": "Préférerais-tu faire l'amour en public sans que personne ne s'en aperçoive ou dans un endroit privé avec le risque d'être surpris?"
+      },
+      {
+        "it": "Preferiresti essere dominato/a completamente dal tuo partner o avere tu il controllo totale su di lui/lei?",
+        "en": "Would you rather be completely dominated by your partner or have total control over them?",
+        "fr": "Préférerais-tu être complètement dominé par ton partenaire ou avoir un contrôle total sur lui/elle?"
+      },
+      {
+        "it": "Preferiresti non poter mai più provare attrazione fisica o non poter mai più provare emozioni intense?",
+        "en": "Would you rather never feel physical attraction again or never feel intense emotions again?",
+        "fr": "Préférerais-tu ne plus jamais ressentir d'attirance physique ou ne plus jamais ressentir d'émotions intenses?"
+      },
+      {
+        "it": "Preferiresti avere solo rapporti lenti e romantici o solo esperienze selvagge e appassionate?",
+        "en": "Would you rather only have slow and romantic experiences or only wild and passionate ones?",
+        "fr": "Préférerais-tu n'avoir que des expériences lentes et romantiques ou uniquement sauvages et passionnées?"
+      },
+      {
+        "it": "Preferiresti essere desiderato ma mai soddisfatto o soddisfatto ma mai desiderato?",
+        "en": "Would you rather be desired but never satisfied or satisfied but never desired?",
+        "fr": "Préférerais-tu être désiré mais jamais satisfait ou satisfait mais jamais désiré?"
+      }
+    ],
+    "killKissMarryFamosi": [
+      { "it": "Barbara, Andrea, Pierluigi", "en": "Barbara, Andrea, Pierluigi", "fr": "Barbara, Andrea, Pierluigi" },
+      { "it": "Melanie, Andrea, Matteo", "en": "Melanie, Andrea, Matteo", "fr": "Melanie, Andrea, Matteo" },
+      { "it": "Andrea, Giorgio, Nicolo", "en": "Andrea, Giorgio, Nicolo", "fr": "Andrea, Giorgio, Nicolo" },
+      { "it": "Andrea, Melanie, Rajoie", "en": "Andrea, Melanie, Rajoie", "fr": "Andrea, Melanie, Rajoie" },
+      { "it": "Giorgio, Andrea, Pierluigi", "en": "Giorgio, Andrea, Pierluigi", "fr": "Giorgio, Andrea, Pierluigi" },
+      { "it": "Matteo, Rajoie, Nicolo", "en": "Matteo, Rajoie, Nicolo", "fr": "Matteo, Rajoie, Nicolo" },
+      { "it": "Matteo, Andrea, Melanie", "en": "Matteo, Andrea, Melanie", "fr": "Matteo, Andrea, Melanie" },
+      { "it": "Giorgio, Nicolo, Melanie", "en": "Giorgio, Nicolo, Melanie", "fr": "Giorgio, Nicolo, Melanie" },
+      { "it": "Matteo, Melanie, Matteo", "en": "Matteo, Melanie, Matteo", "fr": "Matteo, Melanie, Matteo" },
+      { "it": "Andrea, Pierluigi, Pietro", "en": "Andrea, Pierluigi, Pietro", "fr": "Andrea, Pierluigi, Pietro" },
+      { "it": "Rajoie, Melanie, Giorgio", "en": "Rajoie, Melanie, Giorgio", "fr": "Rajoie, Melanie, Giorgio" },
+      { "it": "Pietro, Rajoie, Pierluigi", "en": "Pietro, Rajoie, Pierluigi", "fr": "Pietro, Rajoie, Pierluigi" },
+      { "it": "Rajoie, Barbara, Matteo", "en": "Rajoie, Barbara, Matteo", "fr": "Rajoie, Barbara, Matteo" },
+      { "it": "Barbara, Rajoie, Melanie", "en": "Barbara, Rajoie, Melanie", "fr": "Barbara, Rajoie, Melanie" },
+      { "it": "Giorgio, Matteo, Barbara", "en": "Giorgio, Matteo, Barbara", "fr": "Giorgio, Matteo, Barbara" },
+      { "it": "Pierluigi, Matteo, Pierluigi", "en": "Pierluigi, Matteo, Pierluigi", "fr": "Pierluigi, Matteo, Pierluigi" },
+      { "it": "Pietro, Matteo, Barbara", "en": "Pietro, Matteo, Barbara", "fr": "Pietro, Matteo, Barbara" },
+      { "it": "Pierluigi, Giorgio, Nicolo", "en": "Pierluigi, Giorgio, Nicolo", "fr": "Pierluigi, Giorgio, Nicolo" },
+      { "it": "Pietro, Melanie, Barbara", "en": "Pietro, Melanie, Barbara", "fr": "Pietro, Melanie, Barbara" },
+      { "it": "Andrea, Nicolo, Pierluigi", "en": "Andrea, Nicolo, Pierluigi", "fr": "Andrea, Nicolo, Pierluigi" },
+      { "it": "Nicolo, Barbara, Andrea", "en": "Nicolo, Barbara, Andrea", "fr": "Nicolo, Barbara, Andrea" },
+      { "it": "Andrea, Barbara, Melanie", "en": "Andrea, Barbara, Melanie", "fr": "Andrea, Barbara, Melanie" },
+      { "it": "Matteo, Pierluigi, Matteo", "en": "Matteo, Pierluigi, Matteo", "fr": "Matteo, Pierluigi, Matteo" },
+      { "it": "Nicolo, Andrea, Rajoie", "en": "Nicolo, Andrea, Rajoie", "fr": "Nicolo, Andrea, Rajoie" },
+      { "it": "Nicolo, Giorgio, Pierluigi", "en": "Nicolo, Giorgio, Pierluigi", "fr": "Nicolo, Giorgio, Pierluigi" },
+      { "it": "Barbara, Melanie, Pierluigi", "en": "Barbara, Melanie, Pierluigi", "fr": "Barbara, Melanie, Pierluigi" },
+      { "it": "Andrea, Pierluigi, Rajoie", "en": "Andrea, Pierluigi, Rajoie", "fr": "Andrea, Pierluigi, Rajoie" },
+      { "it": "Giorgio, Matteo, Rajoie", "en": "Giorgio, Matteo, Rajoie", "fr": "Giorgio, Matteo, Rajoie" }
+    ],
+    "chiInQuestaStanzaEPropenso": [
+      {
+        "it": "Chi in questa stanza è più propenso a essere un partner ideale in una relazione?",
+        "en": "Who in this room is more likely to be an ideal partner in a relationship?",
+        "fr": "Qui dans cette salle est le plus susceptible d'être un partenaire idéal dans une relation?"
+      },
+      {
+        "it": "Chi in questa stanza pensi possa essere il miglior amante?",
+        "en": "Who in this room do you think could be the best lover?",
+        "fr": "Qui dans cette salle penses-tu pourrait être le meilleur amant?"
+      },
+      {
+        "it": "Chi in questa stanza trovi più attraente fisicamente?",
+        "en": "Who in this room do you find most physically attractive?",
+        "fr": "Qui dans cette salle trouves-tu le plus attirant physiquement?"
+      },
+      {
+        "it": "Chi in questa stanza pensi abbia il sorriso più sexy?",
+        "en": "Who in this room do you think has the sexiest smile?",
+        "fr": "Qui dans cette salle penses-tu avoir le sourire le plus sexy?"
+      },
+      {
+        "it": "Chi in questa stanza pensi che baci meglio?",
+        "en": "Who in this room do you think kisses the best?",
+        "fr": "Qui dans cette salle penses-tu embrasser le mieux?"
+      },
+      {
+        "it": "Chi in questa stanza ha lo sguardo più seducente?",
+        "en": "Who in this room has the most seductive gaze?",
+        "fr": "Qui dans cette salle a le regard le plus séduisant?"
+      },
+      {
+        "it": "Chi in questa stanza sarebbe il tuo partner ideale per un appuntamento romantico?",
+        "en": "Who in this room would be your ideal partner for a romantic date?",
+        "fr": "Qui dans cette salle serait ton partenaire idéal pour un rendez-vous romantique?"
+      },
+      {
+        "it": "Chi in questa stanza sarebbe la persona con cui proveresti una relazione?",
+        "en": "Who in this room would be the person you would consider a relationship with?",
+        "fr": "Qui dans cette salle serait la personne avec qui tu envisagerais une relation?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a flirtare con te?",
+        "en": "Who in this room is more likely to flirt with you?",
+        "fr": "Qui dans cette salle est le plus susceptible de flirter avec toi?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a essere coinvolto in un'avventura di una notte?",
+        "en": "Who in this room is more likely to be involved in a one-night stand?",
+        "fr": "Qui dans cette salle est le plus susceptible d'être impliqué dans une aventure d'une nuit?"
+      },
+      {
+        "it": "Chi in questa stanza pensi abbia il miglior corpo?",
+        "en": "Who in this room do you think has the best body?",
+        "fr": "Qui dans cette salle penses-tu avoir le meilleur corps?"
+      },
+      {
+        "it": "Chi in questa stanza ha il miglior senso dell'umorismo?",
+        "en": "Who in this room has the best sense of humor?",
+        "fr": "Qui dans cette salle a le meilleur sens de l'humour?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a essere sempre di buon umore?",
+        "en": "Who in this room is more likely to always be in a good mood?",
+        "fr": "Qui dans cette salle est le plus susceptible d'être toujours de bonne humeur?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a farti impazzire con uno sguardo?",
+        "en": "Who in this room is more likely to drive you crazy with a look?",
+        "fr": "Qui dans cette salle est le plus susceptible de te rendre fou avec un regard?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a ricevere il maggior numero di complimenti piccanti?",
+        "en": "Who in this room is more likely to receive the most spicy compliments?",
+        "fr": "Qui dans cette salle est le plus susceptible de recevoir le plus de compliments épicés?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a farti provare un’attrazione improvvisa?",
+        "en": "Who in this room is more likely to make you experience a sudden attraction?",
+        "fr": "Qui dans cette salle est le plus susceptible de te faire ressentir une attirance soudaine?"
+      },
+      {
+        "it": "Chi in questa stanza pensi sia il più affascinante?",
+        "en": "Who in this room do you think is the most charming?",
+        "fr": "Qui dans cette salle penses-tu être le plus charmant?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a farti perdere il controllo?",
+        "en": "Who in this room is more likely to make you lose control?",
+        "fr": "Qui dans cette salle est le plus susceptible de te faire perdre le contrôle?"
+      },
+      {
+        "it": "Chi in questa stanza pensi che abbia la voce più sexy?",
+        "en": "Who in this room do you think has the sexiest voice?",
+        "fr": "Qui dans cette salle penses-tu avoir la voix la plus sexy?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a essere il più competitivo nei giochi?",
+        "en": "Who in this room is more likely to be the most competitive in games?",
+        "fr": "Qui dans cette salle est le plus susceptible d'être le plus compétitif dans les jeux?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a improvvisare un piano per la serata?",
+        "en": "Who in this room is more likely to improvise a plan for the evening?",
+        "fr": "Qui dans cette salle est le plus susceptible d'improviser un plan pour la soirée?"
+      },
+      {
+        "it": "Chi in questa stanza sarebbe il miglior partner per un viaggio?",
+        "en": "Who in this room would be the best partner for a trip?",
+        "fr": "Qui dans cette salle serait le meilleur partenaire pour un voyage?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a svelare le proprie fantasie?",
+        "en": "Who in this room is more likely to reveal their fantasies?",
+        "fr": "Qui dans cette salle est le plus susceptible de révéler ses fantasmes?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a mettersi nei guai per una sciocchezza?",
+        "en": "Who in this room is more likely to get into trouble for something silly?",
+        "fr": "Qui dans cette salle est le plus susceptible de se mettre dans des ennuis pour une bêtise?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a cantare ad alta voce senza vergogna?",
+        "en": "Who in this room is more likely to sing loudly without shame?",
+        "fr": "Qui dans cette salle est le plus susceptible de chanter fort sans honte?"
+      },
+      {
+        "it": "Chi in questa stanza sarebbe la persona con cui faresti una pazzia?",
+        "en": "Who in this room would be the person you would do something crazy with?",
+        "fr": "Qui dans cette salle serait la personne avec qui tu ferais une folie?"
+      },
+      {
+        "it": "Chi in questa stanza pensi abbia il miglior stile nel vestirsi?",
+        "en": "Who in this room do you think has the best style in dressing?",
+        "fr": "Qui dans cette salle penses-tu avoir le meilleur style vestimentaire?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a fare innamorare?",
+        "en": "Who in this room is more likely to make someone fall in love?",
+        "fr": "Qui dans cette salle est le plus susceptible de faire tomber quelqu'un amoureux?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a ricevere attenzioni speciali?",
+        "en": "Who in this room is more likely to receive special attention?",
+        "fr": "Qui dans cette salle est le plus susceptible de recevoir une attention spéciale?"
+      },
+      {
+        "it": "Chi in questa stanza pensi che possa essere il tuo tipo ideale?",
+        "en": "Who in this room do you think could be your ideal type?",
+        "fr": "Qui dans cette salle penses-tu pourrait être ton type idéal?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a farti un complimento sincero?",
+        "en": "Who in this room is more likely to give you a sincere compliment?",
+        "fr": "Qui dans cette salle est le plus susceptible de te faire un compliment sincère?"
+      },
+      {
+        "it": "Chi in questa stanza pensi possa sorprenderti sotto le lenzuola?",
+        "en": "Who in this room do you think could surprise you under the sheets?",
+        "fr": "Qui dans cette salle penses-tu pourrait te surprendre sous les draps?"
+      },
+      {
+        "it": "Chi in questa stanza pensi abbia le mani più attraenti?",
+        "en": "Who in this room do you think has the most attractive hands?",
+        "fr": "Qui dans cette salle penses-tu avoir les mains les plus attrayantes?"
+      },
+      {
+        "it": "Chi in questa stanza è la persona più pacata?",
+        "en": "Who in this room is the calmest person?",
+        "fr": "Qui dans cette salle est la personne la plus calme?"
+      },
+      {
+        "it": "Chi in questa stanza pensi possa essere il miglior partner in un gioco di seduzione?",
+        "en": "Who in this room do you think could be the best partner in a game of seduction?",
+        "fr": "Qui dans cette salle penses-tu pourrait être le meilleur partenaire dans un jeu de séduction?"
+      },
+      {
+        "it": "Chi in questa stanza pensi abbia il miglior profumo?",
+        "en": "Who in this room do you think has the best perfume?",
+        "fr": "Qui dans cette salle penses-tu avoir le meilleur parfum?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a fare un gesto romantico per conquistarti?",
+        "en": "Who in this room is more likely to make a romantic gesture to win you over?",
+        "fr": "Qui dans cette salle est le plus susceptible de faire un geste romantique pour te conquérir?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a lasciarti un bigliettino con parole intriganti?",
+        "en": "Who in this room is more likely to leave you a note with intriguing words?",
+        "fr": "Qui dans cette salle est le plus susceptible de te laisser un petit mot avec des mots intrigants?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a svegliarti con un messaggio dolce il giorno dopo?",
+        "en": "Who in this room is more likely to wake you up with a sweet message the next day?",
+        "fr": "Qui dans cette salle est le plus susceptible de te réveiller avec un message doux le lendemain?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a essere il protagonista del tuo prossimo sogno?",
+        "en": "Who in this room is more likely to be the protagonist of your next dream?",
+        "fr": "Qui dans cette salle est le plus susceptible d'être le protagoniste de ton prochain rêve?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a ricevere il primo bacio della serata?",
+        "en": "Who in this room is more likely to receive the first kiss of the evening?",
+        "fr": "Qui dans cette salle est le plus susceptible de recevoir le premier baiser de la soirée?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a regalarti un’esperienza indimenticabile?",
+        "en": "Who in this room is more likely to give you an unforgettable experience?",
+        "fr": "Qui dans cette salle est le plus susceptible de te donner une expérience inoubliable?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a farti provare qualcosa di nuovo?",
+        "en": "Who in this room is more likely to make you try something new?",
+        "fr": "Qui dans cette salle est le plus susceptible de te faire essayer quelque chose de nouveau?"
+      },
+      {
+        "it": "Chi in questa stanza è più propenso a essere il tuo partner perfetto per un gioco di coppia?",
+        "en": "Who in this room is more likely to be your perfect partner for a couple's game?",
+        "fr": "Qui dans cette salle est le plus susceptible d'être ton partenaire parfait pour un jeu de couple?"
+      }
+    ],
+    "indovinaLaCanzone": [
+      {
+        "it": "Bohemian Rhapsody  Queen",
+        "en": "Bohemian Rhapsody - Queen",
+        "fr": "Bohemian Rhapsody - Queen"
+      },
+      {
+        "it": "Billie Jean  Michael Jackson",
+        "en": "Billie Jean - Michael Jackson",
+        "fr": "Billie Jean - Michael Jackson"
+      },
+      {
+        "it": "Shape of You  Ed Sheeran",
+        "en": "Shape of You - Ed Sheeran",
+        "fr": "Shape of You - Ed Sheeran"
+      },
+      {
+        "it": "Viva la Vida  Coldplay",
+        "en": "Viva la Vida - Coldplay",
+        "fr": "Viva la Vida - Coldplay"
+      },
+      {
+        "it": "Despacito  Luis Fonsi",
+        "en": "Despacito - Luis Fonsi",
+        "fr": "Despacito - Luis Fonsi"
+      },
+      {
+        "it": "Uptown Funk  Mark Ronson ft. Bruno Mars",
+        "en": "Uptown Funk - Mark Ronson ft. Bruno Mars",
+        "fr": "Uptown Funk - Mark Ronson ft. Bruno Mars"
+      },
+      {
+        "it": "Rolling in the Deep  Adele",
+        "en": "Rolling in the Deep - Adele",
+        "fr": "Rolling in the Deep - Adele"
+      },
+      {
+        "it": "Thriller  Michael Jackson",
+        "en": "Thriller - Michael Jackson",
+        "fr": "Thriller - Michael Jackson"
+      },
+      {
+        "it": "Bad Guy  Billie Eilish",
+        "en": "Bad Guy - Billie Eilish",
+        "fr": "Bad Guy - Billie Eilish"
+      },
+      {
+        "it": "Can't Stop the Feeling!  Justin Timberlake",
+        "en": "Can't Stop the Feeling! - Justin Timberlake",
+        "fr": "Can't Stop the Feeling! - Justin Timberlake"
+      },
+      {
+        "it": "Blinding Lights  The Weeknd",
+        "en": "Blinding Lights - The Weeknd",
+        "fr": "Blinding Lights - The Weeknd"
+      },
+      {
+        "it": "Shake It Off  Taylor Swift",
+        "en": "Shake It Off - Taylor Swift",
+        "fr": "Shake It Off - Taylor Swift"
+      },
+      {
+        "it": "Havana  Camila Cabello",
+        "en": "Havana - Camila Cabello",
+        "fr": "Havana - Camila Cabello"
+      },
+      {
+        "it": "Old Town Road  Lil Nas X",
+        "en": "Old Town Road - Lil Nas X",
+        "fr": "Old Town Road - Lil Nas X"
+      },
+      {
+        "it": "Dance Monkey  Tones and I",
+        "en": "Dance Monkey - Tones and I",
+        "fr": "Dance Monkey - Tones and I"
+      },
+      {
+        "it": "Señorita  Shawn Mendes & Camila Cabello",
+        "en": "Señorita - Shawn Mendes & Camila Cabello",
+        "fr": "Señorita - Shawn Mendes & Camila Cabello"
+      },
+      {
+        "it": "Perfect  Ed Sheeran",
+        "en": "Perfect - Ed Sheeran",
+        "fr": "Perfect - Ed Sheeran"
+      },
+      {
+        "it": "Someone Like You  Adele",
+        "en": "Someone Like You - Adele",
+        "fr": "Someone Like You - Adele"
+      },
+      {
+        "it": "All of Me  John Legend",
+        "en": "All of Me - John Legend",
+        "fr": "All of Me - John Legend"
+      },
+      {
+        "it": "Lose Yourself  Eminem",
+        "en": "Lose Yourself - Eminem",
+        "fr": "Lose Yourself - Eminem"
+      },
+      {
+        "it": "Sugar  Maroon 5",
+        "en": "Sugar - Maroon 5",
+        "fr": "Sugar - Maroon 5"
+      },
+      {
+        "it": "Thinking Out Loud  Ed Sheeran",
+        "en": "Thinking Out Loud - Ed Sheeran",
+        "fr": "Thinking Out Loud - Ed Sheeran"
+      },
+      {
+        "it": "Happy  Pharrell Williams",
+        "en": "Happy - Pharrell Williams",
+        "fr": "Happy - Pharrell Williams"
+      },
+      {
+        "it": "Roar  Katy Perry",
+        "en": "Roar - Katy Perry",
+        "fr": "Roar - Katy Perry"
+      },
+      {
+        "it": "Let Her Go  Passenger",
+        "en": "Let Her Go - Passenger",
+        "fr": "Let Her Go - Passenger"
+      },
+      {
+        "it": "Firework  Katy Perry",
+        "en": "Firework - Katy Perry",
+        "fr": "Firework - Katy Perry"
+      },
+      {
+        "it": "Hello  Adele",
+        "en": "Hello - Adele",
+        "fr": "Hello - Adele"
+      },
+      {
+        "it": "Stay  Justin Bieber ft. The Kid LAROI",
+        "en": "Stay - Justin Bieber ft. The Kid LAROI",
+        "fr": "Stay - Justin Bieber ft. The Kid LAROI"
+      },
+      {
+        "it": "Watermelon Sugar  Harry Styles",
+        "en": "Watermelon Sugar - Harry Styles",
+        "fr": "Watermelon Sugar - Harry Styles"
+      },
+      {
+        "it": "Memories  Maroon 5",
+        "en": "Memories - Maroon 5",
+        "fr": "Memories - Maroon 5"
+      },
+      {
+        "it": "Bad Habits  Ed Sheeran",
+        "en": "Bad Habits - Ed Sheeran",
+        "fr": "Bad Habits - Ed Sheeran"
+      },
+      {
+        "it": "Sunflower  Post Malone & Swae Lee",
+        "en": "Sunflower - Post Malone & Swae Lee",
+        "fr": "Sunflower - Post Malone & Swae Lee"
+      },
+      {
+        "it": "Closer  The Chainsmokers ft. Halsey",
+        "en": "Closer - The Chainsmokers ft. Halsey",
+        "fr": "Closer - The Chainsmokers ft. Halsey"
+      },
+      {
+        "it": "Believer  Imagine Dragons",
+        "en": "Believer - Imagine Dragons",
+        "fr": "Believer - Imagine Dragons"
+      },
+      {
+        "it": "Cheap Thrills  Sia",
+        "en": "Cheap Thrills - Sia",
+        "fr": "Cheap Thrills - Sia"
+      },
+      {
+        "it": "Shape of My Heart  Backstreet Boys",
+        "en": "Shape of My Heart - Backstreet Boys",
+        "fr": "Shape of My Heart - Backstreet Boys"
+      },
+      {
+        "it": "Levitating  Dua Lipa",
+        "en": "Levitating - Dua Lipa",
+        "fr": "Levitating - Dua Lipa"
+      },
+      {
+        "it": "Take Me to Church  Hozier",
+        "en": "Take Me to Church - Hozier",
+        "fr": "Take Me to Church - Hozier"
+      },
+      {
+        "it": "Somebody That I Used to Know  Gotye ft. Kimbra",
+        "en": "Somebody That I Used to Know - Gotye ft. Kimbra",
+        "fr": "Somebody That I Used to Know - Gotye ft. Kimbra"
+      },
+      {
+        "it": "We Found Love  Rihanna ft. Calvin Harris",
+        "en": "We Found Love - Rihanna ft. Calvin Harris",
+        "fr": "We Found Love - Rihanna ft. Calvin Harris"
+      },
+      {
+        "it": "Thinking About You  Calvin Harris",
+        "en": "Thinking About You - Calvin Harris",
+        "fr": "Thinking About You - Calvin Harris"
+      },
+      {
+        "it": "Radioactive  Imagine Dragons",
+        "en": "Radioactive - Imagine Dragons",
+        "fr": "Radioactive - Imagine Dragons"
+      },
+      {
+        "it": "Counting Stars  OneRepublic",
+        "en": "Counting Stars - OneRepublic",
+        "fr": "Counting Stars - OneRepublic"
+      },
+      {
+        "it": "Sorry  Justin Bieber",
+        "en": "Sorry - Justin Bieber",
+        "fr": "Sorry - Justin Bieber"
+      },
+      {
+        "it": "Uptown Girl  Billy Joel",
+        "en": "Uptown Girl - Billy Joel",
+        "fr": "Uptown Girl - Billy Joel"
+      },
+      {
+        "it": "I Will Always Love You  Whitney Houston",
+        "en": "I Will Always Love You - Whitney Houston",
+        "fr": "I Will Always Love You - Whitney Houston"
+      },
+      {
+        "it": "Toxic  Britney Spears",
+        "en": "Toxic - Britney Spears",
+        "fr": "Toxic - Britney Spears"
+      },
+      {
+        "it": "I Kissed a Girl  Katy Perry",
+        "en": "I Kissed a Girl - Katy Perry",
+        "fr": "I Kissed a Girl - Katy Perry"
+      },
+      {
+        "it": "Like a Prayer  Madonna",
+        "en": "Like a Prayer - Madonna",
+        "fr": "Like a Prayer - Madonna"
+      },
+      {
+        "it": "Boulevard of Broken Dreams  Green Day",
+        "en": "Boulevard of Broken Dreams - Green Day",
+        "fr": "Boulevard of Broken Dreams - Green Day"
+      },
+      {
+        "it": "Seven Nation Army  The White Stripes",
+        "en": "Seven Nation Army - The White Stripes",
+        "fr": "Seven Nation Army - The White Stripes"
+      },
+      {
+        "it": "Another Brick in the Wall  Pink Floyd",
+        "en": "Another Brick in the Wall - Pink Floyd",
+        "fr": "Another Brick in the Wall - Pink Floyd"
+      },
+      {
+        "it": "Hey Jude  The Beatles",
+        "en": "Hey Jude - The Beatles",
+        "fr": "Hey Jude - The Beatles"
+      },
+      {
+        "it": "Hotel California  Eagles",
+        "en": "Hotel California - Eagles",
+        "fr": "Hotel California - Eagles"
+      },
+      {
+        "it": "Smells Like Teen Spirit  Nirvana",
+        "en": "Smells Like Teen Spirit - Nirvana",
+        "fr": "Smells Like Teen Spirit - Nirvana"
+      },
+      {
+        "it": "Sweet Child O’ Mine  Guns N’ Roses",
+        "en": "Sweet Child O’ Mine - Guns N’ Roses",
+        "fr": "Sweet Child O’ Mine - Guns N’ Roses"
+      },
+      {
+        "it": "Don’t Stop Believin’  Journey",
+        "en": "Don’t Stop Believin’ - Journey",
+        "fr": "Don’t Stop Believin’ - Journey"
+      },
+      {
+        "it": "Eye of the Tiger  Survivor",
+        "en": "Eye of the Tiger - Survivor",
+        "fr": "Eye of the Tiger - Survivor"
+      },
+      {
+        "it": "We Will Rock You  Queen",
+        "en": "We Will Rock You - Queen",
+        "fr": "We Will Rock You - Queen"
+      },
+      {
+        "it": "Back in Black  AC/DC",
+        "en": "Back in Black - AC/DC",
+        "fr": "Back in Black - AC/DC"
+      },
+      {
+        "it": "Livin’ on a Prayer  Bon Jovi",
+        "en": "Livin’ on a Prayer - Bon Jovi",
+        "fr": "Livin’ on a Prayer - Bon Jovi"
+      },
+      {
+        "it": "California Gurls  Katy Perry ft. Snoop Dogg",
+        "en": "California Gurls - Katy Perry ft. Snoop Dogg",
+        "fr": "California Gurls - Katy Perry ft. Snoop Dogg"
+      },
+      {
+        "it": "Wake Me Up  Avicii",
+        "en": "Wake Me Up - Avicii",
+        "fr": "Wake Me Up - Avicii"
+      },
+      {
+        "it": "Somewhere Only We Know  Keane",
+        "en": "Somewhere Only We Know - Keane",
+        "fr": "Somewhere Only We Know - Keane"
+      },
+      {
+        "it": "We Are Young  Fun. ft. Janelle Monáe",
+        "en": "We Are Young - Fun. ft. Janelle Monáe",
+        "fr": "We Are Young - Fun. ft. Janelle Monáe"
+      },
+      {
+        "it": "Call Me Maybe  Carly Rae Jepsen",
+        "en": "Call Me Maybe - Carly Rae Jepsen",
+        "fr": "Call Me Maybe - Carly Rae Jepsen"
+      },
+      {
+        "it": "Chandelier  Sia",
+        "en": "Chandelier - Sia",
+        "fr": "Chandelier - Sia"
+      },
+      {
+        "it": "Love Me Like You Do  Ellie Goulding",
+        "en": "Love Me Like You Do - Ellie Goulding",
+        "fr": "Love Me Like You Do - Ellie Goulding"
+      },
+      {
+        "it": "Sorry Not Sorry  Demi Lovato",
+        "en": "Sorry Not Sorry - Demi Lovato",
+        "fr": "Sorry Not Sorry - Demi Lovato"
+      },
+      {
+        "it": "Bad Romance  Lady Gaga",
+        "en": "Bad Romance - Lady Gaga",
+        "fr": "Bad Romance - Lady Gaga"
+      },
+      {
+        "it": "Poker Face  Lady Gaga",
+        "en": "Poker Face - Lady Gaga",
+        "fr": "Poker Face - Lady Gaga"
+      },
+      {
+        "it": "Rolling Stones  Paint It Black",
+        "en": "Paint It Black - Rolling Stones",
+        "fr": "Paint It Black - Rolling Stones"
+      },
+      {
+        "it": "Sweet Home Alabama  Lynyrd Skynyrd",
+        "en": "Sweet Home Alabama - Lynyrd Skynyrd",
+        "fr": "Sweet Home Alabama - Lynyrd Skynyrd"
+      },
+      {
+        "it": "You’re Beautiful  James Blunt",
+        "en": "You’re Beautiful - James Blunt",
+        "fr": "You’re Beautiful - James Blunt"
+      }
+    ],
+    "drink": [
+      {
+        "it": "Bevi 1 sorso",
+        "en": "Take 1 sip",
+        "fr": "Bois 1 gorgée"
+      },
+      {
+        "it": "Bevi 2 sorsi",
+        "en": "Take 2 sips",
+        "fr": "Bois 2 gorgées"
+      },
+      {
+        "it": "Bevi 3 sorsi",
+        "en": "Take 3 sips",
+        "fr": "Bois 3 gorgées"
+      },
+      {
+        "it": "Bevi metà bicchiere",
+        "en": "Take half a glass",
+        "fr": "Bois la moitié du verre"
+      },
+      {
+        "it": "Bevi 1 sorso",
+        "en": "Take 1 sip",
+        "fr": "Bois 1 gorgée"
+      },
+      {
+        "it": "Bevi 2 sorsi",
+        "en": "Take 2 sips",
+        "fr": "Bois 2 gorgées"
+      },
+      {
+        "it": "Bevi 3 sorsi",
+        "en": "Take 3 sips",
+        "fr": "Bois 3 gorgées"
+      },
+      {
+        "it": "Bevi metà bicchiere",
+        "en": "Take half a glass",
+        "fr": "Bois la moitié du verre"
+      },
+      {
+        "it": "Bevi 1 sorso",
+        "en": "Take 1 sip",
+        "fr": "Bois 1 gorgée"
+      },
+      {
+        "it": "Bevi 2 sorsi",
+        "en": "Take 2 sips",
+        "fr": "Bois 2 gorgées"
+      }
+    ],
+    "cupido": [
+      {
+        "id": "cupido1",
+        "it": "Scegli due persone che per i prossimi 1 turno dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 1 round will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 1 tour et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido1.png"
+      },
+      {
+        "id": "cupido2",
+        "it": "Scegli due persone che per i prossimi 2 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 2 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 2 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido2.png"
+      },
+      {
+        "id": "cupido3",
+        "it": "Scegli due persone che per i prossimi 3 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 3 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 3 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido3.png" 
+      },
+      {
+        "id": "cupido4",
+        "it": "Scegli due persone che per i prossimi 4 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 4 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 4 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido4.png"
+      },
+      {
+        "id": "cupido5",
+        "it": "Scegli due persone che per i prossimi 5 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 5 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 5 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido5.png"
+      },
+      {
+        "id": "cupido1",
+        "it": "Scegli due persone che per i prossimi 1 turno dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 1 round will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 1 tour et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido1.png"
+      },
+      {
+        "id": "cupido2",
+        "it": "Scegli due persone che per i prossimi 2 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 2 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 2 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido2.png"
+      },
+      {
+        "id": "cupido3",
+        "it": "Scegli due persone che per i prossimi 3 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 3 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 3 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido3.png" 
+      },
+      {
+        "id": "cupido4",
+        "it": "Scegli due persone che per i prossimi 4 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 4 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 4 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido4.png"
+      },
+      {
+        "id": "cupido5",
+        "it": "Scegli due persone che per i prossimi 5 turni dovranno fare le stesse sfide",
+        "en": "Choose two people that for the next 5 rounds will have to do the same challenges",
+        "fr": "Choisis 2 personnes qui seront liées pour 5 tours et feront les mêmes challenges",
+        "type": "cupido",
+        "image": "cupido5.png"
+      }
+    ],
+    "culturaGenerale": [
+      {
+        "it": "Qual'è la capitale dell'Australia?",
+        "en": "What is the capital of Australia?",
+        "fr": "Quelle est la capitale de l'Australie?",
+        "answer": {
+          "it": "Canberra",
+          "en": "Canberra",
+          "fr": "Canberra"
+        }
+      },
+      {
+        "it": "Chi ha dipinto la Gioconda?",
+        "en": "Who painted the Mona Lisa?",
+        "fr": "Qui a peint la Joconde?",
+        "answer": {
+          "it": "Leonardo da Vinci",
+          "en": "Leonardo da Vinci",
+          "fr": "Léonard de Vinci"
+        }
+      },
+      {
+        "it": "Qual è il simbolo chimico del ferro?",
+        "en": "What is the chemical symbol for iron?",
+        "fr": "Quel est le symbole chimique du fer?",
+        "answer": {
+          "it": "Fe",
+          "en": "Fe",
+          "fr": "Fe"
+        }
+      },
+      {
+        "it": "Chi ha scritto 'I promessi sposi'?",
+        "en": "Who wrote 'The Betrothed'?",
+        "fr": "Qui a écrit 'Les Fiancés'?",
+        "answer": {
+          "it": "Alessandro Manzoni",
+          "en": "Alessandro Manzoni",
+          "fr": "Alessandro Manzoni"
+        }
+      },
+      {
+        "it": "Quanti pianeti ci sono nel sistema solare?",
+        "en": "How many planets are there in the Solar System?",
+        "fr": "Combien y a-t-il de planètes dans le système solaire?",
+        "answer": {
+          "it": "8",
+          "en": "8",
+          "fr": "8"
+        }
+      },
+      {
+        "it": "Qual è la capitale del Brasile?",
+        "en": "What is the capital of Brazil?",
+        "fr": "Quelle est la capitale du Brésil?",
+        "answer": {
+          "it": "Brasilia",
+          "en": "Brasilia",
+          "fr": "Brasilia"
+        }
+      },
+      {
+        "it": "Qual è il lago più grande d'Italia?",
+        "en": "What is the largest lake in Italy?",
+        "fr": "Quel est le plus grand lac d'Italie?",
+        "answer": {
+          "it": "Lago di Garda",
+          "en": "Lake Garda",
+          "fr": "Lac de Garde"
+        }
+      },
+      {
+        "it": "Qual è il deserto più grande del mondo?",
+        "en": "What is the largest desert in the world?",
+        "fr": "Quel est le plus grand désert du monde?",
+        "answer": {
+          "it": "Deserto dell'Antartide",
+          "en": "Antarctic Desert",
+          "fr": "Désert Antarctique"
+        }
+      },
+      {
+        "it": "Chi ha teorizzato la relatività?",
+        "en": "Who developed the theory of relativity?",
+        "fr": "Qui a développé la théorie de la relativité?",
+        "answer": {
+          "it": "Albert Einstein",
+          "en": "Albert Einstein",
+          "fr": "Albert Einstein"
+        }
+      },
+      {
+        "it": "Qual è la moneta ufficiale del Regno Unito?",
+        "en": "What is the official currency of the United Kingdom?",
+        "fr": "Quelle est la monnaie officielle du Royaume-Uni?",
+        "answer": {
+          "it": "Sterlina britannica",
+          "en": "British Pound",
+          "fr": "Livre sterling"
+        }
+      },
+      {
+        "it": "In che anno Cristoforo Colombo ha scoperto l'America?",
+        "en": "In what year did Christopher Columbus discover America?",
+        "fr": "En quelle année Christophe Colomb a-t-il découvert l'Amérique?",
+        "answer": {
+          "it": "1492",
+          "en": "1492",
+          "fr": "1492"
+        }
+      },
+      {
+        "it": "Qual è la capitale della Norvegia?",
+        "en": "What is the capital of Norway?",
+        "fr": "Quelle est la capitale de la Norvège?",
+        "answer": {
+          "it": "Oslo",
+          "en": "Oslo",
+          "fr": "Oslo"
+        }
+      },
+      {
+        "it": "Chi ha scritto 'Il piccolo principe'?",
+        "en": "Who wrote 'The Little Prince'?",
+        "fr": "Qui a écrit 'Le Petit Prince'?",
+        "answer": {
+          "it": "Antoine de Saint-Exupéry",
+          "en": "Antoine de Saint-Exupéry",
+          "fr": "Antoine de Saint-Exupéry"
+        }
+      },
+      {
+        "it": "Quanti ossa ci sono nel corpo umano adulto?",
+        "en": "How many bones are in the adult human body?",
+        "fr": "Combien d'os y a-t-il dans le corps humain adulte?",
+        "answer": {
+          "it": "206",
+          "en": "206",
+          "fr": "206"
+        }
+      },
+      {
+        "it": "Qual è il fiume più lungo d'Europa?",
+        "en": "What is the longest river in Europe?",
+        "fr": "Quel est le plus long fleuve d'Europe?",
+        "answer": {
+          "it": "Volga",
+          "en": "Volga",
+          "fr": "Volga"
+        }
+      },
+      {
+        "it": "In che anno è stato costruito il muro di Berlino?",
+        "en": "In what year was the Berlin Wall built?",
+        "fr": "En quelle année le mur de Berlin a-t-il été construit?",
+        "answer": {
+          "it": "1961",
+          "en": "1961",
+          "fr": "1961"
+        }
+      },
+      {
+        "it": "Chi ha inventato il telefono?",
+        "en": "Who invented the telephone?",
+        "fr": "Qui a inventé le téléphone?",
+        "answer": {
+          "it": "Alexander Graham Bell",
+          "en": "Alexander Graham Bell",
+          "fr": "Alexander Graham Bell"
+        }
+      },
+      {
+        "it": "Qual è la montagna più alta d'Europa?",
+        "en": "What is the highest mountain in Europe?",
+        "fr": "Quelle est la plus haute montagne d'Europe?",
+        "answer": {
+          "it": "Monte Elbrus",
+          "en": "Mount Elbrus",
+          "fr": "Mont Elbrouz"
+        }
+      },
+      {
+        "it": "Qual è il secondo pianeta più vicino al Sole?",
+        "en": "What is the second planet closest to the Sun?",
+        "fr": "Quelle est la deuxième planète la plus proche du Soleil?",
+        "answer": {
+          "it": "Venere",
+          "en": "Venus",
+          "fr": "Vénus"
+        }
+      },
+      {
+        "it": "Chi ha scritto '1984'?",
+        "en": "Who wrote '1984'?",
+        "fr": "Qui a écrit '1984'?",
+        "answer": {
+          "it": "George Orwell",
+          "en": "George Orwell",
+          "fr": "George Orwell"
+        }
+      },
+      {
+        "it": "Qual è il gas più abbondante nell'atmosfera terrestre?",
+        "en": "What is the most abundant gas in Earth's atmosphere?",
+        "fr": "Quel est le gaz le plus abondant dans l'atmosphère terrestre?",
+        "answer": {
+          "it": "Azoto",
+          "en": "Nitrogen",
+          "fr": "Azote"
+        }
+      },
+      {
+        "it": "Chi ha scoperto la penicillina?",
+        "en": "Who discovered penicillin?",
+        "fr": "Qui a découvert la pénicilline?",
+        "answer": {
+          "it": "Alexander Fleming",
+          "en": "Alexander Fleming",
+          "fr": "Alexander Fleming"
+        }
+      },
+      {
+        "it": "Qual è il paese con la maggiore popolazione al mondo?",
+        "en": "Which country has the largest population in the world?",
+        "fr": "Quel pays a la plus grande population du monde?",
+        "answer": {
+          "it": "Cina",
+          "en": "China",
+          "fr": "Chine"
+        }
+      },
+      {
+        "it": "Qual è il metallo più leggero?",
+        "en": "What is the lightest metal?",
+        "fr": "Quel est le métal le plus léger?",
+        "answer": {
+          "it": "Litio",
+          "en": "Lithium",
+          "fr": "Lithium"
+        }
+      },
+      {
+        "it": "Quanti continenti ci sono?",
+        "en": "How many continents are there?",
+        "fr": "Combien y a-t-il de continents?",
+        "answer": {
+          "it": "7",
+          "en": "7",
+          "fr": "7"
+        }
+      },
+      {
+        "it": "Qual'è lo stato più piccolo al mondo?",
+        "en": "What is the smallest country in the world?",
+        "fr": "Quel est le plus petit pays du monde?",
+        "answer": {
+          "it": "Città del Vaticano",
+          "en": "Vatican City",
+          "fr": "Cité du Vatican"
+        }
+      },
+      {
+        "it": "In che anno è affondato il Titanic?",
+        "en": "In which year did the Titanic sink?",
+        "fr": "En quelle année le Titanic a-t-il coulé?",
+        "answer": {
+          "it": "1912",
+          "en": "1912",
+          "fr": "1912"
+        }
+      },
+      {
+        "it": "Qual'è il simbolo chimico dell'oro?",
+        "en": "What is the chemical symbol for gold?",
+        "fr": "Quel est le symbole chimique de l'or?",
+        "answer": {
+          "it": "Au",
+          "en": "Au",
+          "fr": "Au"
+        }
+      },
+      {
+        "it": "Qual'è l'animale nazionale del Canada?",
+        "en": "What is the national animal of Canada?",
+        "fr": "Quel est l'animal national du Canada?",
+        "answer": {
+          "it": "Castoro",
+          "en": "Beaver",
+          "fr": "Castor"
+        }
+      },
+      {
+        "it": "Quanti calciatori compongono una partita di calcio?",
+        "en": "How many players are on a soccer match?",
+        "fr": "Combien de joueurs composent un match de football?",
+        "answer": {
+          "it": "22",
+          "en": "22",
+          "fr": "22"
+        }
+      },
+      {
+        "it": "Chi ha scritto Romeo e Giulietta?",
+        "en": "Who wrote Romeo and Juliet?",
+        "fr": "Qui a écrit Roméo et Juliette?",
+        "answer": {
+          "it": "William Shakespeare",
+          "en": "William Shakespeare",
+          "fr": "William Shakespeare"
+        }
+      },
+      {
+        "it": "Qual'è l'oceano più grande del mondo?",
+        "en": "What is the largest ocean on Earth?",
+        "fr": "Quel est l'océan le plus grand du monde?",
+        "answer": {
+          "it": "Oceano Pacifico",
+          "en": "Pacific Ocean",
+          "fr": "Océan Pacifique"
+        }
+      },
+      {
+        "it": "Qual'è l'animale terrestre più veloce?",
+        "en": "What is the fastest land animal?",
+        "fr": "Quel est l'animal terrestre le plus rapide?",
+        "answer": {
+          "it": "Ghepardo",
+          "en": "Cheetah",
+          "fr": "Guépard"
+        }
+      },
+      {
+        "it": "In che anno è finita la seconda guerra mondiale?",
+        "en": "What year did WWII end?",
+        "fr": "En quelle année la Seconde Guerre mondiale s'est-elle terminée?",
+        "answer": {
+          "it": "1945",
+          "en": "1945",
+          "fr": "1945"
+        }
+      },
+      {
+        "it": "Qual'è l'ingrediente principale del guacamole?",
+        "en": "What is the main ingredient in guacamole?",
+        "fr": "Quel est l'ingrédient principal du guacamole?",
+        "answer": {
+          "it": "Avocado",
+          "en": "Avocado",
+          "fr": "Avocat"
+        }
+      },
+      {
+        "it": "Chi ha scoperto la gravità?",
+        "en": "Who discovered gravity?",
+        "fr": "Qui a découvert la gravité?",
+        "answer": {
+          "it": "Isaac Newton",
+          "en": "Isaac Newton",
+          "fr": "Isaac Newton"
+        }
+      },
+      {
+        "it": "Qual'è la montagna più alta del mondo?",
+        "en": "What is the tallest mountain in the world?",
+        "fr": "Quelle est la montagne la plus haute du monde?",
+        "answer": {
+          "it": "Monte Everest",
+          "en": "Mount Everest",
+          "fr": "Mont Everest"
+        }
+      },
+      {
+        "it": "Chi è il primo uomo ad aver camminato sulla luna?",
+        "en": "Who was the first man to walk on the moon?",
+        "fr": "Qui a été le premier homme à marcher sur la Lune?",
+        "answer": {
+          "it": "Neil Armstrong",
+          "en": "Neil Armstrong",
+          "fr": "Neil Armstrong"
+        }
+      },
+      {
+        "it": "Qual è il paese più grande del mondo per superficie?",
+        "en": "What is the largest country in the world by area?",
+        "fr": "Quel est le plus grand pays du monde par superficie?",
+        "answer": {
+          "it": "Russia",
+          "en": "Russia",
+          "fr": "Russie"
+        }
+      },
+      {
+        "it": "Qual è il pianeta più vicino al sole?",
+        "en": "What is the planet closest to the sun?",
+        "fr": "Quelle est la planète la plus proche du soleil?",
+        "answer": {
+          "it": "Mercurio",
+          "en": "Mercury",
+          "fr": "Mercure"
+        }
+      },
+      {
+        "it": "In quale anno è avvenuto il primo sbarco sulla Luna?",
+        "en": "In what year did the first moon landing occur?",
+        "fr": "En quelle année a eu lieu le premier alunissage?",
+        "answer": {
+          "it": "1969",
+          "en": "1969",
+          "fr": "1969"
+        }
+      },
+      {
+        "it": "Qual è la capitale della Spagna?",
+        "en": "What is the capital of Spain?",
+        "fr": "Quelle est la capitale de l'Espagne?",
+        "answer": {
+          "it": "Madrid",
+          "en": "Madrid",
+          "fr": "Madrid"
+        }
+      },
+      {
+        "it": "Quanti colori ci sono nell'arcobaleno?",
+        "en": "How many colors are there in a rainbow?",
+        "fr": "Combien de couleurs y a-t-il dans un arc-en-ciel?",
+        "answer": {
+          "it": "7",
+          "en": "7",
+          "fr": "7"
+        }
+      },
+      {
+        "it": "Chi è conosciuto come il padre della fisica moderna?",
+        "en": "Who is known as the father of modern physics?",
+        "fr": "Qui est connu comme le père de la physique moderne?",
+        "answer": {
+          "it": "Albert Einstein",
+          "en": "Albert Einstein",
+          "fr": "Albert Einstein"
+        }
+      },
+      {
+        "it": "Qual è il fiume più lungo del mondo?",
+        "en": "What is the longest river in the world?",
+        "fr": "Quel est le fleuve le plus long du monde?",
+        "answer": {
+          "it": "Nilo",
+          "en": "Nile",
+          "fr": "Nil"
+        }
+      },
+      {
+        "it": "Qual è l'animale più veloce sulla terra?",
+        "en": "What is the fastest animal on land?",
+        "fr": "Quel est l'animal terrestre le plus rapide?",
+        "answer": {
+          "it": "Ghepardo",
+          "en": "Cheetah",
+          "fr": "Guépard"
+        }
+      },
+      {
+        "it": "Chi ha dipinto 'La notte stellata'?",
+        "en": "Who painted 'Starry Night'?",
+        "fr": "Qui a peint 'La Nuit étoilée'?",
+        "answer": {
+          "it": "Vincent van Gogh",
+          "en": "Vincent van Gogh",
+          "fr": "Vincent van Gogh"
+        }
+      },
+      {
+        "it": "Qual è il nome scientifico per l'uomo moderno?",
+        "en": "What is the scientific name for modern humans?",
+        "fr": "Quel est le nom scientifique des humains modernes?",
+        "answer": {
+          "it": "Homo sapiens",
+          "en": "Homo sapiens",
+          "fr": "Homo sapiens"
+        }
+      },
+      {
+        "it": "Qual è la capitale del Canada?",
+        "en": "What is the capital of Canada?",
+        "fr": "Quelle est la capitale du Canada?",
+        "answer": {
+          "it": "Ottawa",
+          "en": "Ottawa",
+          "fr": "Ottawa"
+        }
+      },
+      {
+        "it": "Quale animale è conosciuto come il 're della giungla'?",
+        "en": "What animal is known as the 'king of the jungle'?",
+        "fr": "Quel animal est connu comme le 'roi de la jungle'?",
+        "answer": {
+          "it": "Leone",
+          "en": "Lion",
+          "fr": "Lion"
+        }
+      },
+      {
+        "it": "Qual è il paese con più vulcani attivi al mondo?",
+        "en": "Which country has the most active volcanoes in the world?",
+        "fr": "Quel pays a le plus de volcans actifs au monde?",
+        "answer": {
+          "it": "Indonesia",
+          "en": "Indonesia",
+          "fr": "Indonésie"
+        }
+      },
+      {
+        "it": "Chi è il CEO di Tesla?",
+        "en": "Who is the CEO of Tesla?",
+        "fr": "Qui est le PDG de Tesla?",
+        "answer": {
+          "it": "Elon Musk",
+          "en": "Elon Musk",
+          "fr": "Elon Musk"
+        }
+      },
+      {
+        "it": "Qual è il frutto principale del cioccolato?",
+        "en": "What is the main fruit used to make chocolate?",
+        "fr": "Quel est le fruit principal utilisé pour faire du chocolat ?",
+        "answer": {
+          "it": "Cacao",
+          "en": "Cacao",
+          "fr": "Cacao"
+        }
+      },
+      {
+        "it": "Qual è il nome dell'autore di Harry Potter?",
+        "en": "What is the name of the author of Harry Potter?",
+        "fr": "Quel est le nom de l'auteur de Harry Potter ?",
+        "answer": {
+          "it": "J.K. Rowling",
+          "en": "J.K. Rowling",
+          "fr": "J.K. Rowling"
+        }
+      },
+      {
+        "it": "Qual è la velocità della luce in km/s?",
+        "en": "What is the speed of light in km/s?",
+        "fr": "Quelle est la vitesse de la lumière en km/s ?",
+        "answer": {
+          "it": "~300.000 km/s",
+          "en": "~300,000 km/s",
+          "fr": "~300 000 km/s"
+        }
+      },
+      {
+        "it": "Chi è stato il primo uomo a volare nello spazio?",
+        "en": "Who was the first man to fly into space?",
+        "fr": "Qui fut le premier homme à aller dans l'espace ?",
+        "answer": {
+          "it": "Yuri Gagarin",
+          "en": "Yuri Gagarin",
+          "fr": "Youri Gagarine"
+        }
+      },
+      {
+        "it": "Qual è la capitale della Germania?",
+        "en": "What is the capital of Germany?",
+        "fr": "Quelle est la capitale de l'Allemagne ?",
+        "answer": {
+          "it": "Berlino",
+          "en": "Berlin",
+          "fr": "Berlin"
+        }
+      },
+      {
+        "it": "Qual è il metallo liquido a temperatura ambiente?",
+        "en": "What is the liquid metal at room temperature?",
+        "fr": "Quel est le métal liquide à température ambiante ?",
+        "answer": {
+          "it": "Mercurio",
+          "en": "Mercury",
+          "fr": "Mercure"
+        }
+      },
+      {
+        "it": "Qual è il nome del pianeta rosso?",
+        "en": "What is the name of the red planet?",
+        "fr": "Quel est le nom de la planète rouge ?",
+        "answer": {
+          "it": "Marte",
+          "en": "Mars",
+          "fr": "Mars"
+        }
+      },
+      {
+        "it": "Qual è l'unità di misura della corrente elettrica?",
+        "en": "What is the unit of measurement for electric current?",
+        "fr": "Quelle est l'unité de mesure du courant électrique ?",
+        "answer": {
+          "it": "Ampere (A)",
+          "en": "Ampere (A)",
+          "fr": "Ampère (A)"
+        }
+      },
+      {
+        "it": "Qual è la capitale dell'Italia?",
+        "en": "What is the capital of Italy?",
+        "fr": "Quelle est la capitale de l'Italie ?",
+        "answer": {
+          "it": "Roma",
+          "en": "Rome",
+          "fr": "Rome"
+        }
+      },
+      {
+        "it": "Qual è il colore della bandiera del Giappone?",
+        "en": "What is the color of Japan’s flag?",
+        "fr": "Quelle est la couleur du drapeau japonais ?",
+        "answer": {
+          "it": "Bianca con un cerchio rosso",
+          "en": "White with a red circle",
+          "fr": "Blanc avec un cercle rouge"
+        }
+      },
+      {
+        "it": "Chi ha scritto 'La Divina Commedia'?",
+        "en": "Who wrote 'The Divine Comedy'?",
+        "fr": "Qui a écrit 'La Divine Comédie' ?",
+        "answer": {
+          "it": "Dante Alighieri",
+          "en": "Dante Alighieri",
+          "fr": "Dante Alighieri"
+        }
+      }
+    ],
+    "proEcontro": [
+      {
+        "it": "Di un pro e un contro alla persona alla tua destra",
+        "en": "Say one pro and one cons to the person on your right",
+        "fr": "Dis une qualité et un défaut de la personne a ta droite"
+      },
+      {
+        "it": "Di un pro e un contro alla persona alla tua sinistra",
+        "en": "Say one pro and one cons to the person on your left",
+        "fr": "Dis une qualité et un défaut de la personne a ta gauche"
+      },
+      {
+        "it": "Di un pro e un contro alla persona di fronte a te",
+        "en": "Say one pro and one cons to the person in front of you",
+        "fr": "Dis une qualité et un défaut de la personne on face de toi"
+      }
+    ],
+    "nonHomai": [
+      {
+        "it": "Non ho mai rovinato una relazione altrui per invidia.",
+        "en": "Never have I ever ruined someone else’s relationship out of jealousy.",
+        "fr": "Je n'ai jamais saboté une relation par jalousie."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno solo per far ingelosire un’altra persona.",
+        "en": "Never have I ever kissed someone just to make someone else jealous.",
+        "fr": "Je n'ai jamais embrassé quelqu'un juste pour rendre quelqu'un d'autre jaloux."
+      },
+      {
+        "it": "Non ho mai flirtato con qualcuno impegnato.",
+        "en": "Never have I ever flirted with someone who was already taken.",
+        "fr": "Je n'ai jamais dragué quelqu'un qui était déjà pris."
+      },
+      {
+        "it": "Non ho mai avuto una cotta per il ragazzo/la ragazza di un amico.",
+        "en": "Never have I ever had a crush on a friend’s partner.",
+        "fr": "Je n'ai jamais eu un béguin pour le copain/la copine d'un ami."
+      },
+      {
+        "it": "Non ho mai finto di essere interessato a qualcuno per ottenere qualcosa.",
+        "en": "Never have I ever pretended to be interested in someone just to get something.",
+        "fr": "Je n'ai jamais fait semblant d'être intéressé par quelqu'un pour obtenir quelque chose."
+      },
+      {
+        "it": "Non ho mai parlato male di un amico dietro le sue spalle.",
+        "en": "Never have I ever bad-mouthed a friend behind their back.",
+        "fr": "Je n'ai jamais parlé mal d'un ami dans son dos."
+      },
+      {
+        "it": "Non ho mai mandato un messaggio a un ex di qualcun altro presente qui.",
+        "en": "Never have I ever texted someone else's ex in this room.",
+        "fr": "Je n'ai jamais envoyé un message à l'ex de quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai fatto uno screenshot di una chat e l’ho mandata a qualcun altro.",
+        "en": "Never have I ever screenshot a conversation and sent it to someone else.",
+        "fr": "Je n'ai jamais pris une capture d'écran d'une conversation pour l'envoyer à quelqu'un d'autre."
+      },
+      {
+        "it": "Non ho mai stalkerato l’ex di qualcuno che conosco sui social.",
+        "en": "Never have I ever stalked someone’s ex on social media.",
+        "fr": "Je n'ai jamais stalké l'ex de quelqu'un que je connais sur les réseaux sociaux."
+      },
+      {
+        "it": "Non ho mai mentito sul mio numero di partner.",
+        "en": "Never have I ever lied about my body count.",
+        "fr": "Je n'ai jamais menti sur mon nombre de partenaires."
+      },
+      {
+        "it": "Non ho mai tradito qualcuno con cui stavo uscendo.",
+        "en": "Never have I ever cheated on someone I was dating.",
+        "fr": "Je n'ai jamais trompé quelqu'un avec qui je sortais."
+      },
+      {
+        "it": "Non ho mai avuto una relazione con due persone contemporaneamente.",
+        "en": "Never have I ever dated two people at the same time.",
+        "fr": "Je n'ai jamais fréquenté deux personnes en même temps."
+      },
+      {
+        "it": "Non ho mai mandato una foto imbarazzante a qualcuno per sbaglio.",
+        "en": "Never have I ever accidentally sent an embarrassing photo to the wrong person.",
+        "fr": "Je n'ai jamais envoyé une photo embarrassante à la mauvaise personne."
+      },
+      {
+        "it": "Non ho mai avuto un momento imbarazzante a letto.",
+        "en": "Never have I ever had an awkward moment in bed.",
+        "fr": "Je n'ai jamais eu un moment gênant au lit."
+      },
+      {
+        "it": "Non ho mai detto a qualcuno 'Ti amo' senza pensarci davvero.",
+        "en": "Never have I ever told someone 'I love you' without meaning it.",
+        "fr": "Je n'ai jamais dit 'Je t'aime' sans le penser."
+      },
+      {
+        "it": "Non ho mai letto i messaggi privati di qualcun altro senza permesso.",
+        "en": "Never have I ever read someone else’s private messages without permission.",
+        "fr": "Je n'ai jamais lu les messages privés de quelqu'un sans autorisation."
+      },
+      {
+        "it": "Non ho mai mandato un messaggio mentre ero ubriaco a qualcuno di cui mi pento.",
+        "en": "Never have I ever drunk-texted someone I regret messaging.",
+        "fr": "Je n'ai jamais envoyé un message en étant ivre à quelqu'un que je regrette."
+      },
+      {
+        "it": "Non ho mai mentito sul mio lavoro per impressionare qualcuno.",
+        "en": "Never have I ever lied about my job to impress someone.",
+        "fr": "Je n'ai jamais menti sur mon travail pour impressionner quelqu'un."
+      },
+      {
+        "it": "Non ho mai guardato il telefono di qualcuno mentre non guardava.",
+        "en": "Never have I ever looked at someone’s phone while they weren’t looking.",
+        "fr": "Je n'ai jamais regardé le téléphone de quelqu'un sans qu'il le sache."
+      },
+      {
+        "it": "Non ho mai riso di qualcuno mentre era presente.",
+        "en": "Never have I ever laughed at someone right in front of them.",
+        "fr": "Je n'ai jamais ri de quelqu'un en face de lui."
+      },
+      {
+        "it": "Non ho mai avuto un bacio imbarazzante con qualcuno di questa stanza.",
+        "en": "Never have I ever had an awkward kiss with someone in this room.",
+        "fr": "Je n'ai jamais eu un baiser gênant avec quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai pensato che fossi più attraente di qualcuno vicino a me.",
+        "en": "Never have I ever thought I was hotter than someone standing near me.",
+        "fr": "Je n'ai jamais pensé être plus attirant que quelqu'un près de moi."
+      },
+      {
+        "it": "Non ho mai rivelato un segreto che mi era stato detto di non condividere.",
+        "en": "Never have I ever spilled a secret I was told to keep.",
+        "fr": "Je n'ai jamais révélé un secret qu'on m'avait confié."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno che non ricordavo il giorno dopo.",
+        "en": "Never have I ever kissed someone I couldn’t remember the next day.",
+        "fr": "Je n'ai jamais embrassé quelqu'un dont je ne me souvenais pas le lendemain."
+      },
+      {
+        "it": "Non ho mai mentito sulle mie abilità in qualcosa per impressionare qualcuno.",
+        "en": "Never have I ever lied about my skills to impress someone.",
+        "fr": "Je n'ai jamais menti sur mes compétences pour impressionner quelqu'un."
+      },
+      {
+        "it": "Non ho mai avuto un incontro casuale con qualcuno e me ne sono pentito subito dopo.",
+        "en": "Never have I ever had a hookup I immediately regretted.",
+        "fr": "Je n'ai jamais eu un coup d'un soir que j'ai regretté immédiatement."
+      },
+      {
+        "it": "Non ho mai finto di essere ubriaco per giustificare qualcosa di imbarazzante.",
+        "en": "Never have I ever pretended to be drunk to excuse something embarrassing.",
+        "fr": "Je n'ai jamais fait semblant d'être ivre pour justifier quelque chose de gênant."
+      },
+      {
+        "it": "Non ho mai flirtato con il partner di un amico solo per divertimento.",
+        "en": "Never have I ever flirted with a friend’s partner just for fun.",
+        "fr": "Je n'ai jamais flirté avec le partenaire d'un ami juste pour m'amuser."
+      },
+      {
+        "it": "Non ho mai mandato un messaggio inappropriato alla persona sbagliata.",
+        "en": "Never have I ever sent an inappropriate text to the wrong person.",
+        "fr": "Je n'ai jamais envoyé un message inapproprié à la mauvaise personne."
+      },
+      {
+        "it": "Non ho mai finto di essere malato per evitare qualcuno.",
+        "en": "Never have I ever pretended to be sick to avoid someone.",
+        "fr": "Je n'ai jamais fait semblant d'être malade pour éviter quelqu'un."
+      },
+      {
+        "it": "Non ho mai cancellato messaggi di cui mi sarei vergognato se li avessero letti.",
+        "en": "Never have I ever deleted messages I was too ashamed for anyone to see.",
+        "fr": "Je n'ai jamais supprimé des messages par honte qu'on les voie."
+      },
+      {
+        "it": "Non ho mai spiato un ex sui social media.",
+        "en": "Never have I ever spied on an ex through their social media.",
+        "fr": "Je n'ai jamais espionné un ex sur les réseaux sociaux."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno senza ricordarne il nome.",
+        "en": "Never have I ever kissed someone whose name I couldn’t remember.",
+        "fr": "Je n'ai jamais embrassé quelqu'un dont je ne me souvenais pas du nom."
+      },
+      {
+        "it": "Non ho mai promesso qualcosa a qualcuno sapendo di non mantenerlo.",
+        "en": "Never have I ever made a promise to someone knowing I wouldn’t keep it.",
+        "fr": "Je n'ai jamais fait une promesse à quelqu'un en sachant que je ne la tiendrais pas."
+      },
+      {
+        "it": "Non ho mai criticato il vestito di qualcuno nella loro faccia.",
+        "en": "Never have I ever criticized someone’s outfit to their face.",
+        "fr": "Je n'ai jamais critiqué la tenue de quelqu'un en face de lui."
+      },
+      {
+        "it": "Non ho mai fatto un sogno su qualcuno in questa stanza.",
+        "en": "Never have I ever had a dream about someone in this room.",
+        "fr": "Je n'ai jamais fait un rêve sur quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai finto di piacermi qualcosa per compiacere qualcuno.",
+        "en": "Never have I ever pretended to like something to impress someone.",
+        "fr": "Je n'ai jamais fait semblant d'aimer quelque chose pour impressionner quelqu'un."
+      },
+      {
+        "it": "Non ho mai smesso di rispondere ai messaggi di qualcuno senza motivo.",
+        "en": "Never have I ever stopped replying to someone for no reason.",
+        "fr": "Je n'ai jamais cessé de répondre à quelqu'un sans raison."
+      },
+      {
+        "it": "Non ho mai inventato una scusa stupida per evitare un appuntamento.",
+        "en": "Never have I ever made up a dumb excuse to skip a date.",
+        "fr": "Je n'ai jamais inventé une excuse stupide pour éviter un rendez-vous."
+      },
+      {
+        "it": "Non ho mai rubato qualcosa a qualcuno presente qui.",
+        "en": "Never have I ever stolen something from someone in this room.",
+        "fr": "Je n'ai jamais volé quelque chose à quelqu'un ici."
+      },
+      {
+        "it": "Non ho mai insultato qualcuno per sembrare più forte.",
+        "en": "Never have I ever insulted someone to make myself feel better.",
+        "fr": "Je n'ai jamais insulté quelqu'un pour me sentir mieux."
+      },
+      {
+        "it": "Non ho mai ignorato intenzionalmente i messaggi di qualcuno.",
+        "en": "Never have I ever intentionally ignored someone’s texts.",
+        "fr": "Je n'ai jamais ignoré intentionnellement les messages de quelqu'un."
+      },
+      {
+        "it": "Non ho mai detto una bugia su quello che facevo solo per sembrare occupato.",
+        "en": "Never have I ever lied about what I was doing just to seem busy.",
+        "fr": "Je n'ai jamais menti sur ce que je faisais juste pour paraître occupé."
+      },
+      {
+        "it": "Non ho mai avuto pensieri su qualcuno che non dovrei.",
+        "en": "Never have I ever had thoughts about someone I shouldn’t.",
+        "fr": "Je n'ai jamais eu des pensées sur quelqu'un sur qui je ne devrais pas."
+      },
+      {
+        "it": "Non ho mai nascosto qualcosa di importante a qualcuno vicino a me.",
+        "en": "Never have I ever kept something important from someone close to me.",
+        "fr": "Je n'ai jamais caché quelque chose d'important à quelqu'un de proche."
+      },
+      {
+        "it": "Non ho mai mentito su essere impegnato per evitare un invito.",
+        "en": "Never have I ever lied about being busy to dodge an invite.",
+        "fr": "Je n'ai jamais menti sur le fait d'être occupé pour éviter une invitation."
+      },
+      {
+        "it": "Non ho mai baciato qualcuno sapendo che non mi piaceva davvero.",
+        "en": "Never have I ever kissed someone knowing I didn’t really like them.",
+        "fr": "Je n'ai jamais embrassé quelqu'un en sachant que je ne l'aimais pas vraiment."
+      },
+      {
+        "it": "Non ho mai usato il nome sbagliato durante un momento importante.",
+        "en": "Never have I ever used the wrong name during an important moment.",
+        "fr": "Je n'ai jamais utilisé le mauvais nom à un moment important."
+      },
+      {
+        "it": "Non ho mai desiderato di non aver incontrato qualcuno in questa stanza.",
+        "en": "Never have I ever wished I hadn’t met someone in this room.",
+        "fr": "Je n'ai jamais souhaité ne pas avoir rencontré quelqu'un ici."
+      }
+    ],
+    "cercaELeggi": [
+      {
+        "it": "Cerca 'sesso' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'sex' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'sexe' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ti amo' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'I love you' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'je t'aime' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'bacio' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'kiss' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'baiser' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'nudo' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'naked' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'nu' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ieri' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'yesterday' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'hier' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'foto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'photo' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'photo' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'hot' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'hot' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'hot' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ex' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'ex' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'ex' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'crush' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'crush' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'crush' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ubriaco' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'drunk' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'ivre' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'festa' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'party' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'fête' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ballo' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'dance' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'danse' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'desiderio' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'desire' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'désir' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'notte folle' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'crazy night' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'nuit folle' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'segreto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'secret' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'secret' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'letto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'bed' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'lit' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'tentazione' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'temptation' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'tentation' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'provocante' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'provocative' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'provocant' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'notte insieme' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'night together' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'nuit ensemble' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'voglia' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'craving' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'envie' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'caldo' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'hot' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'chaud' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'bagnato' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'wet' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'mouillé' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'passione' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'passion' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'passion' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'bacino' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'little kiss' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'bisou' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'dimmi un segreto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'tell me a secret' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'dis-moi un secret' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'voglio te' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'I want you' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'je te veux' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'questa notte' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'tonight' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'cette nuit' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'strappami i vestiti' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'rip my clothes off' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'arrache-moi mes vêtements' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'gemiti' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'moans' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'gémissements' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ti voglio adesso' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'I want you now' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'je te veux maintenant' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'è stata la cosa più hot' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'that was the hottest thing' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'c'était la chose la plus hot' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'sono a letto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'I’m in bed' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'je suis au lit' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'non posso dirlo qui' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'I can’t say it here' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'je ne peux pas le dire ici' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'chi ha fatto il primo passo?' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'who made the first move?' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'qui a fait le premier pas?' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'è stato un disastro' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'it was a disaster' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'c'était un désastre' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'è stato imbarazzante' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'it was embarrassing' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'c'était embarrassant' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'sto impazzendo per te' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'I’m going crazy for you' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'je deviens fou/folle de toi' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'questa sera' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'this evening' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'ce soir' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'sei pericoloso/a' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'you are dangerous' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'tu es dangereux/dangereuse' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ultima volta' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'last time' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'dernière fois' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ti ho sognato' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'I dreamed about you' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'je t'ai rêvé' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'qual è la tua fantasia?' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'what's your fantasy?' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'quel est ton fantasme?' sur WhatsApp et lis le premier message que tu trouves"
+      }      
+    ],
+    "obbligo": [
+      {
+        "it": "Sussurra qualcosa di provocante all'orecchio della persona accanto a te.",
+        "en": "Whisper something provocative in the ear of the person next to you.",
+        "fr": "Chuchote quelque chose de provocant à l'oreille de la personne à côté de toi."
+      },
+      {
+        "it": "Fai 10 salti sul posto mentre canti una canzone famosa.",
+        "en": "Do 10 jumps on the spot while singing a famous song.",
+        "fr": "Fais 10 sauts sur place en chantant une chanson célèbre."
+      },
+      {
+        "it": "Imita il verso del tuo animale preferito.",
+        "en": "Imitate the sound of your favorite animal.",
+        "fr": "Imite le cri de ton animal préféré."
+      },
+      {
+        "it": "Imita qualcuno nel gruppo e fai indovinare chi è.",
+        "en": "Imitate someone in the group and let others guess who it is.",
+        "fr": "Imite quelqu'un du groupe et laisse les autres deviner qui c'est."
+      },
+      {
+        "it": "Fai una capriola o un tentativo di farla.",
+        "en": "Do a somersault or attempt to do one.",
+        "fr": "Fais une roulade ou essaie d'en faire une."
+      },
+      {
+        "it": "Manda un messaggio audace a qualcuno nei tuoi contatti, senza spiegare nulla.",
+        "en": "Send a bold message to someone in your contacts without any explanation.",
+        "fr": "Envoie un message audacieux à quelqu'un dans tes contacts sans explication."
+      },
+      {
+        "it": "Dai un bacio sulla guancia alla persona alla tua destra.",
+        "en": "Give a kiss on the cheek to the person on your right.",
+        "fr": "Fais un bisou sur la joue de la personne à ta droite."
+      },
+      {
+        "it": "Descrivi il tuo sogno più piccante senza fare nomi.",
+        "en": "Describe your spiciest dream without naming names.",
+        "fr": "Décris ton rêve le plus osé sans mentionner de noms."
+      },
+      {
+        "it": "Mima una scena romantica senza usare parole.",
+        "en": "Act out a romantic scene without using words.",
+        "fr": "Joue une scène romantique sans utiliser de mots."
+      },
+      {
+        "it": "Fai un complimento seducente a chiunque nel gruppo.",
+        "en": "Give a seductive compliment to anyone in the group.",
+        "fr": "Fais un compliment séduisant à quelqu'un du groupe."
+      },
+      {
+        "it": "Danza sensualmente per 20 secondi.",
+        "en": "Dance sensually for 20 seconds.",
+        "fr": "Danse sensuellement pendant 20 secondes."
+      },
+      {
+        "it": "Fai il miglior sguardo seducente a qualcuno nel gruppo.",
+        "en": "Give your best seductive look to someone in the group.",
+        "fr": "Lance ton regard le plus séduisant à quelqu'un du groupe."
+      },
+      {
+        "it": "Racconta il tuo più grande segreto romantico.",
+        "en": "Tell your biggest romantic secret.",
+        "fr": "Raconte ton plus grand secret romantique."
+      },
+      {
+        "it": "Fai una dichiarazione d'amore esagerata a una persona a tua scelta.",
+        "en": "Make an over-the-top love declaration to someone of your choice.",
+        "fr": "Fais une déclaration d'amour exagérée à une personne de ton choix."
+      },
+      {
+        "it": "Fai 10 flessioni mentre guardi qualcuno negli occhi.",
+        "en": "Do 10 push-ups while maintaining eye contact with someone.",
+        "fr": "Fais 10 pompes en regardant quelqu'un dans les yeux."
+      },
+      {
+        "it": "Imita una scena di un film romantico famoso.",
+        "en": "Reenact a famous romantic movie scene.",
+        "fr": "Rejoue une scène de film romantique célèbre."
+      },
+      {
+        "it": "Fai un massaggio di 30 secondi alla persona alla tua sinistra.",
+        "en": "Give a 30-second massage to the person on your left.",
+        "fr": "Fais un massage de 30 secondes à la personne à ta gauche."
+      },
+      {
+        "it": "Balla in modo sensuale su una canzone scelta dal gruppo.",
+        "en": "Dance sensually to a song chosen by the group.",
+        "fr": "Danse sensuellement sur une chanson choisie par le groupe."
+      },
+      {
+        "it": "Fai il miglior sguardo seducente a qualcuno nel gruppo.",
+        "en": "Give your best seductive look to someone in the group.",
+        "fr": "Lance ton regard le plus séduisant à quelqu'un du groupe."
+      },
+      {
+        "it": "Fai il giro della stanza come se fossi su una passerella da modella.",
+        "en": "Walk around the room as if you were on a fashion runway.",
+        "fr": "Fais le tour de la pièce comme si tu étais sur un podium de mode."
+      },
+      {
+        "it": "Sfida qualcuno a una gara di plank per 30 secondi.",
+        "en": "Challenge someone to a 30-second plank competition.",
+        "fr": "Défie quelqu'un à une compétition de planche de 30 secondes."
+      },
+      {
+        "it": "Fai un ballo sexy con una sedia.",
+        "en": "Do a sexy dance with a chair.",
+        "fr": "Fais une danse sexy avec une chaise."
+      },
+      {
+        "it": "Fai una dichiarazione d'amore esagerata a una persona a tua scelta.",
+        "en": "Make an over-the-top love declaration to someone of your choice.",
+        "fr": "Fais une déclaration d'amour exagérée à une personne de ton choix."
+      },
+      {
+        "it": "Simula un bacio sul dorso della mano della persona accanto a te.",
+        "en": "Simulate a kiss on the back of the hand of the person next to you.",
+        "fr": "Simule un baiser sur le dos de la main de la personne à côté de toi."
+      },
+      {
+        "it": "Dai un abbraccio lungo e intenso a qualcuno nel gruppo.",
+        "en": "Give a long, intense hug to someone in the group.",
+        "fr": "Fais un câlin long et intense à quelqu'un du groupe."
+      },
+      {
+        "it": "Scrivi un messaggio molto audace a qualcuno nei tuoi contatti.",
+        "en": "Send a very bold message to someone in your contacts.",
+        "fr": "Envoie un message très osé à quelqu'un dans tes contacts."
+      },
+      {
+        "it": "Mima una proposta di matrimonio drammatica.",
+        "en": "Act out a dramatic marriage proposal.",
+        "fr": "Mime une demande en mariage dramatique."
+      },
+      {
+        "it": "Mordi il labbro inferiore mentre guardi qualcuno negli occhi per 5 secondi.",
+        "en": "Bite your lower lip while making eye contact with someone for 5 seconds.",
+        "fr": "Mords ta lèvre inférieure en regardant quelqu'un dans les yeux pendant 5 secondes."
+      },
+      {
+        "it": "Sfida qualcuno a un gioco di sguardi, chi distoglie lo sguardo per primo perde.",
+        "en": "Challenge someone to a staring contest. Whoever looks away first loses.",
+        "fr": "Défie quelqu'un à un concours de regards. Celui qui détourne les yeux en premier perd."
+      }  
+    ],
+    "tabu": [
+      {
+        "it": "Parola da indovinare: Automobile Non dire: Guida / Motore / Strada",
+        "en": "Word to guess: Car Don't say: Drive / Engine / Road",
+        "fr": "Mot à deviner : Voiture Ne dites pas: Conduire / Moteur / Route",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Orologio Non dire: Tempo / Polso / Lancette",
+        "en": "Word to guess: Watch Don't say: Time / Wrist / Hands",
+        "fr": "Mot à deviner : Montre Ne dites pas: Temps / Poignet / Aiguilles",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Telefono Non dire: Chiamata / Numero / Suoneria",
+        "en": "Word to guess: Phone Don't say: Call / Number / Ringtone",
+        "fr": "Mot à deviner : Téléphone Ne dites pas: Appel / Numéro / Sonnerie",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Aereo Non dire: Volare / Pilota / Aeroporto",
+        "en": "Word to guess: Airplane Don't say: Fly / Pilot / Airport",
+        "fr": "Mot à deviner : Avion Ne dites pas: Voler / Pilote / Aéroport",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Sole Non dire: Caldo / Cielo / Luce",
+        "en": "Word to guess: Sun Don't say: Hot / Sky / Light",
+        "fr": "Mot à deviner : Soleil Ne dites pas: Chaud / Ciel / Lumière",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Luna Non dire: Notte / Cielo / Stelle",
+        "en": "Word to guess: Moon Don't say: Night / Sky / Stars",
+        "fr": "Mot à deviner : Lune Ne dites pas: Nuit / Ciel / Étoiles",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Scuola Non dire: Studenti / Lezione / Maestra",
+        "en": "Word to guess: School Don't say: Students / Lesson / Teacher",
+        "fr": "Mot à deviner : École Ne dites pas: Étudiants / Leçon / Professeur",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Computer Non dire: Schermo / Tecnologia / Internet",
+        "en": "Word to guess: Computer Don't say: Screen / Technology / Internet",
+        "fr": "Mot à deviner : Ordinateur Ne dites pas: Écran / Technologie / Internet",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Mela Non dire: Frutto / Rosso / Mangiare",
+        "en": "Word to guess: Apple Don't say: Fruit / Red / Eat",
+        "fr": "Mot à deviner : Pomme Ne dites pas: Fruit / Rouge / Manger",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Cane Non dire: Animale / Abbaiare / Cucciolo",
+        "en": "Word to guess: Dog Don't say: Animal / Bark / Puppy",
+        "fr": "Mot à deviner : Chien Ne dites pas: Animal / Aboiement / Chiot",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Gatto Non dire: Animale / Miagolare / Coda",
+        "en": "Word to guess: Cat Don't say: Animal / Meow / Tail",
+        "fr": "Mot à deviner : Chat Ne dites pas: Animal / Miauler / Queue",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Albero Non dire: Foglie / Bosco / Radici",
+        "en": "Word to guess: Tree Don't say: Leaves / Forest / Roots",
+        "fr": "Mot à deviner : Arbre Ne dites pas: Feuilles / Forêt / Racines",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Pesce Non dire: Acqua / Nuotare / Mare",
+        "en": "Word to guess: Fish Don't say: Water / Swim / Sea",
+        "fr": "Mot à deviner : Poisson Ne dites pas: Eau / Nager / Mer",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Pane Non dire: Mangiare / Forno / Farina",
+        "en": "Word to guess: Bread Don't say: Eat / Oven / Flour",
+        "fr": "Mot à deviner : Pain Ne dites pas: Manger / Four / Farine",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Libro Non dire: Leggere / Pagina / Biblioteca",
+        "en": "Word to guess: Book Don't say: Read / Page / Library",
+        "fr": "Mot à deviner : Livre Ne dites pas: Lire / Page / Bibliothèque",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Tavolo Non dire: Mobili / Legno / Sedia",
+        "en": "Word to guess: Table Don't say: Furniture / Wood / Chair",
+        "fr": "Mot à deviner : Table Ne dites pas: Meubles / Bois / Chaise",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Bicicletta Non dire: Pedali / Ruote / Strada",
+        "en": "Word to guess: Bicycle Don't say: Pedals / Wheels / Road",
+        "fr": "Mot à deviner : Vélo Ne dites pas: Pédales / Roues / Route",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Lampada Non dire: Luce / Elettricità / Lampadina",
+        "en": "Word to guess: Lamp Don't say: Light / Electricity / Bulb",
+        "fr": "Mot à deviner : Lampe Ne dites pas: Lumière / Électricité / Ampoule",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Automobile Non dire: Guida / Motore / Strada",
+        "en": "Word to guess: Car Don't say: Drive / Engine / Road",
+        "fr": "Mot à deviner : Voiture Ne dites pas: Conduire / Moteur / Route",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Orologio Non dire: Tempo / Polso / Lancette",
+        "en": "Word to guess: Watch Don't say: Time / Wrist / Hands",
+        "fr": "Mot à deviner : Montre Ne dites pas: Temps / Poignet / Aiguilles",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Telefono Non dire: Chiamata / Numero / Suoneria",
+        "en": "Word to guess: Phone Don't say: Call / Number / Ringtone",
+        "fr": "Mot à deviner : Téléphone Ne dites pas: Appel / Numéro / Sonnerie",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Aereo Non dire: Volare / Pilota / Aeroporto",
+        "en": "Word to guess: Airplane Don't say: Fly / Pilot / Airport",
+        "fr": "Mot à deviner : Avion Ne dites pas: Voler / Pilote / Aéroport",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Sole Non dire: Caldo / Cielo / Luce",
+        "en": "Word to guess: Sun Don't say: Hot / Sky / Light",
+        "fr": "Mot à deviner : Soleil Ne dites pas: Chaud / Ciel / Lumière",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Luna Non dire: Notte / Cielo / Stelle",
+        "en": "Word to guess: Moon Don't say: Night / Sky / Stars",
+        "fr": "Mot à deviner : Lune Ne dites pas: Nuit / Ciel / Étoiles",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Scuola Non dire: Studenti / Lezione / Maestra",
+        "en": "Word to guess: School Don't say: Students / Lesson / Teacher",
+        "fr": "Mot à deviner : École Ne dites pas: Étudiants / Leçon / Professeur",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Computer Non dire: Schermo / Tecnologia / Internet",
+        "en": "Word to guess: Computer Don't say: Screen / Technology / Internet",
+        "fr": "Mot à deviner : Ordinateur Ne dites pas: Écran / Technologie / Internet",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Mela Non dire: Frutto / Rosso / Mangiare",
+        "en": "Word to guess: Apple Don't say: Fruit / Red / Eat",
+        "fr": "Mot à deviner : Pomme Ne dites pas: Fruit / Rouge / Manger",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Pizza Non dire: Cibo / Italia / Formaggio",
+        "en": "Word to guess: Pizza Don't say: Food / Italy / Cheese",
+        "fr": "Mot à deviner : Pizza Ne dites pas: Nourriture / Italie / Fromage",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Fiume Non dire: Acqua / Lungo / Pesci",
+        "en": "Word to guess: River Don't say: Water / Long / Fish",
+        "fr": "Mot à deviner : Rivière Ne dites pas: Eau / Long / Poissons",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Montagna Non dire: Alta / Neve / Arrampicata",
+        "en": "Word to guess: Mountain Don't say: High / Snow / Climbing",
+        "fr": "Mot à deviner : Montagne Ne dites pas: Haute / Neige / Escalade",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Dottore Non dire: Ospedale / Malato / Medicina",
+        "en": "Word to guess: Doctor Don't say: Hospital / Sick / Medicine",
+        "fr": "Mot à deviner : Docteur Ne dites pas: Hôpital / Malade / Médicament",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Calcio Non dire: Pallone / Goal / Squadra",
+        "en": "Word to guess: Soccer Don't say: Ball / Goal / Team",
+        "fr": "Mot à deviner : Football Ne dites pas: Ballon / But / Équipe",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Cinema Non dire: Film / Schermo / Biglietto",
+        "en": "Word to guess: Cinema Don't say: Movie / Screen / Ticket",
+        "fr": "Mot à deviner : Cinéma Ne dites pas: Film / Écran / Billet",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Bottiglia Non dire: Acqua / Vetro / Tappo",
+        "en": "Word to guess: Bottle Don't say: Water / Glass / Cap",
+        "fr": "Mot à deviner : Bouteille Ne dites pas: Eau / Verre / Bouchon",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Caffè Non dire: Bevanda / Tazza / Mattina",
+        "en": "Word to guess: Coffee Don't say: Drink / Cup / Morning",
+        "fr": "Mot à deviner : Café Ne dites pas: Boisson / Tasse / Matin",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Treno Non dire: Binari / Viaggio / Velocità",
+        "en": "Word to guess: Train Don't say: Tracks / Travel / Speed",
+        "fr": "Mot à deviner : Train Ne dites pas: Rails / Voyage / Vitesse",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Occhiali Non dire: Vista / Lenti / Montatura",
+        "en": "Word to guess: Glasses Don't say: Vision / Lenses / Frame",
+        "fr": "Mot à deviner : Lunettes Ne dites pas: Vue / Verres / Monture",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Teatro Non dire: Spettacolo / Attore / Palco",
+        "en": "Word to guess: Theater Don't say: Show / Actor / Stage",
+        "fr": "Mot à deviner : Théâtre Ne dites pas: Spectacle / Acteur / Scène",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Ape Non dire: Miele / Insetto / Pungiglione",
+        "en": "Word to guess: Bee Don't say: Honey / Insect / Sting",
+        "fr": "Mot à deviner : Abeille Ne dites pas: Miel / Insecte / Dard",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Isola Non dire: Mare / Terra / Spiaggia",
+        "en": "Word to guess: Island Don't say: Sea / Land / Beach",
+        "fr": "Mot à deviner : Île Ne dites pas: Mer / Terre / Plage",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Ombrello Non dire: Pioggia / Aprire / Bagnato",
+        "en": "Word to guess: Umbrella Don't say: Rain / Open / Wet",
+        "fr": "Mot à deviner : Parapluie Ne dites pas: Pluie / Ouvrir / Mouillé",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Bussola Non dire: Nord / Direzione / Strumenti",
+        "en": "Word to guess: Compass Don't say: North / Direction / Instrument",
+        "fr": "Mot à deviner : Boussole Ne dites pas: Nord / Direction / Instrument",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Miele Non dire: Dolce / Api / Alveare",
+        "en": "Word to guess: Honey Don't say: Sweet / Bees / Hive",
+        "fr": "Mot à deviner : Miel Ne dites pas: Doux / Abeilles / Ruche",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Cervo Non dire: Foresta / Corna / Animale",
+        "en": "Word to guess: Deer Don't say: Forest / Horns / Animal",
+        "fr": "Mot à deviner : Cerf Ne dites pas: Forêt / Bois / Animal",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Lago Non dire: Acqua / Pesci / Nuotare",
+        "en": "Word to guess: Lake Don't say: Water / Fish / Swim",
+        "fr": "Mot à deviner : Lac Ne dites pas: Eau / Poissons / Nager",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Stella Non dire: Cielo / Brillante / Notte",
+        "en": "Word to guess: Star Don't say: Sky / Bright / Night",
+        "fr": "Mot à deviner : Étoile Ne dites pas: Ciel / Brillant / Nuit",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Arco Non dire: Freccia / Tiro / Arciere",
+        "en": "Word to guess: Bow Don't say: Arrow / Shoot / Archer",
+        "fr": "Mot à deviner : Arc Ne dites pas: Flèche / Tirer / Archer",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Radio Non dire: Musica / Ascoltare / Frequenza",
+        "en": "Word to guess: Radio Don't say: Music / Listen / Frequency",
+        "fr": "Mot à deviner : Radio Ne dites pas: Musique / Écouter / Fréquence",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Pittura Non dire: Colore / Pennello / Arte",
+        "en": "Word to guess: Painting Don't say: Color / Brush / Art",
+        "fr": "Mot à deviner : Peinture Ne dites pas: Couleur / Pinceau / Art",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Pinguino Non dire: Ghiaccio / Antartide / Uccello",
+        "en": "Word to guess: Penguin Don't say: Ice / Antarctica / Bird",
+        "fr": "Mot à deviner : Pingouin Ne dites pas: Glace / Antarctique / Oiseau",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Chitarra Non dire: Corde / Musica / Strumento",
+        "en": "Word to guess: Guitar Don't say: Strings / Music / Instrument",
+        "fr": "Mot à deviner : Guitare Ne dites pas: Cordes / Musique / Instrument",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Mare Non dire: Acqua / Onde / Spiaggia",
+        "en": "Word to guess: Sea Don't say: Water / Waves / Beach",
+        "fr": "Mot à deviner : Mer Ne dites pas: Eau / Vagues / Plage",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Forchetta Non dire: Mangiare / Cibo / Posate",
+        "en": "Word to guess: Fork Don't say: Eat / Food / Cutlery",
+        "fr": "Mot à deviner : Fourchette Ne dites pas: Manger / Nourriture / Couverts",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Cane Non dire: Animale / Abbaiare / Cucciolo",
+        "en": "Word to guess: Dog Don't say: Animal / Bark / Puppy",
+        "fr": "Mot à deviner : Chien Ne dites pas: Animal / Aboiement / Chiot",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Gatto Non dire: Animale / Miagolare / Coda",
+        "en": "Word to guess: Cat Don't say: Animal / Meow / Tail",
+        "fr": "Mot à deviner : Chat Ne dites pas: Animal / Miauler / Queue",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      },
+      {
+        "it": "Parola da indovinare: Albero Non dire: Foglie / Bosco / Radici",
+        "en": "Word to guess: Tree Don't say: Leaves / Forest / Roots",
+        "fr": "Mot à deviner : Arbre Ne dites pas: Feuilles / Forêt / Racines",
+        "tabu": [
+          "Parole vietate in IT, EN, FR"
+        ]
+      }
+    ],
+    "indovinaIlSegreto": [
+      {
+        "it": "Indovina i segreti e associali agli altri partecipanti.",
+        "en": "Guess the secrets and match them to the other participants.",
+        "fr": "Devinez les secrets et associez-les aux autres participants."
+      },
+      {
+        "it": "Indovina i segreti e associali agli altri partecipanti.",
+        "en": "Guess the secrets and match them to the other participants.",
+        "fr": "Devinez les secrets et associez-les aux autres participants."
+      }
+    ],
+    "rankIT": [
+      {
+        "it": "Chi parla di più",
+        "en": "Who talks the most",
+        "fr": "Qui parle le plus"
+      },
+      {
+        "it": "Più affascinante",
+        "en": "Most charming",
+        "fr": "Le plus charmant"
+      },
+      {
+        "it": "Più difficile da capire",
+        "en": "Hardest to understand",
+        "fr": "Le plus difficile à comprendre"
+      },
+      {
+        "it": "Più attento/a ai dettagli",
+        "en": "Most detail-oriented",
+        "fr": "Le plus attentif aux détails"
+      },
+      {
+        "it": "Sempre il/la meglio vestito/a",
+        "en": "Always the best dressed",
+        "fr": "Toujours le/la mieux habillé(e)"
+      },
+      {
+        "it": "Anima della festa",
+        "en": "Life of the party",
+        "fr": "L'âme de la fête"
+      },
+      {
+        "it": "Chi sa divertirsi di più",
+        "en": "Who knows how to have the most fun",
+        "fr": "Qui sait le mieux s'amuser"
+      },
+      {
+        "it": "Chi ha più stile",
+        "en": "Who has the most style",
+        "fr": "Qui a le plus de style"
+      },
+      {
+        "it": "Più probabile a ubriacarsi per primo",
+        "en": "Most likely to get drunk first",
+        "fr": "Le plus susceptible de se saouler en premier"
+      },
+      {
+        "it": "Chi sarebbe il miglior compagno di viaggio",
+        "en": "Who would be the best travel companion",
+        "fr": "Qui serait le meilleur compagnon de voyage"
+      },
+      {
+        "it": "Troppo pignolo/a",
+        "en": "Too picky",
+        "fr": "Trop pointilleux/pointilleuse"
+      },
+      {
+        "it": "Troppo testardo/a",
+        "en": "Too stubborn",
+        "fr": "Trop têtu(e)"
+      },
+      {
+        "it": "Più furbo",
+        "en": "Most cunning",
+        "fr": "Le plus malin"
+      },
+      {
+        "it": "Più intelligente",
+        "en": "Most intelligent",
+        "fr": "Le plus intelligent"
+      },
+      {
+        "it": "Più calmo",
+        "en": "Most calm",
+        "fr": "Le plus calme"
+      },
+      {
+        "it": "Più stronzo",
+        "en": "Biggest jerk",
+        "fr": "Le plus con"
+      },
+      {
+        "it": "Più romantico/a",
+        "en": "Most romantic",
+        "fr": "Le plus romantique"
+      },
+      {
+        "it": "Più bravo in cucina",
+        "en": "Best at cooking",
+        "fr": "Le meilleur en cuisine"
+      },
+      {
+        "it": "Più competitivo",
+        "en": "Most competitive",
+        "fr": "Le plus compétitif"
+      },
+      {
+        "it": "Più adattabile",
+        "en": "Most adaptable",
+        "fr": "Le plus adaptable"
+      },
+      {
+        "it": "Chi sarebbe il miglior detective",
+        "en": "Who would be the best detective",
+        "fr": "Qui serait le meilleur détective"
+      },
+      {
+        "it": "Con chi ti baceresti",
+        "en": "Who would you kiss",
+        "fr": "Avec qui embrasserais-tu"
+      },
+      {
+        "it": "Il/La più bello/a",
+        "en": "The most beautiful",
+        "fr": "Le plus beau / La plus belle"
+      },
+      {
+        "it": "Più probabile a diventare famoso",
+        "en": "Most likely to become famous",
+        "fr": "Le plus susceptible de devenir célèbre"
+      },
+      {
+        "it": "Più talentuoso/a",
+        "en": "Most talented",
+        "fr": "Le plus talentueux"
+      },
+      {
+        "it": "Fa gossip su tutti",
+        "en": "Gossips about everyone",
+        "fr": "Raconte des potins sur tout le monde"
+      },
+      {
+        "it": "Chi farebbe più casino a una festa",
+        "en": "Who would make the most mess at a party",
+        "fr": "Qui mettrait le plus de bazar à une fête"
+      },
+      {
+        "it": "Chi è più probabile ad avere una doppia vita",
+        "en": "Who is most likely to have a double life",
+        "fr": "Qui est le plus susceptible d'avoir une double vie"
+      },
+      {
+        "it": "Più riservato/a",
+        "en": "Most reserved",
+        "fr": "Le plus réservé"
+      },
+      {
+        "it": "Chi è più probabile a flirtare senza accorgersene",
+        "en": "Who is most likely to flirt without realizing it",
+        "fr": "Qui est le plus susceptible de flirter sans s'en rendre compte"
+      },
+      {
+        "it": "Più egocentrico",
+        "en": "Most self-centered",
+        "fr": "Le plus égocentrique"
+      },
+      {
+        "it": "Più lunatico",
+        "en": "Most moody",
+        "fr": "Le plus lunatique"
+      },
+      {
+        "it": "Più falso/a",
+        "en": "Most fake",
+        "fr": "Le plus faux/fausse"
+      },
+      {
+        "it": "Più imprevedibile",
+        "en": "Most unpredictable",
+        "fr": "Le plus imprévisible"
+      },
+      {
+        "it": "Più drammatico/a",
+        "en": "Most dramatic",
+        "fr": "Le plus dramatique"
+      },
+      {
+        "it": "Più velenoso/a con le parole",
+        "en": "Most sharp-tongued",
+        "fr": "Le plus acéré avec les mots"
+      },
+      {
+        "it": "Più probabile a fare ghosting",
+        "en": "Most likely to ghost someone",
+        "fr": "Le plus susceptible de disparaître du jour au lendemain"
+      },
+      {
+        "it": "Più arrogante",
+        "en": "Most arrogant",
+        "fr": "Le plus arrogant"
+      },
+      {
+        "it": "Più opportunista",
+        "en": "Most opportunistic",
+        "fr": "Le plus opportuniste"
+      },
+      {
+        "it": "Più probabile a rubarti il partner",
+        "en": "Most likely to steal your partner",
+        "fr": "Le plus susceptible de te voler ton/ta partenaire"
+      },
+      {
+        "it": "Più inaffidabile",
+        "en": "Most unreliable",
+        "fr": "Le plus peu fiable"
+      },
+      {
+        "it": "Più probabile a non farsi più sentire",
+        "en": "Most likely to disappear without a trace",
+        "fr": "Le plus susceptible de disparaître sans laisser de traces"
+      },
+      {
+        "it": "Più probabile a finire in un drama",
+        "en": "Most likely to get caught in drama",
+        "fr": "Le plus susceptible de se retrouver dans un drame"
+      },
+      {
+        "it": "Più probabile a sparire dopo una notte di passione",
+        "en": "Most likely to disappear after a one-night stand",
+        "fr": "Le plus susceptible de disparaître après une nuit de passion"
+      },
+      {
+        "it": "Più provocante",
+        "en": "Most provocative",
+        "fr": "Le plus provocateur/provocatrice"
+      },
+      {
+        "it": "Più probabile a prendersela per tutto",
+        "en": "Most likely to take everything personally",
+        "fr": "Le plus susceptible de tout prendre personnellement"
+      },
+      {
+        "it": "Più competitivo/a fino all'eccesso",
+        "en": "Most excessively competitive",
+        "fr": "Le plus compétitif à l'excès"
+      },
+      {
+        "it": "Più manipolatore/trice",
+        "en": "Most manipulative",
+        "fr": "Le plus manipulateur/manipulatrice"
+      },
+      {
+        "it": "Più probabile a fare scenate di gelosia",
+        "en": "Most likely to have jealousy fits",
+        "fr": "Le plus susceptible de faire des crises de jalousie"
+      },
+      {
+        "it": "Più sarcastico/a",
+        "en": "Most sarcastic",
+        "fr": "Le plus sarcastique"
+      },
+      {
+        "it": "Più vendicativo/a",
+        "en": "Most vengeful",
+        "fr": "Le plus rancunier/rancunière"
+      },
+      {
+        "it": "Più probabile a far soffrire qualcuno in amore",
+        "en": "Most likely to break someone's heart",
+        "fr": "Le plus susceptible de briser le cœur de quelqu'un"
+      },
+      {
+        "it": "Più teatrale",
+        "en": "Most theatrical",
+        "fr": "Le plus théâtral"
+      },
+      {
+        "it": "Più probabile a essere un ex tossico",
+        "en": "Most likely to be a toxic ex",
+        "fr": "Le plus susceptible d'être un(e) ex toxique"
+      },
+      {
+        "it": "Più permaloso/a",
+        "en": "Most touchy",
+        "fr": "Le plus susceptible"
+      },
+      {
+        "it": "Più probabile a flirtare con chiunque",
+        "en": "Most likely to flirt with anyone",
+        "fr": "Le plus susceptible de flirter avec tout le monde"
+      },
+      {
+        "it": "Più freddo/a emotivamente",
+        "en": "Most emotionally cold",
+        "fr": "Le plus froid émotionnellement"
+      },
+      {
+        "it": "Più egocentrico/a ma lo nega",
+        "en": "Most self-centered but denies it",
+        "fr": "Le plus égocentrique mais le nie"
+      },
+      {
+        "it": "Più probabile a sparire dopo un litigio",
+        "en": "Most likely to disappear after an argument",
+        "fr": "Le plus susceptible de disparaître après une dispute"
+      },
+      {
+        "it": "Più probabile a fare il doppio gioco",
+        "en": "Most likely to play both sides",
+        "fr": "Le plus susceptible de jouer sur les deux tableaux"
+      }
+    ],
+    "reazioneACatena": [
+      {
+        "it": "Parola da indovinare: Sole",
+        "en": "Word to guess: Sun",
+        "fr": "Mot à deviner : Soleil"
+      },
+      {
+        "it": "Parola da indovinare: Computer",
+        "en": "Word to guess: Computer",
+        "fr": "Mot à deviner : Ordinateur"
+      },
+      {
+        "it": "Parola da indovinare: Mare",
+        "en": "Word to guess: Sea",
+        "fr": "Mot à deviner : Mer"
+      },
+      {
+        "it": "Parola da indovinare: Montagna",
+        "en": "Word to guess: Mountain",
+        "fr": "Mot à deviner : Montagne"
+      },
+      {
+        "it": "Parola da indovinare: Scuola",
+        "en": "Word to guess: School",
+        "fr": "Mot à deviner : École"
+      },
+      {
+        "it": "Parola da indovinare: Orologio",
+        "en": "Word to guess: Watch",
+        "fr": "Mot à deviner : Montre"
+      },
+      {
+        "it": "Parola da indovinare: Automobile",
+        "en": "Word to guess: Car",
+        "fr": "Mot à deviner : Voiture"
+      },
+      {
+        "it": "Parola da indovinare: Aereo",
+        "en": "Word to guess: Airplane",
+        "fr": "Mot à deviner : Avion"
+      },
+      {
+        "it": "Parola da indovinare: Tavolo",
+        "en": "Word to guess: Table",
+        "fr": "Mot à deviner : Table"
+      },
+      {
+        "it": "Parola da indovinare: Lampada",
+        "en": "Word to guess: Lamp",
+        "fr": "Mot à deviner : Lampe"
+      },
+      {
+        "it": "Parola da indovinare: Telefono",
+        "en": "Word to guess: Phone",
+        "fr": "Mot à deviner : Téléphone"
+      },
+      {
+        "it": "Parola da indovinare: Chitarra",
+        "en": "Word to guess: Guitar",
+        "fr": "Mot à deviner : Guitare"
+      },
+      {
+        "it": "Parola da indovinare: Albero",
+        "en": "Word to guess: Tree",
+        "fr": "Mot à deviner : Arbre"
+      },
+      {
+        "it": "Parola da indovinare: Mela",
+        "en": "Word to guess: Apple",
+        "fr": "Mot à deviner : Pomme"
+      },
+      {
+        "it": "Parola da indovinare: Cane",
+        "en": "Word to guess: Dog",
+        "fr": "Mot à deviner : Chien"
+      },
+      {
+        "it": "Parola da indovinare: Gatto",
+        "en": "Word to guess: Cat",
+        "fr": "Mot à deviner : Chat"
+      },
+      {
+        "it": "Parola da indovinare: Luna",
+        "en": "Word to guess: Moon",
+        "fr": "Mot à deviner : Lune"
+      },
+      {
+        "it": "Parola da indovinare: Pianeta",
+        "en": "Word to guess: Planet",
+        "fr": "Mot à deviner : Planète"
+      },
+      {
+        "it": "Parola da indovinare: Fiume",
+        "en": "Word to guess: River",
+        "fr": "Mot à deviner : Fleuve"
+      },
+      {
+        "it": "Parola da indovinare: Ponte",
+        "en": "Word to guess: Bridge",
+        "fr": "Mot à deviner : Pont"
+      },
+      {
+        "it": "Parola da indovinare: Occhiali",
+        "en": "Word to guess: Glasses",
+        "fr": "Mot à deviner : Lunettes"
+      },
+      {
+        "it": "Parola da indovinare: Cielo",
+        "en": "Word to guess: Sky",
+        "fr": "Mot à deviner : Ciel"
+      },
+      {
+        "it": "Parola da indovinare: Palla",
+        "en": "Word to guess: Ball",
+        "fr": "Mot à deviner : Balle"
+      },
+      {
+        "it": "Parola da indovinare: Onda",
+        "en": "Word to guess: Wave",
+        "fr": "Mot à deviner : Vague"
+      },
+      {
+        "it": "Parola da indovinare: Ferrovia",
+        "en": "Word to guess: Railway",
+        "fr": "Mot à deviner : Chemin de fer"
+      },
+      {
+        "it": "Parola da indovinare: Spiaggia",
+        "en": "Word to guess: Beach",
+        "fr": "Mot à deviner : Plage"
+      },
+      {
+        "it": "Parola da indovinare: Fuoco",
+        "en": "Word to guess: Fire",
+        "fr": "Mot à deviner : Feu"
+      },
+      {
+        "it": "Parola da indovinare: Latte",
+        "en": "Word to guess: Milk",
+        "fr": "Mot à deviner : Lait"
+      },
+      {
+        "it": "Parola da indovinare: Tavolo",
+        "en": "Word to guess: Table",
+        "fr": "Mot à deviner : Table"
+      },
+      {
+        "it": "Parola da indovinare: Lampada",
+        "en": "Word to guess: Lamp",
+        "fr": "Mot à deviner : Lampe"
+      },
+      {
+        "it": "Parola da indovinare: Arcobaleno",
+        "en": "Word to guess: Rainbow",
+        "fr": "Mot à deviner : Arc-en-ciel"
+      },
+      {
+        "it": "Parola da indovinare: Giardino",
+        "en": "Word to guess: Garden",
+        "fr": "Mot à deviner : Jardin"
+      },
+      {
+        "it": "Parola da indovinare: Bosco",
+        "en": "Word to guess: Forest",
+        "fr": "Mot à deviner : Forêt"
+      },
+      {
+        "it": "Parola da indovinare: Castello",
+        "en": "Word to guess: Castle",
+        "fr": "Mot à deviner : Château"
+      },
+      {
+        "it": "Parola da indovinare: Bicicletta",
+        "en": "Word to guess: Bicycle",
+        "fr": "Mot à deviner : Vélo"
+      },
+      {
+        "it": "Parola da indovinare: Nuvola",
+        "en": "Word to guess: Cloud",
+        "fr": "Mot à deviner : Nuage"
+      },
+      {
+        "it": "Parola da indovinare: Ombrello",
+        "en": "Word to guess: Umbrella",
+        "fr": "Mot à deviner : Parapluie"
+      },
+      {
+        "it": "Parola da indovinare: Pesce",
+        "en": "Word to guess: Fish",
+        "fr": "Mot à deviner : Poisson"
+      },
+      {
+        "it": "Parola da indovinare: Tenda",
+        "en": "Word to guess: Tent",
+        "fr": "Mot à deviner : Tente"
+      },
+      {
+        "it": "Parola da indovinare: Vento",
+        "en": "Word to guess: Wind",
+        "fr": "Mot à deviner : Vent"
+      },
+      {
+        "it": "Parola da indovinare: Farfalla",
+        "en": "Word to guess: Butterfly",
+        "fr": "Mot à deviner : Papillon"
+      }
+    ],
+    "random": [
+      {
+        "it": "Hai mai tradito qualcuno? Racconta.",
+        "en": "Have you ever cheated on someone? Tell us.",
+        "fr": "As-tu déjà trompé quelqu'un? Raconte."
+      },
+      {
+        "it": "Qual è il tuo pensiero sulle relazioni virtuali?",
+        "en": "What is your thought on virtual relationships?",
+        "fr": "Que penses-tu des relations virtuelles?"
+      },
+      {
+        "it": "Hai mai avuto una relazione con qualcuno di molto diverso da te?",
+        "en": "Have you ever had a relationship with someone very different from you?",
+        "fr": "As-tu déjà eu une relation avec quelqu'un de très différent de toi?"
+      },
+      {
+        "it": "Qual è la cosa più difficile che hai dovuto perdonare in una relazione?",
+        "en": "What is the hardest thing you had to forgive in a relationship?",
+        "fr": "Quelle est la chose la plus difficile que tu aies dû pardonner dans une relation?"
+      },
+      {
+        "it": "Con chi ti baceresti",
+        "en": "Who you'd kiss",
+        "fr": "Qui tu embrasserais",
+        "pro": [
+          "Bello/a",
+          "Buon bacio",
+          "Carismatico/a"
+        ],
+        "contro": [
+          "Forse troppo flirtatore/trice",
+          "Non si impegna",
+          "Troppi ex"
+        ]
+      },
+      {
+        "it": "Più probabile diventare famoso",
+        "en": "Most likely to become famous",
+        "fr": "Le plus susceptible de devenir célèbre",
+        "pro": [
+          "Molto talentuoso/a",
+          "Carismatico/a",
+          "Sempre al centro dell’attenzione"
+        ],
+        "contro": [
+          "Troppo egocentrico/a",
+          "Fa gossip su tutti",
+          "Non reggerebbe la pressione"
+        ]
+      },
+      {
+        "it": "Chi farebbe più casino in una festa",
+        "en": "Who would make the most mess at a party",
+        "fr": "Qui mettrait le plus de bazar à une fête",
+        "pro": [
+          "Sa come far divertire",
+          "Non ha limiti",
+          "L’anima della festa"
+        ],
+        "contro": [
+          "Troppo rumoroso/a",
+          "Ubriaco/a dopo un’ora",
+          "Sempre nei guai"
+        ]
+      },
+      {
+        "it": "Chi sarebbe il miglior partner per una fuga romantica",
+        "en": "Who would be the best partner for a romantic getaway",
+        "fr": "Qui serait le meilleur partenaire pour une escapade romantique",
+        "pro": [
+          "Molto romantico/a",
+          "Ama viaggiare",
+          "Sempre premuroso/a"
+        ],
+        "contro": [
+          "Troppo appiccicoso/a",
+          "Non sa organizzare",
+          "Si perde facilmente"
+        ]
+      },
+      {
+        "it": "Chi potrebbe sparire per mesi senza dire nulla",
+        "en": "Who could disappear for months without saying anything",
+        "fr": "Qui pourrait disparaître pendant des mois sans prévenir",
+        "pro": [
+          "Molto indipendente",
+          "Vive alla giornata",
+          "Ama l’avventura"
+        ],
+        "contro": [
+          "Zero contatti con il mondo",
+          "Dimentica tutto",
+          "Non si fa mai trovare"
+        ]
+      },
+      {
+        "it": "Chi è il più probabile ad avere una doppia vita",
+        "en": "Most likely to have a double life",
+        "fr": "Le plus susceptible d'avoir une double vie",
+        "pro": [
+          "Molto riservato/a",
+          "Misterioso/a",
+          "Sa mentire bene"
+        ],
+        "contro": [
+          "Nasconde troppi segreti",
+          "Difficile da capire",
+          "Troppo enigmatico/a"
+        ]
+      },
+      {
+        "it": "Chi è il più probabile a flirtare senza accorgersene",
+        "en": "Most likely to flirt without realizing",
+        "fr": "Le plus susceptible de flirter sans s'en rendre compte",
+        "pro": [
+          "Super carismatico/a",
+          "Sempre gentile",
+          "Sa fare complimenti"
+        ],
+        "contro": [
+          "Troppo confuso/a",
+          "Illude la gente",
+          "Non si rende conto di nulla"
+        ]
+      },
+      {
+        "it": "Non ho mai riso di qualcuno mentre era presente.",
+        "en": "Never have I ever laughed at someone right in front of them.",
+        "fr": "Je n'ai jamais ri de quelqu'un en face de lui."
+      },
+      {
+        "it": "Non ho mai avuto un bacio imbarazzante con qualcuno di questa stanza.",
+        "en": "Never have I ever had an awkward kiss with someone in this room.",
+        "fr": "Je n'ai jamais eu un baiser gênant avec quelqu'un ici."
+      },
+      {
+        "it": "Cerca 'nudo' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'naked' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'nu' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'ieri' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'yesterday' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'hier' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'foto' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'photo' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'photo' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Cerca 'hot' su WhatsApp e leggi il primo messaggio che trovi",
+        "en": "Search 'hot' on WhatsApp and read the first message you find",
+        "fr": "Cherche 'hot' sur WhatsApp et lis le premier message que tu trouves"
+      },
+      {
+        "it": "Non ho mai pensato che fossi più attraente di qualcuno vicino a me.",
+        "en": "Never have I ever thought I was hotter than someone standing near me.",
+        "fr": "Je n'ai jamais pensé être plus attirant que quelqu'un près de moi."
+      },
+      {
+        "it": "Preferiresti vivere una relazione perfetta senza sesso o una relazione tossica con il miglior sesso della tua vita?",
+        "en": "Would you rather have a perfect relationship without sex or a toxic relationship with the best sex of your life?",
+        "fr": "Préférerais-tu avoir une relation parfaite sans sexe ou une relation toxique avec le meilleur sexe de ta vie?"
+      },
+      {
+        "it": "Preferiresti dover guardare il tuo partner con qualcun altro o essere guardato mentre sei con qualcun altro?",
+        "en": "Would you rather watch your partner with someone else or be watched while you are with someone else?",
+        "fr": "Préférerais-tu regarder ton partenaire avec quelqu'un d'autre ou être observé pendant que tu es avec quelqu'un d'autre?"
+      },
+      {
+        "it": "Preferiresti poter avere solo un unico orgasmo incredibile in tutta la vita o multipli orgasmi mediocri per sempre?",
+        "en": "Would you rather have only one mind-blowing orgasm in your lifetime or multiple mediocre ones forever?",
+        "fr": "Préférerais-tu n'avoir qu'un seul orgasme incroyable dans ta vie ou plusieurs orgasmes médiocres pour toujours?"
+      },
+      {
+        "it": "Preferiresti essere desiderato da tutti ma mai amato o essere amato profondamente ma senza desiderio fisico?",
+        "en": "Would you rather be desired by everyone but never loved, or be deeply loved but without physical desire?",
+        "fr": "Préférerais-tu être désiré par tout le monde mais jamais aimé, ou être profondément aimé mais sans désir physique?"
+      },
+      {
+        "it": "Preferiresti non provare mai più piacere fisico o non provare mai più una connessione emotiva con nessuno?",
+        "en": "Would you rather never feel physical pleasure again or never feel an emotional connection with anyone again?",
+        "fr": "Préférerais-tu ne plus jamais ressentir de plaisir physique ou ne plus jamais ressentir de connexion émotionnelle avec qui que ce soit?"
+      },
+      {
+        "it": "Hai mai nascosto una parte di te in una relazione?",
+        "en": "Have you ever hidden a part of yourself in a relationship?",
+        "fr": "As-tu déjà caché une partie de toi dans une relation?"
+      },
+      {
+        "it": "Qual è la tua opinione sulle relazioni aperte?",
+        "en": "What is your opinion on open relationships?",
+        "fr": "Quelle est ton opinion sur les relations ouvertes?"
+      },
+      {
+        "it": "Hai mai avuto una relazione con una differenza d'età significativa?",
+        "en": "Have you ever had a relationship with a significant age difference?",
+        "fr": "As-tu déjà eu une relation avec une différence d'âge significative?"
+      },
+      {
+        "it": "Qual è il tuo bodycount?",
+        "en": "What is your body count?",
+        "fr": "Quel est ton nombre de conquêtes?"
+      },
+      {
+        "it": "Bevi 1 sorso",
+        "en": "Take 1 sip",
+        "fr": "Bois 1 gorgée"
+      },
+      {
+        "it": "Bevi 2 sorsi",
+        "en": "Take 2 sips",
+        "fr": "Bois 2 gorgées"
+      },
+      {
+        "it": "Bevi 3 sorsi",
+        "en": "Take 3 sips",
+        "fr": "Bois 3 gorgées"
+      },
+      {
+        "it": "Bevi metà bicchiere",
+        "en": "Take half a glass",
+        "fr": "Bois la moitié du verre"
+      },
+      {
+        "it": "Bevi 1 sorso",
+        "en": "Take 1 sip",
+        "fr": "Bois 1 gorgée"
+      },
+      {
+        "it": "Hai mai nascosto un sentimento per paura di rifiuto?",
+        "en": "Have you ever hidden a feeling for fear of rejection?",
+        "fr": "As-tu déjà caché un sentiment par peur du rejet?"
+      },
+      {
+        "it": "Qual è la tua opinione sulle relazioni a distanza?",
+        "en": "What is your opinion on long-distance relationships?",
+        "fr": "Quelle est ton opinion sur les relations à distance?"
+      },
+      {
+        "it": "Preferiresti poter vivere ogni tua fantasia più oscura ma mai innamorarti o avere una relazione perfetta ma senza passioni?",
+        "en": "Would you rather live out your darkest fantasies but never fall in love or have a perfect relationship with no passion?",
+        "fr": "Préférerais-tu vivre toutes tes fantasmes les plus sombres mais ne jamais tomber amoureux ou avoir une relation parfaite sans passion?"
+      },
+      {
+        "it": "Preferiresti dover sempre dire la verità sulle tue esperienze intime o non poter mai parlarne con nessuno?",
+        "en": "Would you rather always have to tell the truth about your intimate experiences or never be able to talk about them at all?",
+        "fr": "Préférerais-tu toujours devoir dire la vérité sur tes expériences intimes ou ne jamais pouvoir en parler du tout?"
+      },
+      {
+        "it": "Preferiresti essere completamente sottomesso o completamente dominante in ogni relazione che hai?",
+        "en": "Would you rather be completely submissive or completely dominant in every relationship you have?",
+        "fr": "Préférerais-tu être complètement soumis ou complètement dominant dans chaque relation que tu as?"
+      },
+      {
+        "it": "Preferiresti poter sentire i pensieri intimi del tuo partner o far sì che lui/lei possa sentire i tuoi?",
+        "en": "Would you rather be able to hear your partner’s intimate thoughts or have them hear yours?",
+        "fr": "Préférerais-tu pouvoir entendre les pensées intimes de ton partenaire ou qu'il/elle entende les tiennes?"
+      },
+      { "it": "Andrea, Melanie, Rajoie", "en": "Andrea, Melanie, Rajoie", "fr": "Andrea, Melanie, Rajoie" },
+      { "it": "Giorgio, Andrea, Pierluigi", "en": "Giorgio, Andrea, Pierluigi", "fr": "Giorgio, Andrea, Pierluigi" },
+      { "it": "Matteo, Rajoie, Nicolo", "en": "Matteo, Rajoie, Nicolo", "fr": "Matteo, Rajoie, Nicolo" },
+      { "it": "Matteo, Andrea, Melanie", "en": "Matteo, Andrea, Melanie", "fr": "Matteo, Andrea, Melanie" },
+      { "it": "Giorgio, Nicolo, Melanie", "en": "Giorgio, Nicolo, Melanie", "fr": "Giorgio, Nicolo, Melanie" },
+      { "it": "Matteo, Melanie, Matteo", "en": "Matteo, Melanie, Matteo", "fr": "Matteo, Melanie, Matteo" },
+      { "it": "Andrea, Pierluigi, Pietro", "en": "Andrea, Pierluigi, Pietro", "fr": "Andrea, Pierluigi, Pietro" },
+      {
+        "it": "Di un pro e un contro alla persona alla tua destra",
+        "en": "Say one pro and one cons to the person on your right",
+        "fr": "Dis une qualité et un défaut de la personne a ta droite"
+      },
+      {
+        "it": "Di un pro e un contro alla persona alla tua sinistra",
+        "en": "Say one pro and one cons to the person on your left",
+        "fr": "Dis une qualité et un défaut de la personne a ta gauche"
+      },
+      {
+        "it": "Di un pro e un contro alla persona di fronte a te",
+        "en": "Say one pro and one cons to the person in front of you",
+        "fr": "Dis une qualité et un défaut de la personne on face de toi"
+      },
+      {
+        "it": "Non ho mai baciato qualcuno solo per far ingelosire un’altra persona.",
+        "en": "Never have I ever kissed someone just to make someone else jealous.",
+        "fr": "Je n'ai jamais embrassé quelqu'un juste pour rendre quelqu'un d'autre jaloux."
+      },
+      {
+        "it": "Fai il miglior sguardo seducente a qualcuno nel gruppo.",
+        "en": "Give your best seductive look to someone in the group.",
+        "fr": "Lance ton regard le plus séduisant à quelqu'un du groupe."
+      },
+      {
+        "it": "Racconta il tuo più grande segreto romantico.",
+        "en": "Tell your biggest romantic secret.",
+        "fr": "Raconte ton plus grand secret romantique."
+      },
+      {
+        "it": "Fai una dichiarazione d'amore esagerata a una persona a tua scelta.",
+        "en": "Make an over-the-top love declaration to someone of your choice.",
+        "fr": "Fais une déclaration d'amour exagérée à une personne de ton choix."
+      },
+      {
+        "it": "Fai 10 flessioni mentre guardi qualcuno negli occhi.",
+        "en": "Do 10 push-ups while maintaining eye contact with someone.",
+        "fr": "Fais 10 pompes en regardant quelqu'un dans les yeux."
+      },
+      {
+        "it": "Non ho mai flirtato con qualcuno impegnato.",
+        "en": "Never have I ever flirted with someone who was already taken.",
+        "fr": "Je n'ai jamais dragué quelqu'un qui était déjà pris."
+      },
+      {
+        "it": "Non ho mai avuto una cotta per il ragazzo/la ragazza di un amico.",
+        "en": "Never have I ever had a crush on a friend’s partner.",
+        "fr": "Je n'ai jamais eu un béguin pour le copain/la copine d'un ami."
+      }
+    ],
+    "geoguessr": [
+      {
+        "id": "gg1",
+        "it": "Immagine del Colosseo",
+        "en": "Image of the Colosseum",
+        "fr": "Image du Colisée",
+        "image": "colosseo.png",
+        "answer": {
+          "it": "Roma, Italia",
+          "en": "Rome, Italy",
+          "fr": "Rome, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg2",
+        "it": "Immagine della Torre Eiffel",
+        "en": "Image of the Eiffel Tower",
+        "fr": "Image de la Tour Eiffel",
+        "image": "toureiffel.png",
+        "answer": {
+          "it": "Parigi, Francia",
+          "en": "Paris, France",
+          "fr": "Paris, France"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg3",
+        "it": "Immagine della Statua della Libertà",
+        "en": "Image of the Statue of Liberty",
+        "fr": "Image de la Statue de la Liberté",
+        "image": "statualiberta.png",
+        "answer": {
+          "it": "New York, USA",
+          "en": "New York, USA",
+          "fr": "New York, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg4",
+        "it": "Immagine del Taj Mahal",
+        "en": "Image of the Taj Mahal",
+        "fr": "Image du Taj Mahal",
+        "image": "tajmahal.png",
+        "answer": {
+          "it": "Agra, India",
+          "en": "Agra, India",
+          "fr": "Agra, Inde"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg5",
+        "it": "Immagine della Grande Muraglia Cinese",
+        "en": "Image of the Great Wall of China",
+        "fr": "Image de la Grande Muraille de Chine",
+        "image": "grandemuraglia.png",
+        "answer": {
+          "it": "Beijing, Cina",
+          "en": "Beijing, China",
+          "fr": "Pékin, Chine"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg6",
+        "it": "Immagine del Machu Picchu",
+        "en": "Image of Machu Picchu",
+        "fr": "Image du Machu Picchu",
+        "image": "machupicchu.png",
+        "answer": {
+          "it": "Cusco, Perù",
+          "en": "Cusco, Peru",
+          "fr": "Cusco, Pérou"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg7",
+        "it": "Immagine della Torre di Pisa",
+        "en": "Image of the Leaning Tower of Pisa",
+        "fr": "Image de la Tour de Pise",
+        "image": "torredipisa.png",
+        "answer": {
+          "it": "Pisa, Italia",
+          "en": "Pisa, Italy",
+          "fr": "Pise, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg8",
+        "it": "Immagine del Cristo Redentore",
+        "en": "Image of Christ the Redeemer",
+        "fr": "Image du Christ Rédempteur",
+        "image": "cristo.png",
+        "answer": {
+          "it": "Rio de Janeiro, Brasile",
+          "en": "Rio de Janeiro, Brazil",
+          "fr": "Rio de Janeiro, Brésil"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg9",
+        "it": "Immagine del Ponte di Brooklyn",
+        "en": "Image of the Brooklyn Bridge",
+        "fr": "Image du Pont de Brooklyn",
+        "image": "pontedibrooklyn.png",
+        "answer": {
+          "it": "New York, USA",
+          "en": "New York, USA",
+          "fr": "New York, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg10",
+        "it": "Immagine del Monte Fuji",
+        "en": "Image of Mount Fuji",
+        "fr": "Image du Mont Fuji",
+        "image": "montefuji.png",
+        "answer": {
+          "it": "Honshu, Giappone",
+          "en": "Honshu, Japan",
+          "fr": "Honshu, Japon"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg11",
+        "it": "Immagine del Ponte di Sydney",
+        "en": "Image of the Sydney Harbour Bridge",
+        "fr": "Image du Pont du Port de Sydney",
+        "image": "ponteSydney.png",
+        "answer": {
+          "it": "Sydney, Australia",
+          "en": "Sydney, Australia",
+          "fr": "Sydney, Australie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg12",
+        "it": "Immagine del Grand Canyon",
+        "en": "Image of the Grand Canyon",
+        "fr": "Image du Grand Canyon",
+        "image": "grandcanyon.png",
+        "answer": {
+          "it": "Arizona, USA",
+          "en": "Arizona, USA",
+          "fr": "Arizona, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg13",
+        "it": "Immagine della Piramide di Giza",
+        "en": "Image of the Pyramid of Giza",
+        "fr": "Image de la Pyramide de Gizeh",
+        "image": "pyramidedigiza.png",
+        "answer": {
+          "it": "Giza, Egitto",
+          "en": "Giza, Egypt",
+          "fr": "Gizeh, Égypte"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg14",
+        "it": "Immagine della Basilica di San Pietro",
+        "en": "Image of St. Peter's Basilica",
+        "fr": "Image de la Basilique Saint-Pierre",
+        "image": "santopietro.png",
+        "answer": {
+          "it": "Città del Vaticano",
+          "en": "Vatican City",
+          "fr": "Cité du Vatican"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg15",
+        "it": "Immagine della Statua di David",
+        "en": "Image of the Statue of David",
+        "fr": "Image de la Statue de David",
+        "image": "statudiavid.png",
+        "answer": {
+          "it": "Firenze, Italia",
+          "en": "Florence, Italy",
+          "fr": "Florence, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg16",
+        "it": "Immagine del Tempio di Angkor Wat",
+        "en": "Image of Angkor Wat Temple",
+        "fr": "Image du Temple d'Angkor Wat",
+        "image": "angkorwat.png",
+        "answer": {
+          "it": "Siem Reap, Cambogia",
+          "en": "Siem Reap, Cambodia",
+          "fr": "Siem Reap, Cambodge"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg17",
+        "it": "Immagine del Ponte del Diavolo",
+        "en": "Image of the Devil's Bridge",
+        "fr": "Image du Pont du Diable",
+        "image": "ponte_diavolo.png",
+        "answer": {
+          "it": "Kraków, Polonia",
+          "en": "Kraków, Poland",
+          "fr": "Cracovie, Pologne"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg18",
+        "it": "Immagine della Piazza San Marco",
+        "en": "Image of St. Mark's Square",
+        "fr": "Image de la Place Saint-Marc",
+        "image": "piazzasanmarco.png",
+        "answer": {
+          "it": "Venezia, Italia",
+          "en": "Venice, Italy",
+          "fr": "Venise, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg19",
+        "it": "Immagine del Tempio di Senso-ji",
+        "en": "Image of Senso-ji Temple",
+        "fr": "Image du Temple Senso-ji",
+        "image": "sensoji.png",
+        "answer": {
+          "it": "Tokyo, Giappone",
+          "en": "Tokyo, Japan",
+          "fr": "Tokyo, Japon"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg20",
+        "it": "Immagine del Ponte di Londra",
+        "en": "Image of the Tower Bridge",
+        "fr": "Image du Tower Bridge",
+        "image": "pontelondon.png",
+        "answer": {
+          "it": "Londra, Regno Unito",
+          "en": "London, United Kingdom",
+          "fr": "Londres, Royaume-Uni"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg21",
+        "it": "Immagine del Tempio di Borobudur",
+        "en": "Image of Borobudur Temple",
+        "fr": "Image du Temple de Borobudur",
+        "image": "borobudur.png",
+        "answer": {
+          "it": "Magelang, Indonesia",
+          "en": "Magelang, Indonesia",
+          "fr": "Magelang, Indonésie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg22",
+        "it": "Immagine del Golden Gate Bridge",
+        "en": "Image of the Golden Gate Bridge",
+        "fr": "Image du Golden Gate Bridge",
+        "image": "goldengate.png",
+        "answer": {
+          "it": "San Francisco, USA",
+          "en": "San Francisco, USA",
+          "fr": "San Francisco, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg24",
+        "it": "Immagine del Tempio di Abu Simbel",
+        "en": "Image of Abu Simbel Temple",
+        "fr": "Image du Temple d'Abu Simbel",
+        "image": "abusimbel.png",
+        "answer": {
+          "it": "Abu Simbel, Egitto",
+          "en": "Abu Simbel, Egypt",
+          "fr": "Abu Simbel, Égypte"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg25",
+        "it": "Immagine del Ponte di Rialto",
+        "en": "Image of the Rialto Bridge",
+        "fr": "Image du Pont de Rialto",
+        "image": "ponterialto.png",
+        "answer": {
+          "it": "Venezia, Italia",
+          "en": "Venice, Italy",
+          "fr": "Venise, Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg29",
+        "it": "Immagine del Parco Nazionale di Yellowstone",
+        "en": "Image of Yellowstone National Park",
+        "fr": "Image du Parc national de Yellowstone",
+        "image": "yellowstone.png",
+        "answer": {
+          "it": "Wyoming, USA",
+          "en": "Wyoming, USA",
+          "fr": "Wyoming, USA"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg30",
+        "it": "Immagine del Monte Kilimanjaro",
+        "en": "Image of Mount Kilimanjaro",
+        "fr": "Image du Mont Kilimandjaro",
+        "image": "montekilimanjaro.png",
+        "answer": {
+          "it": "Tanzania",
+          "en": "Tanzania",
+          "fr": "Tanzanie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg50",
+        "it": "Immagine di Toronto",
+        "en": "Image of Toronto",
+        "fr": "Image de Toronto",
+        "image": "toronto.png",
+        "answer": {
+          "it": "Canada",
+          "en": "Canada",
+          "fr": "Canada"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg52",
+        "it": "Immagine di Oslo",
+        "en": "Image of Oslo",
+        "fr": "Image d'Oslo",
+        "image": "oslo.png",
+        "answer": {
+          "it": "Norvegia",
+          "en": "Norway",
+          "fr": "Norvège"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg53",
+        "it": "Immagine di Lund",
+        "en": "Image of Lund",
+        "fr": "Image de Lund",
+        "image": "lund.png",
+        "answer": {
+          "it": "Svezia",
+          "en": "Sweden",
+          "fr": "Suède"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg54",
+        "it": "Immagine di Helsinki",
+        "en": "Image of Helsinki",
+        "fr": "Image d'Helsinki",
+        "image": "helsinki.png",
+        "answer": {
+          "it": "Finlandia",
+          "en": "Finland",
+          "fr": "Finlande"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg56",
+        "it": "Immagine di Praga",
+        "en": "Image of Prague",
+        "fr": "Image de Prague",
+        "image": "prague.png",
+        "answer": {
+          "it": "Repubblica Ceca",
+          "en": "Czech Republic",
+          "fr": "République tchèque"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg57",
+        "it": "Immagine di Budapest",
+        "en": "Image of Budapest",
+        "fr": "Image de Budapest",
+        "image": "budapest.png",
+        "answer": {
+          "it": "Ungheria",
+          "en": "Hungary",
+          "fr": "Hongrie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg59",
+        "it": "Immagine di Vienna",
+        "en": "Image of Vienna",
+        "fr": "Image de Vienne",
+        "image": "vienna.png",
+        "answer": {
+          "it": "Austria",
+          "en": "Austria",
+          "fr": "Autriche"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg61",
+        "it": "Immagine di Copenaghen",
+        "en": "Image of Copenhagen",
+        "fr": "Image de Copenhague",
+        "image": "copenhagen.png",
+        "answer": {
+          "it": "Danimarca",
+          "en": "Denmark",
+          "fr": "Danemark"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg62",
+        "it": "Immagine di Istanbul",
+        "en": "Image of Istanbul",
+        "fr": "Image d'Istanbul",
+        "image": "istanbul.png",
+        "answer": {
+          "it": "Turchia",
+          "en": "Turkey",
+          "fr": "Turquie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg33",
+        "it": "Immagine di Madrid",
+        "en": "Image of Madrid",
+        "fr": "Image de Madrid",
+        "image": "madrid.png",
+        "answer": {
+          "it": "Spagna",
+          "en": "Spain",
+          "fr": "Espagne"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg34",
+        "it": "Immagine di Roma",
+        "en": "Image of Rome",
+        "fr": "Image de Rome",
+        "image": "rome.png",
+        "answer": {
+          "it": "Italia",
+          "en": "Italy",
+          "fr": "Italie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg35",
+        "it": "Immagine di Berlino",
+        "en": "Image of Berlin",
+        "fr": "Image de Berlin",
+        "image": "berlin.png",
+        "answer": {
+          "it": "Germania",
+          "en": "Germany",
+          "fr": "Allemagne"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg36",
+        "it": "Immagine di Lisbona",
+        "en": "Image of Lisbon",
+        "fr": "Image de Lisbonne",
+        "image": "lisbon.png",
+        "answer": {
+          "it": "Portogallo",
+          "en": "Portugal",
+          "fr": "Portugal"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg37",
+        "it": "Immagine di Amsterdam",
+        "en": "Image of Amsterdam",
+        "fr": "Image d'Amsterdam",
+        "image": "amsterdam.png",
+        "answer": {
+          "it": "Paesi Bassi",
+          "en": "Netherlands",
+          "fr": "Pays-Bas"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg38",
+        "it": "Immagine di Atene",
+        "en": "Image of Athens",
+        "fr": "Image d'Athènes",
+        "image": "athens.png",
+        "answer": {
+          "it": "Grecia",
+          "en": "Greece",
+          "fr": "Grèce"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg39",
+        "it": "Immagine di Mosca",
+        "en": "Image of Moscow",
+        "fr": "Image de Moscou",
+        "image": "moscow.png",
+        "answer": {
+          "it": "Russia",
+          "en": "Russia",
+          "fr": "Russie"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg40",
+        "it": "Immagine di Pechino",
+        "en": "Image of Beijing",
+        "fr": "Image de Pékin",
+        "image": "beijing.png",
+        "answer": {
+          "it": "Cina",
+          "en": "China",
+          "fr": "Chine"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg41",
+        "it": "Immagine di Tokyo",
+        "en": "Image of Tokyo",
+        "fr": "Image de Tokyo",
+        "image": "tokyo.png",
+        "answer": {
+          "it": "Giappone",
+          "en": "Japan",
+          "fr": "Japon"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg42",
+        "it": "Immagine di Seoul",
+        "en": "Image of Seoul",
+        "fr": "Image de Séoul",
+        "image": "seoul.png",
+        "answer": {
+          "it": "Corea del Sud",
+          "en": "South Korea",
+          "fr": "Corée du Sud"
+        },
+        "type": "geoguessr"
+      },
+      {
+        "id": "gg43",
+        "it": "Immagine di Bangkok",
+        "en": "Image of Bangkok",
+        "fr": "Image de Bangkok",
+        "image": "bangkok.png",
+        "answer": {
+          "it": "Thailandia",
+          "en": "Thailand",
+          "fr": "Thaïlande"
+        },
+        "type": "geoguessr"
+      }
+    ],  
+    "sfidaEmoji": [
+      {
+        "it": "🎬👨‍🚀🚀",
+        "en": "🎬👨‍🚀🚀",
+        "fr": "🎬👨‍🚀🚀",
+        "answer": {
+          "it": "Interstellar (Film)",
+          "en": "Interstellar (Movie)",
+          "fr": "Interstellar (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐴🥊",
+        "en": "🐴🥊",
+        "fr": "🐴🥊",
+        "answer": {
+          "it": "Rocky (Film)",
+          "en": "Rocky (Movie)",
+          "fr": "Rocky (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "💍👑🔥",
+        "en": "💍👑🔥",
+        "fr": "💍👑🔥",
+        "answer": {
+          "it": "Il Signore degli Anelli (Film)",
+          "en": "Lord of the Rings (Movie)",
+          "fr": "Le Seigneur des Anneaux (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐟🔍",
+        "en": "🐟🔍",
+        "fr": "🐟🔍",
+        "answer": {
+          "it": "Alla ricerca di Nemo (Film)",
+          "en": "Finding Nemo (Movie)",
+          "fr": "Le Monde de Nemo (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐀🍲",
+        "en": "🐀🍲",
+        "fr": "🐀🍲",
+        "answer": {
+          "it": "Ratatouille (Film)",
+          "en": "Ratatouille (Movie)",
+          "fr": "Ratatouille (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🦈",
+        "en": "🦈",
+        "fr": "🦈",
+        "answer": {
+          "it": "Lo Squalo (Film)",
+          "en": "Jaws (Movie)",
+          "fr": "Les Dents de la mer (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🧑🏿🐺🧟",
+        "en": "🧑🏿🐺🧟",
+        "fr": "🧑🏿🐺🧟",
+        "answer": {
+          "it": "Michael Jackson (Cantante)",
+          "en": "Michael Jackson (Singer)",
+          "fr": "Michael Jackson (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "👮👮",
+        "en": "👮👮",
+        "fr": "👮👮",
+        "answer": {
+          "it": "The Police (Band)",
+          "en": "The Police (Band)",
+          "fr": "The Police (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "👑",
+        "en": "👑",
+        "fr": "👑",
+        "answer": {
+          "it": "Queen (Band)",
+          "en": "Queen (Band)",
+          "fr": "Queen (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "☁️💭🐉",
+        "en": "☁️💭🐉",
+        "fr": "☁️💭🐉",
+        "answer": {
+          "it": "Imagine Dragons (Band)",
+          "en": "Imagine Dragons (Band)",
+          "fr": "Imagine Dragons (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "👦👦👦👦👦1️⃣➡️",
+        "en": "👦👦👦👦👦1️⃣➡️",
+        "fr": "👦👦👦👦👦1️⃣➡️",
+        "answer": {
+          "it": "One Direction (Band)",
+          "en": "One Direction (Band)",
+          "fr": "One Direction (Groupe)"
+        },
+        "type": "band"
+      },
+      {
+        "it": "🎩🎭",
+        "en": "🎩🎭",
+        "fr": "🎩🎭",
+        "answer": {
+          "it": "The Greatest Showman (Film)",
+          "en": "The Greatest Showman (Movie)",
+          "fr": "The Greatest Showman (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🕷️🦸‍♂️",
+        "en": "🕷️🦸‍♂️",
+        "fr": "🕷️🦸‍♂️",
+        "answer": {
+          "it": "Spider-Man (Film)",
+          "en": "Spider-Man (Movie)",
+          "fr": "Spider-Man (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🏹🔥",
+        "en": "🏹🔥",
+        "fr": "🏹🔥",
+        "answer": {
+          "it": "Hunger Games (Film)",
+          "en": "Hunger Games (Movie)",
+          "fr": "Hunger Games (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🚢🧊",
+        "en": "🚢🧊",
+        "fr": "🚢🧊",
+        "answer": {
+          "it": "Titanic (Film)",
+          "en": "Titanic (Movie)",
+          "fr": "Titanic (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "👻👻🏠",
+        "en": "👻👻🏠",
+        "fr": "👻👻🏠",
+        "answer": {
+          "it": "Ghostbusters (Film)",
+          "en": "Ghostbusters (Movie)",
+          "fr": "S.O.S Fantômes (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🚗⚡",
+        "en": "🚗⚡",
+        "fr": "🚗⚡",
+        "answer": {
+          "it": "Cars (Film)",
+          "en": "Cars (Movie)",
+          "fr": "Cars (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐼🥋",
+        "en": "🐼🥋",
+        "fr": "🐼🥋",
+        "answer": {
+          "it": "Kung Fu Panda (Film)",
+          "en": "Kung Fu Panda (Movie)",
+          "fr": "Kung Fu Panda (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎩🐰✨",
+        "en": "🎩🐰✨",
+        "fr": "🎩🐰✨",
+        "answer": {
+          "it": "Now You See Me (Film)",
+          "en": "Now You See Me (Movie)",
+          "fr": "Insaisissables (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "💀🏴‍☠️",
+        "en": "💀🏴‍☠️",
+        "fr": "💀🏴‍☠️",
+        "answer": {
+          "it": "Pirati dei Caraibi (Film)",
+          "en": "Pirates of the Caribbean (Movie)",
+          "fr": "Pirates des Caraïbes (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🚀🌌",
+        "en": "🚀🌌",
+        "fr": "🚀🌌",
+        "answer": {
+          "it": "Interstellar (Film)",
+          "en": "Interstellar (Movie)",
+          "fr": "Interstellar (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🦸‍♂️🛡️🇺🇸",
+        "en": "🦸‍♂️🛡️🇺🇸",
+        "fr": "🦸‍♂️🛡️🇺🇸",
+        "answer": {
+          "it": "Captain America (Film)",
+          "en": "Captain America (Movie)",
+          "fr": "Captain America (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🦇🌃",
+        "en": "🦇🌃",
+        "fr": "🦇🌃",
+        "answer": {
+          "it": "The Dark Knight (Film)",
+          "en": "The Dark Knight (Movie)",
+          "fr": "The Dark Knight (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🕰️⏳🚗",
+        "en": "🕰️⏳🚗",
+        "fr": "🕰️⏳🚗",
+        "answer": {
+          "it": "Ritorno al Futuro (Film)",
+          "en": "Back to the Future (Movie)",
+          "fr": "Retour vers le futur (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🐉🧑⚔️",
+        "en": "🐉🧑⚔️",
+        "fr": "🐉🧑⚔️",
+        "answer": {
+          "it": "Come addestrare un drago (Film)",
+          "en": "How to Train Your Dragon (Movie)",
+          "fr": "Dragons (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🍔🍟🏀",
+        "en": "🍔🍟🏀",
+        "fr": "🍔🍟🏀",
+        "answer": {
+          "it": "Space Jam (Film)",
+          "en": "Space Jam (Movie)",
+          "fr": "Space Jam (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🍎👸",
+        "en": "🍎👸",
+        "fr": "🍎👸",
+        "answer": {
+          "it": "Beauty and the Beast (Film)",
+          "en": "Beauty and the Beast (Movie)",
+          "fr": "La Belle et la Bête (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎤🐰",
+        "en": "🎤🐰",
+        "fr": "🎤🐰",
+        "answer": {
+          "it": "Bad Bunny (Artista)",
+          "en": "Bad Bunny (Artist)",
+          "fr": "Bad Bunny (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🎵🌧️☂️",
+        "en": "🎵🌧️☂️",
+        "fr": "🎵🌧️☂️",
+        "answer": {
+          "it": "Singin' in the Rain (Canzone)",
+          "en": "Singin' in the Rain (Song)",
+          "fr": "Singin' in the Rain (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🦁👑",
+        "en": "🦁👑",
+        "fr": "🦁👑",
+        "answer": {
+          "it": "The Lion King (Film)",
+          "en": "The Lion King (Movie)",
+          "fr": "Le Roi Lion (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎸🤘",
+        "en": "🎸🤘",
+        "fr": "🎸🤘",
+        "answer": {
+          "it": "Metallica (Artista)",
+          "en": "Metallica (Artist)",
+          "fr": "Metallica (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🌟🕶️🎤",
+        "en": "🌟🕶️🎤",
+        "fr": "🌟🕶️🎤",
+        "answer": {
+          "it": "Elvis Presley (Artista)",
+          "en": "Elvis Presley (Artist)",
+          "fr": "Elvis Presley (Artiste)"
+        },
+        "type": "artist"
+      },
+      {
+        "it": "🎥🔫🦖",
+        "en": "🎥🔫🦖",
+        "fr": "🎥🔫🦖",
+        "answer": {
+          "it": "Jurassic Park (Film)",
+          "en": "Jurassic Park (Movie)",
+          "fr": "Jurassic Park (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎬🧙‍♂️🧙‍♀️",
+        "en": "🎬🧙‍♂️🧙‍♀️",
+        "fr": "🎬🧙‍♂️🧙‍♀️",
+        "answer": {
+          "it": "Harry Potter (Film)",
+          "en": "Harry Potter (Movie)",
+          "fr": "Harry Potter (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "1️⃣2️⃣3️⃣⭐️⭐️⭐️",
+        "en": "1️⃣2️⃣3️⃣⭐️⭐️⭐️",
+        "fr": "1️⃣2️⃣3️⃣⭐️⭐️⭐️",
+        "answer": {
+          "it": "OneRepublic - Counting Stars (Canzone)",
+          "en": "OneRepublic - Counting Stars (Song)",
+          "fr": "OneRepublic - Counting Stars (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🔑🚪☁️😇",
+        "en": "🔑🚪☁️😇",
+        "fr": "🔑🚪☁️😇",
+        "answer": {
+          "it": "Bruno Mars - Locked Out of Heaven (Canzone)",
+          "en": "Bruno Mars - Locked Out of Heaven (Song)",
+          "fr": "Bruno Mars - Locked Out of Heaven (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎉🇺🇸",
+        "en": "🎉🇺🇸",
+        "fr": "🎉🇺🇸",
+        "answer": {
+          "it": "Miley Cyrus - Party in the USA (Canzone)",
+          "en": "Miley Cyrus - Party in the USA (Song)",
+          "fr": "Miley Cyrus - Party in the USA (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🔥➡️🌧️",
+        "en": "🔥➡️🌧️",
+        "fr": "🔥➡️🌧️",
+        "answer": {
+          "it": "Adele - Set Fire to the Rain (Canzone)",
+          "en": "Adele - Set Fire to the Rain (Song)",
+          "fr": "Adele - Set Fire to the Rain (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "♠️♥️♦️♣️😐",
+        "en": "♠️♥️♦️♣️😐",
+        "fr": "♠️♥️♦️♣️😐",
+        "answer": {
+          "it": "Lady Gaga - Poker Face (Canzone)",
+          "en": "Lady Gaga - Poker Face (Song)",
+          "fr": "Lady Gaga - Poker Face (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "1️⃣💋",
+        "en": "1️⃣💋",
+        "fr": "1️⃣💋",
+        "answer": {
+          "it": "Calvin Harris & Dua Lipa - One Kiss (Canzone)",
+          "en": "Calvin Harris & Dua Lipa - One Kiss (Song)",
+          "fr": "Calvin Harris & Dua Lipa - One Kiss (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🙋👉⛪️",
+        "en": "🙋👉⛪️",
+        "fr": "🙋👉⛪️",
+        "answer": {
+          "it": "Hozier - Take Me to Church (Canzone)",
+          "en": "Hozier - Take Me to Church (Song)",
+          "fr": "Hozier - Take Me to Church (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🪜➡️🌫️",
+        "en": "🪜➡️🌫️",
+        "fr": "🪜➡️🌫️",
+        "answer": {
+          "it": "Led Zeppelin - Stairway to Heaven (Canzone)",
+          "en": "Led Zeppelin - Stairway to Heaven (Song)",
+          "fr": "Led Zeppelin - Stairway to Heaven (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "☎️🤔",
+        "en": "☎️🤔",
+        "fr": "☎️🤔",
+        "answer": {
+          "it": "Carly Rae Jepsen - Call Me Maybe (Canzone)",
+          "en": "Carly Rae Jepsen - Call Me Maybe (Song)",
+          "fr": "Carly Rae Jepsen - Call Me Maybe (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🍬🛒",
+        "en": "🍬🛒",
+        "fr": "🍬🛒",
+        "answer": {
+          "it": "50 Cent - Candy Shop (Canzone)",
+          "en": "50 Cent - Candy Shop (Song)",
+          "fr": "50 Cent - Candy Shop (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "💎💎💎",
+        "en": "💎💎💎",
+        "fr": "💎💎💎",
+        "answer": {
+          "it": "Rihanna - Diamonds (Canzone)",
+          "en": "Rihanna - Diamonds (Song)",
+          "fr": "Rihanna - Diamonds (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🔵😃",
+        "en": "🔵😃",
+        "fr": "🔵😃",
+        "answer": {
+          "it": "BlueFace (Cantante)",
+          "en": "BlueFace (Singer)",
+          "fr": "BlueFace (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🦉",
+        "en": "🦉",
+        "fr": "🦉",
+        "answer": {
+          "it": "Drake (Cantante)",
+          "en": "Drake (Singer)",
+          "fr": "Drake (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🕶️🚬🐶",
+        "en": "🕶️🚬🐶",
+        "fr": "🕶️🚬🐶",
+        "answer": {
+          "it": "Snoop Dogg (Cantante)",
+          "en": "Snoop Dogg (Singer)",
+          "fr": "Snoop Dogg (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🍹🌍",
+        "en": "🍹🌍",
+        "fr": "🍹🌍",
+        "answer": {
+          "it": "Juice WRLD (Cantante)",
+          "en": "Juice WRLD (Singer)",
+          "fr": "Juice WRLD (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "5️⃣0️⃣🪙",
+        "en": "5️⃣0️⃣🪙",
+        "fr": "5️⃣0️⃣🪙",
+        "answer": {
+          "it": "50 Cent (Cantante)",
+          "en": "50 Cent (Singer)",
+          "fr": "50 Cent (Chanteur)"
+        },
+        "type": "singer"
+      },
+      {
+        "it": "🍤🏃🍫",
+        "en": "🍤🏃🍫",
+        "fr": "🍤🏃🍫",
+        "answer": {
+          "it": "Forrest Gump (Film)",
+          "en": "Forrest Gump (Movie)",
+          "fr": "Forrest Gump (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🔪🛁💀",
+        "en": "🔪🛁💀",
+        "fr": "🔪🛁💀",
+        "answer": {
+          "it": "Psycho (Film)",
+          "en": "Psycho (Movie)",
+          "fr": "Psycho (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "👽🍬🚲📞",
+        "en": "👽🍬🚲📞",
+        "fr": "👽🍬🚲📞",
+        "answer": {
+          "it": "E.T. (Film)",
+          "en": "E.T. (Movie)",
+          "fr": "E.T. (Film)"
+        },
+        "type": "movie"
+      },
+      {
+        "it": "🎶🕺💃",
+        "en": "🎶🕺💃",
+        "fr": "🎶🕺💃",
+        "answer": {
+          "it": "Uptown Funk di Mark Ronson ft. Bruno Mars (Canzone)",
+          "en": "Uptown Funk by Mark Ronson ft. Bruno Mars (Song)",
+          "fr": "Uptown Funk de Mark Ronson ft. Bruno Mars (Chanson)"
+        },
+        "type": "song"
+      },
+      {
+        "it": "🎬🏰👸",
+        "en": "🎬🏰👸",
+        "fr": "🎬🏰👸",
+        "answer": {
+          "it": "Cinderella (Film)",
+          "en": "Cinderella (Movie)",
+          "fr": "Cendrillon (Film)"
+        },
+        "type": "movie"
+      }
+    ]
+}
